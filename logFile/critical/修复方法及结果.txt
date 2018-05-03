@@ -1,0 +1,7 @@
+修复二
+锁的名字t
+锁的名字t
+对ReadWriteNode[325,critical.Critical@15b,turn,WRITE,Thread-1,critical/Critical.java:48]加锁起止位置48->51
+锁的名字t
+对ReadWriteNode[329,critical.Critical@15b,turn,WRITE,Thread-2,critical/Critical.java:59]加锁起止位置59->59
+结果: 修复成功

@@ -1,0 +1,7 @@
+修复二
+锁的名字this
+锁的名字this
+对ReadWriteNode[67,store.Store@15e,customerCost,READ,Thread-1,store/Store.java:12]加锁起止位置12->12
+锁的名字this
+对ReadWriteNode[70,store.Store@15e,customerCost,WRITE,Thread-2,store/Store.java:12]加锁起止位置12->12
+结果: 修复成功

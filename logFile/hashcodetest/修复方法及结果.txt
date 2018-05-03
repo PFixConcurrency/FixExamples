@@ -1,0 +1,7 @@
+修复二
+锁的名字this
+锁的名字this
+对ReadWriteNode[624,hashcodetest.IntRange@166,hashCode,WRITE,Thread-1,hashcodetest/IntRange.java:356]加锁起止位置356->357
+锁的名字this
+对ReadWriteNode[664,hashcodetest.IntRange@166,hashCode,READ,Thread-5,hashcodetest/IntRange.java:361]加锁起止位置361->361
+结果: 修复成功

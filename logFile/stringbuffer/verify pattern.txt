@@ -1,0 +1,127 @@
+[Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[246,java.lang.StringBuffer@162,value,WRITE,main,java/lang/AbstractStringBuilder.java:68]
+	ReadWriteNode[342,java.lang.StringBuffer@162,value,READ,Thread-1,java/lang/AbstractStringBuilder.java:123]
+}
+success count: 100
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[269,stringbuffer.StringBufferTest@16a,priority,WRITE,main,java/lang/Thread.java:138]
+	ReadWriteNode[282,stringbuffer.StringBufferTest@16a,priority,READ,Thread-1,java/lang/Thread.java:369]
+}
+success count: 200
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[244,stringbuffer.StringBufferTest,objectFix,WRITE,main,stringbuffer/StringBufferTest.java:11]
+	ReadWriteNode[293,stringbuffer.StringBufferTest,objectFix,READ,Thread-1,stringbuffer/StringBufferTest.java:23]
+}
+success count: 200
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[278,stringbuffer.StringBufferTest@16a,choice,WRITE,main,stringbuffer/StringBufferTest.java:17]
+	ReadWriteNode[336,stringbuffer.StringBufferTest@16a,choice,READ,Thread-1,stringbuffer/StringBufferTest.java:23]
+}
+success count: 200
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[319,stringbuffer.StringBufferTest@184,al1,WRITE,main,stringbuffer/StringBufferTest.java:15]
+	ReadWriteNode[352,stringbuffer.StringBufferTest@184,al1,READ,Thread-2,stringbuffer/StringBufferTest.java:28]
+}
+success count: 100
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[308,stringbuffer.StringBufferTest@184,name,WRITE,main,java/lang/Thread.java:130]
+	ReadWriteNode[324,stringbuffer.StringBufferTest@184,name,READ,Thread-2,java/lang/Thread.java:369]
+}
+success count: 200
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[248,java.lang.StringBuffer@166,value,WRITE,main,java/lang/AbstractStringBuilder.java:68]
+	ReadWriteNode[357,java.lang.StringBuffer@166,value,READ,Thread-2,java/lang/AbstractStringBuilder.java:763]
+}
+success count: 100
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[250,stringbuffer.StringBufferTest@16a,group,WRITE,main,java/lang/Thread.java:122]
+	ReadWriteNode[284,stringbuffer.StringBufferTest@16a,group,READ,Thread-1,java/lang/Thread.java:369]
+}
+success count: 200
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[248,java.lang.StringBuffer@166,value,WRITE,main,java/lang/AbstractStringBuilder.java:68]
+	ReadWriteNode[346,java.lang.StringBuffer@166,value,READ,Thread-1,java/lang/AbstractStringBuilder.java:388]
+}
+success count: 100
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[277,stringbuffer.StringBufferTest@16a,al2,WRITE,main,stringbuffer/StringBufferTest.java:16]
+	ReadWriteNode[338,stringbuffer.StringBufferTest@16a,al2,READ,Thread-1,stringbuffer/StringBufferTest.java:25]
+}
+success count: 100
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[42,java.lang.System,out,WRITE,main,java/lang/System.java:43]
+	ReadWriteNode[280,java.lang.System,out,READ,Thread-1,stringbuffer/StringBufferTest.java:21]
+}
+success count: 200
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[246,java.lang.StringBuffer@162,value,WRITE,main,java/lang/AbstractStringBuilder.java:68]
+	ReadWriteNode[343,java.lang.StringBuffer@162,value,READ,Thread-1,java/lang/AbstractStringBuilder.java:460]
+}
+success count: 100
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[42,java.lang.System,out,WRITE,main,java/lang/System.java:43]
+	ReadWriteNode[329,java.lang.System,out,READ,Thread-2,stringbuffer/StringBufferTest.java:22]
+}
+success count: 200
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] ]
+	matched: true
+	ReadWriteNode[340,java.lang.StringBuffer@166,count,READ,Thread-1,java/lang/StringBuffer.java:163]
+	ReadWriteNode[360,java.lang.StringBuffer@166,count,WRITE,Thread-2,java/lang/AbstractStringBuilder.java:764]
+}
+success count: 83
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[276,stringbuffer.StringBufferTest@16a,al1,WRITE,main,stringbuffer/StringBufferTest.java:15]
+	ReadWriteNode[337,stringbuffer.StringBufferTest@16a,al1,READ,Thread-1,stringbuffer/StringBufferTest.java:25]
+}
+success count: 100
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] ]
+	matched: true
+	ReadWriteNode[345,java.lang.StringBuffer@166,count,READ,Thread-1,java/lang/AbstractStringBuilder.java:384]
+	ReadWriteNode[360,java.lang.StringBuffer@166,count,WRITE,Thread-2,java/lang/AbstractStringBuilder.java:764]
+}
+success count: 83
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[345,java.lang.StringBuffer@166,count,WRITE,Thread-2,java/lang/AbstractStringBuilder.java:764]
+	ReadWriteNode[351,java.lang.StringBuffer@166,count,READ,Thread-1,java/lang/StringBuffer.java:163]
+}
+success count: 17
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[345,java.lang.StringBuffer@166,count,WRITE,Thread-2,java/lang/AbstractStringBuilder.java:764]
+	ReadWriteNode[356,java.lang.StringBuffer@166,count,READ,Thread-1,java/lang/AbstractStringBuilder.java:384]
+}
+success count: 17
+fail count: 0]

@@ -1,0 +1,9 @@
+Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] PatternTypeNode[x,1,WRITE] ]
+	matched: true
+	ReadWriteNode[382,bufwriter.SyncWriter@199,flag,WRITE,main,bufwriter/SyncWriter.java:16]
+	ReadWriteNode[558,bufwriter.SyncWriter@199,flag,READ,Thread-4,bufwriter/SyncWriter.java:27]
+	ReadWriteNode[633,bufwriter.SyncWriter@199,flag,WRITE,main,bufwriter/SyncWriter.java:18]
+}
+success count: 3
+fail count: 0

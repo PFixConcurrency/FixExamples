@@ -1,0 +1,7 @@
+修复二
+锁的名字this
+锁的名字this
+对ReadWriteNode[597,mergesort.MSort,m_iCurrentThreadsAlive,READ,Thread-3,mergesort/MSort.java:49]加锁起止位置42->42
+锁的名字this
+对ReadWriteNode[663,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-2,mergesort/MSort.java:42]加锁起止位置42->42
+结果: 修复失败

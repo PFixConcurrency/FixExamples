@@ -1,0 +1,9 @@
+Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] PatternTypeNode[x,1,WRITE] ]
+	matched: true
+	ReadWriteNode[624,hashcodetest.IntRange@166,hashCode,WRITE,Thread-1,hashcodetest/IntRange.java:356]
+	ReadWriteNode[664,hashcodetest.IntRange@166,hashCode,READ,Thread-5,hashcodetest/IntRange.java:361]
+	ReadWriteNode[679,hashcodetest.IntRange@166,hashCode,WRITE,Thread-1,hashcodetest/IntRange.java:357]
+}
+success count: 0
+fail count: 85

@@ -1,0 +1,4 @@
+修复三
+对ReadWriteNode[399,reorder.SetCheck2@163,a,WRITE,Thread-3,reorder/SetCheck2.java:15]加锁起止位置15->19
+对ReadWriteNode[411,reorder.SetCheck2@163,a,WRITE,Thread-4,reorder/SetCheck2.java:15]加锁起止位置15->20
+结果: 修复成功

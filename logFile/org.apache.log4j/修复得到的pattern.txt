@@ -1,0 +1,9 @@
+Pattern {
+	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,READ] ]
+	matched: true
+	ReadWriteNode[2574,org.apache.log4j.spi.ThrowableInformation@375,rep,READ,Thread-4,org/apache/log4j/spi/ThrowableInformation.java:71]
+	ReadWriteNode[2718,org.apache.log4j.spi.ThrowableInformation@375,rep,WRITE,Thread-3,org/apache/log4j/spi/ThrowableInformation.java:90]
+	ReadWriteNode[3235,org.apache.log4j.spi.ThrowableInformation@375,rep,READ,Thread-4,org/apache/log4j/spi/ThrowableInformation.java:72]
+}
+success count: 2
+fail count: 1

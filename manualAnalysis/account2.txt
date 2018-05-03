@@ -1,0 +1,4 @@
+对Bank.java的93行的service函数加同步
+将checkResult函数里的内容加同步
+
+只是没检出错误而已

@@ -1,0 +1,43 @@
+[Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[53,store.Store@15e,customerCost,WRITE,Thread-1,store/Store.java:12]
+	ReadWriteNode[65,store.Store@15e,customerCost,READ,Thread-2,store/Store.java:12]
+}
+success count: 50
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] ]
+	matched: true
+	ReadWriteNode[1,store.Store@15e,customerCost,WRITE,main,store/Store.java:7]
+	ReadWriteNode[53,store.Store@15e,customerCost,WRITE,Thread-1,store/Store.java:12]
+}
+success count: 50
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[2,store.StoreTest,store,WRITE,main,store/StoreTest.java:7]
+	ReadWriteNode[64,store.StoreTest,store,READ,Thread-2,store/StoreTest.java:35]
+}
+success count: 100
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] ]
+	matched: true
+	ReadWriteNode[53,store.Store@15e,customerCost,WRITE,Thread-1,store/Store.java:12]
+	ReadWriteNode[66,store.Store@15e,customerCost,WRITE,Thread-2,store/Store.java:12]
+}
+success count: 50
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[66,store.Store@15e,customerCost,WRITE,Thread-2,store/Store.java:12]
+	ReadWriteNode[69,store.Store@15e,customerCost,READ,main,store/Store.java:16]
+}
+success count: 50
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[1,store.Store@15e,customerCost,WRITE,main,store/Store.java:7]
+	ReadWriteNode[50,store.Store@15e,customerCost,READ,Thread-1,store/Store.java:12]
+}
+success count: 50
+fail count: 0]

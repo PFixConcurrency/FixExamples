@@ -1,0 +1,8 @@
+Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[245,pack_test.CheckField,ex,WRITE,main,pack_test/CheckField.java:7]
+	ReadWriteNode[318,pack_test.CheckField,ex,READ,Thread-2,pack_test/CheckField.java:23]
+}
+success count: 40
+fail count: 10

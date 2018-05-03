@@ -1,0 +1,4 @@
+DEBUG - message
+java.lang.Exception: test
+	at org.apache.log4j.TestThrowableStrRep.testNPE(TestThrowableStrRep.java:36)
+	at org.apache.log4j.TestThrowableStrRep.main(TestThrowableStrRep.java:12)

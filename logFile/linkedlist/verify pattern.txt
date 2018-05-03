@@ -1,0 +1,304 @@
+[Pattern {
+	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] ]
+	matched: true
+	ReadWriteNode[467,linkedlist.MyListNode@163,_next,READ,Thread-2,linkedlist/MyLinkedList.java:53]
+	ReadWriteNode[628,linkedlist.MyListNode@163,_next,WRITE,main,linkedlist/MyLinkedList.java:28]
+}
+success count: 100
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,READ] ]
+	matched: true
+	ReadWriteNode[476,linkedlist.MyListNode@18e,_next,WRITE,Thread-1,linkedlist/MyListNode.java:21]
+	ReadWriteNode[538,linkedlist.MyListNode@18e,_next,WRITE,Thread-2,linkedlist/MyLinkedList.java:44]
+	ReadWriteNode[547,linkedlist.MyListNode@18e,_next,READ,Thread-1,linkedlist/MyLinkedList.java:53]
+}
+success count: 47
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[288,linkedlist.MyListBuilder@177,_list,WRITE,main,linkedlist/MyListBuilder.java:21]
+	ReadWriteNode[447,linkedlist.MyListBuilder@177,_list,READ,Thread-2,linkedlist/MyListBuilder.java:34]
+}
+success count: 100
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[538,linkedlist.MyListNode@18e,_next,WRITE,Thread-2,linkedlist/MyLinkedList.java:44]
+	ReadWriteNode[620,linkedlist.MyListNode@18e,_next,READ,main,linkedlist/MyLinkedList.java:62]
+}
+success count: 227
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[400,linkedlist.MyListNode@163,_next,WRITE,Thread-1,linkedlist/MyLinkedList.java:44]
+	ReadWriteNode[576,linkedlist.MyListNode@163,_next,READ,main,linkedlist/MyLinkedList.java:23]
+}
+success count: 50
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] ]
+	matched: true
+	ReadWriteNode[491,linkedlist.MyListNode@18b,_next,READ,Thread-2,linkedlist/MyLinkedList.java:52]
+	ReadWriteNode[494,linkedlist.MyListNode@18b,_next,WRITE,Thread-1,linkedlist/MyLinkedList.java:44]
+}
+success count: 23
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[554,linkedlist.MyListNode@193,_next,WRITE,Thread-1,linkedlist/MyListNode.java:21]
+	ReadWriteNode[624,linkedlist.MyListNode@193,_next,READ,main,linkedlist/MyLinkedList.java:62]
+}
+success count: 123
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[432,linkedlist.MyListNode@185,_next,WRITE,Thread-2,linkedlist/MyLinkedList.java:44]
+	ReadWriteNode[543,linkedlist.MyListNode@185,_next,READ,Thread-1,linkedlist/MyLinkedList.java:53]
+}
+success count: 163
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[523,linkedlist.MyListNode@191,_next,WRITE,Thread-2,linkedlist/MyListNode.java:21]
+	ReadWriteNode[552,linkedlist.MyListNode@191,_next,READ,Thread-1,linkedlist/MyLinkedList.java:42]
+}
+success count: 154
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[255,linkedlist.MyListBuilder@167,_bound2,WRITE,main,linkedlist/MyListBuilder.java:24]
+	ReadWriteNode[557,linkedlist.MyListBuilder@167,_bound2,READ,Thread-1,linkedlist/MyListBuilder.java:32]
+}
+success count: 100
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] ]
+	matched: true
+	ReadWriteNode[510,linkedlist.MyListNode@163,_next,READ,Thread-1,linkedlist/MyLinkedList.java:52]
+	ReadWriteNode[628,linkedlist.MyListNode@163,_next,WRITE,main,linkedlist/MyLinkedList.java:28]
+}
+success count: 100
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[388,linkedlist.MyListNode@187,_next,WRITE,Thread-1,linkedlist/MyListNode.java:21]
+	ReadWriteNode[583,linkedlist.MyListNode@187,_next,READ,main,linkedlist/MyLinkedListItr.java:28]
+}
+success count: 123
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] ]
+	matched: true
+	ReadWriteNode[400,linkedlist.MyListNode@163,_next,WRITE,Thread-1,linkedlist/MyLinkedList.java:44]
+	ReadWriteNode[628,linkedlist.MyListNode@163,_next,WRITE,main,linkedlist/MyLinkedList.java:28]
+}
+success count: 50
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[556,linkedlist.MyListNode@191,_next,WRITE,Thread-1,linkedlist/MyLinkedList.java:44]
+	ReadWriteNode[603,linkedlist.MyListNode@191,_next,READ,main,linkedlist/MyLinkedListItr.java:28]
+}
+success count: 177
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[400,linkedlist.MyListNode@163,_next,WRITE,Thread-1,linkedlist/MyLinkedList.java:44]
+	ReadWriteNode[578,linkedlist.MyListNode@163,_next,READ,main,linkedlist/MyLinkedList.java:33]
+}
+success count: 50
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[494,linkedlist.MyListNode@18b,_next,WRITE,Thread-1,linkedlist/MyLinkedList.java:44]
+	ReadWriteNode[619,linkedlist.MyListNode@18b,_next,READ,main,linkedlist/MyLinkedList.java:64]
+}
+success count: 227
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[246,linkedlist.MyLinkedList@15f,_header,WRITE,main,linkedlist/MyLinkedList.java:15]
+	ReadWriteNode[454,linkedlist.MyLinkedList@15f,_header,READ,Thread-2,linkedlist/MyLinkedList.java:51]
+}
+success count: 100
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[254,linkedlist.MyListBuilder@167,_bound1,WRITE,main,linkedlist/MyListBuilder.java:23]
+	ReadWriteNode[324,linkedlist.MyListBuilder@167,_bound1,READ,Thread-1,linkedlist/MyListBuilder.java:32]
+}
+success count: 100
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] ]
+	matched: true
+	ReadWriteNode[523,linkedlist.MyListNode@191,_next,WRITE,Thread-2,linkedlist/MyListNode.java:21]
+	ReadWriteNode[556,linkedlist.MyListNode@191,_next,WRITE,Thread-1,linkedlist/MyLinkedList.java:44]
+}
+success count: 154
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,READ] ]
+	matched: true
+	ReadWriteNode[476,linkedlist.MyListNode@18e,_next,WRITE,Thread-1,linkedlist/MyListNode.java:21]
+	ReadWriteNode[538,linkedlist.MyListNode@18e,_next,WRITE,Thread-2,linkedlist/MyLinkedList.java:44]
+	ReadWriteNode[546,linkedlist.MyListNode@18e,_next,READ,Thread-1,linkedlist/MyLinkedList.java:52]
+}
+success count: 46
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[365,linkedlist.MyListNode@163,_next,WRITE,Thread-2,linkedlist/MyLinkedList.java:44]
+	ReadWriteNode[382,linkedlist.MyListNode@163,_next,READ,Thread-1,linkedlist/MyLinkedList.java:42]
+}
+success count: 73
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[400,linkedlist.MyListNode@163,_next,WRITE,Thread-1,linkedlist/MyLinkedList.java:44]
+	ReadWriteNode[464,linkedlist.MyListNode@163,_next,READ,Thread-2,linkedlist/MyLinkedList.java:52]
+}
+success count: 160
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[388,linkedlist.MyListNode@187,_next,WRITE,Thread-1,linkedlist/MyListNode.java:21]
+	ReadWriteNode[615,linkedlist.MyListNode@187,_next,READ,main,linkedlist/MyLinkedList.java:64]
+}
+success count: 73
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] ]
+	matched: true
+	ReadWriteNode[365,linkedlist.MyListNode@163,_next,WRITE,Thread-2,linkedlist/MyLinkedList.java:44]
+	ReadWriteNode[400,linkedlist.MyListNode@163,_next,WRITE,Thread-1,linkedlist/MyLinkedList.java:44]
+}
+success count: 73
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[388,linkedlist.MyListNode@187,_next,WRITE,Thread-1,linkedlist/MyListNode.java:21]
+	ReadWriteNode[470,linkedlist.MyListNode@187,_next,READ,Thread-2,linkedlist/MyLinkedList.java:52]
+}
+success count: 119
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,READ] ]
+	matched: true
+	ReadWriteNode[365,linkedlist.MyListNode@163,_next,WRITE,Thread-2,linkedlist/MyLinkedList.java:44]
+	ReadWriteNode[400,linkedlist.MyListNode@163,_next,WRITE,Thread-1,linkedlist/MyLinkedList.java:44]
+	ReadWriteNode[467,linkedlist.MyListNode@163,_next,READ,Thread-2,linkedlist/MyLinkedList.java:53]
+}
+success count: 56
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,READ] ]
+	matched: true
+	ReadWriteNode[491,linkedlist.MyListNode@18b,_next,READ,Thread-2,linkedlist/MyLinkedList.java:52]
+	ReadWriteNode[494,linkedlist.MyListNode@18b,_next,WRITE,Thread-1,linkedlist/MyLinkedList.java:44]
+	ReadWriteNode[507,linkedlist.MyListNode@18b,_next,READ,Thread-2,linkedlist/MyLinkedList.java:53]
+}
+success count: 3
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[388,linkedlist.MyListNode@187,_next,WRITE,Thread-1,linkedlist/MyListNode.java:21]
+	ReadWriteNode[480,linkedlist.MyListNode@187,_next,READ,Thread-2,linkedlist/MyLinkedList.java:53]
+}
+success count: 59
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,READ] ]
+	matched: true
+	ReadWriteNode[365,linkedlist.MyListNode@163,_next,WRITE,Thread-2,linkedlist/MyLinkedList.java:44]
+	ReadWriteNode[400,linkedlist.MyListNode@163,_next,WRITE,Thread-1,linkedlist/MyLinkedList.java:44]
+	ReadWriteNode[464,linkedlist.MyListNode@163,_next,READ,Thread-2,linkedlist/MyLinkedList.java:52]
+}
+success count: 55
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,READ] ]
+	matched: true
+	ReadWriteNode[544,linkedlist.MyListNode@18e,_next,READ,Thread-1,linkedlist/MyLinkedList.java:52]
+	ReadWriteNode[547,linkedlist.MyListNode@18e,_next,WRITE,Thread-2,linkedlist/MyLinkedList.java:44]
+	ReadWriteNode[554,linkedlist.MyListNode@18e,_next,READ,Thread-1,linkedlist/MyLinkedList.java:42]
+}
+success count: 16
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,WRITE] ]
+	matched: true
+	ReadWriteNode[544,linkedlist.MyListNode@18e,_next,READ,Thread-1,linkedlist/MyLinkedList.java:52]
+	ReadWriteNode[547,linkedlist.MyListNode@18e,_next,WRITE,Thread-2,linkedlist/MyLinkedList.java:44]
+	ReadWriteNode[560,linkedlist.MyListNode@18e,_next,WRITE,Thread-1,linkedlist/MyLinkedList.java:44]
+}
+success count: 16
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] PatternTypeNode[x,1,WRITE] ]
+	matched: true
+	ReadWriteNode[473,linkedlist.MyListNode@18e,_next,WRITE,Thread-2,linkedlist/MyListNode.java:21]
+	ReadWriteNode[544,linkedlist.MyListNode@18e,_next,READ,Thread-1,linkedlist/MyLinkedList.java:52]
+	ReadWriteNode[547,linkedlist.MyListNode@18e,_next,WRITE,Thread-2,linkedlist/MyLinkedList.java:44]
+}
+success count: 6
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,WRITE] ]
+	matched: true
+	ReadWriteNode[245,linkedlist.MyListNode@163,_next,WRITE,main,linkedlist/MyListNode.java:21]
+	ReadWriteNode[360,linkedlist.MyListNode@163,_next,WRITE,Thread-1,linkedlist/MyLinkedList.java:44]
+	ReadWriteNode[601,linkedlist.MyListNode@163,_next,WRITE,main,linkedlist/MyLinkedList.java:28]
+}
+success count: 12
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,READ] ]
+	matched: true
+	ReadWriteNode[245,linkedlist.MyListNode@163,_next,WRITE,main,linkedlist/MyListNode.java:21]
+	ReadWriteNode[360,linkedlist.MyListNode@163,_next,WRITE,Thread-1,linkedlist/MyLinkedList.java:44]
+	ReadWriteNode[551,linkedlist.MyListNode@163,_next,READ,main,linkedlist/MyLinkedList.java:33]
+}
+success count: 12
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,READ] ]
+	matched: true
+	ReadWriteNode[245,linkedlist.MyListNode@163,_next,WRITE,main,linkedlist/MyListNode.java:21]
+	ReadWriteNode[360,linkedlist.MyListNode@163,_next,WRITE,Thread-1,linkedlist/MyLinkedList.java:44]
+	ReadWriteNode[586,linkedlist.MyListNode@163,_next,READ,main,linkedlist/MyLinkedList.java:64]
+}
+success count: 12
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,READ] ]
+	matched: true
+	ReadWriteNode[245,linkedlist.MyListNode@163,_next,WRITE,main,linkedlist/MyListNode.java:21]
+	ReadWriteNode[360,linkedlist.MyListNode@163,_next,WRITE,Thread-1,linkedlist/MyLinkedList.java:44]
+	ReadWriteNode[549,linkedlist.MyListNode@163,_next,READ,main,linkedlist/MyLinkedList.java:23]
+}
+success count: 12
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,READ] ]
+	matched: true
+	ReadWriteNode[404,linkedlist.MyListNode@188,_next,WRITE,Thread-2,linkedlist/MyListNode.java:21]
+	ReadWriteNode[490,linkedlist.MyListNode@188,_next,WRITE,Thread-1,linkedlist/MyLinkedList.java:44]
+	ReadWriteNode[499,linkedlist.MyListNode@188,_next,READ,Thread-2,linkedlist/MyLinkedList.java:42]
+}
+success count: 22
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,WRITE] ]
+	matched: true
+	ReadWriteNode[348,linkedlist.MyListNode@184,_next,WRITE,Thread-1,linkedlist/MyListNode.java:21]
+	ReadWriteNode[406,linkedlist.MyListNode@184,_next,WRITE,Thread-2,linkedlist/MyLinkedList.java:44]
+	ReadWriteNode[435,linkedlist.MyListNode@184,_next,WRITE,Thread-1,linkedlist/MyLinkedList.java:44]
+}
+success count: 22
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,READ] ]
+	matched: true
+	ReadWriteNode[245,linkedlist.MyListNode@163,_next,WRITE,main,linkedlist/MyListNode.java:21]
+	ReadWriteNode[360,linkedlist.MyListNode@163,_next,WRITE,Thread-1,linkedlist/MyLinkedList.java:44]
+	ReadWriteNode[585,linkedlist.MyListNode@163,_next,READ,main,linkedlist/MyLinkedList.java:62]
+}
+success count: 12
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] ]
+	matched: true
+	ReadWriteNode[493,linkedlist.MyListNode@18a,_next,READ,Thread-1,linkedlist/MyLinkedList.java:53]
+	ReadWriteNode[496,linkedlist.MyListNode@18a,_next,WRITE,Thread-2,linkedlist/MyLinkedList.java:44]
+}
+success count: 4
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] PatternTypeNode[x,1,WRITE] ]
+	matched: true
+	ReadWriteNode[438,linkedlist.MyListNode@18c,_next,WRITE,Thread-1,linkedlist/MyListNode.java:21]
+	ReadWriteNode[540,linkedlist.MyListNode@18c,_next,READ,Thread-2,linkedlist/MyLinkedList.java:53]
+	ReadWriteNode[546,linkedlist.MyListNode@18c,_next,WRITE,Thread-1,linkedlist/MyLinkedList.java:44]
+}
+success count: 1
+fail count: 0]

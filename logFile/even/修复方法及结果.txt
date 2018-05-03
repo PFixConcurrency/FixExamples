@@ -1,0 +1,7 @@
+修复二
+锁的名字this
+锁的名字this
+对ReadWriteNode[397,even.EvenGenerator@15e,currentValue,WRITE,Thread-1,even/EvenGenerator.java:10]加锁起止位置10->11
+锁的名字this
+对ReadWriteNode[403,even.EvenGenerator@15e,currentValue,WRITE,Thread-4,even/EvenGenerator.java:9]加锁起止位置9->9
+结果: 修复成功

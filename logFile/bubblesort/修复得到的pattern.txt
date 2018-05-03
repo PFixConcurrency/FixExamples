@@ -1,0 +1,8 @@
+Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[1902,bubblesort.OneBubble@286,st,WRITE,main,bubblesort/OneBubble.java:28]
+	ReadWriteNode[1953,bubblesort.OneBubble@286,st,READ,Thread-21,bubblesort/OneBubble.java:43]
+}
+success count: 0
+fail count: 1250

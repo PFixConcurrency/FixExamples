@@ -1,0 +1,35 @@
+/Address.java/1.1/Mon Jul  5 13:22:57 2010//
+/Company.java/1.1/Mon Jul  5 13:22:55 2010//
+/Controller.java/1.1/Mon Jul  5 13:22:59 2010//
+/Customer.java/1.1/Mon Jul  5 13:22:58 2010//
+/CustomerReportTransaction.java/1.1/Mon Jul  5 13:22:58 2010//
+/DeliveryHandler.java/1.1/Mon Jul  5 13:22:53 2010//
+/DeliveryTransaction.java/1.1/Mon Jul  5 13:22:55 2010//
+/District.java/1.1/Mon Jul  5 13:22:59 2010//
+/History.java/1.1/Mon Jul  5 13:22:57 2010//
+/Infrastructure.java/1.1/Mon Jul  5 13:22:58 2010//
+/Item.java/1.1/Mon Jul  5 13:22:57 2010//
+/JBBDataStorage.java/1.1/Mon Jul  5 13:22:56 2010//
+/JBBLogFormatter.java/1.1/Mon Jul  5 13:22:56 2010//
+/JBBProperties.java/1.1/Mon Jul  5 13:22:55 2010//
+/JBBSortedStorage.java/1.1/Mon Jul  5 13:22:54 2010//
+/JBBmain.java/1.1/Mon Jul  5 13:22:55 2010//
+/JBButil.java/1.1/Mon Jul  5 13:22:58 2010//
+/MapDataStorage.java/1.1/Mon Jul  5 13:22:58 2010//
+/NewOrder.java/1.1/Mon Jul  5 13:22:53 2010//
+/NewOrderTransaction.java/1.1/Mon Jul  5 13:23:00 2010//
+/Order.java/1.1/Mon Jul  5 13:22:54 2010//
+/OrderStatusTransaction.java/1.1/Mon Jul  5 13:22:59 2010//
+/Orderline.java/1.1/Mon Jul  5 13:22:54 2010//
+/PaymentTransaction.java/1.1/Mon Jul  5 13:22:54 2010//
+/RunSequencer.java/1.1/Mon Jul  5 13:22:56 2010//
+/SaveOutput.java/1.1/Mon Jul  5 13:22:57 2010//
+/Stock.java/1.1/Mon Jul  5 13:22:59 2010//
+/StockLevelTransaction.java/1.1/Mon Jul  5 13:22:56 2010//
+/TimerData.java/1.1/Mon Jul  5 13:23:00 2010//
+/Transaction.java/1.1/Mon Jul  5 13:22:53 2010//
+/TransactionManager.java/1.1/Mon Jul  5 13:22:59 2010//
+/TreeMapDataStorage.java/1.1/Mon Jul  5 13:22:55 2010//
+/Warehouse.java/1.1/Mon Jul  5 13:22:56 2010//
+D/infra////
+D/validity////

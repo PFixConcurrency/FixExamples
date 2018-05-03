@@ -1,0 +1,6 @@
+修复二
+锁的名字this
+对ReadWriteNode[456,account2.Bank,Bank_Total,READ,Thread-2,account2/Bank.java:93]加锁起止位置93->93
+锁的名字this
+对ReadWriteNode[472,account2.Bank,Bank_Total,WRITE,Thread-1,account2/Bank.java:93]加锁起止位置93->93
+结果: 修复失败

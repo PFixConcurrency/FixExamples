@@ -1,0 +1,448 @@
+[Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[248,account.ManageAccount,num,WRITE,main,account/Main.java:21]
+	ReadWriteNode[1152,account.ManageAccount,num,READ,Thread-7,account/ManageAccount.java:31]
+}
+success count: 50
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,READ] ]
+	matched: true
+	ReadWriteNode[1813,account.Account@1cf,amount,WRITE,Thread-8,account/Account.java:24]
+	ReadWriteNode[1951,account.Account@1cf,amount,WRITE,Thread-7,account/Account.java:32]
+	ReadWriteNode[1960,account.Account@1cf,amount,READ,Thread-8,account/Account.java:20]
+}
+success count: 16
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[245,account.ManageAccount,accounts,WRITE,main,account/ManageAccount.java:15]
+	ReadWriteNode[1375,account.ManageAccount,accounts,READ,Thread-4,account/ManageAccount.java:31]
+}
+success count: 50
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[248,account.ManageAccount,num,WRITE,main,account/Main.java:21]
+	ReadWriteNode[922,account.ManageAccount,num,READ,Thread-5,account/ManageAccount.java:29]
+}
+success count: 50
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[245,account.ManageAccount,accounts,WRITE,main,account/ManageAccount.java:15]
+	ReadWriteNode[2023,account.ManageAccount,accounts,READ,Thread-9,account/ManageAccount.java:34]
+}
+success count: 50
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[360,account.ManageAccount@198,account,WRITE,main,account/ManageAccount.java:21]
+	ReadWriteNode[1117,account.ManageAccount@198,account,READ,Thread-2,account/ManageAccount.java:31]
+}
+success count: 50
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[522,account.ManageAccount@1b8,i,WRITE,main,account/ManageAccount.java:22]
+	ReadWriteNode[939,account.ManageAccount@1b8,i,READ,Thread-6,account/ManageAccount.java:29]
+}
+success count: 50
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[680,account.ManageAccount@1d8,account,WRITE,main,account/ManageAccount.java:21]
+	ReadWriteNode[1034,account.ManageAccount@1d8,account,READ,Thread-10,account/ManageAccount.java:29]
+}
+success count: 50
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[562,account.ManageAccount@1c0,i,WRITE,main,account/ManageAccount.java:22]
+	ReadWriteNode[1714,account.ManageAccount@1c0,i,READ,Thread-7,account/ManageAccount.java:34]
+}
+success count: 50
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[480,account.ManageAccount@1b0,account,WRITE,main,account/ManageAccount.java:21]
+	ReadWriteNode[1242,account.ManageAccount@1b0,account,READ,Thread-5,account/ManageAccount.java:30]
+}
+success count: 50
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] ]
+	matched: true
+	ReadWriteNode[558,account.Account@1c7,amount,WRITE,main,account/Account.java:11]
+	ReadWriteNode[1605,account.Account@1c7,amount,WRITE,Thread-5,account/Account.java:32]
+}
+success count: 35
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[248,account.ManageAccount,num,WRITE,main,account/Main.java:21]
+	ReadWriteNode[1747,account.ManageAccount,num,READ,Thread-7,account/ManageAccount.java:34]
+}
+success count: 50
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[640,account.ManageAccount@1d0,account,WRITE,main,account/ManageAccount.java:21]
+	ReadWriteNode[2155,account.ManageAccount@1d0,account,READ,Thread-9,account/ManageAccount.java:35]
+}
+success count: 50
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,WRITE] ]
+	matched: true
+	ReadWriteNode[1813,account.Account@1cf,amount,WRITE,Thread-8,account/Account.java:24]
+	ReadWriteNode[1951,account.Account@1cf,amount,WRITE,Thread-7,account/Account.java:32]
+	ReadWriteNode[1970,account.Account@1cf,amount,WRITE,Thread-8,account/Account.java:20]
+}
+success count: 16
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[1906,account.Account@197,amount,WRITE,Thread-1,account/Account.java:24]
+	ReadWriteNode[2062,account.Account@197,amount,READ,Thread-10,account/Account.java:32]
+}
+success count: 16
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[680,account.ManageAccount@1d8,account,WRITE,main,account/ManageAccount.java:21]
+	ReadWriteNode[1779,account.ManageAccount@1d8,account,READ,Thread-10,account/ManageAccount.java:33]
+}
+success count: 50
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[2166,account.Account@1af,amount,WRITE,Thread-3,account/Account.java:32]
+	ReadWriteNode[2235,account.Account@1af,amount,READ,main,account/Main.java:50]
+}
+success count: 16
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[400,account.ManageAccount@1a0,account,WRITE,main,account/ManageAccount.java:21]
+	ReadWriteNode[2113,account.ManageAccount@1a0,account,READ,Thread-3,account/ManageAccount.java:34]
+}
+success count: 50
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[642,account.ManageAccount@1d0,i,WRITE,main,account/ManageAccount.java:22]
+	ReadWriteNode[1671,account.ManageAccount@1d0,i,READ,Thread-9,account/ManageAccount.java:31]
+}
+success count: 50
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[1888,account.Account@1b7,amount,WRITE,Thread-4,account/Account.java:28]
+	ReadWriteNode[1931,account.Account@1b7,amount,READ,Thread-3,account/Account.java:32]
+}
+success count: 2
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[2067,account.Account@1c7,amount,WRITE,Thread-7,account/Account.java:20]
+	ReadWriteNode[2248,account.Account@1c7,amount,READ,main,account/Main.java:47]
+}
+success count: 32
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[680,account.ManageAccount@1d8,account,WRITE,main,account/ManageAccount.java:21]
+	ReadWriteNode[975,account.ManageAccount@1d8,account,READ,Thread-10,account/ManageAccount.java:28]
+}
+success count: 50
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[359,account.Account@19f,name,WRITE,main,account/Account.java:12]
+	ReadWriteNode[1517,account.Account@19f,name,READ,Thread-2,account/Account.java:26]
+}
+success count: 50
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[2176,account.Account@1a7,amount,WRITE,Thread-3,account/Account.java:20]
+	ReadWriteNode[2230,account.Account@1a7,amount,READ,main,account/Main.java:50]
+}
+success count: 32
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] ]
+	matched: true
+	ReadWriteNode[2058,account.Account@1bf,amount,WRITE,Thread-6,account/Account.java:20]
+	ReadWriteNode[2072,account.Account@1bf,amount,WRITE,Thread-5,account/Account.java:32]
+}
+success count: 16
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[678,account.Account@1df,amount,WRITE,main,account/Account.java:11]
+	ReadWriteNode[1443,account.Account@1df,amount,READ,Thread-8,account/Account.java:32]
+}
+success count: 35
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[600,account.ManageAccount@1c8,account,WRITE,main,account/ManageAccount.java:21]
+	ReadWriteNode[1489,account.ManageAccount@1c8,account,READ,Thread-8,account/ManageAccount.java:32]
+}
+success count: 50
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] ]
+	matched: true
+	ReadWriteNode[478,account.Account@1b7,amount,WRITE,main,account/Account.java:11]
+	ReadWriteNode[1808,account.Account@1b7,amount,WRITE,Thread-5,account/Account.java:16]
+}
+success count: 10
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[1569,account.Account@1a7,amount,WRITE,Thread-2,account/Account.java:32]
+	ReadWriteNode[2052,account.Account@1a7,amount,READ,Thread-3,account/Account.java:16]
+}
+success count: 35
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[245,account.ManageAccount,accounts,WRITE,main,account/ManageAccount.java:15]
+	ReadWriteNode[883,account.ManageAccount,accounts,READ,Thread-3,account/ManageAccount.java:29]
+}
+success count: 50
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[1495,account.Account@1bf,amount,WRITE,Thread-4,account/Account.java:28]
+	ReadWriteNode[1754,account.Account@1bf,amount,READ,Thread-6,account/Account.java:16]
+}
+success count: 5
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[2136,account.Account@1df,amount,WRITE,Thread-9,account/Account.java:32]
+	ReadWriteNode[2263,account.Account@1df,amount,READ,main,account/Main.java:47]
+}
+success count: 16
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[358,account.Account@19f,amount,WRITE,main,account/Account.java:11]
+	ReadWriteNode[1352,account.Account@19f,amount,READ,Thread-2,account/Account.java:16]
+}
+success count: 10
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] ]
+	matched: true
+	ReadWriteNode[1874,account.Account@1c7,amount,WRITE,Thread-7,account/Account.java:24]
+	ReadWriteNode[2028,account.Account@1c7,amount,WRITE,Thread-6,account/Account.java:32]
+}
+success count: 16
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] ]
+	matched: true
+	ReadWriteNode[1831,account.Account@197,amount,WRITE,Thread-9,account/Account.java:32]
+	ReadWriteNode[1906,account.Account@197,amount,WRITE,Thread-1,account/Account.java:24]
+}
+success count: 14
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,READ] ]
+	matched: true
+	ReadWriteNode[1700,account.Account@197,amount,WRITE,Thread-1,account/Account.java:16]
+	ReadWriteNode[1831,account.Account@197,amount,WRITE,Thread-9,account/Account.java:32]
+	ReadWriteNode[1903,account.Account@197,amount,READ,Thread-1,account/Account.java:24]
+}
+success count: 12
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] ]
+	matched: true
+	ReadWriteNode[1327,account.Account@1af,amount,WRITE,Thread-2,account/Account.java:32]
+	ReadWriteNode[1720,account.Account@1af,amount,WRITE,Thread-4,account/Account.java:16]
+}
+success count: 35
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] ]
+	matched: true
+	ReadWriteNode[1808,account.Account@1b7,amount,WRITE,Thread-5,account/Account.java:16]
+	ReadWriteNode[1888,account.Account@1b7,amount,WRITE,Thread-4,account/Account.java:28]
+}
+success count: 2
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[1808,account.Account@1b7,amount,WRITE,Thread-5,account/Account.java:16]
+	ReadWriteNode[1871,account.Account@1b7,amount,READ,Thread-4,account/Account.java:28]
+}
+success count: 2
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[2075,account.Account@197,amount,WRITE,Thread-10,account/Account.java:32]
+	ReadWriteNode[2093,account.Account@197,amount,READ,Thread-1,account/Account.java:20]
+}
+success count: 16
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[42,java.lang.System,out,WRITE,main,java/lang/System.java:43]
+	ReadWriteNode[1851,java.lang.System,out,READ,Thread-4,account/Account.java:27]
+}
+success count: 5
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] ]
+	matched: true
+	ReadWriteNode[1888,account.Account@1b7,amount,WRITE,Thread-4,account/Account.java:28]
+	ReadWriteNode[1942,account.Account@1b7,amount,WRITE,Thread-3,account/Account.java:32]
+}
+success count: 2
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] ]
+	matched: true
+	ReadWriteNode[1495,account.Account@1bf,amount,WRITE,Thread-4,account/Account.java:28]
+	ReadWriteNode[1765,account.Account@1bf,amount,WRITE,Thread-6,account/Account.java:16]
+}
+success count: 5
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] ]
+	matched: true
+	ReadWriteNode[1657,account.Account@19f,amount,WRITE,Thread-10,account/Account.java:32]
+	ReadWriteNode[2026,account.Account@19f,amount,WRITE,Thread-1,account/Account.java:32]
+}
+success count: 8
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[2058,account.Account@1bf,amount,WRITE,Thread-6,account/Account.java:20]
+	ReadWriteNode[2069,account.Account@1bf,amount,READ,Thread-5,account/Account.java:32]
+}
+success count: 16
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] ]
+	matched: true
+	ReadWriteNode[1951,account.Account@1cf,amount,WRITE,Thread-7,account/Account.java:32]
+	ReadWriteNode[1970,account.Account@1cf,amount,WRITE,Thread-8,account/Account.java:20]
+}
+success count: 16
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[1400,account.Account@1a7,amount,WRITE,Thread-1,account/Account.java:32]
+	ReadWriteNode[1555,account.Account@1a7,amount,READ,Thread-2,account/Account.java:32]
+}
+success count: 8
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] ]
+	matched: true
+	ReadWriteNode[518,account.Account@1bf,amount,WRITE,main,account/Account.java:11]
+	ReadWriteNode[1495,account.Account@1bf,amount,WRITE,Thread-4,account/Account.java:28]
+}
+success count: 5
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[1700,account.Account@197,amount,WRITE,Thread-1,account/Account.java:16]
+	ReadWriteNode[1802,account.Account@197,amount,READ,Thread-9,account/Account.java:32]
+}
+success count: 13
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[1942,account.Account@1b7,amount,WRITE,Thread-3,account/Account.java:32]
+	ReadWriteNode[1990,account.Account@1b7,amount,READ,Thread-5,account/Account.java:24]
+}
+success count: 14
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[518,account.Account@1bf,amount,WRITE,main,account/Account.java:11]
+	ReadWriteNode[1476,account.Account@1bf,amount,READ,Thread-4,account/Account.java:28]
+}
+success count: 5
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] ]
+	matched: true
+	ReadWriteNode[1700,account.Account@197,amount,WRITE,Thread-1,account/Account.java:16]
+	ReadWriteNode[1831,account.Account@197,amount,WRITE,Thread-9,account/Account.java:32]
+}
+success count: 13
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,WRITE] ]
+	matched: true
+	ReadWriteNode[1700,account.Account@197,amount,WRITE,Thread-1,account/Account.java:16]
+	ReadWriteNode[1831,account.Account@197,amount,WRITE,Thread-9,account/Account.java:32]
+	ReadWriteNode[1906,account.Account@197,amount,WRITE,Thread-1,account/Account.java:24]
+}
+success count: 12
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] ]
+	matched: true
+	ReadWriteNode[1818,account.Account@1b7,amount,WRITE,Thread-5,account/Account.java:20]
+	ReadWriteNode[1898,account.Account@1b7,amount,WRITE,Thread-4,account/Account.java:28]
+}
+success count: 2
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[1898,account.Account@1b7,amount,WRITE,Thread-4,account/Account.java:28]
+	ReadWriteNode[2253,account.Account@1b7,amount,READ,main,account/Main.java:50]
+}
+success count: 2
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[1818,account.Account@1b7,amount,WRITE,Thread-5,account/Account.java:20]
+	ReadWriteNode[1883,account.Account@1b7,amount,READ,Thread-4,account/Account.java:28]
+}
+success count: 2
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[1898,account.Account@1b7,amount,WRITE,Thread-4,account/Account.java:28]
+	ReadWriteNode[2251,account.Account@1b7,amount,READ,main,account/Main.java:47]
+}
+success count: 2
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[1425,account.Account@1b7,amount,WRITE,Thread-3,account/Account.java:32]
+	ReadWriteNode[1843,account.Account@1b7,amount,READ,Thread-4,account/Account.java:28]
+}
+success count: 1
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] ]
+	matched: true
+	ReadWriteNode[1425,account.Account@1b7,amount,WRITE,Thread-3,account/Account.java:32]
+	ReadWriteNode[1864,account.Account@1b7,amount,WRITE,Thread-4,account/Account.java:28]
+}
+success count: 1
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] ]
+	matched: true
+	ReadWriteNode[1999,account.Account@1b7,amount,WRITE,Thread-4,account/Account.java:28]
+	ReadWriteNode[2014,account.Account@1b7,amount,WRITE,Thread-5,account/Account.java:24]
+}
+success count: 1
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[1999,account.Account@1b7,amount,WRITE,Thread-4,account/Account.java:28]
+	ReadWriteNode[2004,account.Account@1b7,amount,READ,Thread-5,account/Account.java:24]
+}
+success count: 1
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,WRITE] ]
+	matched: true
+	ReadWriteNode[1820,account.Account@1b7,amount,WRITE,Thread-5,account/Account.java:16]
+	ReadWriteNode[1999,account.Account@1b7,amount,WRITE,Thread-4,account/Account.java:28]
+	ReadWriteNode[2014,account.Account@1b7,amount,WRITE,Thread-5,account/Account.java:24]
+}
+success count: 1
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,READ] ]
+	matched: true
+	ReadWriteNode[1820,account.Account@1b7,amount,WRITE,Thread-5,account/Account.java:16]
+	ReadWriteNode[1999,account.Account@1b7,amount,WRITE,Thread-4,account/Account.java:28]
+	ReadWriteNode[2004,account.Account@1b7,amount,READ,Thread-5,account/Account.java:24]
+}
+success count: 1
+fail count: 0]

@@ -1,0 +1,5 @@
+修复二
+锁的名字data
+锁的名字data
+对ReadWriteNode[337,wrongLock.Data@15f,value,WRITE,Thread-2,wrongLock/WrongLock.java:30]加锁起止位置29->31
+结果: 修复成功

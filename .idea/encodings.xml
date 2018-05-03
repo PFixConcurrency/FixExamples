@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/examples/net/sf/cache4j/impl/BlockingCache.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/examples/net/sf/cache4j/test/Cache4jTester.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/logFile/airline/修复方法及结果.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/logFile/reorder/修复方法及结果.txt" charset="GBK" />
+  </component>
+</project>

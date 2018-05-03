@@ -1,0 +1,8 @@
+Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[603,pingpong.BuggedProgram@192,pingPongPlayer,WRITE,main,pingpong/BuggedProgram.java:39]
+	ReadWriteNode[827,pingpong.BuggedProgram@192,pingPongPlayer,READ,Thread-1,pingpong/BuggedProgram.java:85]
+}
+success count: 62
+fail count: 1

@@ -1,0 +1,7 @@
+修复二
+锁的名字this
+锁的名字this
+对ReadWriteNode[1006,airline.Bug,Num_Of_Seats_Sold,WRITE,Thread-16,airline/Bug.java:60]加锁起止位置60->62
+锁的名字this
+对ReadWriteNode[1017,airline.Bug,Num_Of_Seats_Sold,WRITE,Thread-15,airline/Bug.java:60]加锁起止位置60->60
+结果: 修复成功

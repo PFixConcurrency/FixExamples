@@ -1,0 +1,8 @@
+Pattern {
+	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] ]
+	matched: true
+	ReadWriteNode[313,org.apache.commons.pool.impl.CursorableLinkedList$Listable@17d,_next,READ,main,org/apache/commons/pool/impl/CursorableLinkedList.java:975]
+	ReadWriteNode[584,org.apache.commons.pool.impl.CursorableLinkedList$Listable@17d,_next,WRITE,Thread-2,org/apache/commons/pool/impl/CursorableLinkedList.java:987]
+}
+success count: 0
+fail count: 38

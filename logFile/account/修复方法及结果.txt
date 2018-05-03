@@ -1,0 +1,4 @@
+修复二
+锁的名字ac
+对ReadWriteNode[1497,account.Account@1b7,amount,READ,Thread-4,account/Account.java:28]加锁起止位置28->28
+结果: 修复成功

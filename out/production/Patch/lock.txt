@@ -1,0 +1,1064 @@
+java.lang.Class@4d	main
+-----------------
+java.lang.Class@50	main
+-----------------
+java.lang.Class@56	main
+-----------------
+java.lang.Class@59	main
+-----------------
+java.lang.Class@5c	main
+-----------------
+java.lang.Class@5f	main
+-----------------
+java.lang.Class@62	main
+-----------------
+java.lang.Class@65	main
+-----------------
+java.lang.Class@6e	main
+-----------------
+java.lang.Class@80	main
+-----------------
+java.lang.Class@102	main
+-----------------
+java.lang.Class@10b	main
+-----------------
+java.util.Properties@106	main
+instance: java.util.Properties@106	field: table	thread: main	location: java/util/Hashtable.java:463
+instance: java.util.Properties@106	field: modCount	thread: main	location: java/util/Hashtable.java:420
+instance: java.util.Properties@106	field: modCount	thread: main	location: java/util/Hashtable.java:420
+instance: java.util.Properties@106	field: table	thread: main	location: java/util/Hashtable.java:422
+instance: java.util.Properties@106	field: count	thread: main	location: java/util/Hashtable.java:423
+instance: java.util.Properties@106	field: threshold	thread: main	location: java/util/Hashtable.java:423
+instance: java.util.Properties@106	field: count	thread: main	location: java/util/Hashtable.java:436
+instance: java.util.Properties@106	field: count	thread: main	location: java/util/Hashtable.java:436
+-----------------
+java.util.Properties@106	main
+instance: java.util.Properties@106	field: table	thread: main	location: java/util/Hashtable.java:463
+instance: java.util.Properties@106	field: modCount	thread: main	location: java/util/Hashtable.java:420
+instance: java.util.Properties@106	field: modCount	thread: main	location: java/util/Hashtable.java:420
+instance: java.util.Properties@106	field: table	thread: main	location: java/util/Hashtable.java:422
+instance: java.util.Properties@106	field: count	thread: main	location: java/util/Hashtable.java:423
+instance: java.util.Properties@106	field: threshold	thread: main	location: java/util/Hashtable.java:423
+instance: java.util.Properties@106	field: count	thread: main	location: java/util/Hashtable.java:436
+instance: java.util.Properties@106	field: count	thread: main	location: java/util/Hashtable.java:436
+-----------------
+java.util.Properties@106	main
+instance: java.util.Properties@106	field: table	thread: main	location: java/util/Hashtable.java:463
+instance: java.util.Properties@106	field: modCount	thread: main	location: java/util/Hashtable.java:420
+instance: java.util.Properties@106	field: modCount	thread: main	location: java/util/Hashtable.java:420
+instance: java.util.Properties@106	field: table	thread: main	location: java/util/Hashtable.java:422
+instance: java.util.Properties@106	field: count	thread: main	location: java/util/Hashtable.java:423
+instance: java.util.Properties@106	field: threshold	thread: main	location: java/util/Hashtable.java:423
+instance: java.util.Properties@106	field: count	thread: main	location: java/util/Hashtable.java:436
+instance: java.util.Properties@106	field: count	thread: main	location: java/util/Hashtable.java:436
+-----------------
+java.util.Properties@106	main
+instance: java.util.Properties@106	field: table	thread: main	location: java/util/Hashtable.java:463
+instance: java.util.Properties@106	field: modCount	thread: main	location: java/util/Hashtable.java:420
+instance: java.util.Properties@106	field: modCount	thread: main	location: java/util/Hashtable.java:420
+instance: java.util.Properties@106	field: table	thread: main	location: java/util/Hashtable.java:422
+instance: java.util.Properties@106	field: count	thread: main	location: java/util/Hashtable.java:423
+instance: java.util.Properties@106	field: threshold	thread: main	location: java/util/Hashtable.java:423
+instance: java.util.Properties@106	field: count	thread: main	location: java/util/Hashtable.java:436
+instance: java.util.Properties@106	field: count	thread: main	location: java/util/Hashtable.java:436
+-----------------
+java.util.Properties@106	main
+instance: java.util.Properties@106	field: table	thread: main	location: java/util/Hashtable.java:463
+instance: java.util.Properties@106	field: modCount	thread: main	location: java/util/Hashtable.java:420
+instance: java.util.Properties@106	field: modCount	thread: main	location: java/util/Hashtable.java:420
+instance: java.util.Properties@106	field: table	thread: main	location: java/util/Hashtable.java:422
+instance: java.util.Properties@106	field: count	thread: main	location: java/util/Hashtable.java:423
+instance: java.util.Properties@106	field: threshold	thread: main	location: java/util/Hashtable.java:423
+instance: java.util.Properties@106	field: count	thread: main	location: java/util/Hashtable.java:436
+instance: java.util.Properties@106	field: count	thread: main	location: java/util/Hashtable.java:436
+-----------------
+java.util.Properties@106	main
+instance: java.util.Properties@106	field: table	thread: main	location: java/util/Hashtable.java:463
+instance: java.util.Properties@106	field: modCount	thread: main	location: java/util/Hashtable.java:420
+instance: java.util.Properties@106	field: modCount	thread: main	location: java/util/Hashtable.java:420
+instance: java.util.Properties@106	field: table	thread: main	location: java/util/Hashtable.java:422
+instance: java.util.Properties@106	field: count	thread: main	location: java/util/Hashtable.java:423
+instance: java.util.Properties@106	field: threshold	thread: main	location: java/util/Hashtable.java:423
+instance: java.util.Properties@106	field: count	thread: main	location: java/util/Hashtable.java:436
+instance: java.util.Properties@106	field: count	thread: main	location: java/util/Hashtable.java:436
+-----------------
+java.util.Properties@106	main
+instance: java.util.Properties@106	field: table	thread: main	location: java/util/Hashtable.java:463
+instance: java.util.Properties@106	field: modCount	thread: main	location: java/util/Hashtable.java:420
+instance: java.util.Properties@106	field: modCount	thread: main	location: java/util/Hashtable.java:420
+instance: java.util.Properties@106	field: table	thread: main	location: java/util/Hashtable.java:422
+instance: java.util.Properties@106	field: count	thread: main	location: java/util/Hashtable.java:423
+instance: java.util.Properties@106	field: threshold	thread: main	location: java/util/Hashtable.java:423
+instance: java.util.Properties@106	field: count	thread: main	location: java/util/Hashtable.java:436
+instance: java.util.Properties@106	field: count	thread: main	location: java/util/Hashtable.java:436
+-----------------
+java.util.Properties@106	main
+instance: java.util.Properties@106	field: table	thread: main	location: java/util/Hashtable.java:463
+instance: java.util.Properties@106	field: modCount	thread: main	location: java/util/Hashtable.java:420
+instance: java.util.Properties@106	field: modCount	thread: main	location: java/util/Hashtable.java:420
+instance: java.util.Properties@106	field: table	thread: main	location: java/util/Hashtable.java:422
+instance: java.util.Properties@106	field: count	thread: main	location: java/util/Hashtable.java:423
+instance: java.util.Properties@106	field: threshold	thread: main	location: java/util/Hashtable.java:423
+instance: java.util.Properties@106	field: count	thread: main	location: java/util/Hashtable.java:436
+instance: java.util.Properties@106	field: count	thread: main	location: java/util/Hashtable.java:436
+-----------------
+java.util.Properties@106	main
+instance: java.util.Properties@106	field: table	thread: main	location: java/util/Hashtable.java:463
+instance: java.util.Properties@106	field: modCount	thread: main	location: java/util/Hashtable.java:420
+instance: java.util.Properties@106	field: modCount	thread: main	location: java/util/Hashtable.java:420
+instance: java.util.Properties@106	field: table	thread: main	location: java/util/Hashtable.java:422
+instance: java.util.Properties@106	field: count	thread: main	location: java/util/Hashtable.java:423
+instance: java.util.Properties@106	field: threshold	thread: main	location: java/util/Hashtable.java:423
+instance: java.util.Properties@106	field: table	thread: main	location: java/util/Hashtable.java:390
+instance: java.util.Properties@106	field: table	thread: main	location: java/util/Hashtable.java:391
+instance: java.util.Properties@106	field: modCount	thread: main	location: java/util/Hashtable.java:403
+instance: java.util.Properties@106	field: modCount	thread: main	location: java/util/Hashtable.java:403
+instance: java.util.Properties@106	field: loadFactor	thread: main	location: java/util/Hashtable.java:404
+instance: java.util.Properties@106	field: threshold	thread: main	location: java/util/Hashtable.java:404
+instance: java.util.Properties@106	field: table	thread: main	location: java/util/Hashtable.java:405
+instance: java.util.Properties@106	field: table	thread: main	location: java/util/Hashtable.java:427
+instance: java.util.Properties@106	field: count	thread: main	location: java/util/Hashtable.java:436
+instance: java.util.Properties@106	field: count	thread: main	location: java/util/Hashtable.java:436
+-----------------
+java.util.Properties@106	main
+instance: java.util.Properties@106	field: table	thread: main	location: java/util/Hashtable.java:463
+instance: java.util.Properties@106	field: modCount	thread: main	location: java/util/Hashtable.java:420
+instance: java.util.Properties@106	field: modCount	thread: main	location: java/util/Hashtable.java:420
+instance: java.util.Properties@106	field: table	thread: main	location: java/util/Hashtable.java:422
+instance: java.util.Properties@106	field: count	thread: main	location: java/util/Hashtable.java:423
+instance: java.util.Properties@106	field: threshold	thread: main	location: java/util/Hashtable.java:423
+instance: java.util.Properties@106	field: count	thread: main	location: java/util/Hashtable.java:436
+instance: java.util.Properties@106	field: count	thread: main	location: java/util/Hashtable.java:436
+-----------------
+java.util.Properties@106	main
+instance: java.util.Properties@106	field: table	thread: main	location: java/util/Hashtable.java:463
+instance: java.util.Properties@106	field: modCount	thread: main	location: java/util/Hashtable.java:420
+instance: java.util.Properties@106	field: modCount	thread: main	location: java/util/Hashtable.java:420
+instance: java.util.Properties@106	field: table	thread: main	location: java/util/Hashtable.java:422
+instance: java.util.Properties@106	field: count	thread: main	location: java/util/Hashtable.java:423
+instance: java.util.Properties@106	field: threshold	thread: main	location: java/util/Hashtable.java:423
+instance: java.util.Properties@106	field: count	thread: main	location: java/util/Hashtable.java:436
+instance: java.util.Properties@106	field: count	thread: main	location: java/util/Hashtable.java:436
+-----------------
+java.lang.Class@157	main
+-----------------
+java.lang.Class@154	main
+-----------------
+java.lang.Class@9e	main
+-----------------
+java.lang.Class@15b	main
+-----------------
+java.lang.ThreadGroup@b0	main
+instance: java.lang.ThreadGroup@b0	field: destroyed	thread: main	location: java/lang/ThreadGroup.java:151
+instance: java.lang.ThreadGroup@b0	field: threads	thread: main	location: java/lang/ThreadGroup.java:155
+instance: java.lang.ThreadGroup@b0	field: nthreads	thread: main	location: java/lang/ThreadGroup.java:158
+instance: java.lang.ThreadGroup@b0	field: threads	thread: main	location: java/lang/ThreadGroup.java:159
+instance: java.lang.ThreadGroup@b0	field: nthreads	thread: main	location: java/lang/ThreadGroup.java:159
+instance: java.lang.ThreadGroup@b0	field: threads	thread: main	location: java/lang/ThreadGroup.java:160
+instance: java.lang.ThreadGroup@b0	field: threads	thread: main	location: java/lang/ThreadGroup.java:163
+instance: java.lang.ThreadGroup@b0	field: nthreads	thread: main	location: java/lang/ThreadGroup.java:163
+instance: java.lang.ThreadGroup@b0	field: nthreads	thread: main	location: java/lang/ThreadGroup.java:163
+instance: java.lang.ThreadGroup@b0	field: nUnstartedThreads	thread: main	location: java/lang/ThreadGroup.java:164
+instance: java.lang.ThreadGroup@b0	field: nUnstartedThreads	thread: main	location: java/lang/ThreadGroup.java:164
+-----------------
+account.Account@197	main
+-----------------
+java.lang.ThreadGroup@b0	main
+instance: java.lang.ThreadGroup@b0	field: destroyed	thread: main	location: java/lang/ThreadGroup.java:151
+instance: java.lang.ThreadGroup@b0	field: threads	thread: main	location: java/lang/ThreadGroup.java:155
+instance: java.lang.ThreadGroup@b0	field: nthreads	thread: main	location: java/lang/ThreadGroup.java:158
+instance: java.lang.ThreadGroup@b0	field: threads	thread: main	location: java/lang/ThreadGroup.java:159
+instance: java.lang.ThreadGroup@b0	field: nthreads	thread: main	location: java/lang/ThreadGroup.java:159
+instance: java.lang.ThreadGroup@b0	field: threads	thread: main	location: java/lang/ThreadGroup.java:160
+instance: java.lang.ThreadGroup@b0	field: threads	thread: main	location: java/lang/ThreadGroup.java:163
+instance: java.lang.ThreadGroup@b0	field: nthreads	thread: main	location: java/lang/ThreadGroup.java:163
+instance: java.lang.ThreadGroup@b0	field: nthreads	thread: main	location: java/lang/ThreadGroup.java:163
+instance: java.lang.ThreadGroup@b0	field: nUnstartedThreads	thread: main	location: java/lang/ThreadGroup.java:164
+instance: java.lang.ThreadGroup@b0	field: nUnstartedThreads	thread: main	location: java/lang/ThreadGroup.java:164
+-----------------
+account.Account@19f	main
+-----------------
+java.lang.ThreadGroup@b0	main
+instance: java.lang.ThreadGroup@b0	field: destroyed	thread: main	location: java/lang/ThreadGroup.java:151
+instance: java.lang.ThreadGroup@b0	field: threads	thread: main	location: java/lang/ThreadGroup.java:155
+instance: java.lang.ThreadGroup@b0	field: nthreads	thread: main	location: java/lang/ThreadGroup.java:158
+instance: java.lang.ThreadGroup@b0	field: threads	thread: main	location: java/lang/ThreadGroup.java:159
+instance: java.lang.ThreadGroup@b0	field: nthreads	thread: main	location: java/lang/ThreadGroup.java:159
+instance: java.lang.ThreadGroup@b0	field: threads	thread: main	location: java/lang/ThreadGroup.java:160
+instance: java.lang.ThreadGroup@b0	field: threads	thread: main	location: java/lang/ThreadGroup.java:163
+instance: java.lang.ThreadGroup@b0	field: nthreads	thread: main	location: java/lang/ThreadGroup.java:163
+instance: java.lang.ThreadGroup@b0	field: nthreads	thread: main	location: java/lang/ThreadGroup.java:163
+instance: java.lang.ThreadGroup@b0	field: nUnstartedThreads	thread: main	location: java/lang/ThreadGroup.java:164
+instance: java.lang.ThreadGroup@b0	field: nUnstartedThreads	thread: main	location: java/lang/ThreadGroup.java:164
+-----------------
+account.Account@1a7	main
+-----------------
+java.lang.ThreadGroup@b0	main
+instance: java.lang.ThreadGroup@b0	field: destroyed	thread: main	location: java/lang/ThreadGroup.java:151
+instance: java.lang.ThreadGroup@b0	field: threads	thread: main	location: java/lang/ThreadGroup.java:155
+instance: java.lang.ThreadGroup@b0	field: nthreads	thread: main	location: java/lang/ThreadGroup.java:158
+instance: java.lang.ThreadGroup@b0	field: threads	thread: main	location: java/lang/ThreadGroup.java:159
+instance: java.lang.ThreadGroup@b0	field: nthreads	thread: main	location: java/lang/ThreadGroup.java:159
+instance: java.lang.ThreadGroup@b0	field: threads	thread: main	location: java/lang/ThreadGroup.java:160
+instance: java.lang.ThreadGroup@b0	field: threads	thread: main	location: java/lang/ThreadGroup.java:163
+instance: java.lang.ThreadGroup@b0	field: nthreads	thread: main	location: java/lang/ThreadGroup.java:163
+instance: java.lang.ThreadGroup@b0	field: nthreads	thread: main	location: java/lang/ThreadGroup.java:163
+instance: java.lang.ThreadGroup@b0	field: nUnstartedThreads	thread: main	location: java/lang/ThreadGroup.java:164
+instance: java.lang.ThreadGroup@b0	field: nUnstartedThreads	thread: main	location: java/lang/ThreadGroup.java:164
+-----------------
+account.Account@1af	main
+-----------------
+java.lang.ThreadGroup@b0	main
+instance: java.lang.ThreadGroup@b0	field: destroyed	thread: main	location: java/lang/ThreadGroup.java:151
+instance: java.lang.ThreadGroup@b0	field: threads	thread: main	location: java/lang/ThreadGroup.java:155
+instance: java.lang.ThreadGroup@b0	field: nthreads	thread: main	location: java/lang/ThreadGroup.java:158
+instance: java.lang.ThreadGroup@b0	field: threads	thread: main	location: java/lang/ThreadGroup.java:159
+instance: java.lang.ThreadGroup@b0	field: nthreads	thread: main	location: java/lang/ThreadGroup.java:159
+instance: java.lang.ThreadGroup@b0	field: threads	thread: main	location: java/lang/ThreadGroup.java:160
+instance: java.lang.ThreadGroup@b0	field: threads	thread: main	location: java/lang/ThreadGroup.java:163
+instance: java.lang.ThreadGroup@b0	field: nthreads	thread: main	location: java/lang/ThreadGroup.java:163
+instance: java.lang.ThreadGroup@b0	field: nthreads	thread: main	location: java/lang/ThreadGroup.java:163
+instance: java.lang.ThreadGroup@b0	field: nUnstartedThreads	thread: main	location: java/lang/ThreadGroup.java:164
+instance: java.lang.ThreadGroup@b0	field: nUnstartedThreads	thread: main	location: java/lang/ThreadGroup.java:164
+-----------------
+account.Account@1b7	main
+-----------------
+java.lang.ThreadGroup@b0	main
+instance: java.lang.ThreadGroup@b0	field: destroyed	thread: main	location: java/lang/ThreadGroup.java:151
+instance: java.lang.ThreadGroup@b0	field: threads	thread: main	location: java/lang/ThreadGroup.java:155
+instance: java.lang.ThreadGroup@b0	field: nthreads	thread: main	location: java/lang/ThreadGroup.java:158
+instance: java.lang.ThreadGroup@b0	field: threads	thread: main	location: java/lang/ThreadGroup.java:159
+instance: java.lang.ThreadGroup@b0	field: nthreads	thread: main	location: java/lang/ThreadGroup.java:159
+instance: java.lang.ThreadGroup@b0	field: threads	thread: main	location: java/lang/ThreadGroup.java:160
+instance: java.lang.ThreadGroup@b0	field: threads	thread: main	location: java/lang/ThreadGroup.java:163
+instance: java.lang.ThreadGroup@b0	field: nthreads	thread: main	location: java/lang/ThreadGroup.java:163
+instance: java.lang.ThreadGroup@b0	field: nthreads	thread: main	location: java/lang/ThreadGroup.java:163
+instance: java.lang.ThreadGroup@b0	field: nUnstartedThreads	thread: main	location: java/lang/ThreadGroup.java:164
+instance: java.lang.ThreadGroup@b0	field: nUnstartedThreads	thread: main	location: java/lang/ThreadGroup.java:164
+-----------------
+account.Account@1bf	main
+-----------------
+java.lang.ThreadGroup@b0	main
+instance: java.lang.ThreadGroup@b0	field: destroyed	thread: main	location: java/lang/ThreadGroup.java:151
+instance: java.lang.ThreadGroup@b0	field: threads	thread: main	location: java/lang/ThreadGroup.java:155
+instance: java.lang.ThreadGroup@b0	field: nthreads	thread: main	location: java/lang/ThreadGroup.java:158
+instance: java.lang.ThreadGroup@b0	field: threads	thread: main	location: java/lang/ThreadGroup.java:159
+instance: java.lang.ThreadGroup@b0	field: nthreads	thread: main	location: java/lang/ThreadGroup.java:159
+instance: java.lang.ThreadGroup@b0	field: threads	thread: main	location: java/lang/ThreadGroup.java:160
+instance: java.lang.ThreadGroup@b0	field: threads	thread: main	location: java/lang/ThreadGroup.java:163
+instance: java.lang.ThreadGroup@b0	field: nthreads	thread: main	location: java/lang/ThreadGroup.java:163
+instance: java.lang.ThreadGroup@b0	field: nthreads	thread: main	location: java/lang/ThreadGroup.java:163
+instance: java.lang.ThreadGroup@b0	field: nUnstartedThreads	thread: main	location: java/lang/ThreadGroup.java:164
+instance: java.lang.ThreadGroup@b0	field: nUnstartedThreads	thread: main	location: java/lang/ThreadGroup.java:164
+-----------------
+account.Account@1c7	main
+-----------------
+java.lang.ThreadGroup@b0	main
+instance: java.lang.ThreadGroup@b0	field: destroyed	thread: main	location: java/lang/ThreadGroup.java:151
+instance: java.lang.ThreadGroup@b0	field: threads	thread: main	location: java/lang/ThreadGroup.java:155
+instance: java.lang.ThreadGroup@b0	field: nthreads	thread: main	location: java/lang/ThreadGroup.java:158
+instance: java.lang.ThreadGroup@b0	field: threads	thread: main	location: java/lang/ThreadGroup.java:159
+instance: java.lang.ThreadGroup@b0	field: nthreads	thread: main	location: java/lang/ThreadGroup.java:159
+instance: java.lang.ThreadGroup@b0	field: threads	thread: main	location: java/lang/ThreadGroup.java:160
+instance: java.lang.ThreadGroup@b0	field: threads	thread: main	location: java/lang/ThreadGroup.java:163
+instance: java.lang.ThreadGroup@b0	field: nthreads	thread: main	location: java/lang/ThreadGroup.java:163
+instance: java.lang.ThreadGroup@b0	field: nthreads	thread: main	location: java/lang/ThreadGroup.java:163
+instance: java.lang.ThreadGroup@b0	field: nUnstartedThreads	thread: main	location: java/lang/ThreadGroup.java:164
+instance: java.lang.ThreadGroup@b0	field: nUnstartedThreads	thread: main	location: java/lang/ThreadGroup.java:164
+-----------------
+account.Account@1cf	main
+-----------------
+java.lang.ThreadGroup@b0	main
+instance: java.lang.ThreadGroup@b0	field: destroyed	thread: main	location: java/lang/ThreadGroup.java:151
+instance: java.lang.ThreadGroup@b0	field: threads	thread: main	location: java/lang/ThreadGroup.java:155
+instance: java.lang.ThreadGroup@b0	field: nthreads	thread: main	location: java/lang/ThreadGroup.java:158
+instance: java.lang.ThreadGroup@b0	field: threads	thread: main	location: java/lang/ThreadGroup.java:159
+instance: java.lang.ThreadGroup@b0	field: nthreads	thread: main	location: java/lang/ThreadGroup.java:159
+instance: java.lang.ThreadGroup@b0	field: threads	thread: main	location: java/lang/ThreadGroup.java:160
+instance: java.lang.ThreadGroup@b0	field: threads	thread: main	location: java/lang/ThreadGroup.java:163
+instance: java.lang.ThreadGroup@b0	field: nthreads	thread: main	location: java/lang/ThreadGroup.java:163
+instance: java.lang.ThreadGroup@b0	field: nthreads	thread: main	location: java/lang/ThreadGroup.java:163
+instance: java.lang.ThreadGroup@b0	field: nUnstartedThreads	thread: main	location: java/lang/ThreadGroup.java:164
+instance: java.lang.ThreadGroup@b0	field: nUnstartedThreads	thread: main	location: java/lang/ThreadGroup.java:164
+-----------------
+account.Account@1d7	main
+-----------------
+java.lang.ThreadGroup@b0	main
+instance: java.lang.ThreadGroup@b0	field: destroyed	thread: main	location: java/lang/ThreadGroup.java:151
+instance: java.lang.ThreadGroup@b0	field: threads	thread: main	location: java/lang/ThreadGroup.java:155
+instance: java.lang.ThreadGroup@b0	field: nthreads	thread: main	location: java/lang/ThreadGroup.java:158
+instance: java.lang.ThreadGroup@b0	field: threads	thread: main	location: java/lang/ThreadGroup.java:159
+instance: java.lang.ThreadGroup@b0	field: nthreads	thread: main	location: java/lang/ThreadGroup.java:159
+instance: java.lang.ThreadGroup@b0	field: threads	thread: main	location: java/lang/ThreadGroup.java:160
+instance: java.lang.ThreadGroup@b0	field: threads	thread: main	location: java/lang/ThreadGroup.java:163
+instance: java.lang.ThreadGroup@b0	field: nthreads	thread: main	location: java/lang/ThreadGroup.java:163
+instance: java.lang.ThreadGroup@b0	field: nthreads	thread: main	location: java/lang/ThreadGroup.java:163
+instance: java.lang.ThreadGroup@b0	field: nUnstartedThreads	thread: main	location: java/lang/ThreadGroup.java:164
+instance: java.lang.ThreadGroup@b0	field: nUnstartedThreads	thread: main	location: java/lang/ThreadGroup.java:164
+-----------------
+account.Account@1df	main
+-----------------
+account.Account@197	Thread-1
+instance: account.Account@197	field: amount	thread: Thread-1	location: account/Account.java:16
+instance: account.Account@197	field: amount	thread: Thread-1	location: account/Account.java:16
+instance: account.Account@197	field: amount	thread: Thread-1	location: account/Account.java:16
+instance: account.Account@197	field: amount	thread: Thread-1	location: account/Account.java:16
+-----------------
+account.Account@19f	Thread-2
+instance: account.Account@19f	field: amount	thread: Thread-2	location: account/Account.java:16
+instance: account.Account@19f	field: amount	thread: Thread-2	location: account/Account.java:16
+instance: account.Account@19f	field: amount	thread: Thread-2	location: account/Account.java:16
+instance: account.Account@19f	field: amount	thread: Thread-2	location: account/Account.java:16
+-----------------
+account.Account@1a7	Thread-3
+instance: account.Account@1a7	field: amount	thread: Thread-3	location: account/Account.java:16
+instance: account.Account@1a7	field: amount	thread: Thread-3	location: account/Account.java:16
+instance: account.Account@1a7	field: amount	thread: Thread-3	location: account/Account.java:16
+instance: account.Account@1a7	field: amount	thread: Thread-3	location: account/Account.java:16
+-----------------
+account.Account@1af	Thread-4
+instance: account.Account@1af	field: amount	thread: Thread-4	location: account/Account.java:16
+instance: account.Account@1af	field: amount	thread: Thread-4	location: account/Account.java:16
+instance: account.Account@1af	field: amount	thread: Thread-4	location: account/Account.java:16
+instance: account.Account@1af	field: amount	thread: Thread-4	location: account/Account.java:16
+-----------------
+account.Account@19f	Thread-1
+instance: account.Account@19f	field: amount	thread: Thread-1	location: account/Account.java:32
+instance: account.Account@19f	field: amount	thread: Thread-1	location: account/Account.java:32
+instance: account.Account@19f	field: amount	thread: Thread-1	location: account/Account.java:32
+instance: account.Account@19f	field: amount	thread: Thread-1	location: account/Account.java:32
+-----------------
+account.Account@197	Thread-1
+instance: account.Account@197	field: amount	thread: Thread-1	location: account/Account.java:24
+instance: account.Account@197	field: amount	thread: Thread-1	location: account/Account.java:24
+instance: account.Account@197	field: amount	thread: Thread-1	location: account/Account.java:24
+instance: account.Account@197	field: amount	thread: Thread-1	location: account/Account.java:24
+instance: account.Account@197	field: name	thread: Thread-1	location: account/Account.java:26
+instance: account.Account@197	field: name	thread: Thread-1	location: account/Account.java:26
+-----------------
+account.Account@1c7	Thread-7
+instance: account.Account@1c7	field: amount	thread: Thread-7	location: account/Account.java:16
+instance: account.Account@1c7	field: amount	thread: Thread-7	location: account/Account.java:16
+instance: account.Account@1c7	field: amount	thread: Thread-7	location: account/Account.java:16
+instance: account.Account@1c7	field: amount	thread: Thread-7	location: account/Account.java:16
+-----------------
+account.Account@1af	Thread-4
+instance: account.Account@1af	field: amount	thread: Thread-4	location: account/Account.java:24
+instance: account.Account@1af	field: amount	thread: Thread-4	location: account/Account.java:24
+instance: account.Account@1af	field: amount	thread: Thread-4	location: account/Account.java:24
+instance: account.Account@1af	field: amount	thread: Thread-4	location: account/Account.java:24
+instance: account.Account@1af	field: name	thread: Thread-4	location: account/Account.java:26
+instance: account.Account@1af	field: name	thread: Thread-4	location: account/Account.java:26
+-----------------
+account.Account@197	Thread-1
+instance: account.Account@197	field: amount	thread: Thread-1	location: account/Account.java:16
+instance: account.Account@197	field: amount	thread: Thread-1	location: account/Account.java:16
+instance: account.Account@197	field: amount	thread: Thread-1	location: account/Account.java:16
+instance: account.Account@197	field: amount	thread: Thread-1	location: account/Account.java:16
+-----------------
+account.Account@1bf	Thread-6
+instance: account.Account@1bf	field: amount	thread: Thread-6	location: account/Account.java:16
+instance: account.Account@1bf	field: amount	thread: Thread-6	location: account/Account.java:16
+instance: account.Account@1bf	field: amount	thread: Thread-6	location: account/Account.java:16
+instance: account.Account@1bf	field: amount	thread: Thread-6	location: account/Account.java:16
+-----------------
+account.Account@1d7	Thread-9
+instance: account.Account@1d7	field: amount	thread: Thread-9	location: account/Account.java:16
+instance: account.Account@1d7	field: amount	thread: Thread-9	location: account/Account.java:16
+instance: account.Account@1d7	field: amount	thread: Thread-9	location: account/Account.java:16
+instance: account.Account@1d7	field: amount	thread: Thread-9	location: account/Account.java:16
+-----------------
+account.Account@1af	Thread-3
+instance: account.Account@1af	field: amount	thread: Thread-3	location: account/Account.java:32
+instance: account.Account@1af	field: amount	thread: Thread-3	location: account/Account.java:32
+instance: account.Account@1af	field: amount	thread: Thread-3	location: account/Account.java:32
+instance: account.Account@1af	field: amount	thread: Thread-3	location: account/Account.java:32
+-----------------
+account.Account@1cf	Thread-8
+instance: account.Account@1cf	field: amount	thread: Thread-8	location: account/Account.java:16
+instance: account.Account@1cf	field: amount	thread: Thread-8	location: account/Account.java:16
+instance: account.Account@1cf	field: amount	thread: Thread-8	location: account/Account.java:16
+instance: account.Account@1cf	field: amount	thread: Thread-8	location: account/Account.java:16
+-----------------
+account.Account@1a7	Thread-3
+instance: account.Account@1a7	field: amount	thread: Thread-3	location: account/Account.java:24
+instance: account.Account@1a7	field: amount	thread: Thread-3	location: account/Account.java:24
+instance: account.Account@1a7	field: amount	thread: Thread-3	location: account/Account.java:24
+instance: account.Account@1a7	field: amount	thread: Thread-3	location: account/Account.java:24
+instance: account.Account@1a7	field: name	thread: Thread-3	location: account/Account.java:26
+instance: account.Account@1a7	field: name	thread: Thread-3	location: account/Account.java:26
+-----------------
+account.Account@1a7	Thread-1
+instance: account.Account@1a7	field: amount	thread: Thread-1	location: account/Account.java:32
+instance: account.Account@1a7	field: amount	thread: Thread-1	location: account/Account.java:32
+instance: account.Account@1a7	field: amount	thread: Thread-1	location: account/Account.java:32
+instance: account.Account@1a7	field: amount	thread: Thread-1	location: account/Account.java:32
+-----------------
+account.Account@1b7	Thread-5
+instance: account.Account@1b7	field: amount	thread: Thread-5	location: account/Account.java:16
+instance: account.Account@1b7	field: amount	thread: Thread-5	location: account/Account.java:16
+instance: account.Account@1b7	field: amount	thread: Thread-5	location: account/Account.java:16
+instance: account.Account@1b7	field: amount	thread: Thread-5	location: account/Account.java:16
+-----------------
+account.Account@1a7	Thread-3
+instance: account.Account@1a7	field: amount	thread: Thread-3	location: account/Account.java:16
+instance: account.Account@1a7	field: amount	thread: Thread-3	location: account/Account.java:16
+instance: account.Account@1a7	field: amount	thread: Thread-3	location: account/Account.java:16
+instance: account.Account@1a7	field: amount	thread: Thread-3	location: account/Account.java:16
+-----------------
+account.Account@1a7	Thread-2
+instance: account.Account@1a7	field: amount	thread: Thread-2	location: account/Account.java:32
+instance: account.Account@1a7	field: amount	thread: Thread-2	location: account/Account.java:32
+instance: account.Account@1a7	field: amount	thread: Thread-2	location: account/Account.java:32
+instance: account.Account@1a7	field: amount	thread: Thread-2	location: account/Account.java:32
+-----------------
+account.Account@19f	Thread-2
+instance: account.Account@19f	field: amount	thread: Thread-2	location: account/Account.java:24
+instance: account.Account@19f	field: amount	thread: Thread-2	location: account/Account.java:24
+instance: account.Account@19f	field: amount	thread: Thread-2	location: account/Account.java:24
+instance: account.Account@19f	field: amount	thread: Thread-2	location: account/Account.java:24
+instance: account.Account@19f	field: name	thread: Thread-2	location: account/Account.java:26
+instance: account.Account@19f	field: name	thread: Thread-2	location: account/Account.java:26
+-----------------
+account.Account@1df	Thread-10
+instance: account.Account@1df	field: amount	thread: Thread-10	location: account/Account.java:16
+instance: account.Account@1df	field: amount	thread: Thread-10	location: account/Account.java:16
+instance: account.Account@1df	field: amount	thread: Thread-10	location: account/Account.java:16
+instance: account.Account@1df	field: amount	thread: Thread-10	location: account/Account.java:16
+-----------------
+account.Account@1af	Thread-4
+instance: account.Account@1af	field: amount	thread: Thread-4	location: account/Account.java:16
+instance: account.Account@1af	field: amount	thread: Thread-4	location: account/Account.java:16
+instance: account.Account@1af	field: amount	thread: Thread-4	location: account/Account.java:16
+instance: account.Account@1af	field: amount	thread: Thread-4	location: account/Account.java:16
+-----------------
+account.Account@197	Thread-1
+instance: account.Account@197	field: amount	thread: Thread-1	location: account/Account.java:24
+instance: account.Account@197	field: amount	thread: Thread-1	location: account/Account.java:24
+instance: account.Account@197	field: amount	thread: Thread-1	location: account/Account.java:24
+instance: account.Account@197	field: amount	thread: Thread-1	location: account/Account.java:24
+instance: account.Account@197	field: name	thread: Thread-1	location: account/Account.java:26
+instance: account.Account@197	field: name	thread: Thread-1	location: account/Account.java:26
+-----------------
+account.Account@197	Thread-1
+instance: account.Account@197	field: amount	thread: Thread-1	location: account/Account.java:20
+instance: account.Account@197	field: amount	thread: Thread-1	location: account/Account.java:20
+instance: account.Account@197	field: amount	thread: Thread-1	location: account/Account.java:20
+instance: account.Account@197	field: amount	thread: Thread-1	location: account/Account.java:20
+-----------------
+account.Account@19f	Thread-2
+instance: account.Account@19f	field: amount	thread: Thread-2	location: account/Account.java:16
+instance: account.Account@19f	field: amount	thread: Thread-2	location: account/Account.java:16
+instance: account.Account@19f	field: amount	thread: Thread-2	location: account/Account.java:16
+instance: account.Account@19f	field: amount	thread: Thread-2	location: account/Account.java:16
+-----------------
+account.Account@197	Thread-1
+instance: account.Account@197	field: amount	thread: Thread-1	location: account/Account.java:16
+instance: account.Account@197	field: amount	thread: Thread-1	location: account/Account.java:16
+instance: account.Account@197	field: amount	thread: Thread-1	location: account/Account.java:16
+instance: account.Account@197	field: amount	thread: Thread-1	location: account/Account.java:16
+-----------------
+account.Account@197	Thread-10
+instance: account.Account@197	field: amount	thread: Thread-10	location: account/Account.java:32
+instance: account.Account@197	field: amount	thread: Thread-10	location: account/Account.java:32
+instance: account.Account@197	field: amount	thread: Thread-10	location: account/Account.java:32
+instance: account.Account@197	field: amount	thread: Thread-10	location: account/Account.java:32
+-----------------
+account.Account@1df	Thread-10
+instance: account.Account@1df	field: amount	thread: Thread-10	location: account/Account.java:24
+instance: account.Account@1df	field: amount	thread: Thread-10	location: account/Account.java:24
+instance: account.Account@1df	field: amount	thread: Thread-10	location: account/Account.java:24
+instance: account.Account@1df	field: amount	thread: Thread-10	location: account/Account.java:24
+instance: account.Account@1df	field: name	thread: Thread-10	location: account/Account.java:26
+instance: account.Account@1df	field: name	thread: Thread-10	location: account/Account.java:26
+-----------------
+account.Account@1df	Thread-9
+instance: account.Account@1df	field: amount	thread: Thread-9	location: account/Account.java:32
+instance: account.Account@1df	field: amount	thread: Thread-9	location: account/Account.java:32
+instance: account.Account@1df	field: amount	thread: Thread-9	location: account/Account.java:32
+instance: account.Account@1df	field: amount	thread: Thread-9	location: account/Account.java:32
+-----------------
+account.Account@1d7	Thread-9
+instance: account.Account@1d7	field: amount	thread: Thread-9	location: account/Account.java:24
+instance: account.Account@1d7	field: amount	thread: Thread-9	location: account/Account.java:24
+instance: account.Account@1d7	field: amount	thread: Thread-9	location: account/Account.java:24
+instance: account.Account@1d7	field: amount	thread: Thread-9	location: account/Account.java:24
+instance: account.Account@1d7	field: name	thread: Thread-9	location: account/Account.java:26
+instance: account.Account@1d7	field: name	thread: Thread-9	location: account/Account.java:26
+-----------------
+account.Account@1d7	Thread-9
+instance: account.Account@1d7	field: amount	thread: Thread-9	location: account/Account.java:16
+instance: account.Account@1d7	field: amount	thread: Thread-9	location: account/Account.java:16
+instance: account.Account@1d7	field: amount	thread: Thread-9	location: account/Account.java:16
+instance: account.Account@1d7	field: amount	thread: Thread-9	location: account/Account.java:16
+-----------------
+account.Account@1d7	Thread-8
+instance: account.Account@1d7	field: amount	thread: Thread-8	location: account/Account.java:32
+instance: account.Account@1d7	field: amount	thread: Thread-8	location: account/Account.java:32
+instance: account.Account@1d7	field: amount	thread: Thread-8	location: account/Account.java:32
+instance: account.Account@1d7	field: amount	thread: Thread-8	location: account/Account.java:32
+-----------------
+account.Account@1cf	Thread-8
+instance: account.Account@1cf	field: amount	thread: Thread-8	location: account/Account.java:24
+instance: account.Account@1cf	field: amount	thread: Thread-8	location: account/Account.java:24
+instance: account.Account@1cf	field: amount	thread: Thread-8	location: account/Account.java:24
+instance: account.Account@1cf	field: amount	thread: Thread-8	location: account/Account.java:24
+instance: account.Account@1cf	field: name	thread: Thread-8	location: account/Account.java:26
+instance: account.Account@1cf	field: name	thread: Thread-8	location: account/Account.java:26
+-----------------
+account.Account@1df	Thread-10
+instance: account.Account@1df	field: amount	thread: Thread-10	location: account/Account.java:16
+instance: account.Account@1df	field: amount	thread: Thread-10	location: account/Account.java:16
+instance: account.Account@1df	field: amount	thread: Thread-10	location: account/Account.java:16
+instance: account.Account@1df	field: amount	thread: Thread-10	location: account/Account.java:16
+-----------------
+account.Account@1cf	Thread-7
+instance: account.Account@1cf	field: amount	thread: Thread-7	location: account/Account.java:32
+instance: account.Account@1cf	field: amount	thread: Thread-7	location: account/Account.java:32
+instance: account.Account@1cf	field: amount	thread: Thread-7	location: account/Account.java:32
+instance: account.Account@1cf	field: amount	thread: Thread-7	location: account/Account.java:32
+-----------------
+account.Account@1af	Thread-4
+instance: account.Account@1af	field: amount	thread: Thread-4	location: account/Account.java:24
+instance: account.Account@1af	field: amount	thread: Thread-4	location: account/Account.java:24
+instance: account.Account@1af	field: amount	thread: Thread-4	location: account/Account.java:24
+instance: account.Account@1af	field: amount	thread: Thread-4	location: account/Account.java:24
+instance: account.Account@1af	field: name	thread: Thread-4	location: account/Account.java:26
+instance: account.Account@1af	field: name	thread: Thread-4	location: account/Account.java:26
+-----------------
+account.Account@1c7	Thread-7
+instance: account.Account@1c7	field: amount	thread: Thread-7	location: account/Account.java:24
+instance: account.Account@1c7	field: amount	thread: Thread-7	location: account/Account.java:24
+instance: account.Account@1c7	field: amount	thread: Thread-7	location: account/Account.java:24
+instance: account.Account@1c7	field: amount	thread: Thread-7	location: account/Account.java:24
+instance: account.Account@1c7	field: name	thread: Thread-7	location: account/Account.java:26
+instance: account.Account@1c7	field: name	thread: Thread-7	location: account/Account.java:26
+-----------------
+account.Account@1c7	Thread-6
+instance: account.Account@1c7	field: amount	thread: Thread-6	location: account/Account.java:32
+instance: account.Account@1c7	field: amount	thread: Thread-6	location: account/Account.java:32
+instance: account.Account@1c7	field: amount	thread: Thread-6	location: account/Account.java:32
+instance: account.Account@1c7	field: amount	thread: Thread-6	location: account/Account.java:32
+-----------------
+account.Account@1bf	Thread-6
+instance: account.Account@1bf	field: amount	thread: Thread-6	location: account/Account.java:24
+instance: account.Account@1bf	field: amount	thread: Thread-6	location: account/Account.java:24
+instance: account.Account@1bf	field: amount	thread: Thread-6	location: account/Account.java:24
+instance: account.Account@1bf	field: amount	thread: Thread-6	location: account/Account.java:24
+instance: account.Account@1bf	field: name	thread: Thread-6	location: account/Account.java:26
+instance: account.Account@1bf	field: name	thread: Thread-6	location: account/Account.java:26
+-----------------
+account.Account@1af	Thread-2
+instance: account.Account@1af	field: amount	thread: Thread-2	location: account/Account.java:32
+instance: account.Account@1af	field: amount	thread: Thread-2	location: account/Account.java:32
+instance: account.Account@1af	field: amount	thread: Thread-2	location: account/Account.java:32
+instance: account.Account@1af	field: amount	thread: Thread-2	location: account/Account.java:32
+-----------------
+account.Account@19f	Thread-2
+instance: account.Account@19f	field: amount	thread: Thread-2	location: account/Account.java:24
+instance: account.Account@19f	field: amount	thread: Thread-2	location: account/Account.java:24
+instance: account.Account@19f	field: amount	thread: Thread-2	location: account/Account.java:24
+instance: account.Account@19f	field: amount	thread: Thread-2	location: account/Account.java:24
+instance: account.Account@19f	field: name	thread: Thread-2	location: account/Account.java:26
+instance: account.Account@19f	field: name	thread: Thread-2	location: account/Account.java:26
+-----------------
+account.Account@1bf	Thread-5
+instance: account.Account@1bf	field: amount	thread: Thread-5	location: account/Account.java:32
+instance: account.Account@1bf	field: amount	thread: Thread-5	location: account/Account.java:32
+instance: account.Account@1bf	field: amount	thread: Thread-5	location: account/Account.java:32
+instance: account.Account@1bf	field: amount	thread: Thread-5	location: account/Account.java:32
+-----------------
+account.Account@19f	Thread-1
+instance: account.Account@19f	field: amount	thread: Thread-1	location: account/Account.java:32
+instance: account.Account@19f	field: amount	thread: Thread-1	location: account/Account.java:32
+instance: account.Account@19f	field: amount	thread: Thread-1	location: account/Account.java:32
+instance: account.Account@19f	field: amount	thread: Thread-1	location: account/Account.java:32
+-----------------
+account.Account@1cf	Thread-8
+instance: account.Account@1cf	field: amount	thread: Thread-8	location: account/Account.java:16
+instance: account.Account@1cf	field: amount	thread: Thread-8	location: account/Account.java:16
+instance: account.Account@1cf	field: amount	thread: Thread-8	location: account/Account.java:16
+instance: account.Account@1cf	field: amount	thread: Thread-8	location: account/Account.java:16
+-----------------
+account.Account@1b7	Thread-5
+instance: account.Account@1b7	field: amount	thread: Thread-5	location: account/Account.java:24
+instance: account.Account@1b7	field: amount	thread: Thread-5	location: account/Account.java:24
+instance: account.Account@1b7	field: amount	thread: Thread-5	location: account/Account.java:24
+instance: account.Account@1b7	field: amount	thread: Thread-5	location: account/Account.java:24
+instance: account.Account@1b7	field: name	thread: Thread-5	location: account/Account.java:26
+instance: account.Account@1b7	field: name	thread: Thread-5	location: account/Account.java:26
+-----------------
+account.Account@197	Thread-1
+instance: account.Account@197	field: amount	thread: Thread-1	location: account/Account.java:24
+instance: account.Account@197	field: amount	thread: Thread-1	location: account/Account.java:24
+instance: account.Account@197	field: amount	thread: Thread-1	location: account/Account.java:24
+instance: account.Account@197	field: amount	thread: Thread-1	location: account/Account.java:24
+instance: account.Account@197	field: name	thread: Thread-1	location: account/Account.java:26
+instance: account.Account@197	field: name	thread: Thread-1	location: account/Account.java:26
+-----------------
+account.Account@1c7	Thread-7
+instance: account.Account@1c7	field: amount	thread: Thread-7	location: account/Account.java:16
+instance: account.Account@1c7	field: amount	thread: Thread-7	location: account/Account.java:16
+instance: account.Account@1c7	field: amount	thread: Thread-7	location: account/Account.java:16
+instance: account.Account@1c7	field: amount	thread: Thread-7	location: account/Account.java:16
+-----------------
+account.Account@1b7	Thread-3
+instance: account.Account@1b7	field: amount	thread: Thread-3	location: account/Account.java:32
+instance: account.Account@1b7	field: amount	thread: Thread-3	location: account/Account.java:32
+instance: account.Account@1b7	field: amount	thread: Thread-3	location: account/Account.java:32
+instance: account.Account@1b7	field: amount	thread: Thread-3	location: account/Account.java:32
+-----------------
+account.Account@1a7	Thread-3
+instance: account.Account@1a7	field: amount	thread: Thread-3	location: account/Account.java:24
+instance: account.Account@1a7	field: amount	thread: Thread-3	location: account/Account.java:24
+instance: account.Account@1a7	field: amount	thread: Thread-3	location: account/Account.java:24
+instance: account.Account@1a7	field: amount	thread: Thread-3	location: account/Account.java:24
+instance: account.Account@1a7	field: name	thread: Thread-3	location: account/Account.java:26
+instance: account.Account@1a7	field: name	thread: Thread-3	location: account/Account.java:26
+-----------------
+account.Account@19f	Thread-2
+instance: account.Account@19f	field: amount	thread: Thread-2	location: account/Account.java:20
+instance: account.Account@19f	field: amount	thread: Thread-2	location: account/Account.java:20
+instance: account.Account@19f	field: amount	thread: Thread-2	location: account/Account.java:20
+instance: account.Account@19f	field: amount	thread: Thread-2	location: account/Account.java:20
+-----------------
+account.Account@1bf	Thread-6
+instance: account.Account@1bf	field: amount	thread: Thread-6	location: account/Account.java:16
+instance: account.Account@1bf	field: amount	thread: Thread-6	location: account/Account.java:16
+instance: account.Account@1bf	field: amount	thread: Thread-6	location: account/Account.java:16
+instance: account.Account@1bf	field: amount	thread: Thread-6	location: account/Account.java:16
+-----------------
+account.Account@1a7	Thread-3
+instance: account.Account@1a7	field: amount	thread: Thread-3	location: account/Account.java:20
+instance: account.Account@1a7	field: amount	thread: Thread-3	location: account/Account.java:20
+instance: account.Account@1a7	field: amount	thread: Thread-3	location: account/Account.java:20
+instance: account.Account@1a7	field: amount	thread: Thread-3	location: account/Account.java:20
+-----------------
+account.Account@1b7	Thread-5
+instance: account.Account@1b7	field: amount	thread: Thread-5	location: account/Account.java:16
+instance: account.Account@1b7	field: amount	thread: Thread-5	location: account/Account.java:16
+instance: account.Account@1b7	field: amount	thread: Thread-5	location: account/Account.java:16
+instance: account.Account@1b7	field: amount	thread: Thread-5	location: account/Account.java:16
+-----------------
+account.Account@1af	Thread-4
+instance: account.Account@1af	field: amount	thread: Thread-4	location: account/Account.java:20
+instance: account.Account@1af	field: amount	thread: Thread-4	location: account/Account.java:20
+instance: account.Account@1af	field: amount	thread: Thread-4	location: account/Account.java:20
+instance: account.Account@1af	field: amount	thread: Thread-4	location: account/Account.java:20
+-----------------
+account.Account@197	Thread-1
+instance: account.Account@197	field: amount	thread: Thread-1	location: account/Account.java:20
+instance: account.Account@197	field: amount	thread: Thread-1	location: account/Account.java:20
+instance: account.Account@197	field: amount	thread: Thread-1	location: account/Account.java:20
+instance: account.Account@197	field: amount	thread: Thread-1	location: account/Account.java:20
+-----------------
+account.Account@19f	Thread-2
+instance: account.Account@19f	field: amount	thread: Thread-2	location: account/Account.java:16
+instance: account.Account@19f	field: amount	thread: Thread-2	location: account/Account.java:16
+instance: account.Account@19f	field: amount	thread: Thread-2	location: account/Account.java:16
+instance: account.Account@19f	field: amount	thread: Thread-2	location: account/Account.java:16
+-----------------
+java.lang.ThreadGroup@b0	Thread-1
+-----------------
+account.ManageAccount@185	Thread-1
+-----------------
+account.Account@1a7	Thread-3
+instance: account.Account@1a7	field: amount	thread: Thread-3	location: account/Account.java:16
+instance: account.Account@1a7	field: amount	thread: Thread-3	location: account/Account.java:16
+instance: account.Account@1a7	field: amount	thread: Thread-3	location: account/Account.java:16
+instance: account.Account@1a7	field: amount	thread: Thread-3	location: account/Account.java:16
+-----------------
+account.Account@197	Thread-9
+instance: account.Account@197	field: amount	thread: Thread-9	location: account/Account.java:32
+instance: account.Account@197	field: amount	thread: Thread-9	location: account/Account.java:32
+instance: account.Account@197	field: amount	thread: Thread-9	location: account/Account.java:32
+instance: account.Account@197	field: amount	thread: Thread-9	location: account/Account.java:32
+-----------------
+account.Account@1d7	Thread-9
+instance: account.Account@1d7	field: amount	thread: Thread-9	location: account/Account.java:24
+instance: account.Account@1d7	field: amount	thread: Thread-9	location: account/Account.java:24
+instance: account.Account@1d7	field: amount	thread: Thread-9	location: account/Account.java:24
+instance: account.Account@1d7	field: amount	thread: Thread-9	location: account/Account.java:24
+instance: account.Account@1d7	field: name	thread: Thread-9	location: account/Account.java:26
+instance: account.Account@1d7	field: name	thread: Thread-9	location: account/Account.java:26
+-----------------
+account.Account@19f	Thread-10
+instance: account.Account@19f	field: amount	thread: Thread-10	location: account/Account.java:32
+instance: account.Account@19f	field: amount	thread: Thread-10	location: account/Account.java:32
+instance: account.Account@19f	field: amount	thread: Thread-10	location: account/Account.java:32
+instance: account.Account@19f	field: amount	thread: Thread-10	location: account/Account.java:32
+-----------------
+account.Account@1df	Thread-10
+instance: account.Account@1df	field: amount	thread: Thread-10	location: account/Account.java:24
+instance: account.Account@1df	field: amount	thread: Thread-10	location: account/Account.java:24
+instance: account.Account@1df	field: amount	thread: Thread-10	location: account/Account.java:24
+instance: account.Account@1df	field: amount	thread: Thread-10	location: account/Account.java:24
+instance: account.Account@1df	field: name	thread: Thread-10	location: account/Account.java:26
+instance: account.Account@1df	field: name	thread: Thread-10	location: account/Account.java:26
+-----------------
+account.Account@1af	Thread-4
+instance: account.Account@1af	field: amount	thread: Thread-4	location: account/Account.java:16
+instance: account.Account@1af	field: amount	thread: Thread-4	location: account/Account.java:16
+instance: account.Account@1af	field: amount	thread: Thread-4	location: account/Account.java:16
+instance: account.Account@1af	field: amount	thread: Thread-4	location: account/Account.java:16
+-----------------
+account.Account@1df	Thread-8
+instance: account.Account@1df	field: amount	thread: Thread-8	location: account/Account.java:32
+instance: account.Account@1df	field: amount	thread: Thread-8	location: account/Account.java:32
+instance: account.Account@1df	field: amount	thread: Thread-8	location: account/Account.java:32
+instance: account.Account@1df	field: amount	thread: Thread-8	location: account/Account.java:32
+-----------------
+account.Account@1cf	Thread-8
+instance: account.Account@1cf	field: amount	thread: Thread-8	location: account/Account.java:24
+instance: account.Account@1cf	field: amount	thread: Thread-8	location: account/Account.java:24
+instance: account.Account@1cf	field: amount	thread: Thread-8	location: account/Account.java:24
+instance: account.Account@1cf	field: amount	thread: Thread-8	location: account/Account.java:24
+instance: account.Account@1cf	field: name	thread: Thread-8	location: account/Account.java:26
+instance: account.Account@1cf	field: name	thread: Thread-8	location: account/Account.java:26
+-----------------
+account.Account@1df	Thread-10
+instance: account.Account@1df	field: amount	thread: Thread-10	location: account/Account.java:20
+instance: account.Account@1df	field: amount	thread: Thread-10	location: account/Account.java:20
+instance: account.Account@1df	field: amount	thread: Thread-10	location: account/Account.java:20
+instance: account.Account@1df	field: amount	thread: Thread-10	location: account/Account.java:20
+-----------------
+account.Account@1d7	Thread-7
+instance: account.Account@1d7	field: amount	thread: Thread-7	location: account/Account.java:32
+instance: account.Account@1d7	field: amount	thread: Thread-7	location: account/Account.java:32
+instance: account.Account@1d7	field: amount	thread: Thread-7	location: account/Account.java:32
+instance: account.Account@1d7	field: amount	thread: Thread-7	location: account/Account.java:32
+-----------------
+account.Account@1c7	Thread-7
+instance: account.Account@1c7	field: amount	thread: Thread-7	location: account/Account.java:24
+instance: account.Account@1c7	field: amount	thread: Thread-7	location: account/Account.java:24
+instance: account.Account@1c7	field: amount	thread: Thread-7	location: account/Account.java:24
+instance: account.Account@1c7	field: amount	thread: Thread-7	location: account/Account.java:24
+instance: account.Account@1c7	field: name	thread: Thread-7	location: account/Account.java:26
+instance: account.Account@1c7	field: name	thread: Thread-7	location: account/Account.java:26
+-----------------
+account.Account@1cf	Thread-6
+instance: account.Account@1cf	field: amount	thread: Thread-6	location: account/Account.java:32
+instance: account.Account@1cf	field: amount	thread: Thread-6	location: account/Account.java:32
+instance: account.Account@1cf	field: amount	thread: Thread-6	location: account/Account.java:32
+instance: account.Account@1cf	field: amount	thread: Thread-6	location: account/Account.java:32
+-----------------
+account.Account@1c7	Thread-5
+instance: account.Account@1c7	field: amount	thread: Thread-5	location: account/Account.java:32
+instance: account.Account@1c7	field: amount	thread: Thread-5	location: account/Account.java:32
+instance: account.Account@1c7	field: amount	thread: Thread-5	location: account/Account.java:32
+instance: account.Account@1c7	field: amount	thread: Thread-5	location: account/Account.java:32
+-----------------
+account.Account@1b7	Thread-5
+instance: account.Account@1b7	field: amount	thread: Thread-5	location: account/Account.java:24
+instance: account.Account@1b7	field: amount	thread: Thread-5	location: account/Account.java:24
+instance: account.Account@1b7	field: amount	thread: Thread-5	location: account/Account.java:24
+instance: account.Account@1b7	field: amount	thread: Thread-5	location: account/Account.java:24
+instance: account.Account@1b7	field: name	thread: Thread-5	location: account/Account.java:26
+instance: account.Account@1b7	field: name	thread: Thread-5	location: account/Account.java:26
+-----------------
+account.Account@1bf	Thread-6
+instance: account.Account@1bf	field: amount	thread: Thread-6	location: account/Account.java:24
+instance: account.Account@1bf	field: amount	thread: Thread-6	location: account/Account.java:24
+instance: account.Account@1bf	field: amount	thread: Thread-6	location: account/Account.java:24
+instance: account.Account@1bf	field: amount	thread: Thread-6	location: account/Account.java:24
+instance: account.Account@1bf	field: name	thread: Thread-6	location: account/Account.java:26
+instance: account.Account@1bf	field: name	thread: Thread-6	location: account/Account.java:26
+-----------------
+account.Account@1c7	Thread-7
+instance: account.Account@1c7	field: amount	thread: Thread-7	location: account/Account.java:20
+instance: account.Account@1c7	field: amount	thread: Thread-7	location: account/Account.java:20
+instance: account.Account@1c7	field: amount	thread: Thread-7	location: account/Account.java:20
+instance: account.Account@1c7	field: amount	thread: Thread-7	location: account/Account.java:20
+-----------------
+account.Account@1df	Thread-10
+instance: account.Account@1df	field: amount	thread: Thread-10	location: account/Account.java:16
+instance: account.Account@1df	field: amount	thread: Thread-10	location: account/Account.java:16
+instance: account.Account@1df	field: amount	thread: Thread-10	location: account/Account.java:16
+instance: account.Account@1df	field: amount	thread: Thread-10	location: account/Account.java:16
+-----------------
+account.Account@1d7	Thread-9
+instance: account.Account@1d7	field: amount	thread: Thread-9	location: account/Account.java:20
+instance: account.Account@1d7	field: amount	thread: Thread-9	location: account/Account.java:20
+instance: account.Account@1d7	field: amount	thread: Thread-9	location: account/Account.java:20
+instance: account.Account@1d7	field: amount	thread: Thread-9	location: account/Account.java:20
+-----------------
+account.Account@1cf	Thread-8
+instance: account.Account@1cf	field: amount	thread: Thread-8	location: account/Account.java:20
+instance: account.Account@1cf	field: amount	thread: Thread-8	location: account/Account.java:20
+instance: account.Account@1cf	field: amount	thread: Thread-8	location: account/Account.java:20
+instance: account.Account@1cf	field: amount	thread: Thread-8	location: account/Account.java:20
+-----------------
+account.Account@1bf	Thread-6
+instance: account.Account@1bf	field: amount	thread: Thread-6	location: account/Account.java:20
+instance: account.Account@1bf	field: amount	thread: Thread-6	location: account/Account.java:20
+instance: account.Account@1bf	field: amount	thread: Thread-6	location: account/Account.java:20
+instance: account.Account@1bf	field: amount	thread: Thread-6	location: account/Account.java:20
+-----------------
+account.Account@1b7	Thread-5
+instance: account.Account@1b7	field: amount	thread: Thread-5	location: account/Account.java:20
+instance: account.Account@1b7	field: amount	thread: Thread-5	location: account/Account.java:20
+instance: account.Account@1b7	field: amount	thread: Thread-5	location: account/Account.java:20
+instance: account.Account@1b7	field: amount	thread: Thread-5	location: account/Account.java:20
+-----------------
+account.Account@1cf	Thread-8
+instance: account.Account@1cf	field: amount	thread: Thread-8	location: account/Account.java:16
+instance: account.Account@1cf	field: amount	thread: Thread-8	location: account/Account.java:16
+instance: account.Account@1cf	field: amount	thread: Thread-8	location: account/Account.java:16
+instance: account.Account@1cf	field: amount	thread: Thread-8	location: account/Account.java:16
+-----------------
+account.Account@1c7	Thread-7
+instance: account.Account@1c7	field: amount	thread: Thread-7	location: account/Account.java:16
+instance: account.Account@1c7	field: amount	thread: Thread-7	location: account/Account.java:16
+instance: account.Account@1c7	field: amount	thread: Thread-7	location: account/Account.java:16
+instance: account.Account@1c7	field: amount	thread: Thread-7	location: account/Account.java:16
+-----------------
+account.Account@1d7	Thread-9
+instance: account.Account@1d7	field: amount	thread: Thread-9	location: account/Account.java:16
+instance: account.Account@1d7	field: amount	thread: Thread-9	location: account/Account.java:16
+instance: account.Account@1d7	field: amount	thread: Thread-9	location: account/Account.java:16
+instance: account.Account@1d7	field: amount	thread: Thread-9	location: account/Account.java:16
+-----------------
+account.Account@1af	Thread-4
+instance: account.Account@1af	field: amount	thread: Thread-4	location: account/Account.java:24
+instance: account.Account@1af	field: amount	thread: Thread-4	location: account/Account.java:24
+instance: account.Account@1af	field: amount	thread: Thread-4	location: account/Account.java:24
+instance: account.Account@1af	field: amount	thread: Thread-4	location: account/Account.java:24
+instance: account.Account@1af	field: name	thread: Thread-4	location: account/Account.java:26
+instance: account.Account@1af	field: name	thread: Thread-4	location: account/Account.java:26
+-----------------
+account.Account@1bf	Thread-6
+instance: account.Account@1bf	field: amount	thread: Thread-6	location: account/Account.java:16
+instance: account.Account@1bf	field: amount	thread: Thread-6	location: account/Account.java:16
+instance: account.Account@1bf	field: amount	thread: Thread-6	location: account/Account.java:16
+instance: account.Account@1bf	field: amount	thread: Thread-6	location: account/Account.java:16
+-----------------
+account.Account@1b7	Thread-5
+instance: account.Account@1b7	field: amount	thread: Thread-5	location: account/Account.java:16
+instance: account.Account@1b7	field: amount	thread: Thread-5	location: account/Account.java:16
+instance: account.Account@1b7	field: amount	thread: Thread-5	location: account/Account.java:16
+instance: account.Account@1b7	field: amount	thread: Thread-5	location: account/Account.java:16
+-----------------
+account.Account@1af	Thread-3
+instance: account.Account@1af	field: amount	thread: Thread-3	location: account/Account.java:32
+instance: account.Account@1af	field: amount	thread: Thread-3	location: account/Account.java:32
+instance: account.Account@1af	field: amount	thread: Thread-3	location: account/Account.java:32
+instance: account.Account@1af	field: amount	thread: Thread-3	location: account/Account.java:32
+-----------------
+account.Account@1a7	Thread-3
+instance: account.Account@1a7	field: amount	thread: Thread-3	location: account/Account.java:24
+instance: account.Account@1a7	field: amount	thread: Thread-3	location: account/Account.java:24
+instance: account.Account@1a7	field: amount	thread: Thread-3	location: account/Account.java:24
+instance: account.Account@1a7	field: amount	thread: Thread-3	location: account/Account.java:24
+instance: account.Account@1a7	field: name	thread: Thread-3	location: account/Account.java:26
+instance: account.Account@1a7	field: name	thread: Thread-3	location: account/Account.java:26
+-----------------
+account.Account@197	Thread-10
+instance: account.Account@197	field: amount	thread: Thread-10	location: account/Account.java:32
+instance: account.Account@197	field: amount	thread: Thread-10	location: account/Account.java:32
+instance: account.Account@197	field: amount	thread: Thread-10	location: account/Account.java:32
+instance: account.Account@197	field: amount	thread: Thread-10	location: account/Account.java:32
+-----------------
+account.Account@1df	Thread-10
+instance: account.Account@1df	field: amount	thread: Thread-10	location: account/Account.java:24
+instance: account.Account@1df	field: amount	thread: Thread-10	location: account/Account.java:24
+instance: account.Account@1df	field: amount	thread: Thread-10	location: account/Account.java:24
+instance: account.Account@1df	field: amount	thread: Thread-10	location: account/Account.java:24
+instance: account.Account@1df	field: name	thread: Thread-10	location: account/Account.java:26
+instance: account.Account@1df	field: name	thread: Thread-10	location: account/Account.java:26
+-----------------
+account.Account@1a7	Thread-2
+instance: account.Account@1a7	field: amount	thread: Thread-2	location: account/Account.java:32
+instance: account.Account@1a7	field: amount	thread: Thread-2	location: account/Account.java:32
+instance: account.Account@1a7	field: amount	thread: Thread-2	location: account/Account.java:32
+instance: account.Account@1a7	field: amount	thread: Thread-2	location: account/Account.java:32
+-----------------
+account.Account@19f	Thread-2
+instance: account.Account@19f	field: amount	thread: Thread-2	location: account/Account.java:24
+instance: account.Account@19f	field: amount	thread: Thread-2	location: account/Account.java:24
+instance: account.Account@19f	field: amount	thread: Thread-2	location: account/Account.java:24
+instance: account.Account@19f	field: amount	thread: Thread-2	location: account/Account.java:24
+instance: account.Account@19f	field: name	thread: Thread-2	location: account/Account.java:26
+instance: account.Account@19f	field: name	thread: Thread-2	location: account/Account.java:26
+-----------------
+account.Account@1af	Thread-4
+instance: account.Account@1af	field: amount	thread: Thread-4	location: account/Account.java:20
+instance: account.Account@1af	field: amount	thread: Thread-4	location: account/Account.java:20
+instance: account.Account@1af	field: amount	thread: Thread-4	location: account/Account.java:20
+instance: account.Account@1af	field: amount	thread: Thread-4	location: account/Account.java:20
+-----------------
+java.lang.ThreadGroup@b0	Thread-4
+-----------------
+account.ManageAccount@1a8	Thread-4
+-----------------
+account.Account@1a7	Thread-3
+instance: account.Account@1a7	field: amount	thread: Thread-3	location: account/Account.java:20
+instance: account.Account@1a7	field: amount	thread: Thread-3	location: account/Account.java:20
+instance: account.Account@1a7	field: amount	thread: Thread-3	location: account/Account.java:20
+instance: account.Account@1a7	field: amount	thread: Thread-3	location: account/Account.java:20
+-----------------
+java.lang.ThreadGroup@b0	Thread-3
+-----------------
+account.ManageAccount@1a0	Thread-3
+-----------------
+account.Account@1df	Thread-10
+instance: account.Account@1df	field: amount	thread: Thread-10	location: account/Account.java:20
+instance: account.Account@1df	field: amount	thread: Thread-10	location: account/Account.java:20
+instance: account.Account@1df	field: amount	thread: Thread-10	location: account/Account.java:20
+instance: account.Account@1df	field: amount	thread: Thread-10	location: account/Account.java:20
+-----------------
+java.lang.ThreadGroup@b0	Thread-10
+-----------------
+account.ManageAccount@1d8	Thread-10
+-----------------
+account.Account@1df	Thread-9
+instance: account.Account@1df	field: amount	thread: Thread-9	location: account/Account.java:32
+instance: account.Account@1df	field: amount	thread: Thread-9	location: account/Account.java:32
+instance: account.Account@1df	field: amount	thread: Thread-9	location: account/Account.java:32
+instance: account.Account@1df	field: amount	thread: Thread-9	location: account/Account.java:32
+-----------------
+account.Account@1d7	Thread-9
+instance: account.Account@1d7	field: amount	thread: Thread-9	location: account/Account.java:24
+instance: account.Account@1d7	field: amount	thread: Thread-9	location: account/Account.java:24
+instance: account.Account@1d7	field: amount	thread: Thread-9	location: account/Account.java:24
+instance: account.Account@1d7	field: amount	thread: Thread-9	location: account/Account.java:24
+instance: account.Account@1d7	field: name	thread: Thread-9	location: account/Account.java:26
+instance: account.Account@1d7	field: name	thread: Thread-9	location: account/Account.java:26
+-----------------
+account.Account@19f	Thread-2
+instance: account.Account@19f	field: amount	thread: Thread-2	location: account/Account.java:20
+instance: account.Account@19f	field: amount	thread: Thread-2	location: account/Account.java:20
+instance: account.Account@19f	field: amount	thread: Thread-2	location: account/Account.java:20
+instance: account.Account@19f	field: amount	thread: Thread-2	location: account/Account.java:20
+-----------------
+java.lang.ThreadGroup@b0	Thread-2
+-----------------
+account.ManageAccount@198	Thread-2
+-----------------
+account.Account@1d7	Thread-8
+instance: account.Account@1d7	field: amount	thread: Thread-8	location: account/Account.java:32
+instance: account.Account@1d7	field: amount	thread: Thread-8	location: account/Account.java:32
+instance: account.Account@1d7	field: amount	thread: Thread-8	location: account/Account.java:32
+instance: account.Account@1d7	field: amount	thread: Thread-8	location: account/Account.java:32
+-----------------
+account.Account@1cf	Thread-8
+instance: account.Account@1cf	field: amount	thread: Thread-8	location: account/Account.java:24
+instance: account.Account@1cf	field: amount	thread: Thread-8	location: account/Account.java:24
+instance: account.Account@1cf	field: amount	thread: Thread-8	location: account/Account.java:24
+instance: account.Account@1cf	field: amount	thread: Thread-8	location: account/Account.java:24
+instance: account.Account@1cf	field: name	thread: Thread-8	location: account/Account.java:26
+instance: account.Account@1cf	field: name	thread: Thread-8	location: account/Account.java:26
+-----------------
+account.Account@1d7	Thread-9
+instance: account.Account@1d7	field: amount	thread: Thread-9	location: account/Account.java:20
+instance: account.Account@1d7	field: amount	thread: Thread-9	location: account/Account.java:20
+instance: account.Account@1d7	field: amount	thread: Thread-9	location: account/Account.java:20
+instance: account.Account@1d7	field: amount	thread: Thread-9	location: account/Account.java:20
+-----------------
+java.lang.ThreadGroup@b0	Thread-9
+-----------------
+account.ManageAccount@1d0	Thread-9
+-----------------
+account.Account@1cf	Thread-8
+instance: account.Account@1cf	field: amount	thread: Thread-8	location: account/Account.java:20
+instance: account.Account@1cf	field: amount	thread: Thread-8	location: account/Account.java:20
+instance: account.Account@1cf	field: amount	thread: Thread-8	location: account/Account.java:20
+instance: account.Account@1cf	field: amount	thread: Thread-8	location: account/Account.java:20
+-----------------
+java.lang.ThreadGroup@b0	Thread-8
+-----------------
+account.ManageAccount@1c8	Thread-8
+-----------------
+account.Account@1cf	Thread-7
+instance: account.Account@1cf	field: amount	thread: Thread-7	location: account/Account.java:32
+instance: account.Account@1cf	field: amount	thread: Thread-7	location: account/Account.java:32
+instance: account.Account@1cf	field: amount	thread: Thread-7	location: account/Account.java:32
+-----------------
+account.Account@1c7	Thread-7
+instance: account.Account@1c7	field: amount	thread: Thread-7	location: account/Account.java:24
+instance: account.Account@1c7	field: amount	thread: Thread-7	location: account/Account.java:24
+instance: account.Account@1c7	field: amount	thread: Thread-7	location: account/Account.java:24
+instance: account.Account@1c7	field: amount	thread: Thread-7	location: account/Account.java:24
+instance: account.Account@1c7	field: name	thread: Thread-7	location: account/Account.java:26
+instance: account.Account@1c7	field: name	thread: Thread-7	location: account/Account.java:26
+-----------------
+account.Account@1c7	Thread-6
+instance: account.Account@1c7	field: amount	thread: Thread-6	location: account/Account.java:32
+instance: account.Account@1c7	field: amount	thread: Thread-6	location: account/Account.java:32
+instance: account.Account@1c7	field: amount	thread: Thread-6	location: account/Account.java:32
+instance: account.Account@1c7	field: amount	thread: Thread-6	location: account/Account.java:32
+-----------------
+account.Account@1bf	Thread-6
+instance: account.Account@1bf	field: amount	thread: Thread-6	location: account/Account.java:24
+instance: account.Account@1bf	field: amount	thread: Thread-6	location: account/Account.java:24
+instance: account.Account@1bf	field: amount	thread: Thread-6	location: account/Account.java:24
+instance: account.Account@1bf	field: amount	thread: Thread-6	location: account/Account.java:24
+instance: account.Account@1bf	field: name	thread: Thread-6	location: account/Account.java:26
+instance: account.Account@1bf	field: name	thread: Thread-6	location: account/Account.java:26
+-----------------
+account.Account@1bf	Thread-5
+instance: account.Account@1bf	field: amount	thread: Thread-5	location: account/Account.java:32
+instance: account.Account@1bf	field: amount	thread: Thread-5	location: account/Account.java:32
+instance: account.Account@1bf	field: amount	thread: Thread-5	location: account/Account.java:32
+instance: account.Account@1bf	field: amount	thread: Thread-5	location: account/Account.java:32
+-----------------
+account.Account@1c7	Thread-7
+instance: account.Account@1c7	field: amount	thread: Thread-7	location: account/Account.java:20
+instance: account.Account@1c7	field: amount	thread: Thread-7	location: account/Account.java:20
+instance: account.Account@1c7	field: amount	thread: Thread-7	location: account/Account.java:20
+instance: account.Account@1c7	field: amount	thread: Thread-7	location: account/Account.java:20
+-----------------
+java.lang.ThreadGroup@b0	Thread-7
+-----------------
+account.ManageAccount@1c0	Thread-7
+-----------------
+account.Account@1b7	Thread-5
+instance: account.Account@1b7	field: amount	thread: Thread-5	location: account/Account.java:24
+instance: account.Account@1b7	field: amount	thread: Thread-5	location: account/Account.java:24
+instance: account.Account@1b7	field: amount	thread: Thread-5	location: account/Account.java:24
+instance: account.Account@1b7	field: amount	thread: Thread-5	location: account/Account.java:24
+instance: account.Account@1b7	field: name	thread: Thread-5	location: account/Account.java:26
+instance: account.Account@1b7	field: name	thread: Thread-5	location: account/Account.java:26
+-----------------
+account.Account@1bf	Thread-6
+instance: account.Account@1bf	field: amount	thread: Thread-6	location: account/Account.java:20
+instance: account.Account@1bf	field: amount	thread: Thread-6	location: account/Account.java:20
+instance: account.Account@1bf	field: amount	thread: Thread-6	location: account/Account.java:20
+instance: account.Account@1bf	field: amount	thread: Thread-6	location: account/Account.java:20
+-----------------
+java.lang.ThreadGroup@b0	Thread-6
+-----------------
+account.ManageAccount@1b8	Thread-6
+-----------------
+account.Account@1b7	Thread-5
+instance: account.Account@1b7	field: amount	thread: Thread-5	location: account/Account.java:20
+instance: account.Account@1b7	field: amount	thread: Thread-5	location: account/Account.java:20
+instance: account.Account@1b7	field: amount	thread: Thread-5	location: account/Account.java:20
+-----------------
+java.lang.ThreadGroup@b0	Thread-5
+-----------------
+account.ManageAccount@1b0	Thread-5
+-----------------
+account.Account@197	main
+-----------------
+account.Account@19f	main
+-----------------
+account.Account@1a7	main
+-----------------
+account.Account@1af	main
+-----------------
+account.Account@1b7	main
+-----------------
+account.Account@1bf	main
+-----------------
+account.Account@1c7	main
+-----------------
+account.Account@1cf	main
+-----------------
+account.Account@1d7	main
+-----------------
+account.Account@1df	main
+-----------------
+java.lang.ThreadGroup@b0	main
+-----------------
+java.lang.Thread@ad	main
+-----------------

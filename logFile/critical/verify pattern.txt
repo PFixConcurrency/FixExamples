@@ -1,0 +1,245 @@
+[Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[245,critical.Section@15f,threadNumber,WRITE,main,critical/Critical.java:40]
+	ReadWriteNode[307,critical.Section@15f,threadNumber,READ,Thread-1,critical/Critical.java:45]
+}
+success count: 100
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[42,java.lang.System,out,WRITE,main,java/lang/System.java:43]
+	ReadWriteNode[339,java.lang.System,out,READ,Thread-1,critical/Critical.java:52]
+}
+success count: 48
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[42,java.lang.System,out,WRITE,main,java/lang/System.java:43]
+	ReadWriteNode[364,java.lang.System,out,READ,Thread-2,critical/Critical.java:62]
+}
+success count: 47
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[247,critical.Section@160,threadNumber,WRITE,main,critical/Critical.java:40]
+	ReadWriteNode[359,critical.Section@160,threadNumber,READ,Thread-2,critical/Critical.java:60]
+}
+success count: 50
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[244,critical.Section@15f,t,WRITE,main,critical/Critical.java:39]
+	ReadWriteNode[333,critical.Section@15f,t,READ,Thread-1,critical/Critical.java:50]
+}
+success count: 49
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[42,java.lang.System,out,WRITE,main,java/lang/System.java:43]
+	ReadWriteNode[324,java.lang.System,out,READ,Thread-1,critical/Critical.java:49]
+}
+success count: 50
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[244,critical.Section@15f,t,WRITE,main,critical/Critical.java:39]
+	ReadWriteNode[350,critical.Section@15f,t,READ,Thread-1,critical/Critical.java:53]
+}
+success count: 47
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[245,critical.Section@15f,threadNumber,WRITE,main,critical/Critical.java:40]
+	ReadWriteNode[327,critical.Section@15f,threadNumber,READ,Thread-1,critical/Critical.java:49]
+}
+success count: 50
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] ]
+	matched: true
+	ReadWriteNode[353,critical.Critical@15b,turn,WRITE,Thread-1,critical/Critical.java:53]
+	ReadWriteNode[355,critical.Critical@15b,turn,WRITE,Thread-2,critical/Critical.java:59]
+}
+success count: 19
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[246,critical.Section@160,t,WRITE,main,critical/Critical.java:39]
+	ReadWriteNode[362,critical.Section@160,t,READ,Thread-2,critical/Critical.java:61]
+}
+success count: 50
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[247,critical.Section@160,threadNumber,WRITE,main,critical/Critical.java:40]
+	ReadWriteNode[365,critical.Section@160,threadNumber,READ,Thread-2,critical/Critical.java:62]
+}
+success count: 47
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[42,java.lang.System,out,WRITE,main,java/lang/System.java:43]
+	ReadWriteNode[356,java.lang.System,out,READ,Thread-2,critical/Critical.java:60]
+}
+success count: 50
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[246,critical.Section@160,t,WRITE,main,critical/Critical.java:39]
+	ReadWriteNode[347,critical.Section@160,t,READ,Thread-2,critical/Critical.java:59]
+}
+success count: 50
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[244,critical.Section@15f,t,WRITE,main,critical/Critical.java:39]
+	ReadWriteNode[317,critical.Section@15f,t,READ,Thread-1,critical/Critical.java:48]
+}
+success count: 50
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[245,critical.Section@15f,threadNumber,WRITE,main,critical/Critical.java:40]
+	ReadWriteNode[342,critical.Section@15f,threadNumber,READ,Thread-1,critical/Critical.java:52]
+}
+success count: 48
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[247,critical.Section@160,threadNumber,WRITE,main,critical/Critical.java:40]
+	ReadWriteNode[330,critical.Section@160,threadNumber,READ,Thread-2,critical/Critical.java:57]
+}
+success count: 50
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[246,critical.Section@160,t,WRITE,main,critical/Critical.java:39]
+	ReadWriteNode[366,critical.Section@160,t,READ,Thread-2,critical/Critical.java:63]
+}
+success count: 47
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,READ] ]
+	matched: true
+	ReadWriteNode[324,critical.Critical@15b,turn,WRITE,Thread-2,critical/Critical.java:59]
+	ReadWriteNode[334,critical.Critical@15b,turn,WRITE,Thread-1,critical/Critical.java:48]
+	ReadWriteNode[351,critical.Critical@15b,turn,READ,Thread-2,critical/Critical.java:61]
+}
+success count: 3
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[334,critical.Critical@15b,turn,WRITE,Thread-1,critical/Critical.java:48]
+	ReadWriteNode[351,critical.Critical@15b,turn,READ,Thread-2,critical/Critical.java:61]
+}
+success count: 3
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] ]
+	matched: true
+	ReadWriteNode[324,critical.Critical@15b,turn,WRITE,Thread-2,critical/Critical.java:59]
+	ReadWriteNode[334,critical.Critical@15b,turn,WRITE,Thread-1,critical/Critical.java:48]
+}
+success count: 5
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] ]
+	matched: true
+	ReadWriteNode[360,critical.Critical@15b,turn,WRITE,Thread-1,critical/Critical.java:53]
+	ReadWriteNode[366,critical.Critical@15b,turn,WRITE,Thread-2,critical/Critical.java:63]
+}
+success count: 22
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[360,critical.Critical@15b,turn,WRITE,Thread-1,critical/Critical.java:53]
+	ReadWriteNode[362,critical.Critical@15b,turn,READ,Thread-2,critical/Critical.java:61]
+}
+success count: 13
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] ]
+	matched: true
+	ReadWriteNode[324,critical.Critical@15b,turn,WRITE,Thread-1,critical/Critical.java:48]
+	ReadWriteNode[341,critical.Critical@15b,turn,WRITE,Thread-2,critical/Critical.java:59]
+}
+success count: 21
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] ]
+	matched: true
+	ReadWriteNode[328,critical.Critical@15b,turn,READ,Thread-1,critical/Critical.java:50]
+	ReadWriteNode[341,critical.Critical@15b,turn,WRITE,Thread-2,critical/Critical.java:59]
+}
+success count: 21
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,READ] ]
+	matched: true
+	ReadWriteNode[341,critical.Critical@15b,turn,WRITE,Thread-2,critical/Critical.java:59]
+	ReadWriteNode[354,critical.Critical@15b,turn,WRITE,Thread-1,critical/Critical.java:53]
+	ReadWriteNode[356,critical.Critical@15b,turn,READ,Thread-2,critical/Critical.java:61]
+}
+success count: 12
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,WRITE] ]
+	matched: true
+	ReadWriteNode[324,critical.Critical@15b,turn,WRITE,Thread-1,critical/Critical.java:48]
+	ReadWriteNode[341,critical.Critical@15b,turn,WRITE,Thread-2,critical/Critical.java:59]
+	ReadWriteNode[354,critical.Critical@15b,turn,WRITE,Thread-1,critical/Critical.java:53]
+}
+success count: 20
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,WRITE] ]
+	matched: true
+	ReadWriteNode[341,critical.Critical@15b,turn,WRITE,Thread-2,critical/Critical.java:59]
+	ReadWriteNode[354,critical.Critical@15b,turn,WRITE,Thread-1,critical/Critical.java:53]
+	ReadWriteNode[360,critical.Critical@15b,turn,WRITE,Thread-2,critical/Critical.java:63]
+}
+success count: 20
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] ]
+	matched: true
+	ReadWriteNode[341,critical.Critical@15b,turn,WRITE,Thread-2,critical/Critical.java:59]
+	ReadWriteNode[354,critical.Critical@15b,turn,WRITE,Thread-1,critical/Critical.java:53]
+}
+success count: 20
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,WRITE] ]
+	matched: true
+	ReadWriteNode[328,critical.Critical@15b,turn,READ,Thread-1,critical/Critical.java:50]
+	ReadWriteNode[341,critical.Critical@15b,turn,WRITE,Thread-2,critical/Critical.java:59]
+	ReadWriteNode[354,critical.Critical@15b,turn,WRITE,Thread-1,critical/Critical.java:53]
+}
+success count: 20
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,WRITE] ]
+	matched: true
+	ReadWriteNode[358,critical.Critical@15b,turn,READ,Thread-2,critical/Critical.java:61]
+	ReadWriteNode[368,critical.Critical@15b,turn,WRITE,Thread-1,critical/Critical.java:53]
+	ReadWriteNode[371,critical.Critical@15b,turn,WRITE,Thread-2,critical/Critical.java:63]
+}
+success count: 8
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] ]
+	matched: true
+	ReadWriteNode[358,critical.Critical@15b,turn,READ,Thread-2,critical/Critical.java:61]
+	ReadWriteNode[368,critical.Critical@15b,turn,WRITE,Thread-1,critical/Critical.java:53]
+}
+success count: 8
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] ]
+	matched: true
+	ReadWriteNode[350,critical.Critical@15b,turn,WRITE,Thread-2,critical/Critical.java:63]
+	ReadWriteNode[352,critical.Critical@15b,turn,WRITE,Thread-1,critical/Critical.java:48]
+}
+success count: 5
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] ]
+	matched: true
+	ReadWriteNode[362,critical.Critical@15b,turn,WRITE,Thread-2,critical/Critical.java:63]
+	ReadWriteNode[364,critical.Critical@15b,turn,WRITE,Thread-1,critical/Critical.java:53]
+}
+success count: 1
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] ]
+	matched: true
+	ReadWriteNode[337,critical.Critical@15b,turn,READ,Thread-2,critical/Critical.java:61]
+	ReadWriteNode[347,critical.Critical@15b,turn,WRITE,Thread-1,critical/Critical.java:48]
+}
+success count: 1
+fail count: 0]

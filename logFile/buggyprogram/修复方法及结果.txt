@@ -1,0 +1,5 @@
+修复二
+对ReadWriteNode[601,buggyprogram.BuggyProgram@16e,randomNumber,READ,Thread-1,buggyprogram/BuggyProgram.java:355]加锁起止位置320->321
+锁的名字this
+对ReadWriteNode[618,buggyprogram.BuggyProgram@16e,randomNumber,WRITE,Thread-3,buggyprogram/BuggyProgram.java:338]加锁起止位置338->338
+结果: 修复成功
