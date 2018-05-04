@@ -11,14 +11,14 @@ public class SetCheck2 {
     private int a=0;
     private int b=0;
     void set(int i) {
-//    synchronized (this) {
+    synchronized (this) {
     	a = i;
     	System.out.println("a set to " + i);
-//    }
-//	synchronized (this) {
+    }
+	synchronized (this) {
 		b = -i;
 		System.out.println("b set to " + -i);
-//	}
+	}
     }
 
     boolean check() {

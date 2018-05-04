@@ -27,7 +27,17 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="SetCheck2.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/exportExamples/reorder/SetCheck2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="462">
+              <caret line="21" column="6" lean-forward="true" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -107,7 +117,6 @@
         <option value="$PROJECT_DIR$/exportExamples/pingpong/BuggedProgram.java" />
         <option value="$PROJECT_DIR$/exportExamples/alarmclock/AlarmClock.java" />
         <option value="$PROJECT_DIR$/examples/reorder/SetCheck.java" />
-        <option value="$PROJECT_DIR$/exportExamples/reorder/SetCheck2.java" />
         <option value="$PROJECT_DIR$/logFile/org.apache.log4j/修复方法及结果.txt" />
         <option value="$PROJECT_DIR$/examples/org/apache/commons/pool/impl/CursorableLinkedList.java" />
         <option value="$PROJECT_DIR$/examples/org/apache/commons/pool/impl/GenericObjectPool.java" />
@@ -120,6 +129,7 @@
         <option value="$PROJECT_DIR$/examples/manager/Trelease.java" />
         <option value="$PROJECT_DIR$/examples/manager/TmemoryHandler.java" />
         <option value="$PROJECT_DIR$/examples/reorder/SetCheck2.java" />
+        <option value="$PROJECT_DIR$/exportExamples/reorder/SetCheck2.java" />
       </list>
     </option>
   </component>
@@ -135,7 +145,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-9" />
     <option name="y" value="-9" />
     <option name="width" value="1938" />
@@ -167,6 +177,28 @@
               <item name="FixExamples" type="b2602c69:ProjectViewProjectNode" />
               <item name="FixExamples" type="462c0819:PsiDirectoryNode" />
               <item name="exportExamples" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FixExamples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FixExamples" type="462c0819:PsiDirectoryNode" />
+              <item name="exportExamples" type="462c0819:PsiDirectoryNode" />
+              <item name="reorder" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FixExamples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FixExamples" type="462c0819:PsiDirectoryNode" />
+              <item name="logFile" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FixExamples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FixExamples" type="462c0819:PsiDirectoryNode" />
+              <item name="logFile" type="462c0819:PsiDirectoryNode" />
+              <item name="reorder" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FixExamples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FixExamples" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -411,7 +443,7 @@
       <workItem from="1525337878847" duration="677000" />
       <workItem from="1525346782430" duration="113000" />
       <workItem from="1525349267743" duration="315000" />
-      <workItem from="1525404206722" duration="3177000" />
+      <workItem from="1525404206722" duration="6144000" />
     </task>
     <servers />
   </component>
@@ -427,7 +459,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="324112000" />
+    <option name="totallyTimeSpent" value="327079000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -439,7 +471,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -518,20 +550,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/logFile/account/修复方法及结果.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exportExamples/account/Account.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/exportExamples/airline/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -808,13 +826,6 @@
     <entry file="file://$PROJECT_DIR$/logFile/reorder/验证得到的pattern.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/examples/reorder/SetCheck2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="13" column="27" lean-forward="true" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/examples/reorder/ReorderTest2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
@@ -828,10 +839,23 @@
     <entry file="file://$PROJECT_DIR$/logFile/reorder/修复方法及结果.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/examples/reorder/SetCheck2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logFile/reorder/pattern for fix.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logFile/reorder/fix method and result.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/exportExamples/reorder/SetCheck2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="25" column="24" lean-forward="true" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
+        <state relative-caret-position="462">
+          <caret line="21" column="6" lean-forward="true" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
         </state>
       </provider>
     </entry>
