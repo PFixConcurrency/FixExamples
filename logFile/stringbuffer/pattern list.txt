@@ -1,0 +1,199 @@
+[Pattern {
+	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,READ] ]
+	matched: true
+	ReadWriteNode[356,stringbuffer.StringBuffer@166,count,READ,Thread-1,stringbuffer/StringBuffer.java:145]
+	ReadWriteNode[394,stringbuffer.StringBuffer@166,count,WRITE,Thread-2,stringbuffer/StringBuffer.java:668]
+	ReadWriteNode[396,stringbuffer.StringBuffer@166,count,READ,Thread-1,stringbuffer/StringBuffer.java:328]
+}
+success count: 0
+fail count: 31, Pattern {
+	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] ]
+	matched: true
+	ReadWriteNode[369,stringbuffer.StringBuffer@166,count,READ,Thread-1,stringbuffer/StringBuffer.java:145]
+	ReadWriteNode[386,stringbuffer.StringBuffer@166,count,WRITE,Thread-2,stringbuffer/StringBuffer.java:668]
+}
+success count: 23
+fail count: 31, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[379,stringbuffer.StringBuffer@166,count,WRITE,Thread-2,stringbuffer/StringBuffer.java:668]
+	ReadWriteNode[386,stringbuffer.StringBuffer@166,count,READ,Thread-1,stringbuffer/StringBuffer.java:328]
+}
+success count: 46
+fail count: 31, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[271,stringbuffer.StringBuffer@166,count,WRITE,main,stringbuffer/StringBuffer.java:408]
+	ReadWriteNode[370,stringbuffer.StringBuffer@166,count,READ,Thread-2,stringbuffer/StringBuffer.java:145]
+}
+success count: 92
+fail count: 62, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[255,stringbuffer.StringBuffer@162,value,WRITE,main,stringbuffer/StringBuffer.java:118]
+	ReadWriteNode[384,stringbuffer.StringBuffer@162,value,READ,Thread-1,stringbuffer/StringBuffer.java:448]
+}
+success count: 69
+fail count: 31, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[255,stringbuffer.StringBuffer@162,value,WRITE,main,stringbuffer/StringBuffer.java:118]
+	ReadWriteNode[383,stringbuffer.StringBuffer@162,value,READ,Thread-1,stringbuffer/StringBuffer.java:446]
+}
+success count: 69
+fail count: 31, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[346,stringbuffer.StringBufferTest@187,al1,WRITE,main,stringbuffer/StringBufferTest.java:15]
+	ReadWriteNode[366,stringbuffer.StringBufferTest@187,al1,READ,Thread-2,stringbuffer/StringBufferTest.java:28]
+}
+success count: 69
+fail count: 31, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[262,stringbuffer.StringBuffer@162,count,WRITE,main,stringbuffer/StringBuffer.java:408]
+	ReadWriteNode[382,stringbuffer.StringBuffer@162,count,READ,Thread-1,stringbuffer/StringBuffer.java:445]
+}
+success count: 69
+fail count: 31, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[271,stringbuffer.StringBuffer@166,count,WRITE,main,stringbuffer/StringBuffer.java:408]
+	ReadWriteNode[377,stringbuffer.StringBuffer@166,count,READ,Thread-2,stringbuffer/StringBuffer.java:667]
+}
+success count: 69
+fail count: 31, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[299,stringbuffer.StringBufferTest@16a,al1,WRITE,main,stringbuffer/StringBufferTest.java:15]
+	ReadWriteNode[315,stringbuffer.StringBufferTest@16a,al1,READ,Thread-1,stringbuffer/StringBufferTest.java:25]
+}
+success count: 69
+fail count: 31, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[264,stringbuffer.StringBuffer@166,value,WRITE,main,stringbuffer/StringBuffer.java:118]
+	ReadWriteNode[376,stringbuffer.StringBuffer@166,value,READ,Thread-2,stringbuffer/StringBuffer.java:667]
+}
+success count: 69
+fail count: 31, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[265,stringbuffer.StringBuffer@166,shared,WRITE,main,stringbuffer/StringBuffer.java:119]
+	ReadWriteNode[374,stringbuffer.StringBuffer@166,shared,READ,Thread-2,stringbuffer/StringBuffer.java:665]
+}
+success count: 69
+fail count: 31, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[300,stringbuffer.StringBufferTest@16a,al2,WRITE,main,stringbuffer/StringBufferTest.java:16]
+	ReadWriteNode[368,stringbuffer.StringBufferTest@16a,al2,READ,Thread-1,stringbuffer/StringBufferTest.java:25]
+}
+success count: 69
+fail count: 31, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[262,stringbuffer.StringBuffer@162,count,WRITE,main,stringbuffer/StringBuffer.java:408]
+	ReadWriteNode[385,stringbuffer.StringBuffer@162,count,READ,Thread-1,stringbuffer/StringBuffer.java:448]
+}
+success count: 69
+fail count: 31, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[271,stringbuffer.StringBuffer@166,count,WRITE,main,stringbuffer/StringBuffer.java:408]
+	ReadWriteNode[378,stringbuffer.StringBuffer@166,count,READ,Thread-2,stringbuffer/StringBuffer.java:668]
+}
+success count: 69
+fail count: 31, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[271,stringbuffer.StringBuffer@166,count,WRITE,main,stringbuffer/StringBuffer.java:408]
+	ReadWriteNode[373,stringbuffer.StringBuffer@166,count,READ,Thread-2,stringbuffer/StringBuffer.java:658]
+}
+success count: 69
+fail count: 31, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] ]
+	matched: true
+	ReadWriteNode[271,stringbuffer.StringBuffer@166,count,WRITE,main,stringbuffer/StringBuffer.java:408]
+	ReadWriteNode[379,stringbuffer.StringBuffer@166,count,WRITE,Thread-2,stringbuffer/StringBuffer.java:668]
+}
+success count: 69
+fail count: 31, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[288,stringbuffer.StringBufferTest@16a,name,WRITE,main,java/lang/Thread.java:130]
+	ReadWriteNode[304,stringbuffer.StringBufferTest@16a,name,READ,Thread-1,java/lang/Thread.java:369]
+}
+success count: 138
+fail count: 62, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[301,stringbuffer.StringBufferTest@16a,choice,WRITE,main,stringbuffer/StringBufferTest.java:17]
+	ReadWriteNode[312,stringbuffer.StringBufferTest@16a,choice,READ,Thread-1,stringbuffer/StringBufferTest.java:23]
+}
+success count: 138
+fail count: 62, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[273,stringbuffer.StringBufferTest@16a,group,WRITE,main,java/lang/Thread.java:122]
+	ReadWriteNode[307,stringbuffer.StringBufferTest@16a,group,READ,Thread-1,java/lang/Thread.java:369]
+}
+success count: 138
+fail count: 62, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[339,stringbuffer.StringBufferTest@187,priority,WRITE,main,java/lang/Thread.java:138]
+	ReadWriteNode[352,stringbuffer.StringBufferTest@187,priority,READ,Thread-2,java/lang/Thread.java:369]
+}
+success count: 138
+fail count: 62, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[42,java.lang.System,out,WRITE,main,java/lang/System.java:43]
+	ReadWriteNode[350,java.lang.System,out,READ,Thread-2,stringbuffer/StringBufferTest.java:21]
+}
+success count: 138
+fail count: 62, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[42,java.lang.System,out,WRITE,main,java/lang/System.java:43]
+	ReadWriteNode[356,java.lang.System,out,READ,Thread-2,stringbuffer/StringBufferTest.java:22]
+}
+success count: 138
+fail count: 62, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[264,stringbuffer.StringBuffer@166,value,WRITE,main,stringbuffer/StringBuffer.java:118]
+	ReadWriteNode[387,stringbuffer.StringBuffer@166,value,READ,Thread-1,stringbuffer/StringBuffer.java:334]
+}
+success count: 69
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[379,stringbuffer.StringBuffer@166,count,WRITE,Thread-2,stringbuffer/StringBuffer.java:668]
+	ReadWriteNode[381,stringbuffer.StringBuffer@166,count,READ,Thread-1,stringbuffer/StringBuffer.java:145]
+}
+success count: 46
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] ]
+	matched: true
+	ReadWriteNode[262,stringbuffer.StringBuffer@162,count,WRITE,main,stringbuffer/StringBuffer.java:408]
+	ReadWriteNode[388,stringbuffer.StringBuffer@162,count,WRITE,Thread-1,stringbuffer/StringBuffer.java:449]
+}
+success count: 69
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[271,stringbuffer.StringBuffer@166,count,WRITE,main,stringbuffer/StringBuffer.java:408]
+	ReadWriteNode[375,stringbuffer.StringBuffer@166,count,READ,Thread-1,stringbuffer/StringBuffer.java:328]
+}
+success count: 23
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] ]
+	matched: true
+	ReadWriteNode[375,stringbuffer.StringBuffer@166,count,READ,Thread-1,stringbuffer/StringBuffer.java:328]
+	ReadWriteNode[386,stringbuffer.StringBuffer@166,count,WRITE,Thread-2,stringbuffer/StringBuffer.java:668]
+}
+success count: 23
+fail count: 0]
+time for getting pattern list : 26925

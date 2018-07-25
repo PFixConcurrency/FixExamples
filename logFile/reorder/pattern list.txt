@@ -1,0 +1,109 @@
+[Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[y,2,WRITE] PatternTypeNode[y,1,WRITE] ]
+	matched: true
+	ReadWriteNode[359,reorder.SetCheck2@163,a,WRITE,Thread-1,reorder/SetCheck2.java:15]
+	ReadWriteNode[364,reorder.SetCheck2@163,a,WRITE,Thread-2,reorder/SetCheck2.java:15]
+	ReadWriteNode[382,reorder.SetCheck2@163,b,WRITE,Thread-2,reorder/SetCheck2.java:19]
+	ReadWriteNode[428,reorder.SetCheck2@163,b,WRITE,Thread-1,reorder/SetCheck2.java:19]
+}
+success count: 26
+fail count: 18, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[436,reorder.SetCheck2@163,a,WRITE,Thread-4,reorder/SetCheck2.java:15]
+	ReadWriteNode[479,reorder.SetCheck2@163,a,READ,Thread-5,reorder/SetCheck2.java:25]
+}
+success count: 76
+fail count: 24, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[42,java.lang.System,out,WRITE,main,java/lang/System.java:43]
+	ReadWriteNode[478,java.lang.System,out,READ,Thread-5,reorder/SetCheck2.java:25]
+}
+success count: 76
+fail count: 24, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[436,reorder.SetCheck2@163,a,WRITE,Thread-4,reorder/SetCheck2.java:15]
+	ReadWriteNode[481,reorder.SetCheck2@163,a,READ,Thread-5,reorder/SetCheck2.java:26]
+}
+success count: 76
+fail count: 24, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[445,reorder.SetCheck2@163,b,WRITE,Thread-4,reorder/SetCheck2.java:19]
+	ReadWriteNode[482,reorder.SetCheck2@163,b,READ,Thread-5,reorder/SetCheck2.java:26]
+}
+success count: 76
+fail count: 24, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[445,reorder.SetCheck2@163,b,WRITE,Thread-4,reorder/SetCheck2.java:19]
+	ReadWriteNode[480,reorder.SetCheck2@163,b,READ,Thread-5,reorder/SetCheck2.java:25]
+}
+success count: 76
+fail count: 24, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] ]
+	matched: true
+	ReadWriteNode[246,reorder.SetCheck2@163,a,WRITE,main,reorder/SetCheck2.java:11]
+	ReadWriteNode[330,reorder.SetCheck2@163,a,WRITE,Thread-1,reorder/SetCheck2.java:15]
+}
+success count: 76
+fail count: 24, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] ]
+	matched: true
+	ReadWriteNode[247,reorder.SetCheck2@163,b,WRITE,main,reorder/SetCheck2.java:12]
+	ReadWriteNode[401,reorder.SetCheck2@163,b,WRITE,Thread-1,reorder/SetCheck2.java:19]
+}
+success count: 76
+fail count: 24, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[475,reorder.CheckThread2@1b2,sc,WRITE,main,reorder/CheckThread2.java:11]
+	ReadWriteNode[477,reorder.CheckThread2@1b2,sc,READ,Thread-5,reorder/CheckThread2.java:14]
+}
+success count: 76
+fail count: 24, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] ]
+	matched: true
+	ReadWriteNode[401,reorder.SetCheck2@163,b,WRITE,Thread-1,reorder/SetCheck2.java:19]
+	ReadWriteNode[420,reorder.SetCheck2@163,b,WRITE,Thread-2,reorder/SetCheck2.java:19]
+}
+success count: 228
+fail count: 72, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] ]
+	matched: true
+	ReadWriteNode[330,reorder.SetCheck2@163,a,WRITE,Thread-1,reorder/SetCheck2.java:15]
+	ReadWriteNode[406,reorder.SetCheck2@163,a,WRITE,Thread-2,reorder/SetCheck2.java:15]
+}
+success count: 228
+fail count: 72, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[42,java.lang.System,out,WRITE,main,java/lang/System.java:43]
+	ReadWriteNode[421,java.lang.System,out,READ,Thread-2,reorder/SetCheck2.java:20]
+}
+success count: 304
+fail count: 96, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[42,java.lang.System,out,WRITE,main,java/lang/System.java:43]
+	ReadWriteNode[407,java.lang.System,out,READ,Thread-2,reorder/SetCheck2.java:16]
+}
+success count: 304
+fail count: 96, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[277,reorder.SetThread2@167,i,WRITE,main,reorder/SetThread2.java:12]
+	ReadWriteNode[316,reorder.SetThread2@167,i,READ,Thread-1,reorder/SetThread2.java:15]
+}
+success count: 304
+fail count: 96, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[396,reorder.SetThread2@18a,sc,WRITE,main,reorder/SetThread2.java:11]
+	ReadWriteNode[423,reorder.SetThread2@18a,sc,READ,Thread-4,reorder/SetThread2.java:15]
+}
+success count: 304
+fail count: 96]
+time for getting pattern list : 16227

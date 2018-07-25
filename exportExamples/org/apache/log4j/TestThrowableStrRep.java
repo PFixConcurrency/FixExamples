@@ -33,7 +33,7 @@ public class TestThrowableStrRep {
       e1.printStackTrace();
     }
     
-    LoggingEvent event = new LoggingEvent("log1", Logger.getRootLogger(), Level.DEBUG, new String("message"), new Exception("test"));
+synchronized (obj){     LoggingEvent event = new LoggingEvent("log1", Logger.getRootLogger(), Level.DEBUG, new String("message"), new Exception("test"));
     AppendThread at = new AppendThread(w, event);
     AppendThread at2 = new AppendThread(w2, event);
     
@@ -51,7 +51,7 @@ public class TestThrowableStrRep {
       
       at3.join();
       at4.join();
-      
+}      
     } catch (InterruptedException e) {
       e.printStackTrace();
     }

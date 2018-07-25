@@ -310,16 +310,16 @@ public class BuggyProgram {
                 generate();
 
                 for (i = 0; i < numOfUsers; ++i) {
-                    if (history[i] == randomNumber) {
+synchronized (this){                     if (history[i] == randomNumber) {
                         break;
                     }
-                }
+}                }
             }
 
 
-synchronized (obj){             present();
+            present();
             record();
-}
+
 
         }
 
@@ -335,7 +335,7 @@ synchronized (obj){             present();
         // _________________________________________________________________________
 
         protected synchronized void generate() {
-synchronized (this){             generated[userNumber] = randomNumber = random.nextInt(1000);
+synchronized (){              generated[userNumber] = randomNumber = random.nextInt(1000);
 }            System.out.println(randomNumber);
 //    	  (long) (Math.random(1) *
 //                                           Math.pow(10, MAX_DIGITS));
@@ -352,9 +352,9 @@ synchronized (this){             generated[userNumber] = randomNumber = random.n
         // _________________________________________________________________________
 
         protected synchronized void present() {
-            System.out.println("user " + userNumber + " assigned "
+synchronized (this){             System.out.println("user " + userNumber + " assigned "
                     + (presented[userNumber] = randomNumber) + ".");
-        }
+}        }
 
 
         // _________________________________________________________________________

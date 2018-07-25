@@ -1,0 +1,5 @@
+Fix three
+aim at : ReadWriteNode[443,linkedlist.MyListNode@18b,_next,WRITE,Thread-1,linkedlist/MyListNode.java:21]Lock start and stop position : 21->44
+aim at : ReadWriteNode[490,linkedlist.MyListNode@18b,_next,READ,Thread-2,linkedlist/MyLinkedList.java:42]Lock start and stop position : 21->53
+result : fix success
+time for fixing:129627

@@ -31,8 +31,8 @@ public abstract class Layout implements OptionHandler {
 
   // Note that the line.separator property can be looked up even by
   // applets.
-  public final static String LINE_SEP = System.getProperty("line.separator");
-  public final static int LINE_SEP_LEN  = LINE_SEP.length();
+volatile bool flagFix = false;  public final static String LINE_SEP = System.getProperty("line.separator");
+flagFix = true;  public final static int LINE_SEP_LEN  = LINE_SEP.length();
 
 
   /**
@@ -84,4 +84,6 @@ public abstract class Layout implements OptionHandler {
   public
   boolean ignoresThrowable();
 
+}
+if(flagFix){
 }

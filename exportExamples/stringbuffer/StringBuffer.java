@@ -72,7 +72,7 @@ package stringbuffer;
 
 public final class StringBuffer
         implements java.io.Serializable, CharSequence {
-    /**
+static Object objectFix = new Object();    /**
      * The value is used for character storage.
      *
      * @serial
@@ -441,7 +441,7 @@ public final class StringBuffer
             sb = NULL;
         }
 
-synchronized (obj){         int len = sb.length();
+synchronized (objectFix){         int len = sb.length();
         int newcount = count + len;
         if (newcount > value.length)
             expandCapacity(newcount);

@@ -306,9 +306,9 @@ public class WriterAppender extends AppenderSkeleton {
       if (s != null) {
 	int len = s.length;
 	for(int i = 0; i < len; i++) {
-	  this.qw.write(s[i]);
-	  this.qw.write(Layout.LINE_SEP);
-	}
+synchronized (this){ 	  this.qw.write(s[i]);
+ 	  this.qw.write(Layout.LINE_SEP);
+}	}
       }
     }
 

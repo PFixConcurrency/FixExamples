@@ -1,4 +1,0 @@
-Fix three
-�?ReadWriteNode[426,reorder.SetCheck2@163,a,WRITE,Thread-3,reorder/SetCheck2.java:15]加锁起止位置14->21
-�?ReadWriteNode[431,reorder.SetCheck2@163,a,WRITE,Thread-4,reorder/SetCheck2.java:15]加锁起止位置14->21
-result:fix success

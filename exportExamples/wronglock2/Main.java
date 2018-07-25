@@ -1,13 +1,14 @@
 package wronglock2;
 
 public class Main implements Runnable {
-    static Object objectFix = new Object();
+
     public static Struct s = new Struct(1, 0);
 
     public static int THREADS = 5;
 
     public static void main(String[] args) throws Exception {
         Thread[] t = new Thread[THREADS];
+
         for (int i = 0; i < THREADS; i++) {
             t[i] = new Thread(new Main());
             t[i].start();
@@ -16,6 +17,7 @@ public class Main implements Runnable {
             t[i].join();
         }
 
+
         if (s.getCount() != THREADS) {
             throw new Exception("bug found.");
         }
@@ -23,13 +25,12 @@ public class Main implements Runnable {
 
     @Override
     public void run() {
-        synchronized (objectFix) {
-            s = new Struct(s.getNumber() * 2, s.getCount() + 1);
-        }
+
+synchronized (this){         s = new Struct(s.getNumber() * 2, s.getCount() + 1);
+}
     }
 
     public static class Struct {
-        static Object objectFix = new Object();
         int number;
         int count;
 
@@ -39,9 +40,7 @@ public class Main implements Runnable {
         }
 
         public int getNumber() {
-            synchronized (objectFix) {
-                return number;
-            }
+            return number;
         }
 
         public int getCount() {

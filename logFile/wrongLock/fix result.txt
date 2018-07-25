@@ -1,0 +1,6 @@
+Fix two
+Lock Name : data
+Lock Name : data
+aim at : ReadWriteNode[337,wrongLock.Data@15f,value,WRITE,Thread-2,wrongLock/WrongLock.java:30]Lock start and stop position : 29->31
+result : fix success
+time for fixing:21681

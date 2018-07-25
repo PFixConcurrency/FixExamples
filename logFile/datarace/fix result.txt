@@ -1,0 +1,6 @@
+Fix two
+aim at : ReadWriteNode[591,datarace.Checker@1ce,buggy,WRITE,main,datarace/Checker.java:10]Lock start and stop position : 10->28
+Lock Name : this
+aim at : ReadWriteNode[624,datarace.Checker@1ce,buggy,WRITE,Thread-7,datarace/Checker.java:15]Lock start and stop position : 15->15
+result : fix success
+time for fixing:32726

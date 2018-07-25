@@ -76,13 +76,11 @@ public class Bank {
 
     public void checkResult(int Total_Balance) {
         // Give report.
-        synchronized (this) {
-            System.out.println("Bank records = " + Bank_Total + ", accounts balance = " + Total_Balance + ".");
-            if (Bank_Total == Total_Balance)
-                System.out.println("Records match.");
-            else {
-                throw new RuntimeException("ERROR: records don't match !!!");
-            }
+        System.out.println("Bank records = " + Bank_Total + ", accounts balance = " + Total_Balance + ".");
+        if (Bank_Total == Total_Balance)
+            System.out.println("Records match.");
+        else {
+            throw new RuntimeException("ERROR: records don't match !!!");
         }
     }
 
@@ -90,7 +88,7 @@ public class Bank {
      * The Service method performs the actual action on the account,
      * and it also updates the Bank's records. (Bank_Total)
      */
-    public static synchronized void Service(int id, int sum) {
+    public static void Service(int id, int sum) {
         accounts[id].Balance += sum;
         Bank_Total += sum;
     }

@@ -57,10 +57,10 @@ public  class Bug implements Runnable{
     * "StopSales" ),
     */
     public void run() {
-synchronized (this){          Num_Of_Seats_Sold++;                       // making the sale
-        if (Num_Of_Seats_Sold > Maximum_Capacity)  // checking
+synchronized (this){         Num_Of_Seats_Sold++;                       // making the sale
+}        if (Num_Of_Seats_Sold > Maximum_Capacity)  // checking
             StopSales = true;                      // updating
-}    }
+    }
 }
 
 

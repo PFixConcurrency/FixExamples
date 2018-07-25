@@ -1,0 +1,39 @@
+Fix one
+Add synchronization
+Lock Name : this
+Locked position60->61
+result : fix fail
+Fix two
+Lock Name : this
+aim at : ReadWriteNode[973,airline.Bug,Num_Of_Seats_Sold,READ,Thread-15,airline/Bug.java:60]Lock start and stop position : 60->60
+Lock Name : this
+aim at : ReadWriteNode[1008,airline.Bug,Num_Of_Seats_Sold,WRITE,Thread-17,airline/Bug.java:60]Lock start and stop position : 60->60
+result : fix fail
+Fix one
+Add synchronization
+Fix one
+Add synchronization
+Fix one
+Add synchronization
+Fix one
+Add synchronization
+Fix one
+Add synchronization
+Fix one
+Add synchronization
+Fix one
+Add synchronization
+Fix one
+Add synchronization
+Fix two
+Fix one
+Add synchronization
+Fix one
+Added Semaphore
+The location of semaphore defines : 38
+The location of semaphore use : 62
+result : fix fail
+Fix one
+Add synchronization
+Fix three
+time for fixing:65234

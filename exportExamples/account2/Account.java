@@ -18,8 +18,8 @@ class Account extends Thread {
 	static int MAX_SUM = 300;
 	
 	// Internal randomizer for the account (simulates account owner)
-	Random random = new Random(Bank.Bank_random.nextInt());
-	
+volatile bool flagFix = false;	Random random = new Random(Bank.Bank_random.nextInt());
+flagFix = true;
 	/*
 	 * The constructor initiates the account's id.
 	 */
@@ -35,8 +35,8 @@ class Account extends Thread {
 	public void Action(){
 
 		// get a random sum in the range [0,MAX_SUM]
-		int sum = random.nextInt()%MAX_SUM;
-		System.out.println("sum: "+ sum);
+if(flagFix){		int sum = random.nextInt()%MAX_SUM;
+}		System.out.println("sum: "+ sum);
 		// perform action in Bank
 		Bank.Service(Account_Id,sum);
 	}

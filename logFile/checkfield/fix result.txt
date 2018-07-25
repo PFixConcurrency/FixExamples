@@ -1,0 +1,77 @@
+Fix one
+Add synchronization
+Lock Name : ex
+Locked position25
+Lock Name : ex
+Locked position12
+result : fix fail
+Fix one
+Add synchronization
+Lock Name : this
+Locked position7
+Lock Name : this
+Locked position12
+result : fix fail
+Fix one
+Added Semaphore
+The location of semaphore defines : 10
+The location of semaphore use : 43
+Fix one
+Add synchronization
+Lock Name : this
+Locked position7
+Lock Name : this
+Locked position24
+result : fix fail
+Fix one
+Add synchronization
+Lock Name : this
+Locked position7
+Lock Name : this
+Locked position10
+result : fix fail
+Fix one
+Add synchronization
+Lock Name : this
+Locked position7
+Lock Name : this
+Locked position25
+result : fix fail
+Fix one
+Add synchronization
+Lock Name : this
+Locked position7
+Lock Name : this
+Locked position14
+result : fix fail
+Fix one
+Add synchronization
+Lock Name : this
+Locked position7
+Lock Name : this
+Locked position11
+result : fix fail
+Fix one
+Add synchronization
+Lock Name : ex
+Locked position12
+Lock Name : ex
+Locked position25
+result : fix fail
+Fix one
+Add synchronization
+Lock Name : ex
+Locked position11
+Lock Name : ex
+Locked position24
+result : fix fail
+Fix three
+Fix two
+Fix one
+Add synchronization
+Lock Name : ex
+Locked position24
+Lock Name : ex
+Locked position14
+result : fix fail
+time for fixing:211488

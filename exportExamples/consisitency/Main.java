@@ -1,7 +1,7 @@
 package consisitency;
 
 public class Main implements Runnable{
-static Object objectFix = new Object();	public static int THREAD_NUMBER = 3;
+	public static int THREAD_NUMBER = 3;
 	
 	public static int a = 0;
 	public static int b = 0;
@@ -12,9 +12,9 @@ static Object objectFix = new Object();	public static int THREAD_NUMBER = 3;
 	}
 	
 	public void run() {
-synchronized (objectFix){ 		a = num;
-		b = num;
-}	}
+synchronized (this){ 		a = num;
+}		b = num;
+	}
 	
 	public static void main(String[] args) throws Exception {
 		Thread[] t = new Thread[THREAD_NUMBER];
@@ -27,9 +27,9 @@ synchronized (objectFix){ 		a = num;
 			t[i].join();
 		}
 		
-synchronized (objectFix){ 		System.out.println("a = " + a + ", b = " + b);
-		if (a != b) {
+synchronized (this){ 		System.out.println("a = " + a + ", b = " + b);
+}		if (a != b) {
 			throw new Exception("bug found.");
 		}
- }	}
+	}
 }
