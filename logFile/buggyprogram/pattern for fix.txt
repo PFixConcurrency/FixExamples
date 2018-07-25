@@ -1,8 +1,8 @@
 Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] ]
 	matched: true
-	ReadWriteNode[463,buggyprogram.BuggyProgram@16e,randomNumber,WRITE,Thread-3,buggyprogram/BuggyProgram.java:338]
-	ReadWriteNode[538,buggyprogram.BuggyProgram@16e,randomNumber,READ,Thread-1,buggyprogram/BuggyProgram.java:313]
+	ReadWriteNode[600,buggyprogram.BuggyProgram@16e,randomNumber,READ,Thread-3,buggyprogram/BuggyProgram.java:370]
+	ReadWriteNode[630,buggyprogram.BuggyProgram@16e,randomNumber,WRITE,Thread-1,buggyprogram/BuggyProgram.java:338]
 }
-success count: 196
-fail count: 1
+success count: 2
+fail count: 2

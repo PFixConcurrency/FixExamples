@@ -82,7 +82,7 @@ public class BuggedProgram {
     public void pingPong() {
     	this.pingPongPlayer.getI();
         PP newPlayer;
-synchronized (){         newPlayer = this.pingPongPlayer;
+synchronized (this){         newPlayer = this.pingPongPlayer;
         this.pingPongPlayer = null;
         long time = System.currentTimeMillis();
         while ((System.currentTimeMillis() - time) < 50) ;

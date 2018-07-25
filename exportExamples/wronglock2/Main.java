@@ -2,7 +2,7 @@ package wronglock2;
 
 public class Main implements Runnable {
 
-    public static Struct s = new Struct(1, 0);
+static Object objectFix = new Object();    public static Struct s = new Struct(1, 0);
 
     public static int THREADS = 5;
 
@@ -26,7 +26,7 @@ public class Main implements Runnable {
     @Override
     public void run() {
 
-synchronized (this){         s = new Struct(s.getNumber() * 2, s.getCount() + 1);
+synchronized (objectFix){         s = new Struct(s.getNumber() * 2, s.getCount() + 1);
 }
     }
 

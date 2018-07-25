@@ -1,0 +1,10 @@
+Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[y,2,READ] PatternTypeNode[x,2,READ] PatternTypeNode[y,1,WRITE] ]
+	matched: true
+	ReadWriteNode[2138,producerConsumer.Buffer@165,usedSlots,WRITE,Thread-3,producerConsumer/ProducerConsumer.java:81]
+	ReadWriteNode[2149,producerConsumer.Buffer@165,halted,READ,Thread-4,producerConsumer/ProducerConsumer.java:85]
+	ReadWriteNode[2160,producerConsumer.Buffer@165,usedSlots,READ,Thread-4,producerConsumer/ProducerConsumer.java:110]
+	ReadWriteNode[2186,producerConsumer.Buffer@165,halted,WRITE,Thread-3,producerConsumer/ProducerConsumer.java:117]
+}
+success count: 6
+fail count: 0

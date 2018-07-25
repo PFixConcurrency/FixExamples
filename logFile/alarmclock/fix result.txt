@@ -1,0 +1,193 @@
+Fix three
+Fix one
+Add synchronization
+Lock Name : this
+Locked position295
+Lock Name : this
+Locked position273
+result : fix fail
+Fix two
+Fix two
+Lock Name : this
+Lock Name : this
+aim at : ReadWriteNode[1251,alarmclock.MyLinkedList@162,size,WRITE,Thread-1,alarmclock/AlarmClock.java:295]Lock start and stop position : 290->295
+Lock Name : this
+aim at : ReadWriteNode[1297,alarmclock.MyLinkedList@162,size,WRITE,Thread-5,alarmclock/AlarmClock.java:274]Lock start and stop position : 274->274
+result : fix fail
+Fix three
+Fix one
+Add synchronization
+Lock Name : this
+Locked position295
+Lock Name : this
+Locked position242
+result : fix fail
+Fix two
+Fix two
+Lock Name : this
+Lock Name : this
+aim at : ReadWriteNode[1251,alarmclock.MyLinkedList@162,size,WRITE,Thread-1,alarmclock/AlarmClock.java:295]Lock start and stop position : 294->295
+Lock Name : this
+aim at : ReadWriteNode[1297,alarmclock.MyLinkedList@162,size,WRITE,Thread-5,alarmclock/AlarmClock.java:274]Lock start and stop position : 274->274
+result : fix fail
+Fix three
+Fix three
+Fix one
+Add synchronization
+Lock Name : this
+Locked position295
+Lock Name : this
+Locked position320
+result : fix fail
+Fix one
+Add synchronization
+Lock Name : this
+Locked position295
+Lock Name : this
+Locked position308
+result : fix fail
+Fix three
+Fix one
+Add synchronization
+Lock Name : this
+Locked position295
+Lock Name : this
+Locked position274
+result : fix fail
+Fix one
+Add synchronization
+Lock Name : this
+Locked position295
+Lock Name : this
+Locked position274
+result : fix fail
+Fix two
+Fix three
+Fix one
+Add synchronization
+Lock Name : this
+Locked position295
+Lock Name : this
+Locked position339
+result : fix fail
+Fix one
+Add synchronization
+Lock Name : this
+Lock Name : this
+Locked position205
+result : fix fail
+Fix one
+Add synchronization
+Lock Name : this
+Lock Name : this
+result : fix fail
+Fix one
+Add synchronization
+Lock Name : this
+Locked position274
+Lock Name : this
+Locked position238
+result : fix fail
+Fix one
+Add synchronization
+Fix one
+Add synchronization
+Fix one
+Add synchronization
+Fix one
+Add synchronization
+Fix one
+Add synchronization
+Fix one
+Add synchronization
+Fix one
+Add synchronization
+Fix one
+Add synchronization
+Fix one
+Add synchronization
+Fix one
+Add synchronization
+Fix one
+Add synchronization
+Fix one
+Add synchronization
+Fix one
+Add synchronization
+Fix one
+Add synchronization
+Fix one
+Add synchronization
+Fix one
+Add synchronization
+Fix one
+Add synchronization
+Fix one
+Add synchronization
+Fix one
+Add synchronization
+Fix one
+Add synchronization
+Fix one
+Add synchronization
+Fix one
+Add synchronization
+Fix one
+Add synchronization
+Fix one
+Add synchronization
+Fix one
+Add synchronization
+Fix one
+Add synchronization
+Fix one
+Add synchronization
+Fix one
+Add synchronization
+Fix one
+Add synchronization
+Fix one
+Add synchronization
+Fix one
+Add synchronization
+Fix one
+Add synchronization
+Fix one
+Add synchronization
+Fix one
+Add synchronization
+Fix one
+Add synchronization
+Fix one
+Add synchronization
+Fix one
+Add synchronization
+Fix one
+Add synchronization
+Fix one
+Add synchronization
+Fix one
+Add synchronization
+Fix one
+Add synchronization
+Fix one
+Add synchronization
+Fix one
+Add synchronization
+Fix one
+Add synchronization
+Fix one
+Add synchronization
+Fix one
+Add synchronization
+Fix one
+Add synchronization
+Fix one
+Add synchronization
+Fix one
+Add synchronization
+Fix one
+Add synchronization
+Fix one
+Add synchronization
+time for fixing:77988

@@ -1,268 +1,268 @@
 [Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,READ] ]
 	matched: true
-	ReadWriteNode[784,hashcodetest.HashCodeTest$hashThread@1be,hash,WRITE,Thread-9,hashcodetest/HashCodeTest.java:72]
-	ReadWriteNode[862,hashcodetest.HashCodeTest$hashThread@1be,hash,READ,main,hashcodetest/HashCodeTest.java:54]
+	ReadWriteNode[755,hashcodetest.IntRange@166,hashCode,WRITE,Thread-2,hashcodetest/IntRange.java:357]
+	ReadWriteNode[758,hashcodetest.IntRange@166,hashCode,WRITE,Thread-1,hashcodetest/IntRange.java:356]
+	ReadWriteNode[766,hashcodetest.IntRange@166,hashCode,READ,Thread-2,hashcodetest/IntRange.java:361]
 }
-success count: 510
-fail count: 137, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,WRITE] ]
+success count: 0
+fail count: 4, Pattern {
+	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,READ] ]
 	matched: true
-	ReadWriteNode[691,hashcodetest.IntRange@166,hashCode,READ,Thread-2,hashcodetest/IntRange.java:357]
-	ReadWriteNode[705,hashcodetest.IntRange@166,hashCode,WRITE,Thread-1,hashcodetest/IntRange.java:357]
-	ReadWriteNode[729,hashcodetest.IntRange@166,hashCode,WRITE,Thread-2,hashcodetest/IntRange.java:357]
+	ReadWriteNode[724,hashcodetest.IntRange@166,hashCode,READ,Thread-4,hashcodetest/IntRange.java:355]
+	ReadWriteNode[741,hashcodetest.IntRange@166,hashCode,WRITE,Thread-5,hashcodetest/IntRange.java:356]
+	ReadWriteNode[749,hashcodetest.IntRange@166,hashCode,READ,Thread-4,hashcodetest/IntRange.java:361]
 }
-success count: 9
-fail count: 6, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
-	matched: true
-	ReadWriteNode[655,hashcodetest.IntRange@166,hashCode,WRITE,Thread-2,hashcodetest/IntRange.java:357]
-	ReadWriteNode[765,hashcodetest.IntRange@166,hashCode,READ,Thread-8,hashcodetest/IntRange.java:355]
-}
-success count: 430
-fail count: 292, Pattern {
+success count: 0
+fail count: 8, Pattern {
 	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] PatternTypeNode[x,1,WRITE] ]
 	matched: true
-	ReadWriteNode[642,hashcodetest.IntRange@166,hashCode,WRITE,Thread-1,hashcodetest/IntRange.java:356]
-	ReadWriteNode[662,hashcodetest.IntRange@166,hashCode,READ,Thread-3,hashcodetest/IntRange.java:357]
-	ReadWriteNode[670,hashcodetest.IntRange@166,hashCode,WRITE,Thread-1,hashcodetest/IntRange.java:357]
+	ReadWriteNode[683,hashcodetest.IntRange@166,hashCode,WRITE,Thread-3,hashcodetest/IntRange.java:356]
+	ReadWriteNode[740,hashcodetest.IntRange@166,hashCode,READ,Thread-4,hashcodetest/IntRange.java:361]
+	ReadWriteNode[766,hashcodetest.IntRange@166,hashCode,WRITE,Thread-3,hashcodetest/IntRange.java:357]
 }
-success count: 4
-fail count: 3, Pattern {
+success count: 0
+fail count: 63, Pattern {
 	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
 	matched: true
-	ReadWriteNode[655,hashcodetest.IntRange@166,hashCode,WRITE,Thread-2,hashcodetest/IntRange.java:357]
-	ReadWriteNode[710,hashcodetest.IntRange@166,hashCode,READ,Thread-4,hashcodetest/IntRange.java:361]
+	ReadWriteNode[683,hashcodetest.IntRange@166,hashCode,WRITE,Thread-3,hashcodetest/IntRange.java:356]
+	ReadWriteNode[740,hashcodetest.IntRange@166,hashCode,READ,Thread-4,hashcodetest/IntRange.java:361]
 }
-success count: 451
-fail count: 339, Pattern {
+success count: 0
+fail count: 84, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[723,hashcodetest.IntRange@166,hashCode,WRITE,Thread-2,hashcodetest/IntRange.java:357]
+	ReadWriteNode[731,hashcodetest.IntRange@166,hashCode,READ,Thread-1,hashcodetest/IntRange.java:357]
+}
+success count: 2
+fail count: 17, Pattern {
 	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] ]
 	matched: true
-	ReadWriteNode[691,hashcodetest.IntRange@166,hashCode,READ,Thread-2,hashcodetest/IntRange.java:357]
+	ReadWriteNode[740,hashcodetest.IntRange@166,hashCode,READ,Thread-4,hashcodetest/IntRange.java:361]
+	ReadWriteNode[766,hashcodetest.IntRange@166,hashCode,WRITE,Thread-3,hashcodetest/IntRange.java:357]
+}
+success count: 20
+fail count: 127, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[683,hashcodetest.IntRange@166,hashCode,WRITE,Thread-3,hashcodetest/IntRange.java:356]
+	ReadWriteNode[748,hashcodetest.IntRange@166,hashCode,READ,Thread-5,hashcodetest/IntRange.java:355]
+}
+success count: 19
+fail count: 116, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] PatternTypeNode[x,1,WRITE] ]
+	matched: true
+	ReadWriteNode[683,hashcodetest.IntRange@166,hashCode,WRITE,Thread-3,hashcodetest/IntRange.java:356]
+	ReadWriteNode[748,hashcodetest.IntRange@166,hashCode,READ,Thread-5,hashcodetest/IntRange.java:355]
+	ReadWriteNode[766,hashcodetest.IntRange@166,hashCode,WRITE,Thread-3,hashcodetest/IntRange.java:357]
+}
+success count: 16
+fail count: 81, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,READ] ]
+	matched: true
+	ReadWriteNode[704,hashcodetest.IntRange@166,hashCode,WRITE,Thread-1,hashcodetest/IntRange.java:356]
+	ReadWriteNode[723,hashcodetest.IntRange@166,hashCode,WRITE,Thread-2,hashcodetest/IntRange.java:357]
+	ReadWriteNode[731,hashcodetest.IntRange@166,hashCode,READ,Thread-1,hashcodetest/IntRange.java:357]
+}
+success count: 2
+fail count: 9, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] ]
+	matched: true
 	ReadWriteNode[705,hashcodetest.IntRange@166,hashCode,WRITE,Thread-1,hashcodetest/IntRange.java:357]
+	ReadWriteNode[714,hashcodetest.IntRange@166,hashCode,WRITE,Thread-7,hashcodetest/IntRange.java:356]
+}
+success count: 2
+fail count: 8, Pattern {
+	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] ]
+	matched: true
+	ReadWriteNode[748,hashcodetest.IntRange@166,hashCode,READ,Thread-5,hashcodetest/IntRange.java:355]
+	ReadWriteNode[766,hashcodetest.IntRange@166,hashCode,WRITE,Thread-3,hashcodetest/IntRange.java:357]
+}
+success count: 31
+fail count: 124, Pattern {
+	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] ]
+	matched: true
+	ReadWriteNode[665,hashcodetest.IntRange@166,hashCode,READ,Thread-1,hashcodetest/IntRange.java:355]
+	ReadWriteNode[701,hashcodetest.IntRange@166,hashCode,WRITE,Thread-2,hashcodetest/IntRange.java:356]
+}
+success count: 18
+fail count: 60, Pattern {
+	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] ]
+	matched: true
+	ReadWriteNode[711,hashcodetest.IntRange@166,hashCode,READ,Thread-1,hashcodetest/IntRange.java:361]
+	ReadWriteNode[714,hashcodetest.IntRange@166,hashCode,WRITE,Thread-7,hashcodetest/IntRange.java:356]
+}
+success count: 5
+fail count: 16, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] ]
+	matched: true
+	ReadWriteNode[701,hashcodetest.IntRange@166,hashCode,WRITE,Thread-2,hashcodetest/IntRange.java:356]
+	ReadWriteNode[704,hashcodetest.IntRange@166,hashCode,WRITE,Thread-1,hashcodetest/IntRange.java:356]
+}
+success count: 12
+fail count: 29, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] ]
+	matched: true
+	ReadWriteNode[723,hashcodetest.IntRange@166,hashCode,WRITE,Thread-2,hashcodetest/IntRange.java:357]
+	ReadWriteNode[734,hashcodetest.IntRange@166,hashCode,WRITE,Thread-1,hashcodetest/IntRange.java:357]
+}
+success count: 12
+fail count: 29, Pattern {
+	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] ]
+	matched: true
+	ReadWriteNode[730,hashcodetest.IntRange@166,hashCode,READ,Thread-1,hashcodetest/IntRange.java:357]
+	ReadWriteNode[741,hashcodetest.IntRange@166,hashCode,WRITE,Thread-5,hashcodetest/IntRange.java:356]
+}
+success count: 5
+fail count: 11, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[704,hashcodetest.IntRange@166,hashCode,WRITE,Thread-1,hashcodetest/IntRange.java:356]
+	ReadWriteNode[720,hashcodetest.IntRange@166,hashCode,READ,Thread-2,hashcodetest/IntRange.java:357]
+}
+success count: 7
+fail count: 14, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,WRITE] ]
+	matched: true
+	ReadWriteNode[665,hashcodetest.IntRange@166,hashCode,READ,Thread-1,hashcodetest/IntRange.java:355]
+	ReadWriteNode[701,hashcodetest.IntRange@166,hashCode,WRITE,Thread-2,hashcodetest/IntRange.java:356]
+	ReadWriteNode[704,hashcodetest.IntRange@166,hashCode,WRITE,Thread-1,hashcodetest/IntRange.java:356]
+}
+success count: 12
+fail count: 22, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,READ] ]
+	matched: true
+	ReadWriteNode[700,hashcodetest.IntRange@166,hashCode,WRITE,Thread-4,hashcodetest/IntRange.java:357]
+	ReadWriteNode[703,hashcodetest.IntRange@166,hashCode,WRITE,Thread-1,hashcodetest/IntRange.java:357]
+	ReadWriteNode[726,hashcodetest.IntRange@166,hashCode,READ,Thread-4,hashcodetest/IntRange.java:361]
+}
+success count: 5
+fail count: 9, Pattern {
+	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,READ] ]
+	matched: true
+	ReadWriteNode[748,hashcodetest.IntRange@166,hashCode,READ,Thread-5,hashcodetest/IntRange.java:355]
+	ReadWriteNode[766,hashcodetest.IntRange@166,hashCode,WRITE,Thread-3,hashcodetest/IntRange.java:357]
+	ReadWriteNode[788,hashcodetest.IntRange@166,hashCode,READ,Thread-5,hashcodetest/IntRange.java:361]
+}
+success count: 23
+fail count: 37, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] ]
+	matched: true
+	ReadWriteNode[704,hashcodetest.IntRange@166,hashCode,WRITE,Thread-1,hashcodetest/IntRange.java:356]
+	ReadWriteNode[723,hashcodetest.IntRange@166,hashCode,WRITE,Thread-2,hashcodetest/IntRange.java:357]
 }
 success count: 9
-fail count: 7, Pattern {
+fail count: 14, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,READ] ]
+	matched: true
+	ReadWriteNode[701,hashcodetest.IntRange@166,hashCode,WRITE,Thread-2,hashcodetest/IntRange.java:356]
+	ReadWriteNode[704,hashcodetest.IntRange@166,hashCode,WRITE,Thread-1,hashcodetest/IntRange.java:356]
+	ReadWriteNode[720,hashcodetest.IntRange@166,hashCode,READ,Thread-2,hashcodetest/IntRange.java:357]
+}
+success count: 7
+fail count: 10, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[247,hashcodetest.IntRange@166,hashCode,WRITE,main,hashcodetest/IntRange.java:57]
+	ReadWriteNode[672,hashcodetest.IntRange@166,hashCode,READ,Thread-3,hashcodetest/IntRange.java:355]
+}
+success count: 63
+fail count: 88, Pattern {
+	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,WRITE] ]
+	matched: true
+	ReadWriteNode[701,hashcodetest.IntRange@166,hashCode,WRITE,Thread-2,hashcodetest/IntRange.java:356]
+	ReadWriteNode[704,hashcodetest.IntRange@166,hashCode,WRITE,Thread-1,hashcodetest/IntRange.java:356]
+	ReadWriteNode[723,hashcodetest.IntRange@166,hashCode,WRITE,Thread-2,hashcodetest/IntRange.java:357]
+}
+success count: 9
+fail count: 12, Pattern {
+	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,WRITE] ]
+	matched: true
+	ReadWriteNode[704,hashcodetest.IntRange@166,hashCode,WRITE,Thread-1,hashcodetest/IntRange.java:356]
+	ReadWriteNode[723,hashcodetest.IntRange@166,hashCode,WRITE,Thread-2,hashcodetest/IntRange.java:357]
+	ReadWriteNode[734,hashcodetest.IntRange@166,hashCode,WRITE,Thread-1,hashcodetest/IntRange.java:357]
+}
+success count: 9
+fail count: 11, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,WRITE] ]
+	matched: true
+	ReadWriteNode[730,hashcodetest.IntRange@166,hashCode,READ,Thread-1,hashcodetest/IntRange.java:357]
+	ReadWriteNode[741,hashcodetest.IntRange@166,hashCode,WRITE,Thread-5,hashcodetest/IntRange.java:356]
+	ReadWriteNode[760,hashcodetest.IntRange@166,hashCode,WRITE,Thread-1,hashcodetest/IntRange.java:357]
+}
+success count: 5
+fail count: 6, Pattern {
 	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] ]
 	matched: true
 	ReadWriteNode[247,hashcodetest.IntRange@166,hashCode,WRITE,main,hashcodetest/IntRange.java:57]
-	ReadWriteNode[632,hashcodetest.IntRange@166,hashCode,WRITE,Thread-2,hashcodetest/IntRange.java:356]
+	ReadWriteNode[683,hashcodetest.IntRange@166,hashCode,WRITE,Thread-3,hashcodetest/IntRange.java:356]
 }
-success count: 51
-fail count: 49, Pattern {
+success count: 49
+fail count: 51, Pattern {
 	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
 	matched: true
 	ReadWriteNode[497,hashcodetest.HashCodeTest$hashThread@1b5,t,WRITE,main,hashcodetest/HashCodeTest.java:65]
-	ReadWriteNode[782,hashcodetest.HashCodeTest$hashThread@1b5,t,READ,Thread-8,hashcodetest/HashCodeTest.java:73]
+	ReadWriteNode[815,hashcodetest.HashCodeTest$hashThread@1b5,t,READ,Thread-8,hashcodetest/HashCodeTest.java:74]
 }
-success count: 510
-fail count: 490, Pattern {
+success count: 490
+fail count: 510, Pattern {
 	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
 	matched: true
-	ReadWriteNode[311,hashcodetest.HashCodeTest$hashThread@17f,t,WRITE,main,hashcodetest/HashCodeTest.java:65]
-	ReadWriteNode[605,hashcodetest.HashCodeTest$hashThread@17f,t,READ,Thread-2,hashcodetest/HashCodeTest.java:74]
+	ReadWriteNode[404,hashcodetest.HashCodeTest$hashThread@19a,t,WRITE,main,hashcodetest/HashCodeTest.java:65]
+	ReadWriteNode[616,hashcodetest.HashCodeTest$hashThread@19a,t,READ,Thread-5,hashcodetest/HashCodeTest.java:72]
 }
-success count: 510
-fail count: 490, Pattern {
+success count: 490
+fail count: 510, Pattern {
 	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
 	matched: true
-	ReadWriteNode[373,hashcodetest.HashCodeTest$hashThread@191,t,WRITE,main,hashcodetest/HashCodeTest.java:65]
-	ReadWriteNode[612,hashcodetest.HashCodeTest$hashThread@191,t,READ,Thread-4,hashcodetest/HashCodeTest.java:72]
+	ReadWriteNode[435,hashcodetest.HashCodeTest$hashThread@1a3,t,WRITE,main,hashcodetest/HashCodeTest.java:65]
+	ReadWriteNode[827,hashcodetest.HashCodeTest$hashThread@1a3,t,READ,Thread-6,hashcodetest/HashCodeTest.java:73]
 }
-success count: 510
-fail count: 490, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,READ] ]
+success count: 490
+fail count: 510, Pattern {
+	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] ]
 	matched: true
-	ReadWriteNode[670,hashcodetest.IntRange@166,hashCode,WRITE,Thread-1,hashcodetest/IntRange.java:356]
-	ReadWriteNode[683,hashcodetest.IntRange@166,hashCode,WRITE,Thread-2,hashcodetest/IntRange.java:356]
-	ReadWriteNode[694,hashcodetest.IntRange@166,hashCode,READ,Thread-1,hashcodetest/IntRange.java:357]
-}
-success count: 9
-fail count: 9, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
-	matched: true
-	ReadWriteNode[683,hashcodetest.IntRange@166,hashCode,WRITE,Thread-2,hashcodetest/IntRange.java:356]
-	ReadWriteNode[694,hashcodetest.IntRange@166,hashCode,READ,Thread-1,hashcodetest/IntRange.java:357]
+	ReadWriteNode[683,hashcodetest.IntRange@166,hashCode,READ,Thread-1,hashcodetest/IntRange.java:357]
+	ReadWriteNode[700,hashcodetest.IntRange@166,hashCode,WRITE,Thread-4,hashcodetest/IntRange.java:357]
 }
 success count: 10
-fail count: 12, Pattern {
+fail count: 10, Pattern {
 	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
 	matched: true
-	ReadWriteNode[247,hashcodetest.IntRange@166,hashCode,WRITE,main,hashcodetest/IntRange.java:57]
-	ReadWriteNode[623,hashcodetest.IntRange@166,hashCode,READ,Thread-2,hashcodetest/IntRange.java:355]
+	ReadWriteNode[766,hashcodetest.IntRange@166,hashCode,WRITE,Thread-3,hashcodetest/IntRange.java:357]
+	ReadWriteNode[791,hashcodetest.IntRange@166,hashCode,READ,Thread-9,hashcodetest/IntRange.java:361]
 }
-success count: 62
-fail count: 78, Pattern {
-	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,WRITE] ]
-	matched: true
-	ReadWriteNode[720,hashcodetest.IntRange@166,hashCode,WRITE,Thread-3,hashcodetest/IntRange.java:356]
-	ReadWriteNode[740,hashcodetest.IntRange@166,hashCode,WRITE,Thread-1,hashcodetest/IntRange.java:357]
-	ReadWriteNode[791,hashcodetest.IntRange@166,hashCode,WRITE,Thread-3,hashcodetest/IntRange.java:357]
-}
-success count: 6
-fail count: 10, Pattern {
+success count: 432
+fail count: 354, Pattern {
 	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,WRITE] ]
 	matched: true
-	ReadWriteNode[663,hashcodetest.IntRange@166,hashCode,READ,Thread-3,hashcodetest/IntRange.java:355]
-	ReadWriteNode[680,hashcodetest.IntRange@166,hashCode,WRITE,Thread-1,hashcodetest/IntRange.java:356]
-	ReadWriteNode[720,hashcodetest.IntRange@166,hashCode,WRITE,Thread-3,hashcodetest/IntRange.java:356]
+	ReadWriteNode[683,hashcodetest.IntRange@166,hashCode,READ,Thread-1,hashcodetest/IntRange.java:357]
+	ReadWriteNode[700,hashcodetest.IntRange@166,hashCode,WRITE,Thread-4,hashcodetest/IntRange.java:357]
+	ReadWriteNode[703,hashcodetest.IntRange@166,hashCode,WRITE,Thread-1,hashcodetest/IntRange.java:357]
 }
 success count: 10
-fail count: 17, Pattern {
-	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,WRITE] ]
+fail count: 8, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
 	matched: true
-	ReadWriteNode[680,hashcodetest.IntRange@166,hashCode,WRITE,Thread-1,hashcodetest/IntRange.java:356]
-	ReadWriteNode[720,hashcodetest.IntRange@166,hashCode,WRITE,Thread-3,hashcodetest/IntRange.java:356]
-	ReadWriteNode[740,hashcodetest.IntRange@166,hashCode,WRITE,Thread-1,hashcodetest/IntRange.java:357]
+	ReadWriteNode[766,hashcodetest.IntRange@166,hashCode,WRITE,Thread-3,hashcodetest/IntRange.java:357]
+	ReadWriteNode[769,hashcodetest.IntRange@166,hashCode,READ,Thread-2,hashcodetest/IntRange.java:355]
 }
-success count: 6
-fail count: 11, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] ]
-	matched: true
-	ReadWriteNode[720,hashcodetest.IntRange@166,hashCode,WRITE,Thread-3,hashcodetest/IntRange.java:356]
-	ReadWriteNode[740,hashcodetest.IntRange@166,hashCode,WRITE,Thread-1,hashcodetest/IntRange.java:357]
-}
-success count: 7
-fail count: 13, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] ]
-	matched: true
-	ReadWriteNode[680,hashcodetest.IntRange@166,hashCode,WRITE,Thread-1,hashcodetest/IntRange.java:356]
-	ReadWriteNode[720,hashcodetest.IntRange@166,hashCode,WRITE,Thread-3,hashcodetest/IntRange.java:356]
-}
-success count: 10
-fail count: 21, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] ]
-	matched: true
-	ReadWriteNode[740,hashcodetest.IntRange@166,hashCode,WRITE,Thread-1,hashcodetest/IntRange.java:357]
-	ReadWriteNode[791,hashcodetest.IntRange@166,hashCode,WRITE,Thread-3,hashcodetest/IntRange.java:357]
-}
-success count: 10
-fail count: 21, Pattern {
-	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,READ] ]
-	matched: true
-	ReadWriteNode[651,hashcodetest.IntRange@166,hashCode,READ,Thread-1,hashcodetest/IntRange.java:355]
-	ReadWriteNode[655,hashcodetest.IntRange@166,hashCode,WRITE,Thread-2,hashcodetest/IntRange.java:357]
-	ReadWriteNode[667,hashcodetest.IntRange@166,hashCode,READ,Thread-1,hashcodetest/IntRange.java:361]
-}
-success count: 23
-fail count: 49, Pattern {
-	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] ]
-	matched: true
-	ReadWriteNode[692,hashcodetest.IntRange@166,hashCode,READ,Thread-2,hashcodetest/IntRange.java:355]
-	ReadWriteNode[720,hashcodetest.IntRange@166,hashCode,WRITE,Thread-3,hashcodetest/IntRange.java:356]
-}
-success count: 11
-fail count: 41, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,WRITE] ]
-	matched: true
-	ReadWriteNode[711,hashcodetest.IntRange@166,hashCode,READ,Thread-1,hashcodetest/IntRange.java:357]
-	ReadWriteNode[720,hashcodetest.IntRange@166,hashCode,WRITE,Thread-3,hashcodetest/IntRange.java:356]
-	ReadWriteNode[740,hashcodetest.IntRange@166,hashCode,WRITE,Thread-1,hashcodetest/IntRange.java:357]
-}
-success count: 1
-fail count: 5, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,READ] ]
-	matched: true
-	ReadWriteNode[777,hashcodetest.IntRange@166,hashCode,WRITE,Thread-1,hashcodetest/IntRange.java:357]
-	ReadWriteNode[780,hashcodetest.IntRange@166,hashCode,WRITE,Thread-4,hashcodetest/IntRange.java:357]
-	ReadWriteNode[783,hashcodetest.IntRange@166,hashCode,READ,Thread-1,hashcodetest/IntRange.java:361]
-}
-success count: 2
-fail count: 10, Pattern {
-	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] ]
-	matched: true
-	ReadWriteNode[651,hashcodetest.IntRange@166,hashCode,READ,Thread-1,hashcodetest/IntRange.java:355]
-	ReadWriteNode[655,hashcodetest.IntRange@166,hashCode,WRITE,Thread-2,hashcodetest/IntRange.java:357]
-}
-success count: 25
-fail count: 148, Pattern {
+success count: 408
+fail count: 306, Pattern {
 	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] PatternTypeNode[x,1,WRITE] ]
 	matched: true
-	ReadWriteNode[632,hashcodetest.IntRange@166,hashCode,WRITE,Thread-2,hashcodetest/IntRange.java:356]
-	ReadWriteNode[651,hashcodetest.IntRange@166,hashCode,READ,Thread-1,hashcodetest/IntRange.java:355]
-	ReadWriteNode[655,hashcodetest.IntRange@166,hashCode,WRITE,Thread-2,hashcodetest/IntRange.java:357]
+	ReadWriteNode[662,hashcodetest.IntRange@166,hashCode,WRITE,Thread-1,hashcodetest/IntRange.java:356]
+	ReadWriteNode[673,hashcodetest.IntRange@166,hashCode,READ,Thread-6,hashcodetest/IntRange.java:357]
+	ReadWriteNode[689,hashcodetest.IntRange@166,hashCode,WRITE,Thread-1,hashcodetest/IntRange.java:357]
 }
-success count: 17
-fail count: 105, Pattern {
+success count: 3
+fail count: 2, Pattern {
 	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
 	matched: true
-	ReadWriteNode[632,hashcodetest.IntRange@166,hashCode,WRITE,Thread-2,hashcodetest/IntRange.java:356]
-	ReadWriteNode[651,hashcodetest.IntRange@166,hashCode,READ,Thread-1,hashcodetest/IntRange.java:355]
+	ReadWriteNode[571,hashcodetest.HashCodeTest$hashThread@16e,hash,WRITE,Thread-1,hashcodetest/HashCodeTest.java:72]
+	ReadWriteNode[844,hashcodetest.HashCodeTest$hashThread@16e,hash,READ,main,hashcodetest/HashCodeTest.java:54]
 }
-success count: 18
-fail count: 120, Pattern {
-	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] ]
-	matched: true
-	ReadWriteNode[711,hashcodetest.IntRange@166,hashCode,READ,Thread-1,hashcodetest/IntRange.java:357]
-	ReadWriteNode[720,hashcodetest.IntRange@166,hashCode,WRITE,Thread-3,hashcodetest/IntRange.java:356]
-}
-success count: 1
-fail count: 7, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] ]
-	matched: true
-	ReadWriteNode[718,hashcodetest.IntRange@166,hashCode,WRITE,Thread-2,hashcodetest/IntRange.java:357]
-	ReadWriteNode[728,hashcodetest.IntRange@166,hashCode,WRITE,Thread-4,hashcodetest/IntRange.java:356]
-}
-success count: 1
-fail count: 8, Pattern {
-	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] ]
-	matched: true
-	ReadWriteNode[781,hashcodetest.IntRange@166,hashCode,READ,Thread-1,hashcodetest/IntRange.java:361]
-	ReadWriteNode[791,hashcodetest.IntRange@166,hashCode,WRITE,Thread-3,hashcodetest/IntRange.java:357]
-}
-success count: 12
-fail count: 127, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,READ] ]
-	matched: true
-	ReadWriteNode[720,hashcodetest.IntRange@166,hashCode,WRITE,Thread-3,hashcodetest/IntRange.java:356]
-	ReadWriteNode[740,hashcodetest.IntRange@166,hashCode,WRITE,Thread-1,hashcodetest/IntRange.java:357]
-	ReadWriteNode[755,hashcodetest.IntRange@166,hashCode,READ,Thread-3,hashcodetest/IntRange.java:357]
-}
-success count: 1
-fail count: 11, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
-	matched: true
-	ReadWriteNode[740,hashcodetest.IntRange@166,hashCode,WRITE,Thread-1,hashcodetest/IntRange.java:357]
-	ReadWriteNode[755,hashcodetest.IntRange@166,hashCode,READ,Thread-3,hashcodetest/IntRange.java:357]
-}
-success count: 1
-fail count: 15, Pattern {
-	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,READ] ]
-	matched: true
-	ReadWriteNode[695,hashcodetest.IntRange@166,hashCode,READ,Thread-2,hashcodetest/IntRange.java:355]
-	ReadWriteNode[698,hashcodetest.IntRange@166,hashCode,WRITE,Thread-3,hashcodetest/IntRange.java:356]
-	ReadWriteNode[719,hashcodetest.IntRange@166,hashCode,READ,Thread-2,hashcodetest/IntRange.java:361]
-}
-success count: 0
-fail count: 5, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,READ] ]
-	matched: true
-	ReadWriteNode[718,hashcodetest.IntRange@166,hashCode,WRITE,Thread-2,hashcodetest/IntRange.java:357]
-	ReadWriteNode[728,hashcodetest.IntRange@166,hashCode,WRITE,Thread-4,hashcodetest/IntRange.java:356]
-	ReadWriteNode[740,hashcodetest.IntRange@166,hashCode,READ,Thread-2,hashcodetest/IntRange.java:361]
-}
-success count: 0
-fail count: 7, Pattern {
-	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] ]
-	matched: true
-	ReadWriteNode[715,hashcodetest.IntRange@166,hashCode,READ,Thread-4,hashcodetest/IntRange.java:361]
-	ReadWriteNode[720,hashcodetest.IntRange@166,hashCode,WRITE,Thread-3,hashcodetest/IntRange.java:356]
-}
-success count: 0
-fail count: 8, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] PatternTypeNode[x,1,WRITE] ]
-	matched: true
-	ReadWriteNode[639,hashcodetest.IntRange@166,hashCode,WRITE,Thread-1,hashcodetest/IntRange.java:356]
-	ReadWriteNode[722,hashcodetest.IntRange@166,hashCode,READ,Thread-3,hashcodetest/IntRange.java:361]
-	ReadWriteNode[746,hashcodetest.IntRange@166,hashCode,WRITE,Thread-1,hashcodetest/IntRange.java:357]
-}
-success count: 0
-fail count: 82, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
-	matched: true
-	ReadWriteNode[680,hashcodetest.IntRange@166,hashCode,WRITE,Thread-1,hashcodetest/IntRange.java:356]
-	ReadWriteNode[695,hashcodetest.IntRange@166,hashCode,READ,Thread-2,hashcodetest/IntRange.java:361]
-}
-success count: 0
-fail count: 93]
-time for getting pattern list : 26679
+success count: 490
+fail count: 144]
+time for getting pattern list : 7093

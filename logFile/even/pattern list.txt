@@ -1,340 +1,340 @@
 [Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] PatternTypeNode[x,1,WRITE] ]
-	matched: true
-	ReadWriteNode[1014,even.EvenGenerator@15e,currentValue,WRITE,Thread-2,even/EvenGenerator.java:10]
-	ReadWriteNode[1026,even.EvenGenerator@15e,currentValue,READ,Thread-3,even/EvenGenerator.java:10]
-	ReadWriteNode[1032,even.EvenGenerator@15e,currentValue,WRITE,Thread-2,even/EvenGenerator.java:9]
-}
-success count: 0
-fail count: 1, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] PatternTypeNode[x,1,WRITE] ]
-	matched: true
-	ReadWriteNode[1014,even.EvenGenerator@15e,currentValue,WRITE,Thread-2,even/EvenGenerator.java:10]
-	ReadWriteNode[1029,even.EvenGenerator@15e,currentValue,READ,Thread-1,even/EvenGenerator.java:11]
-	ReadWriteNode[1032,even.EvenGenerator@15e,currentValue,WRITE,Thread-2,even/EvenGenerator.java:9]
-}
-success count: 0
-fail count: 1, Pattern {
 	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,WRITE] ]
 	matched: true
-	ReadWriteNode[379,even.EvenGenerator@15e,currentValue,WRITE,Thread-1,even/EvenGenerator.java:10]
-	ReadWriteNode[412,even.EvenGenerator@15e,currentValue,WRITE,Thread-2,even/EvenGenerator.java:10]
-	ReadWriteNode[418,even.EvenGenerator@15e,currentValue,WRITE,Thread-1,even/EvenGenerator.java:9]
+	ReadWriteNode[408,even.EvenGenerator@15e,currentValue,WRITE,Thread-1,even/EvenGenerator.java:10]
+	ReadWriteNode[420,even.EvenGenerator@15e,currentValue,WRITE,Thread-3,even/EvenGenerator.java:10]
+	ReadWriteNode[430,even.EvenGenerator@15e,currentValue,WRITE,Thread-1,even/EvenGenerator.java:9]
 }
 success count: 0
-fail count: 2, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+fail count: 3, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] PatternTypeNode[x,1,WRITE] ]
 	matched: true
-	ReadWriteNode[244,even.EvenGenerator@15e,currentValue,WRITE,main,even/EvenGenerator.java:5]
-	ReadWriteNode[382,even.EvenGenerator@15e,currentValue,READ,Thread-1,even/EvenGenerator.java:11]
+	ReadWriteNode[471,even.EvenGenerator@15e,currentValue,WRITE,Thread-2,even/EvenGenerator.java:10]
+	ReadWriteNode[480,even.EvenGenerator@15e,currentValue,READ,Thread-4,even/EvenGenerator.java:9]
+	ReadWriteNode[497,even.EvenGenerator@15e,currentValue,WRITE,Thread-2,even/EvenGenerator.java:9]
+}
+success count: 0
+fail count: 3, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] PatternTypeNode[x,1,WRITE] ]
+	matched: true
+	ReadWriteNode[406,even.EvenGenerator@15e,currentValue,WRITE,Thread-2,even/EvenGenerator.java:9]
+	ReadWriteNode[409,even.EvenGenerator@15e,currentValue,READ,Thread-1,even/EvenGenerator.java:11]
+	ReadWriteNode[422,even.EvenGenerator@15e,currentValue,WRITE,Thread-2,even/EvenGenerator.java:10]
 }
 success count: 0
 fail count: 4, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,WRITE] ]
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
 	matched: true
-	ReadWriteNode[385,even.EvenGenerator@15e,currentValue,READ,Thread-1,even/EvenGenerator.java:11]
-	ReadWriteNode[412,even.EvenGenerator@15e,currentValue,WRITE,Thread-2,even/EvenGenerator.java:10]
-	ReadWriteNode[418,even.EvenGenerator@15e,currentValue,WRITE,Thread-1,even/EvenGenerator.java:9]
-}
-success count: 0
-fail count: 5, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,READ] ]
-	matched: true
-	ReadWriteNode[419,even.EvenGenerator@15e,currentValue,WRITE,Thread-2,even/EvenGenerator.java:10]
-	ReadWriteNode[425,even.EvenGenerator@15e,currentValue,WRITE,Thread-3,even/EvenGenerator.java:10]
-	ReadWriteNode[429,even.EvenGenerator@15e,currentValue,READ,Thread-2,even/EvenGenerator.java:9]
-}
-success count: 0
-fail count: 5, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] PatternTypeNode[x,1,WRITE] ]
-	matched: true
-	ReadWriteNode[441,even.EvenGenerator@15e,currentValue,WRITE,Thread-4,even/EvenGenerator.java:9]
-	ReadWriteNode[453,even.EvenGenerator@15e,currentValue,READ,Thread-2,even/EvenGenerator.java:11]
-	ReadWriteNode[459,even.EvenGenerator@15e,currentValue,WRITE,Thread-4,even/EvenGenerator.java:10]
+	ReadWriteNode[244,even.EvenGenerator@15e,currentValue,WRITE,main,even/EvenGenerator.java:5]
+	ReadWriteNode[417,even.EvenGenerator@15e,currentValue,READ,Thread-2,even/EvenGenerator.java:11]
 }
 success count: 0
 fail count: 5, Pattern {
 	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,WRITE] ]
 	matched: true
-	ReadWriteNode[458,even.EvenGenerator@15e,currentValue,READ,Thread-3,even/EvenGenerator.java:11]
-	ReadWriteNode[464,even.EvenGenerator@15e,currentValue,WRITE,Thread-2,even/EvenGenerator.java:9]
-	ReadWriteNode[479,even.EvenGenerator@15e,currentValue,WRITE,Thread-3,even/EvenGenerator.java:9]
+	ReadWriteNode[411,even.EvenGenerator@15e,currentValue,READ,Thread-1,even/EvenGenerator.java:11]
+	ReadWriteNode[420,even.EvenGenerator@15e,currentValue,WRITE,Thread-3,even/EvenGenerator.java:10]
+	ReadWriteNode[430,even.EvenGenerator@15e,currentValue,WRITE,Thread-1,even/EvenGenerator.java:9]
 }
 success count: 0
 fail count: 6, Pattern {
 	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,WRITE] ]
 	matched: true
-	ReadWriteNode[455,even.EvenGenerator@15e,currentValue,WRITE,Thread-3,even/EvenGenerator.java:10]
-	ReadWriteNode[464,even.EvenGenerator@15e,currentValue,WRITE,Thread-2,even/EvenGenerator.java:9]
-	ReadWriteNode[479,even.EvenGenerator@15e,currentValue,WRITE,Thread-3,even/EvenGenerator.java:9]
+	ReadWriteNode[420,even.EvenGenerator@15e,currentValue,WRITE,Thread-3,even/EvenGenerator.java:10]
+	ReadWriteNode[430,even.EvenGenerator@15e,currentValue,WRITE,Thread-1,even/EvenGenerator.java:9]
+	ReadWriteNode[433,even.EvenGenerator@15e,currentValue,WRITE,Thread-3,even/EvenGenerator.java:9]
 }
 success count: 0
 fail count: 6, Pattern {
-	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,READ] ]
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] PatternTypeNode[x,1,WRITE] ]
 	matched: true
-	ReadWriteNode[422,even.EvenGenerator@15e,currentValue,READ,Thread-2,even/EvenGenerator.java:11]
-	ReadWriteNode[425,even.EvenGenerator@15e,currentValue,WRITE,Thread-3,even/EvenGenerator.java:10]
-	ReadWriteNode[429,even.EvenGenerator@15e,currentValue,READ,Thread-2,even/EvenGenerator.java:9]
+	ReadWriteNode[402,even.EvenGenerator@15e,currentValue,WRITE,Thread-2,even/EvenGenerator.java:10]
+	ReadWriteNode[414,even.EvenGenerator@15e,currentValue,READ,Thread-1,even/EvenGenerator.java:10]
+	ReadWriteNode[418,even.EvenGenerator@15e,currentValue,WRITE,Thread-2,even/EvenGenerator.java:9]
+}
+success count: 0
+fail count: 6, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,WRITE] ]
+	matched: true
+	ReadWriteNode[423,even.EvenGenerator@15e,currentValue,READ,Thread-3,even/EvenGenerator.java:11]
+	ReadWriteNode[430,even.EvenGenerator@15e,currentValue,WRITE,Thread-1,even/EvenGenerator.java:9]
+	ReadWriteNode[433,even.EvenGenerator@15e,currentValue,WRITE,Thread-3,even/EvenGenerator.java:9]
 }
 success count: 0
 fail count: 7, Pattern {
 	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] PatternTypeNode[x,1,WRITE] ]
 	matched: true
-	ReadWriteNode[423,even.EvenGenerator@15e,currentValue,WRITE,Thread-2,even/EvenGenerator.java:9]
-	ReadWriteNode[429,even.EvenGenerator@15e,currentValue,READ,Thread-3,even/EvenGenerator.java:10]
-	ReadWriteNode[432,even.EvenGenerator@15e,currentValue,WRITE,Thread-2,even/EvenGenerator.java:10]
-}
-success count: 0
-fail count: 9, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
-	matched: true
-	ReadWriteNode[244,even.EvenGenerator@15e,currentValue,WRITE,main,even/EvenGenerator.java:5]
-	ReadWriteNode[428,even.EvenGenerator@15e,currentValue,READ,Thread-4,even/EvenGenerator.java:10]
+	ReadWriteNode[432,even.EvenGenerator@15e,currentValue,WRITE,Thread-1,even/EvenGenerator.java:9]
+	ReadWriteNode[438,even.EvenGenerator@15e,currentValue,READ,Thread-3,even/EvenGenerator.java:10]
+	ReadWriteNode[442,even.EvenGenerator@15e,currentValue,WRITE,Thread-1,even/EvenGenerator.java:10]
 }
 success count: 0
 fail count: 9, Pattern {
 	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,READ] ]
 	matched: true
-	ReadWriteNode[455,even.EvenGenerator@15e,currentValue,WRITE,Thread-3,even/EvenGenerator.java:10]
-	ReadWriteNode[464,even.EvenGenerator@15e,currentValue,WRITE,Thread-2,even/EvenGenerator.java:9]
-	ReadWriteNode[473,even.EvenGenerator@15e,currentValue,READ,Thread-3,even/EvenGenerator.java:9]
+	ReadWriteNode[408,even.EvenGenerator@15e,currentValue,WRITE,Thread-1,even/EvenGenerator.java:10]
+	ReadWriteNode[420,even.EvenGenerator@15e,currentValue,WRITE,Thread-3,even/EvenGenerator.java:10]
+	ReadWriteNode[429,even.EvenGenerator@15e,currentValue,READ,Thread-1,even/EvenGenerator.java:9]
+}
+success count: 0
+fail count: 9, Pattern {
+	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,READ] ]
+	matched: true
+	ReadWriteNode[440,even.EvenGenerator@15e,currentValue,READ,Thread-3,even/EvenGenerator.java:11]
+	ReadWriteNode[443,even.EvenGenerator@15e,currentValue,WRITE,Thread-1,even/EvenGenerator.java:10]
+	ReadWriteNode[447,even.EvenGenerator@15e,currentValue,READ,Thread-3,even/EvenGenerator.java:9]
+}
+success count: 0
+fail count: 11, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,READ] ]
+	matched: true
+	ReadWriteNode[420,even.EvenGenerator@15e,currentValue,WRITE,Thread-3,even/EvenGenerator.java:10]
+	ReadWriteNode[430,even.EvenGenerator@15e,currentValue,WRITE,Thread-1,even/EvenGenerator.java:9]
+	ReadWriteNode[432,even.EvenGenerator@15e,currentValue,READ,Thread-3,even/EvenGenerator.java:9]
 }
 success count: 0
 fail count: 11, Pattern {
 	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,READ] ]
 	matched: true
-	ReadWriteNode[458,even.EvenGenerator@15e,currentValue,READ,Thread-3,even/EvenGenerator.java:11]
-	ReadWriteNode[464,even.EvenGenerator@15e,currentValue,WRITE,Thread-2,even/EvenGenerator.java:9]
-	ReadWriteNode[473,even.EvenGenerator@15e,currentValue,READ,Thread-3,even/EvenGenerator.java:9]
+	ReadWriteNode[423,even.EvenGenerator@15e,currentValue,READ,Thread-3,even/EvenGenerator.java:11]
+	ReadWriteNode[430,even.EvenGenerator@15e,currentValue,WRITE,Thread-1,even/EvenGenerator.java:9]
+	ReadWriteNode[432,even.EvenGenerator@15e,currentValue,READ,Thread-3,even/EvenGenerator.java:9]
 }
 success count: 0
 fail count: 11, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,READ] ]
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
 	matched: true
-	ReadWriteNode[432,even.EvenGenerator@15e,currentValue,WRITE,Thread-2,even/EvenGenerator.java:10]
-	ReadWriteNode[435,even.EvenGenerator@15e,currentValue,WRITE,Thread-3,even/EvenGenerator.java:10]
-	ReadWriteNode[441,even.EvenGenerator@15e,currentValue,READ,Thread-2,even/EvenGenerator.java:11]
+	ReadWriteNode[244,even.EvenGenerator@15e,currentValue,WRITE,main,even/EvenGenerator.java:5]
+	ReadWriteNode[396,even.EvenGenerator@15e,currentValue,READ,Thread-3,even/EvenGenerator.java:10]
 }
 success count: 0
-fail count: 18, Pattern {
+fail count: 12, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,READ] ]
+	matched: true
+	ReadWriteNode[408,even.EvenGenerator@15e,currentValue,WRITE,Thread-2,even/EvenGenerator.java:10]
+	ReadWriteNode[417,even.EvenGenerator@15e,currentValue,WRITE,Thread-3,even/EvenGenerator.java:10]
+	ReadWriteNode[420,even.EvenGenerator@15e,currentValue,READ,Thread-2,even/EvenGenerator.java:11]
+}
+success count: 0
+fail count: 13, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] PatternTypeNode[x,1,WRITE] ]
+	matched: true
+	ReadWriteNode[388,even.EvenGenerator@15e,currentValue,WRITE,Thread-1,even/EvenGenerator.java:9]
+	ReadWriteNode[391,even.EvenGenerator@15e,currentValue,READ,Thread-3,even/EvenGenerator.java:9]
+	ReadWriteNode[398,even.EvenGenerator@15e,currentValue,WRITE,Thread-1,even/EvenGenerator.java:10]
+}
+success count: 0
+fail count: 17, Pattern {
 	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] ]
 	matched: true
 	ReadWriteNode[244,even.EvenGenerator@15e,currentValue,WRITE,main,even/EvenGenerator.java:5]
-	ReadWriteNode[398,even.EvenGenerator@15e,currentValue,WRITE,Thread-2,even/EvenGenerator.java:10]
+	ReadWriteNode[435,even.EvenGenerator@15e,currentValue,WRITE,Thread-4,even/EvenGenerator.java:10]
 }
 success count: 0
-fail count: 20, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] PatternTypeNode[x,1,WRITE] ]
-	matched: true
-	ReadWriteNode[379,even.EvenGenerator@15e,currentValue,WRITE,Thread-1,even/EvenGenerator.java:9]
-	ReadWriteNode[385,even.EvenGenerator@15e,currentValue,READ,Thread-3,even/EvenGenerator.java:9]
-	ReadWriteNode[391,even.EvenGenerator@15e,currentValue,WRITE,Thread-1,even/EvenGenerator.java:10]
-}
-success count: 0
-fail count: 20, Pattern {
+fail count: 17, Pattern {
 	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,READ] ]
 	matched: true
-	ReadWriteNode[472,even.EvenGenerator@15e,currentValue,WRITE,Thread-4,even/EvenGenerator.java:10]
-	ReadWriteNode[475,even.EvenGenerator@15e,currentValue,WRITE,Thread-3,even/EvenGenerator.java:9]
-	ReadWriteNode[478,even.EvenGenerator@15e,currentValue,READ,Thread-4,even/EvenGenerator.java:11]
+	ReadWriteNode[408,even.EvenGenerator@15e,currentValue,WRITE,Thread-1,even/EvenGenerator.java:10]
+	ReadWriteNode[411,even.EvenGenerator@15e,currentValue,WRITE,Thread-2,even/EvenGenerator.java:9]
+	ReadWriteNode[414,even.EvenGenerator@15e,currentValue,READ,Thread-1,even/EvenGenerator.java:11]
 }
 success count: 0
-fail count: 23, Pattern {
+fail count: 22, Pattern {
 	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,WRITE] ]
 	matched: true
-	ReadWriteNode[405,even.EvenGenerator@15e,currentValue,READ,Thread-2,even/EvenGenerator.java:9]
-	ReadWriteNode[417,even.EvenGenerator@15e,currentValue,WRITE,Thread-1,even/EvenGenerator.java:10]
-	ReadWriteNode[423,even.EvenGenerator@15e,currentValue,WRITE,Thread-2,even/EvenGenerator.java:9]
+	ReadWriteNode[401,even.EvenGenerator@15e,currentValue,READ,Thread-2,even/EvenGenerator.java:10]
+	ReadWriteNode[404,even.EvenGenerator@15e,currentValue,WRITE,Thread-3,even/EvenGenerator.java:10]
+	ReadWriteNode[407,even.EvenGenerator@15e,currentValue,WRITE,Thread-2,even/EvenGenerator.java:10]
 }
 success count: 0
 fail count: 24, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,READ] ]
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,WRITE] ]
 	matched: true
-	ReadWriteNode[1622,even.EvenGenerator@15e,currentValue,WRITE,Thread-4,even/EvenGenerator.java:9]
-	ReadWriteNode[1628,even.EvenGenerator@15e,currentValue,WRITE,Thread-1,even/EvenGenerator.java:10]
-	ReadWriteNode[1631,even.EvenGenerator@15e,currentValue,READ,Thread-4,even/EvenGenerator.java:10]
+	ReadWriteNode[402,even.EvenGenerator@15e,currentValue,READ,Thread-2,even/EvenGenerator.java:9]
+	ReadWriteNode[408,even.EvenGenerator@15e,currentValue,WRITE,Thread-1,even/EvenGenerator.java:10]
+	ReadWriteNode[411,even.EvenGenerator@15e,currentValue,WRITE,Thread-2,even/EvenGenerator.java:9]
 }
 success count: 0
-fail count: 24, Pattern {
+fail count: 25, Pattern {
 	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,WRITE] ]
 	matched: true
-	ReadWriteNode[1622,even.EvenGenerator@15e,currentValue,WRITE,Thread-4,even/EvenGenerator.java:9]
-	ReadWriteNode[1628,even.EvenGenerator@15e,currentValue,WRITE,Thread-1,even/EvenGenerator.java:10]
-	ReadWriteNode[1634,even.EvenGenerator@15e,currentValue,WRITE,Thread-4,even/EvenGenerator.java:10]
+	ReadWriteNode[395,even.EvenGenerator@15e,currentValue,WRITE,Thread-2,even/EvenGenerator.java:9]
+	ReadWriteNode[404,even.EvenGenerator@15e,currentValue,WRITE,Thread-3,even/EvenGenerator.java:10]
+	ReadWriteNode[407,even.EvenGenerator@15e,currentValue,WRITE,Thread-2,even/EvenGenerator.java:10]
 }
 success count: 0
 fail count: 29, Pattern {
 	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,WRITE] ]
 	matched: true
-	ReadWriteNode[429,even.EvenGenerator@15e,currentValue,READ,Thread-3,even/EvenGenerator.java:10]
-	ReadWriteNode[432,even.EvenGenerator@15e,currentValue,WRITE,Thread-2,even/EvenGenerator.java:10]
-	ReadWriteNode[435,even.EvenGenerator@15e,currentValue,WRITE,Thread-3,even/EvenGenerator.java:10]
+	ReadWriteNode[393,even.EvenGenerator@15e,currentValue,READ,Thread-3,even/EvenGenerator.java:10]
+	ReadWriteNode[402,even.EvenGenerator@15e,currentValue,WRITE,Thread-4,even/EvenGenerator.java:9]
+	ReadWriteNode[405,even.EvenGenerator@15e,currentValue,WRITE,Thread-3,even/EvenGenerator.java:10]
 }
 success count: 0
-fail count: 30, Pattern {
+fail count: 31, Pattern {
 	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,READ] ]
 	matched: true
-	ReadWriteNode[1619,even.EvenGenerator@15e,currentValue,WRITE,Thread-1,even/EvenGenerator.java:9]
-	ReadWriteNode[1622,even.EvenGenerator@15e,currentValue,WRITE,Thread-4,even/EvenGenerator.java:9]
-	ReadWriteNode[1625,even.EvenGenerator@15e,currentValue,READ,Thread-1,even/EvenGenerator.java:10]
+	ReadWriteNode[389,even.EvenGenerator@15e,currentValue,WRITE,Thread-3,even/EvenGenerator.java:9]
+	ReadWriteNode[395,even.EvenGenerator@15e,currentValue,WRITE,Thread-2,even/EvenGenerator.java:9]
+	ReadWriteNode[398,even.EvenGenerator@15e,currentValue,READ,Thread-3,even/EvenGenerator.java:10]
 }
 success count: 0
-fail count: 32, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,WRITE] ]
-	matched: true
-	ReadWriteNode[416,even.EvenGenerator@15e,currentValue,READ,Thread-3,even/EvenGenerator.java:10]
-	ReadWriteNode[419,even.EvenGenerator@15e,currentValue,WRITE,Thread-2,even/EvenGenerator.java:9]
-	ReadWriteNode[422,even.EvenGenerator@15e,currentValue,WRITE,Thread-3,even/EvenGenerator.java:10]
-}
-success count: 0
-fail count: 34, Pattern {
+fail count: 38, Pattern {
 	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,WRITE] ]
 	matched: true
-	ReadWriteNode[1619,even.EvenGenerator@15e,currentValue,WRITE,Thread-1,even/EvenGenerator.java:9]
-	ReadWriteNode[1622,even.EvenGenerator@15e,currentValue,WRITE,Thread-4,even/EvenGenerator.java:9]
-	ReadWriteNode[1628,even.EvenGenerator@15e,currentValue,WRITE,Thread-1,even/EvenGenerator.java:10]
+	ReadWriteNode[389,even.EvenGenerator@15e,currentValue,WRITE,Thread-3,even/EvenGenerator.java:9]
+	ReadWriteNode[395,even.EvenGenerator@15e,currentValue,WRITE,Thread-2,even/EvenGenerator.java:9]
+	ReadWriteNode[404,even.EvenGenerator@15e,currentValue,WRITE,Thread-3,even/EvenGenerator.java:10]
 }
 success count: 0
-fail count: 43, Pattern {
+fail count: 39, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,READ] ]
+	matched: true
+	ReadWriteNode[410,even.EvenGenerator@15e,currentValue,WRITE,Thread-4,even/EvenGenerator.java:9]
+	ReadWriteNode[425,even.EvenGenerator@15e,currentValue,WRITE,Thread-3,even/EvenGenerator.java:10]
+	ReadWriteNode[428,even.EvenGenerator@15e,currentValue,READ,Thread-4,even/EvenGenerator.java:10]
+}
+success count: 0
+fail count: 39, Pattern {
 	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,WRITE] ]
 	matched: true
-	ReadWriteNode[1613,even.EvenGenerator@15e,currentValue,READ,Thread-4,even/EvenGenerator.java:9]
-	ReadWriteNode[1619,even.EvenGenerator@15e,currentValue,WRITE,Thread-1,even/EvenGenerator.java:9]
-	ReadWriteNode[1622,even.EvenGenerator@15e,currentValue,WRITE,Thread-4,even/EvenGenerator.java:9]
-}
-success count: 0
-fail count: 46, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
-	matched: true
-	ReadWriteNode[470,even.EvenGenerator@15e,currentValue,WRITE,Thread-1,even/EvenGenerator.java:9]
-	ReadWriteNode[472,even.EvenGenerator@15e,currentValue,READ,Thread-3,even/EvenGenerator.java:11]
-}
-success count: 0
-fail count: 51, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
-	matched: true
-	ReadWriteNode[435,even.EvenGenerator@15e,currentValue,WRITE,Thread-3,even/EvenGenerator.java:10]
-	ReadWriteNode[441,even.EvenGenerator@15e,currentValue,READ,Thread-2,even/EvenGenerator.java:11]
-}
-success count: 0
-fail count: 57, Pattern {
-	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] ]
-	matched: true
-	ReadWriteNode[405,even.EvenGenerator@15e,currentValue,READ,Thread-2,even/EvenGenerator.java:9]
-	ReadWriteNode[417,even.EvenGenerator@15e,currentValue,WRITE,Thread-1,even/EvenGenerator.java:10]
-}
-success count: 0
-fail count: 58, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
-	matched: true
-	ReadWriteNode[423,even.EvenGenerator@15e,currentValue,WRITE,Thread-2,even/EvenGenerator.java:9]
-	ReadWriteNode[429,even.EvenGenerator@15e,currentValue,READ,Thread-3,even/EvenGenerator.java:10]
-}
-success count: 0
-fail count: 59, Pattern {
-	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] ]
-	matched: true
-	ReadWriteNode[1629,even.EvenGenerator@15e,currentValue,READ,Thread-1,even/EvenGenerator.java:11]
-	ReadWriteNode[1634,even.EvenGenerator@15e,currentValue,WRITE,Thread-4,even/EvenGenerator.java:10]
-}
-success count: 0
-fail count: 60, Pattern {
-	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] ]
-	matched: true
-	ReadWriteNode[429,even.EvenGenerator@15e,currentValue,READ,Thread-3,even/EvenGenerator.java:10]
-	ReadWriteNode[432,even.EvenGenerator@15e,currentValue,WRITE,Thread-2,even/EvenGenerator.java:10]
-}
-success count: 0
-fail count: 72, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
-	matched: true
-	ReadWriteNode[1628,even.EvenGenerator@15e,currentValue,WRITE,Thread-1,even/EvenGenerator.java:10]
-	ReadWriteNode[1631,even.EvenGenerator@15e,currentValue,READ,Thread-4,even/EvenGenerator.java:10]
-}
-success count: 0
-fail count: 72, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] ]
-	matched: true
-	ReadWriteNode[244,even.EvenGenerator@15e,currentValue,WRITE,main,even/EvenGenerator.java:5]
+	ReadWriteNode[390,even.EvenGenerator@15e,currentValue,READ,Thread-2,even/EvenGenerator.java:9]
 	ReadWriteNode[396,even.EvenGenerator@15e,currentValue,WRITE,Thread-3,even/EvenGenerator.java:9]
+	ReadWriteNode[402,even.EvenGenerator@15e,currentValue,WRITE,Thread-2,even/EvenGenerator.java:9]
 }
 success count: 0
-fail count: 80, Pattern {
-	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] ]
+fail count: 45, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
 	matched: true
-	ReadWriteNode[438,even.EvenGenerator@15e,currentValue,READ,Thread-1,even/EvenGenerator.java:11]
-	ReadWriteNode[463,even.EvenGenerator@15e,currentValue,WRITE,Thread-4,even/EvenGenerator.java:9]
+	ReadWriteNode[417,even.EvenGenerator@15e,currentValue,WRITE,Thread-3,even/EvenGenerator.java:10]
+	ReadWriteNode[420,even.EvenGenerator@15e,currentValue,READ,Thread-2,even/EvenGenerator.java:11]
 }
 success count: 0
-fail count: 82, Pattern {
+fail count: 47, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[411,even.EvenGenerator@15e,currentValue,WRITE,Thread-2,even/EvenGenerator.java:9]
+	ReadWriteNode[414,even.EvenGenerator@15e,currentValue,READ,Thread-1,even/EvenGenerator.java:11]
+}
+success count: 0
+fail count: 55, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[395,even.EvenGenerator@15e,currentValue,WRITE,Thread-2,even/EvenGenerator.java:9]
+	ReadWriteNode[398,even.EvenGenerator@15e,currentValue,READ,Thread-3,even/EvenGenerator.java:10]
+}
+success count: 0
+fail count: 65, Pattern {
 	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] ]
 	matched: true
-	ReadWriteNode[451,even.EvenGenerator@15e,currentValue,READ,Thread-2,even/EvenGenerator.java:10]
-	ReadWriteNode[454,even.EvenGenerator@15e,currentValue,WRITE,Thread-1,even/EvenGenerator.java:9]
+	ReadWriteNode[414,even.EvenGenerator@15e,currentValue,READ,Thread-1,even/EvenGenerator.java:11]
+	ReadWriteNode[417,even.EvenGenerator@15e,currentValue,WRITE,Thread-3,even/EvenGenerator.java:10]
+}
+success count: 0
+fail count: 66, Pattern {
+	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] ]
+	matched: true
+	ReadWriteNode[401,even.EvenGenerator@15e,currentValue,READ,Thread-2,even/EvenGenerator.java:10]
+	ReadWriteNode[404,even.EvenGenerator@15e,currentValue,WRITE,Thread-3,even/EvenGenerator.java:10]
+}
+success count: 0
+fail count: 70, Pattern {
+	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] ]
+	matched: true
+	ReadWriteNode[402,even.EvenGenerator@15e,currentValue,READ,Thread-2,even/EvenGenerator.java:9]
+	ReadWriteNode[408,even.EvenGenerator@15e,currentValue,WRITE,Thread-1,even/EvenGenerator.java:10]
+}
+success count: 0
+fail count: 70, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[408,even.EvenGenerator@15e,currentValue,WRITE,Thread-2,even/EvenGenerator.java:10]
+	ReadWriteNode[411,even.EvenGenerator@15e,currentValue,READ,Thread-3,even/EvenGenerator.java:10]
+}
+success count: 0
+fail count: 74, Pattern {
+	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] ]
+	matched: true
+	ReadWriteNode[387,even.EvenGenerator@15e,currentValue,READ,Thread-1,even/EvenGenerator.java:10]
+	ReadWriteNode[389,even.EvenGenerator@15e,currentValue,WRITE,Thread-3,even/EvenGenerator.java:9]
 }
 success count: 0
 fail count: 92, Pattern {
 	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] ]
 	matched: true
-	ReadWriteNode[396,even.EvenGenerator@15e,currentValue,WRITE,Thread-3,even/EvenGenerator.java:9]
-	ReadWriteNode[417,even.EvenGenerator@15e,currentValue,WRITE,Thread-1,even/EvenGenerator.java:10]
+	ReadWriteNode[408,even.EvenGenerator@15e,currentValue,WRITE,Thread-2,even/EvenGenerator.java:10]
+	ReadWriteNode[417,even.EvenGenerator@15e,currentValue,WRITE,Thread-3,even/EvenGenerator.java:10]
 }
 success count: 0
-fail count: 108, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] ]
-	matched: true
-	ReadWriteNode[432,even.EvenGenerator@15e,currentValue,WRITE,Thread-2,even/EvenGenerator.java:10]
-	ReadWriteNode[435,even.EvenGenerator@15e,currentValue,WRITE,Thread-3,even/EvenGenerator.java:10]
-}
-success count: 0
-fail count: 109, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
-	matched: true
-	ReadWriteNode[467,even.EvenGenerator@15e,currentValue,WRITE,Thread-4,even/EvenGenerator.java:10]
-	ReadWriteNode[469,even.EvenGenerator@15e,currentValue,READ,Thread-1,even/EvenGenerator.java:9]
-}
-success count: 0
-fail count: 113, Pattern {
+fail count: 99, Pattern {
 	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] ]
 	matched: true
-	ReadWriteNode[1613,even.EvenGenerator@15e,currentValue,READ,Thread-4,even/EvenGenerator.java:9]
-	ReadWriteNode[1619,even.EvenGenerator@15e,currentValue,WRITE,Thread-1,even/EvenGenerator.java:9]
+	ReadWriteNode[390,even.EvenGenerator@15e,currentValue,READ,Thread-2,even/EvenGenerator.java:9]
+	ReadWriteNode[396,even.EvenGenerator@15e,currentValue,WRITE,Thread-3,even/EvenGenerator.java:9]
 }
 success count: 0
-fail count: 116, Pattern {
+fail count: 102, Pattern {
 	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] ]
 	matched: true
-	ReadWriteNode[435,even.EvenGenerator@15e,currentValue,WRITE,Thread-3,even/EvenGenerator.java:10]
-	ReadWriteNode[463,even.EvenGenerator@15e,currentValue,WRITE,Thread-4,even/EvenGenerator.java:9]
+	ReadWriteNode[395,even.EvenGenerator@15e,currentValue,WRITE,Thread-2,even/EvenGenerator.java:9]
+	ReadWriteNode[404,even.EvenGenerator@15e,currentValue,WRITE,Thread-3,even/EvenGenerator.java:10]
 }
 success count: 0
-fail count: 129, Pattern {
+fail count: 122, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[396,even.EvenGenerator@15e,currentValue,WRITE,Thread-3,even/EvenGenerator.java:9]
+	ReadWriteNode[400,even.EvenGenerator@15e,currentValue,READ,Thread-4,even/EvenGenerator.java:9]
+}
+success count: 0
+fail count: 127, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] ]
+	matched: true
+	ReadWriteNode[396,even.EvenGenerator@15e,currentValue,WRITE,Thread-3,even/EvenGenerator.java:9]
+	ReadWriteNode[402,even.EvenGenerator@15e,currentValue,WRITE,Thread-2,even/EvenGenerator.java:9]
+}
+success count: 0
+fail count: 147, Pattern {
 	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
 	matched: true
 	ReadWriteNode[244,even.EvenGenerator@15e,currentValue,WRITE,main,even/EvenGenerator.java:5]
-	ReadWriteNode[390,even.EvenGenerator@15e,currentValue,READ,Thread-3,even/EvenGenerator.java:9]
+	ReadWriteNode[375,even.EvenGenerator@15e,currentValue,READ,Thread-1,even/EvenGenerator.java:9]
 }
-success count: 0
-fail count: 131, Pattern {
+success count: 1
+fail count: 122, Pattern {
 	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
 	matched: true
-	ReadWriteNode[396,even.EvenGenerator@15e,currentValue,WRITE,Thread-3,even/EvenGenerator.java:9]
-	ReadWriteNode[405,even.EvenGenerator@15e,currentValue,READ,Thread-2,even/EvenGenerator.java:9]
+	ReadWriteNode[302,even.EvenChecker@17b,generator,WRITE,main,even/EvenChecker.java:8]
+	ReadWriteNode[384,even.EvenChecker@17b,generator,READ,Thread-3,even/EvenChecker.java:17]
 }
-success count: 0
-fail count: 138, Pattern {
+success count: 4
+fail count: 389, Pattern {
 	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] ]
 	matched: true
-	ReadWriteNode[1619,even.EvenGenerator@15e,currentValue,WRITE,Thread-1,even/EvenGenerator.java:9]
-	ReadWriteNode[1622,even.EvenGenerator@15e,currentValue,WRITE,Thread-4,even/EvenGenerator.java:9]
+	ReadWriteNode[244,even.EvenGenerator@15e,currentValue,WRITE,main,even/EvenGenerator.java:5]
+	ReadWriteNode[378,even.EvenGenerator@15e,currentValue,WRITE,Thread-1,even/EvenGenerator.java:9]
 }
-success count: 0
-fail count: 159, Pattern {
+success count: 1
+fail count: 82, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] ]
+	matched: true
+	ReadWriteNode[387,even.EvenGenerator@15e,currentValue,WRITE,Thread-1,even/EvenGenerator.java:10]
+	ReadWriteNode[396,even.EvenGenerator@15e,currentValue,WRITE,Thread-3,even/EvenGenerator.java:9]
+}
+success count: 3
+fail count: 127, Pattern {
 	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
 	matched: true
-	ReadWriteNode[330,even.EvenChecker@183,generator,WRITE,main,even/EvenChecker.java:8]
-	ReadWriteNode[454,even.EvenChecker@183,generator,READ,Thread-4,even/EvenChecker.java:17]
+	ReadWriteNode[387,even.EvenGenerator@15e,currentValue,WRITE,Thread-1,even/EvenGenerator.java:10]
+	ReadWriteNode[393,even.EvenGenerator@15e,currentValue,READ,Thread-3,even/EvenGenerator.java:9]
 }
-success count: 0
-fail count: 392]
-time for getting pattern list : 24940
+success count: 3
+fail count: 111, Pattern {
+	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] ]
+	matched: true
+	ReadWriteNode[394,even.EvenGenerator@15e,currentValue,READ,Thread-3,even/EvenGenerator.java:11]
+	ReadWriteNode[397,even.EvenGenerator@15e,currentValue,WRITE,Thread-4,even/EvenGenerator.java:9]
+}
+success count: 3
+fail count: 79]
+time for getting pattern list : 6333

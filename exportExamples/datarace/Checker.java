@@ -7,13 +7,12 @@ public class Checker implements Runnable {
 	
 	public Checker(CustomerInfo ci) {
 		 this.ci = ci;
-synchronized (this){  		 buggy = false;
+		 buggy = false;
 	}
 	
 	public void run() {
 		if (!ci.check(1, 50 * Main.THREAD_NUMBER)) {
- 			buggy = true;
+			buggy = true;
 		}
 	}
-}
 }

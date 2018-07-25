@@ -1,77 +1,17 @@
-Fix one
-Add synchronization
-Lock Name : ex
-Locked position25
-Lock Name : ex
-Locked position12
-result : fix fail
-Fix one
-Add synchronization
-Lock Name : this
-Locked position7
-Lock Name : this
-Locked position12
+Fix three
+aim at : ReadWriteNode[321,checkfield.InstanceExample@15f,number,WRITE,123,checkfield/CheckField.java:11]Lock start and stop position : 11->12
+aim at : ReadWriteNode[324,checkfield.InstanceExample@15f,number,WRITE,Thread-2,checkfield/CheckField.java:24]Lock start and stop position : 24->26
 result : fix fail
 Fix one
 Added Semaphore
-The location of semaphore defines : 10
-The location of semaphore use : 43
-Fix one
-Add synchronization
-Lock Name : this
-Locked position7
-Lock Name : this
-Locked position24
+The location of semaphore defines : 14
+The location of semaphore use : 24
 result : fix fail
-Fix one
-Add synchronization
-Lock Name : this
-Locked position7
-Lock Name : this
-Locked position10
-result : fix fail
-Fix one
-Add synchronization
-Lock Name : this
-Locked position7
-Lock Name : this
-Locked position25
-result : fix fail
-Fix one
-Add synchronization
-Lock Name : this
-Locked position7
-Lock Name : this
-Locked position14
-result : fix fail
-Fix one
-Add synchronization
-Lock Name : this
-Locked position7
-Lock Name : this
-Locked position11
-result : fix fail
-Fix one
-Add synchronization
-Lock Name : ex
-Locked position12
-Lock Name : ex
-Locked position25
-result : fix fail
-Fix one
-Add synchronization
-Lock Name : ex
-Locked position11
-Lock Name : ex
-Locked position24
-result : fix fail
-Fix three
 Fix two
-Fix one
-Add synchronization
 Lock Name : ex
-Locked position24
 Lock Name : ex
-Locked position14
-result : fix fail
-time for fixing:211488
+aim at : ReadWriteNode[314,checkfield.InstanceExample@15f,number,WRITE,123,checkfield/CheckField.java:11]Lock start and stop position : 11->15
+Lock Name : ex
+aim at : ReadWriteNode[320,checkfield.InstanceExample@15f,number,WRITE,Thread-2,checkfield/CheckField.java:24]Lock start and stop position : 24->24
+result : fix success
+time for fixing:5299

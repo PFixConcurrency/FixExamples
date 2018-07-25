@@ -1,4 +1,4 @@
 Fix two
-aim at : ReadWriteNode[356,stringbuffer.StringBuffer@166,count,READ,Thread-1,stringbuffer/StringBuffer.java:145]Lock start and stop position : 444->449
-result : fix fail
-time for fixing:98405
+aim at : ReadWriteNode[373,stringbuffer.StringBuffer@166,count,READ,Thread-1,stringbuffer/StringBuffer.java:145]Lock start and stop position : 444->449
+result : fix success
+time for fixing:98194

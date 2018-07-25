@@ -972,8 +972,8 @@ class CursorableLinkedList implements List, Serializable {
         }
 
         Listable next() {
-volatile bool flagFix = false;            return _next;
-flagFix = true;        }
+            return _next;
+        }
 
         Listable prev() {
             return _prev;
@@ -984,8 +984,8 @@ flagFix = true;        }
         }
 
         void setNext(Listable next) {
-if(flagFix){            _next = next;
-}        }
+            _next = next;
+        }
 
         void setPrev(Listable prev) {
             _prev = prev;

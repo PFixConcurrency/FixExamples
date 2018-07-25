@@ -1,0 +1,127 @@
+Fix three
+aim at : ReadWriteNode[479,org.apache.commons.pool.impl.CursorableLinkedList$Listable@17d,_next,READ,Thread-1,org/apache/commons/pool/impl/CursorableLinkedList.java:975]Lock start and stop position : 204->975
+aim at : ReadWriteNode[485,org.apache.commons.pool.impl.TestGenericObjectPool$SimpleFactory@162,activeCount,WRITE,Thread-2,org/apache/commons/pool/impl/TestGenericObjectPool.java:204]Lock start and stop position : 204->987
+result : fix fail
+Fix three
+aim at : ReadWriteNode[483,org.apache.commons.pool.impl.TestGenericObjectPool$SimpleFactory@162,activeCount,WRITE,Thread-2,org/apache/commons/pool/impl/TestGenericObjectPool.java:204]Lock start and stop position : 204->987
+aim at : ReadWriteNode[498,org.apache.commons.pool.impl.CursorableLinkedList$Listable@17d,_next,READ,Thread-1,org/apache/commons/pool/impl/CursorableLinkedList.java:975]Lock start and stop position : 204->987
+result : fix fail
+Fix one
+Add synchronization
+Lock Name : this
+Lock Name : this
+result : fix fail
+Fix one
+Add synchronization
+Fix one
+Add synchronization
+Fix two
+Fix one
+Add synchronization
+Fix one
+Add synchronization
+Fix one
+Add synchronization
+Fix one
+Add synchronization
+Fix one
+Add synchronization
+Fix one
+Add synchronization
+Fix one
+Add synchronization
+Fix one
+Add synchronization
+Fix one
+Add synchronization
+Fix one
+Add synchronization
+Fix one
+Add synchronization
+Fix one
+Add synchronization
+Fix one
+Add synchronization
+Fix one
+Add synchronization
+Fix one
+Add synchronization
+Fix one
+Add synchronization
+Fix one
+Add synchronization
+Fix one
+Add synchronization
+Fix one
+Add synchronization
+Fix one
+Add synchronization
+Fix one
+Add synchronization
+Fix one
+Add synchronization
+Fix one
+Add synchronization
+Fix one
+Add synchronization
+Fix one
+Add synchronization
+Fix one
+Add synchronization
+Fix one
+Add synchronization
+Fix one
+Added Semaphore
+The location of semaphore defines : 391
+The location of semaphore use : 915
+result : fix fail
+Fix one
+Add synchronization
+Fix one
+Add synchronization
+Fix one
+Added Semaphore
+The location of semaphore defines : 112
+The location of semaphore use : 125
+result : fix fail
+Fix one
+Add synchronization
+Fix one
+Add synchronization
+Fix one
+Add synchronization
+Fix one
+Add synchronization
+Fix one
+Add synchronization
+Fix one
+Add synchronization
+Fix one
+Add synchronization
+Fix one
+Add synchronization
+Fix one
+Add synchronization
+Fix one
+Add synchronization
+Fix one
+Add synchronization
+Fix one
+Add synchronization
+Fix one
+Add synchronization
+Fix one
+Add synchronization
+Fix one
+Add synchronization
+Fix one
+Add synchronization
+Fix one
+Add synchronization
+Fix one
+Add synchronization
+Fix one
+Add synchronization
+Fix one
+Add synchronization
+time for fixing:1112062

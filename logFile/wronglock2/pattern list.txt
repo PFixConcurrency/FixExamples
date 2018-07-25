@@ -1,93 +1,93 @@
 [Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] PatternTypeNode[y,2,READ] PatternTypeNode[y,1,WRITE] ]
-	matched: true
-	ReadWriteNode[465,wronglock2.Main$Struct@180,number,WRITE,Thread-3,wronglock2/Main.java:38]
-	ReadWriteNode[495,wronglock2.Main$Struct@180,number,READ,Thread-5,wronglock2/Main.java:43]
-	ReadWriteNode[500,wronglock2.Main,s,READ,Thread-5,wronglock2/Main.java:29]
-	ReadWriteNode[508,wronglock2.Main,s,WRITE,Thread-3,wronglock2/Main.java:29]
-}
-success count: 0
-fail count: 13, Pattern {
 	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] ]
 	matched: true
-	ReadWriteNode[334,wronglock2.Main,s,READ,Thread-2,wronglock2/Main.java:29]
-	ReadWriteNode[381,wronglock2.Main,s,WRITE,Thread-1,wronglock2/Main.java:29]
+	ReadWriteNode[483,wronglock2.Main,s,READ,Thread-4,wronglock2/Main.java:29]
+	ReadWriteNode[494,wronglock2.Main,s,WRITE,Thread-5,wronglock2/Main.java:29]
 }
-success count: 11
-fail count: 171, Pattern {
+success count: 21
+fail count: 153, Pattern {
 	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,WRITE] ]
 	matched: true
-	ReadWriteNode[334,wronglock2.Main,s,READ,Thread-2,wronglock2/Main.java:29]
-	ReadWriteNode[381,wronglock2.Main,s,WRITE,Thread-1,wronglock2/Main.java:29]
-	ReadWriteNode[383,wronglock2.Main,s,WRITE,Thread-2,wronglock2/Main.java:29]
+	ReadWriteNode[483,wronglock2.Main,s,READ,Thread-4,wronglock2/Main.java:29]
+	ReadWriteNode[494,wronglock2.Main,s,WRITE,Thread-5,wronglock2/Main.java:29]
+	ReadWriteNode[505,wronglock2.Main,s,WRITE,Thread-4,wronglock2/Main.java:29]
 }
-success count: 10
-fail count: 111, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[y,2,READ] PatternTypeNode[y,1,WRITE] PatternTypeNode[x,2,READ] ]
+success count: 20
+fail count: 104, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
 	matched: true
-	ReadWriteNode[368,wronglock2.Main$Struct@178,count,WRITE,Thread-1,wronglock2/Main.java:39]
-	ReadWriteNode[411,wronglock2.Main,s,READ,Thread-3,wronglock2/Main.java:29]
-	ReadWriteNode[419,wronglock2.Main,s,WRITE,Thread-1,wronglock2/Main.java:29]
-	ReadWriteNode[431,wronglock2.Main$Struct@178,count,READ,Thread-3,wronglock2/Main.java:47]
+	ReadWriteNode[246,wronglock2.Main,s,WRITE,main,wronglock2/Main.java:5]
+	ReadWriteNode[318,wronglock2.Main,s,READ,Thread-1,wronglock2/Main.java:29]
+}
+success count: 29
+fail count: 142, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] ]
+	matched: true
+	ReadWriteNode[246,wronglock2.Main,s,WRITE,main,wronglock2/Main.java:5]
+	ReadWriteNode[330,wronglock2.Main,s,WRITE,Thread-1,wronglock2/Main.java:29]
+}
+success count: 23
+fail count: 77, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[505,wronglock2.Main,s,WRITE,Thread-4,wronglock2/Main.java:29]
+	ReadWriteNode[508,wronglock2.Main,s,READ,main,wronglock2/Main.java:21]
+}
+success count: 23
+fail count: 77, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] ]
+	matched: true
+	ReadWriteNode[330,wronglock2.Main,s,WRITE,Thread-1,wronglock2/Main.java:29]
+	ReadWriteNode[344,wronglock2.Main,s,WRITE,Thread-2,wronglock2/Main.java:29]
+}
+success count: 92
+fail count: 308, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[338,wronglock2.Main$Struct@179,number,WRITE,Thread-2,wronglock2/Main.java:38]
+	ReadWriteNode[377,wronglock2.Main$Struct@179,number,READ,Thread-3,wronglock2/Main.java:43]
+}
+success count: 115
+fail count: 385, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[475,wronglock2.Main$Struct@194,count,WRITE,Thread-5,wronglock2/Main.java:39]
+	ReadWriteNode[486,wronglock2.Main$Struct@194,count,READ,Thread-4,wronglock2/Main.java:47]
+}
+success count: 138
+fail count: 462, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] PatternTypeNode[y,2,READ] PatternTypeNode[y,1,WRITE] ]
+	matched: true
+	ReadWriteNode[362,wronglock2.Main$Struct@179,number,WRITE,Thread-2,wronglock2/Main.java:38]
+	ReadWriteNode[376,wronglock2.Main$Struct@179,number,READ,Thread-3,wronglock2/Main.java:43]
+	ReadWriteNode[391,wronglock2.Main,s,READ,Thread-3,wronglock2/Main.java:29]
+	ReadWriteNode[401,wronglock2.Main,s,WRITE,Thread-2,wronglock2/Main.java:29]
 }
 success count: 3
-fail count: 32, Pattern {
+fail count: 9, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[y,2,READ] PatternTypeNode[y,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[493,wronglock2.Main$Struct@184,count,WRITE,Thread-3,wronglock2/Main.java:39]
+	ReadWriteNode[498,wronglock2.Main,s,READ,Thread-4,wronglock2/Main.java:29]
+	ReadWriteNode[501,wronglock2.Main,s,WRITE,Thread-3,wronglock2/Main.java:29]
+	ReadWriteNode[505,wronglock2.Main$Struct@184,count,READ,Thread-4,wronglock2/Main.java:47]
+}
+success count: 9
+fail count: 27, Pattern {
 	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
 	matched: true
-	ReadWriteNode[246,wronglock2.Main,s,WRITE,main,wronglock2/Main.java:5]
-	ReadWriteNode[331,wronglock2.Main,s,READ,Thread-1,wronglock2/Main.java:29]
+	ReadWriteNode[420,wronglock2.Main,s,WRITE,Thread-3,wronglock2/Main.java:29]
+	ReadWriteNode[483,wronglock2.Main,s,READ,Thread-4,wronglock2/Main.java:29]
 }
-success count: 24
-fail count: 154, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] ]
-	matched: true
-	ReadWriteNode[246,wronglock2.Main,s,WRITE,main,wronglock2/Main.java:5]
-	ReadWriteNode[381,wronglock2.Main,s,WRITE,Thread-1,wronglock2/Main.java:29]
-}
-success count: 21
-fail count: 79, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
-	matched: true
-	ReadWriteNode[506,wronglock2.Main,s,WRITE,Thread-5,wronglock2/Main.java:29]
-	ReadWriteNode[510,wronglock2.Main,s,READ,main,wronglock2/Main.java:21]
-}
-success count: 21
-fail count: 79, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] ]
-	matched: true
-	ReadWriteNode[383,wronglock2.Main,s,WRITE,Thread-2,wronglock2/Main.java:29]
-	ReadWriteNode[400,wronglock2.Main,s,WRITE,Thread-3,wronglock2/Main.java:29]
-}
-success count: 84
-fail count: 316, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
-	matched: true
-	ReadWriteNode[244,wronglock2.Main$Struct@15e,number,WRITE,main,wronglock2/Main.java:38]
-	ReadWriteNode[320,wronglock2.Main$Struct@15e,number,READ,Thread-2,wronglock2/Main.java:43]
-}
-success count: 105
-fail count: 395, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
-	matched: true
-	ReadWriteNode[473,wronglock2.Main$Struct@18d,count,WRITE,Thread-4,wronglock2/Main.java:39]
-	ReadWriteNode[490,wronglock2.Main$Struct@18d,count,READ,Thread-5,wronglock2/Main.java:47]
-}
-success count: 126
-fail count: 474, Pattern {
+success count: 86
+fail count: 243, Pattern {
 	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[y,2,READ] PatternTypeNode[x,2,READ] PatternTypeNode[y,1,WRITE] ]
 	matched: true
-	ReadWriteNode[439,wronglock2.Main$Struct@18a,count,WRITE,Thread-4,wronglock2/Main.java:39]
-	ReadWriteNode[474,wronglock2.Main,s,READ,Thread-2,wronglock2/Main.java:29]
-	ReadWriteNode[481,wronglock2.Main$Struct@18a,count,READ,Thread-2,wronglock2/Main.java:47]
-	ReadWriteNode[489,wronglock2.Main,s,WRITE,Thread-4,wronglock2/Main.java:29]
+	ReadWriteNode[475,wronglock2.Main$Struct@194,count,WRITE,Thread-5,wronglock2/Main.java:39]
+	ReadWriteNode[483,wronglock2.Main,s,READ,Thread-4,wronglock2/Main.java:29]
+	ReadWriteNode[486,wronglock2.Main$Struct@194,count,READ,Thread-4,wronglock2/Main.java:47]
+	ReadWriteNode[494,wronglock2.Main,s,WRITE,Thread-5,wronglock2/Main.java:29]
 }
-success count: 5
-fail count: 17, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
-	matched: true
-	ReadWriteNode[383,wronglock2.Main,s,WRITE,Thread-2,wronglock2/Main.java:29]
-	ReadWriteNode[388,wronglock2.Main,s,READ,Thread-3,wronglock2/Main.java:29]
-}
-success count: 81
-fail count: 241]
-time for getting pattern list : 29157
+success count: 7
+fail count: 16]
+time for getting pattern list : 27665

@@ -1,0 +1,8 @@
+Fix two
+Lock Name : this
+Lock Name : this
+aim at : ReadWriteNode[755,hashcodetest.IntRange@166,hashCode,WRITE,Thread-2,hashcodetest/IntRange.java:357]Lock start and stop position : 355->361
+Lock Name : this
+aim at : ReadWriteNode[758,hashcodetest.IntRange@166,hashCode,WRITE,Thread-1,hashcodetest/IntRange.java:356]Lock start and stop position : 356->356
+result : fix success
+time for fixing:6465

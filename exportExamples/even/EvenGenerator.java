@@ -6,9 +6,9 @@ public class EvenGenerator {
 	private boolean cancled = false;
 	
 	public int next(){
-synchronized (this){  synchronized (this){    synchronized (this){  synchronized (this){ synchronized (this){  		++currentValue;
-}synchronized (this){  synchronized (this){  }  		++currentValue;
-}}} }}		return currentValue;
+synchronized (this){ 		++currentValue;
+		++currentValue;
+		return currentValue;
 }	}
 	
 	public boolean isCancled(){

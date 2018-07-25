@@ -32,8 +32,8 @@ public class ProducerConsumer {
           cons[i].join();
 
         if (total != COUNT*PRODS)
-volatile bool flagFix = false;          throw new RuntimeException("bug found - total is "+total+" and should be "+COUNT*PRODS);
-flagFix = true;    }
+          throw new RuntimeException("bug found - total is "+total+" and should be "+COUNT*PRODS);
+    }
 }
 
 class HaltException extends Exception {
@@ -189,6 +189,6 @@ class Consumer extends Thread {
     }
 
     public synchronized void inc(int x) {
-if(flagFix){	ProducerConsumer.total = ProducerConsumer.total + x;
-}    }
+	ProducerConsumer.total = ProducerConsumer.total + x;
+    }
 }

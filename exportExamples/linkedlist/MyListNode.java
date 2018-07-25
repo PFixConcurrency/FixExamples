@@ -18,7 +18,7 @@ package linkedlist;
 			synchronized ( this )
 			{
 				this._element = theElement;
-synchronized (){ 				this._next = n;
+				this._next = n;
             }
 
         }

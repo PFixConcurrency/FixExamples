@@ -1,0 +1,646 @@
+[Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[y,2,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[y,1,WRITE] ]
+	matched: true
+	ReadWriteNode[1874,producerConsumer.Buffer@165,usedSlots,WRITE,Thread-2,producerConsumer/ProducerConsumer.java:81]
+	ReadWriteNode[2015,producerConsumer.Buffer@165,putPtr,WRITE,Thread-1,producerConsumer/ProducerConsumer.java:75]
+	ReadWriteNode[2018,producerConsumer.Buffer@165,usedSlots,WRITE,Thread-1,producerConsumer/ProducerConsumer.java:81]
+	ReadWriteNode[2215,producerConsumer.Buffer@165,putPtr,WRITE,Thread-2,producerConsumer/ProducerConsumer.java:75]
+}
+success count: 0
+fail count: 1, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,READ] ]
+	matched: true
+	ReadWriteNode[2018,producerConsumer.Buffer@165,putPtr,WRITE,Thread-2,producerConsumer/ProducerConsumer.java:75]
+	ReadWriteNode[2137,producerConsumer.Buffer@165,putPtr,WRITE,Thread-1,producerConsumer/ProducerConsumer.java:75]
+	ReadWriteNode[2255,producerConsumer.Buffer@165,putPtr,READ,Thread-2,producerConsumer/ProducerConsumer.java:75]
+}
+success count: 0
+fail count: 1, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,READ] ]
+	matched: true
+	ReadWriteNode[1829,producerConsumer.Buffer@165,usedSlots,WRITE,Thread-3,producerConsumer/ProducerConsumer.java:81]
+	ReadWriteNode[1863,producerConsumer.Buffer@165,usedSlots,WRITE,Thread-7,producerConsumer/ProducerConsumer.java:110]
+	ReadWriteNode[1981,producerConsumer.Buffer@165,usedSlots,READ,Thread-3,producerConsumer/ProducerConsumer.java:81]
+}
+success count: 0
+fail count: 2, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,READ] ]
+	matched: true
+	ReadWriteNode[1829,producerConsumer.Buffer@165,usedSlots,WRITE,Thread-3,producerConsumer/ProducerConsumer.java:81]
+	ReadWriteNode[1863,producerConsumer.Buffer@165,usedSlots,WRITE,Thread-7,producerConsumer/ProducerConsumer.java:110]
+	ReadWriteNode[1980,producerConsumer.Buffer@165,usedSlots,READ,Thread-3,producerConsumer/ProducerConsumer.java:77]
+}
+success count: 0
+fail count: 3, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,READ] ]
+	matched: true
+	ReadWriteNode[1807,producerConsumer.Buffer@165,putPtr,WRITE,Thread-3,producerConsumer/ProducerConsumer.java:75]
+	ReadWriteNode[1962,producerConsumer.Buffer@165,putPtr,WRITE,Thread-2,producerConsumer/ProducerConsumer.java:75]
+	ReadWriteNode[2116,producerConsumer.Buffer@165,putPtr,READ,Thread-3,producerConsumer/ProducerConsumer.java:74]
+}
+success count: 0
+fail count: 3, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,READ] ]
+	matched: true
+	ReadWriteNode[2012,producerConsumer.Buffer@165,usedSlots,WRITE,Thread-3,producerConsumer/ProducerConsumer.java:81]
+	ReadWriteNode[2040,producerConsumer.Buffer@165,usedSlots,WRITE,Thread-7,producerConsumer/ProducerConsumer.java:110]
+	ReadWriteNode[2050,producerConsumer.Buffer@165,usedSlots,READ,Thread-3,producerConsumer/ProducerConsumer.java:65]
+}
+success count: 0
+fail count: 7, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[2059,producerConsumer.ProducerConsumer,total,WRITE,Thread-7,producerConsumer/ProducerConsumer.java:192]
+	ReadWriteNode[2082,producerConsumer.ProducerConsumer,total,READ,main,producerConsumer/ProducerConsumer.java:35]
+}
+success count: 0
+fail count: 27, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,READ] ]
+	matched: true
+	ReadWriteNode[1798,producerConsumer.Buffer@165,usedSlots,WRITE,Thread-6,producerConsumer/ProducerConsumer.java:110]
+	ReadWriteNode[1880,producerConsumer.Buffer@165,usedSlots,WRITE,Thread-1,producerConsumer/ProducerConsumer.java:81]
+	ReadWriteNode[2009,producerConsumer.Buffer@165,usedSlots,READ,Thread-6,producerConsumer/ProducerConsumer.java:85]
+}
+success count: 2
+fail count: 2, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,READ] ]
+	matched: true
+	ReadWriteNode[1798,producerConsumer.Buffer@165,usedSlots,WRITE,Thread-6,producerConsumer/ProducerConsumer.java:110]
+	ReadWriteNode[1880,producerConsumer.Buffer@165,usedSlots,WRITE,Thread-1,producerConsumer/ProducerConsumer.java:81]
+	ReadWriteNode[2025,producerConsumer.Buffer@165,usedSlots,READ,Thread-6,producerConsumer/ProducerConsumer.java:93]
+}
+success count: 2
+fail count: 2, Pattern {
+	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] ]
+	matched: true
+	ReadWriteNode[1847,producerConsumer.Buffer@165,usedSlots,READ,Thread-5,producerConsumer/ProducerConsumer.java:85]
+	ReadWriteNode[1896,producerConsumer.Buffer@165,usedSlots,WRITE,Thread-2,producerConsumer/ProducerConsumer.java:81]
+}
+success count: 112
+fail count: 57, Pattern {
+	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] ]
+	matched: true
+	ReadWriteNode[1853,producerConsumer.Buffer@165,usedSlots,READ,Thread-5,producerConsumer/ProducerConsumer.java:93]
+	ReadWriteNode[1896,producerConsumer.Buffer@165,usedSlots,WRITE,Thread-2,producerConsumer/ProducerConsumer.java:81]
+}
+success count: 112
+fail count: 57, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[2012,producerConsumer.Buffer@165,usedSlots,WRITE,Thread-3,producerConsumer/ProducerConsumer.java:81]
+	ReadWriteNode[2016,producerConsumer.Buffer@165,usedSlots,READ,Thread-7,producerConsumer/ProducerConsumer.java:85]
+}
+success count: 16
+fail count: 8, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[2012,producerConsumer.Buffer@165,usedSlots,WRITE,Thread-3,producerConsumer/ProducerConsumer.java:81]
+	ReadWriteNode[2029,producerConsumer.Buffer@165,usedSlots,READ,Thread-7,producerConsumer/ProducerConsumer.java:93]
+}
+success count: 16
+fail count: 8, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] PatternTypeNode[y,2,READ] PatternTypeNode[y,1,WRITE] ]
+	matched: true
+	ReadWriteNode[1615,producerConsumer.AttrData@1c8,data,WRITE,Thread-2,producerConsumer/ProducerConsumer.java:141]
+	ReadWriteNode[1760,producerConsumer.AttrData@1c8,data,READ,Thread-5,producerConsumer/ProducerConsumer.java:183]
+	ReadWriteNode[1853,producerConsumer.Buffer@165,usedSlots,READ,Thread-5,producerConsumer/ProducerConsumer.java:93]
+	ReadWriteNode[1896,producerConsumer.Buffer@165,usedSlots,WRITE,Thread-2,producerConsumer/ProducerConsumer.java:81]
+}
+success count: 158
+fail count: 74, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] PatternTypeNode[y,2,READ] PatternTypeNode[y,1,WRITE] ]
+	matched: true
+	ReadWriteNode[1615,producerConsumer.AttrData@1c8,data,WRITE,Thread-2,producerConsumer/ProducerConsumer.java:141]
+	ReadWriteNode[1760,producerConsumer.AttrData@1c8,data,READ,Thread-5,producerConsumer/ProducerConsumer.java:183]
+	ReadWriteNode[1847,producerConsumer.Buffer@165,usedSlots,READ,Thread-5,producerConsumer/ProducerConsumer.java:85]
+	ReadWriteNode[1896,producerConsumer.Buffer@165,usedSlots,WRITE,Thread-2,producerConsumer/ProducerConsumer.java:81]
+}
+success count: 158
+fail count: 74, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[1544,producerConsumer.Buffer@165,usedSlots,WRITE,Thread-4,producerConsumer/ProducerConsumer.java:110]
+	ReadWriteNode[1628,producerConsumer.Buffer@165,usedSlots,READ,Thread-6,producerConsumer/ProducerConsumer.java:106]
+}
+success count: 84
+fail count: 39, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[1631,producerConsumer.Buffer@165,usedSlots,WRITE,Thread-6,producerConsumer/ProducerConsumer.java:110]
+	ReadWriteNode[1750,producerConsumer.Buffer@165,usedSlots,READ,Thread-5,producerConsumer/ProducerConsumer.java:110]
+}
+success count: 84
+fail count: 39, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] ]
+	matched: true
+	ReadWriteNode[1544,producerConsumer.Buffer@165,usedSlots,WRITE,Thread-4,producerConsumer/ProducerConsumer.java:110]
+	ReadWriteNode[1631,producerConsumer.Buffer@165,usedSlots,WRITE,Thread-6,producerConsumer/ProducerConsumer.java:110]
+}
+success count: 84
+fail count: 39, Pattern {
+	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] ]
+	matched: true
+	ReadWriteNode[1706,producerConsumer.Buffer@165,usedSlots,READ,Thread-4,producerConsumer/ProducerConsumer.java:93]
+	ReadWriteNode[1751,producerConsumer.Buffer@165,usedSlots,WRITE,Thread-5,producerConsumer/ProducerConsumer.java:110]
+}
+success count: 14
+fail count: 6, Pattern {
+	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] ]
+	matched: true
+	ReadWriteNode[1700,producerConsumer.Buffer@165,usedSlots,READ,Thread-4,producerConsumer/ProducerConsumer.java:85]
+	ReadWriteNode[1751,producerConsumer.Buffer@165,usedSlots,WRITE,Thread-5,producerConsumer/ProducerConsumer.java:110]
+}
+success count: 14
+fail count: 6, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[1751,producerConsumer.Buffer@165,usedSlots,WRITE,Thread-5,producerConsumer/ProducerConsumer.java:110]
+	ReadWriteNode[1874,producerConsumer.Buffer@165,usedSlots,READ,Thread-2,producerConsumer/ProducerConsumer.java:65]
+}
+success count: 135
+fail count: 57, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[1751,producerConsumer.Buffer@165,usedSlots,WRITE,Thread-5,producerConsumer/ProducerConsumer.java:110]
+	ReadWriteNode[1757,producerConsumer.Buffer@165,usedSlots,READ,Thread-6,producerConsumer/ProducerConsumer.java:85]
+}
+success count: 167
+fail count: 68, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[1751,producerConsumer.Buffer@165,usedSlots,WRITE,Thread-5,producerConsumer/ProducerConsumer.java:110]
+	ReadWriteNode[1767,producerConsumer.Buffer@165,usedSlots,READ,Thread-6,producerConsumer/ProducerConsumer.java:93]
+}
+success count: 167
+fail count: 68, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[251,producerConsumer.Buffer@165,usedSlots,WRITE,main,producerConsumer/ProducerConsumer.java:56]
+	ReadWriteNode[1814,producerConsumer.Buffer@165,usedSlots,READ,Thread-6,producerConsumer/ProducerConsumer.java:110]
+}
+success count: 42
+fail count: 17, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[251,producerConsumer.Buffer@165,usedSlots,WRITE,main,producerConsumer/ProducerConsumer.java:56]
+	ReadWriteNode[1812,producerConsumer.Buffer@165,usedSlots,READ,Thread-6,producerConsumer/ProducerConsumer.java:106]
+}
+success count: 42
+fail count: 17, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] ]
+	matched: true
+	ReadWriteNode[251,producerConsumer.Buffer@165,usedSlots,WRITE,main,producerConsumer/ProducerConsumer.java:56]
+	ReadWriteNode[1815,producerConsumer.Buffer@165,usedSlots,WRITE,Thread-6,producerConsumer/ProducerConsumer.java:110]
+}
+success count: 42
+fail count: 17, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[1751,producerConsumer.Buffer@165,usedSlots,WRITE,Thread-5,producerConsumer/ProducerConsumer.java:110]
+	ReadWriteNode[1894,producerConsumer.Buffer@165,usedSlots,READ,Thread-2,producerConsumer/ProducerConsumer.java:77]
+}
+success count: 135
+fail count: 54, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[1751,producerConsumer.Buffer@165,usedSlots,WRITE,Thread-5,producerConsumer/ProducerConsumer.java:110]
+	ReadWriteNode[1895,producerConsumer.Buffer@165,usedSlots,READ,Thread-2,producerConsumer/ProducerConsumer.java:81]
+}
+success count: 135
+fail count: 54, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] ]
+	matched: true
+	ReadWriteNode[1751,producerConsumer.Buffer@165,usedSlots,WRITE,Thread-5,producerConsumer/ProducerConsumer.java:110]
+	ReadWriteNode[1896,producerConsumer.Buffer@165,usedSlots,WRITE,Thread-2,producerConsumer/ProducerConsumer.java:81]
+}
+success count: 135
+fail count: 53, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,READ] ]
+	matched: true
+	ReadWriteNode[1631,producerConsumer.Buffer@165,usedSlots,WRITE,Thread-6,producerConsumer/ProducerConsumer.java:110]
+	ReadWriteNode[1751,producerConsumer.Buffer@165,usedSlots,WRITE,Thread-5,producerConsumer/ProducerConsumer.java:110]
+	ReadWriteNode[1767,producerConsumer.Buffer@165,usedSlots,READ,Thread-6,producerConsumer/ProducerConsumer.java:93]
+}
+success count: 42
+fail count: 16, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,READ] ]
+	matched: true
+	ReadWriteNode[1631,producerConsumer.Buffer@165,usedSlots,WRITE,Thread-6,producerConsumer/ProducerConsumer.java:110]
+	ReadWriteNode[1751,producerConsumer.Buffer@165,usedSlots,WRITE,Thread-5,producerConsumer/ProducerConsumer.java:110]
+	ReadWriteNode[1757,producerConsumer.Buffer@165,usedSlots,READ,Thread-6,producerConsumer/ProducerConsumer.java:85]
+}
+success count: 42
+fail count: 16, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[250,producerConsumer.Buffer@165,getPtr,WRITE,main,producerConsumer/ProducerConsumer.java:55]
+	ReadWriteNode[1538,producerConsumer.Buffer@165,getPtr,READ,Thread-4,producerConsumer/ProducerConsumer.java:104]
+}
+success count: 73
+fail count: 27, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] ]
+	matched: true
+	ReadWriteNode[247,producerConsumer.ProducerConsumer,total,WRITE,main,producerConsumer/ProducerConsumer.java:13]
+	ReadWriteNode[1573,producerConsumer.ProducerConsumer,total,WRITE,Thread-4,producerConsumer/ProducerConsumer.java:192]
+}
+success count: 73
+fail count: 27, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] ]
+	matched: true
+	ReadWriteNode[250,producerConsumer.Buffer@165,getPtr,WRITE,main,producerConsumer/ProducerConsumer.java:55]
+	ReadWriteNode[1540,producerConsumer.Buffer@165,getPtr,WRITE,Thread-4,producerConsumer/ProducerConsumer.java:104]
+}
+success count: 73
+fail count: 27, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[2059,producerConsumer.ProducerConsumer,total,WRITE,Thread-7,producerConsumer/ProducerConsumer.java:192]
+	ReadWriteNode[2066,producerConsumer.ProducerConsumer,total,READ,main,producerConsumer/ProducerConsumer.java:34]
+}
+success count: 73
+fail count: 27, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[250,producerConsumer.Buffer@165,getPtr,WRITE,main,producerConsumer/ProducerConsumer.java:55]
+	ReadWriteNode[1537,producerConsumer.Buffer@165,getPtr,READ,Thread-4,producerConsumer/ProducerConsumer.java:103]
+}
+success count: 73
+fail count: 27, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] ]
+	matched: true
+	ReadWriteNode[252,producerConsumer.Buffer@165,halted,WRITE,main,producerConsumer/ProducerConsumer.java:57]
+	ReadWriteNode[1690,producerConsumer.Buffer@165,halted,WRITE,Thread-1,producerConsumer/ProducerConsumer.java:117]
+}
+success count: 73
+fail count: 27, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[250,producerConsumer.Buffer@165,getPtr,WRITE,main,producerConsumer/ProducerConsumer.java:55]
+	ReadWriteNode[1535,producerConsumer.Buffer@165,getPtr,READ,Thread-4,producerConsumer/ProducerConsumer.java:101]
+}
+success count: 73
+fail count: 27, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] ]
+	matched: true
+	ReadWriteNode[249,producerConsumer.Buffer@165,putPtr,WRITE,main,producerConsumer/ProducerConsumer.java:54]
+	ReadWriteNode[1514,producerConsumer.Buffer@165,putPtr,WRITE,Thread-1,producerConsumer/ProducerConsumer.java:75]
+}
+success count: 73
+fail count: 27, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[247,producerConsumer.ProducerConsumer,total,WRITE,main,producerConsumer/ProducerConsumer.java:13]
+	ReadWriteNode[1563,producerConsumer.ProducerConsumer,total,READ,Thread-4,producerConsumer/ProducerConsumer.java:192]
+}
+success count: 73
+fail count: 27, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] ]
+	matched: true
+	ReadWriteNode[1893,producerConsumer.Buffer@165,putPtr,WRITE,Thread-2,producerConsumer/ProducerConsumer.java:75]
+	ReadWriteNode[2009,producerConsumer.Buffer@165,putPtr,WRITE,Thread-3,producerConsumer/ProducerConsumer.java:75]
+}
+success count: 146
+fail count: 54, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[254,producerConsumer.Buffer@165,array,WRITE,main,producerConsumer/ProducerConsumer.java:61]
+	ReadWriteNode[2069,producerConsumer.Buffer@165,array,READ,Thread-3,producerConsumer/ProducerConsumer.java:74]
+}
+success count: 219
+fail count: 81, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[1627,producerConsumer.Buffer@165,getPtr,WRITE,Thread-6,producerConsumer/ProducerConsumer.java:104]
+	ReadWriteNode[1745,producerConsumer.Buffer@165,getPtr,READ,Thread-5,producerConsumer/ProducerConsumer.java:104]
+}
+success count: 219
+fail count: 81, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[1667,producerConsumer.ProducerConsumer,total,WRITE,Thread-6,producerConsumer/ProducerConsumer.java:192]
+	ReadWriteNode[1791,producerConsumer.ProducerConsumer,total,READ,Thread-5,producerConsumer/ProducerConsumer.java:192]
+}
+success count: 219
+fail count: 81, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[1540,producerConsumer.Buffer@165,getPtr,WRITE,Thread-4,producerConsumer/ProducerConsumer.java:104]
+	ReadWriteNode[1622,producerConsumer.Buffer@165,getPtr,READ,Thread-6,producerConsumer/ProducerConsumer.java:101]
+}
+success count: 219
+fail count: 81, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[253,producerConsumer.Buffer@165,SIZE,WRITE,main,producerConsumer/ProducerConsumer.java:60]
+	ReadWriteNode[2086,producerConsumer.Buffer@165,SIZE,READ,Thread-3,producerConsumer/ProducerConsumer.java:75]
+}
+success count: 219
+fail count: 81, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[253,producerConsumer.Buffer@165,SIZE,WRITE,main,producerConsumer/ProducerConsumer.java:60]
+	ReadWriteNode[2053,producerConsumer.Buffer@165,SIZE,READ,Thread-3,producerConsumer/ProducerConsumer.java:65]
+}
+success count: 219
+fail count: 81, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] ]
+	matched: true
+	ReadWriteNode[1573,producerConsumer.ProducerConsumer,total,WRITE,Thread-4,producerConsumer/ProducerConsumer.java:192]
+	ReadWriteNode[1667,producerConsumer.ProducerConsumer,total,WRITE,Thread-6,producerConsumer/ProducerConsumer.java:192]
+}
+success count: 219
+fail count: 81, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] ]
+	matched: true
+	ReadWriteNode[1540,producerConsumer.Buffer@165,getPtr,WRITE,Thread-4,producerConsumer/ProducerConsumer.java:104]
+	ReadWriteNode[1627,producerConsumer.Buffer@165,getPtr,WRITE,Thread-6,producerConsumer/ProducerConsumer.java:104]
+}
+success count: 219
+fail count: 81, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[337,producerConsumer.Producer@183,buffer,WRITE,main,producerConsumer/ProducerConsumer.java:150]
+	ReadWriteNode[1833,producerConsumer.Producer@183,buffer,READ,Thread-2,producerConsumer/ProducerConsumer.java:157]
+}
+success count: 219
+fail count: 81, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[246,producerConsumer.ProducerConsumer,COUNT,WRITE,main,producerConsumer/ProducerConsumer.java:12]
+	ReadWriteNode[2021,producerConsumer.ProducerConsumer,COUNT,READ,Thread-3,producerConsumer/ProducerConsumer.java:155]
+}
+success count: 219
+fail count: 81, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[1540,producerConsumer.Buffer@165,getPtr,WRITE,Thread-4,producerConsumer/ProducerConsumer.java:104]
+	ReadWriteNode[1624,producerConsumer.Buffer@165,getPtr,READ,Thread-6,producerConsumer/ProducerConsumer.java:103]
+}
+success count: 219
+fail count: 81, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[587,producerConsumer.Consumer@1b1,buffer,WRITE,main,producerConsumer/ProducerConsumer.java:170]
+	ReadWriteNode[2007,producerConsumer.Consumer@1b1,buffer,READ,Thread-7,producerConsumer/ProducerConsumer.java:179]
+}
+success count: 292
+fail count: 108, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[254,producerConsumer.Buffer@165,array,WRITE,main,producerConsumer/ProducerConsumer.java:61]
+	ReadWriteNode[1741,producerConsumer.Buffer@165,array,READ,Thread-5,producerConsumer/ProducerConsumer.java:101]
+}
+success count: 292
+fail count: 108, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[253,producerConsumer.Buffer@165,SIZE,WRITE,main,producerConsumer/ProducerConsumer.java:60]
+	ReadWriteNode[1749,producerConsumer.Buffer@165,SIZE,READ,Thread-5,producerConsumer/ProducerConsumer.java:106]
+}
+success count: 292
+fail count: 108, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[254,producerConsumer.Buffer@165,array,WRITE,main,producerConsumer/ProducerConsumer.java:61]
+	ReadWriteNode[2032,producerConsumer.Buffer@165,array,READ,Thread-7,producerConsumer/ProducerConsumer.java:103]
+}
+success count: 292
+fail count: 108, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[253,producerConsumer.Buffer@165,SIZE,WRITE,main,producerConsumer/ProducerConsumer.java:60]
+	ReadWriteNode[1746,producerConsumer.Buffer@165,SIZE,READ,Thread-5,producerConsumer/ProducerConsumer.java:104]
+}
+success count: 292
+fail count: 108, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[1934,producerConsumer.Buffer@165,halted,WRITE,Thread-2,producerConsumer/ProducerConsumer.java:117]
+	ReadWriteNode[2028,producerConsumer.Buffer@165,halted,READ,Thread-7,producerConsumer/ProducerConsumer.java:85]
+}
+success count: 292
+fail count: 108, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[1514,producerConsumer.Buffer@165,putPtr,WRITE,Thread-1,producerConsumer/ProducerConsumer.java:75]
+	ReadWriteNode[1891,producerConsumer.Buffer@165,putPtr,READ,Thread-2,producerConsumer/ProducerConsumer.java:75]
+}
+success count: 146
+fail count: 53, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[1514,producerConsumer.Buffer@165,putPtr,WRITE,Thread-1,producerConsumer/ProducerConsumer.java:75]
+	ReadWriteNode[1883,producerConsumer.Buffer@165,putPtr,READ,Thread-2,producerConsumer/ProducerConsumer.java:74]
+}
+success count: 146
+fail count: 53, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[249,producerConsumer.Buffer@165,putPtr,WRITE,main,producerConsumer/ProducerConsumer.java:54]
+	ReadWriteNode[1509,producerConsumer.Buffer@165,putPtr,READ,Thread-1,producerConsumer/ProducerConsumer.java:75]
+}
+success count: 73
+fail count: 26, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[249,producerConsumer.Buffer@165,putPtr,WRITE,main,producerConsumer/ProducerConsumer.java:54]
+	ReadWriteNode[1505,producerConsumer.Buffer@165,putPtr,READ,Thread-1,producerConsumer/ProducerConsumer.java:74]
+}
+success count: 73
+fail count: 26, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] ]
+	matched: true
+	ReadWriteNode[1896,producerConsumer.Buffer@165,usedSlots,WRITE,Thread-2,producerConsumer/ProducerConsumer.java:81]
+	ReadWriteNode[2012,producerConsumer.Buffer@165,usedSlots,WRITE,Thread-3,producerConsumer/ProducerConsumer.java:81]
+}
+success count: 53
+fail count: 18, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[940,producerConsumer.AttrData@1c0,data,WRITE,Thread-1,producerConsumer/ProducerConsumer.java:141]
+	ReadWriteNode[1163,producerConsumer.AttrData@1c0,data,READ,Thread-7,producerConsumer/ProducerConsumer.java:183]
+}
+success count: 1752
+fail count: 569, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[251,producerConsumer.Buffer@165,usedSlots,WRITE,main,producerConsumer/ProducerConsumer.java:56]
+	ReadWriteNode[1484,producerConsumer.Buffer@165,usedSlots,READ,Thread-1,producerConsumer/ProducerConsumer.java:65]
+}
+success count: 31
+fail count: 10, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[251,producerConsumer.Buffer@165,usedSlots,WRITE,main,producerConsumer/ProducerConsumer.java:56]
+	ReadWriteNode[1515,producerConsumer.Buffer@165,usedSlots,READ,Thread-1,producerConsumer/ProducerConsumer.java:77]
+}
+success count: 31
+fail count: 10, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] ]
+	matched: true
+	ReadWriteNode[251,producerConsumer.Buffer@165,usedSlots,WRITE,main,producerConsumer/ProducerConsumer.java:56]
+	ReadWriteNode[1517,producerConsumer.Buffer@165,usedSlots,WRITE,Thread-1,producerConsumer/ProducerConsumer.java:81]
+}
+success count: 31
+fail count: 10, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[251,producerConsumer.Buffer@165,usedSlots,WRITE,main,producerConsumer/ProducerConsumer.java:56]
+	ReadWriteNode[1516,producerConsumer.Buffer@165,usedSlots,READ,Thread-1,producerConsumer/ProducerConsumer.java:81]
+}
+success count: 31
+fail count: 10, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[1896,producerConsumer.Buffer@165,usedSlots,WRITE,Thread-2,producerConsumer/ProducerConsumer.java:81]
+	ReadWriteNode[2011,producerConsumer.Buffer@165,usedSlots,READ,Thread-3,producerConsumer/ProducerConsumer.java:81]
+}
+success count: 53
+fail count: 17, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[1896,producerConsumer.Buffer@165,usedSlots,WRITE,Thread-2,producerConsumer/ProducerConsumer.java:81]
+	ReadWriteNode[2010,producerConsumer.Buffer@165,usedSlots,READ,Thread-3,producerConsumer/ProducerConsumer.java:77]
+}
+success count: 53
+fail count: 17, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[2012,producerConsumer.Buffer@165,usedSlots,WRITE,Thread-3,producerConsumer/ProducerConsumer.java:81]
+	ReadWriteNode[2037,producerConsumer.Buffer@165,usedSlots,READ,Thread-7,producerConsumer/ProducerConsumer.java:106]
+}
+success count: 166
+fail count: 52, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] ]
+	matched: true
+	ReadWriteNode[1517,producerConsumer.Buffer@165,usedSlots,WRITE,Thread-1,producerConsumer/ProducerConsumer.java:81]
+	ReadWriteNode[1544,producerConsumer.Buffer@165,usedSlots,WRITE,Thread-4,producerConsumer/ProducerConsumer.java:110]
+}
+success count: 166
+fail count: 52, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[2012,producerConsumer.Buffer@165,usedSlots,WRITE,Thread-3,producerConsumer/ProducerConsumer.java:81]
+	ReadWriteNode[2039,producerConsumer.Buffer@165,usedSlots,READ,Thread-7,producerConsumer/ProducerConsumer.java:110]
+}
+success count: 166
+fail count: 52, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[337,producerConsumer.Producer@183,buffer,WRITE,main,producerConsumer/ProducerConsumer.java:150]
+	ReadWriteNode[1914,producerConsumer.Producer@183,buffer,READ,Thread-2,producerConsumer/ProducerConsumer.java:161]
+}
+success count: 219
+fail count: 56, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[1710,producerConsumer.Buffer@165,usedSlots,WRITE,Thread-1,producerConsumer/ProducerConsumer.java:81]
+	ReadWriteNode[1739,producerConsumer.Buffer@165,usedSlots,READ,Thread-2,producerConsumer/ProducerConsumer.java:65]
+}
+success count: 53
+fail count: 12, Pattern {
+	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] ]
+	matched: true
+	ReadWriteNode[1850,producerConsumer.Buffer@165,halted,READ,Thread-5,producerConsumer/ProducerConsumer.java:85]
+	ReadWriteNode[1934,producerConsumer.Buffer@165,halted,WRITE,Thread-2,producerConsumer/ProducerConsumer.java:117]
+}
+success count: 182
+fail count: 37, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] PatternTypeNode[y,2,READ] PatternTypeNode[y,1,WRITE] ]
+	matched: true
+	ReadWriteNode[355,producerConsumer.AttrData@18b,data,WRITE,Thread-2,producerConsumer/ProducerConsumer.java:141]
+	ReadWriteNode[705,producerConsumer.AttrData@18b,data,READ,Thread-4,producerConsumer/ProducerConsumer.java:183]
+	ReadWriteNode[1703,producerConsumer.Buffer@165,halted,READ,Thread-4,producerConsumer/ProducerConsumer.java:85]
+	ReadWriteNode[1934,producerConsumer.Buffer@165,halted,WRITE,Thread-2,producerConsumer/ProducerConsumer.java:117]
+}
+success count: 317
+fail count: 61, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] ]
+	matched: true
+	ReadWriteNode[1690,producerConsumer.Buffer@165,halted,WRITE,Thread-1,producerConsumer/ProducerConsumer.java:117]
+	ReadWriteNode[1934,producerConsumer.Buffer@165,halted,WRITE,Thread-2,producerConsumer/ProducerConsumer.java:117]
+}
+success count: 146
+fail count: 26, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[y,2,WRITE] PatternTypeNode[y,1,WRITE] ]
+	matched: true
+	ReadWriteNode[1957,producerConsumer.Buffer@165,putPtr,WRITE,Thread-1,producerConsumer/ProducerConsumer.java:75]
+	ReadWriteNode[1999,producerConsumer.Buffer@165,putPtr,WRITE,Thread-3,producerConsumer/ProducerConsumer.java:75]
+	ReadWriteNode[2039,producerConsumer.Buffer@165,halted,WRITE,Thread-3,producerConsumer/ProducerConsumer.java:117]
+	ReadWriteNode[2056,producerConsumer.Buffer@165,halted,WRITE,Thread-1,producerConsumer/ProducerConsumer.java:117]
+}
+success count: 17
+fail count: 3, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[y,2,READ] PatternTypeNode[x,2,READ] PatternTypeNode[y,1,WRITE] ]
+	matched: true
+	ReadWriteNode[1664,producerConsumer.AttrData@1c9,data,WRITE,Thread-3,producerConsumer/ProducerConsumer.java:141]
+	ReadWriteNode[2030,producerConsumer.Buffer@165,halted,READ,Thread-5,producerConsumer/ProducerConsumer.java:85]
+	ReadWriteNode[2093,producerConsumer.AttrData@1c9,data,READ,Thread-5,producerConsumer/ProducerConsumer.java:183]
+	ReadWriteNode[2159,producerConsumer.Buffer@165,halted,WRITE,Thread-3,producerConsumer/ProducerConsumer.java:117]
+}
+success count: 7
+fail count: 1, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] PatternTypeNode[y,2,READ] PatternTypeNode[y,1,WRITE] ]
+	matched: true
+	ReadWriteNode[1959,producerConsumer.Buffer@165,usedSlots,WRITE,Thread-2,producerConsumer/ProducerConsumer.java:81]
+	ReadWriteNode[2022,producerConsumer.Buffer@165,usedSlots,READ,Thread-5,producerConsumer/ProducerConsumer.java:110]
+	ReadWriteNode[2155,producerConsumer.Buffer@165,halted,READ,Thread-5,producerConsumer/ProducerConsumer.java:85]
+	ReadWriteNode[2196,producerConsumer.Buffer@165,halted,WRITE,Thread-2,producerConsumer/ProducerConsumer.java:117]
+}
+success count: 17
+fail count: 2, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] PatternTypeNode[y,2,READ] PatternTypeNode[y,1,WRITE] ]
+	matched: true
+	ReadWriteNode[1959,producerConsumer.Buffer@165,usedSlots,WRITE,Thread-2,producerConsumer/ProducerConsumer.java:81]
+	ReadWriteNode[2020,producerConsumer.Buffer@165,usedSlots,READ,Thread-5,producerConsumer/ProducerConsumer.java:106]
+	ReadWriteNode[2155,producerConsumer.Buffer@165,halted,READ,Thread-5,producerConsumer/ProducerConsumer.java:85]
+	ReadWriteNode[2196,producerConsumer.Buffer@165,halted,WRITE,Thread-2,producerConsumer/ProducerConsumer.java:117]
+}
+success count: 17
+fail count: 2, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[y,2,WRITE] PatternTypeNode[y,1,WRITE] ]
+	matched: true
+	ReadWriteNode[1960,producerConsumer.Buffer@165,usedSlots,WRITE,Thread-1,producerConsumer/ProducerConsumer.java:81]
+	ReadWriteNode[2002,producerConsumer.Buffer@165,usedSlots,WRITE,Thread-3,producerConsumer/ProducerConsumer.java:81]
+	ReadWriteNode[2039,producerConsumer.Buffer@165,halted,WRITE,Thread-3,producerConsumer/ProducerConsumer.java:117]
+	ReadWriteNode[2056,producerConsumer.Buffer@165,halted,WRITE,Thread-1,producerConsumer/ProducerConsumer.java:117]
+}
+success count: 14
+fail count: 1, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] PatternTypeNode[y,2,READ] PatternTypeNode[y,1,WRITE] ]
+	matched: true
+	ReadWriteNode[2138,producerConsumer.Buffer@165,usedSlots,WRITE,Thread-3,producerConsumer/ProducerConsumer.java:81]
+	ReadWriteNode[2148,producerConsumer.Buffer@165,usedSlots,READ,Thread-4,producerConsumer/ProducerConsumer.java:85]
+	ReadWriteNode[2149,producerConsumer.Buffer@165,halted,READ,Thread-4,producerConsumer/ProducerConsumer.java:85]
+	ReadWriteNode[2186,producerConsumer.Buffer@165,halted,WRITE,Thread-3,producerConsumer/ProducerConsumer.java:117]
+}
+success count: 8
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[y,2,READ] PatternTypeNode[x,2,READ] PatternTypeNode[y,1,WRITE] ]
+	matched: true
+	ReadWriteNode[2138,producerConsumer.Buffer@165,usedSlots,WRITE,Thread-3,producerConsumer/ProducerConsumer.java:81]
+	ReadWriteNode[2149,producerConsumer.Buffer@165,halted,READ,Thread-4,producerConsumer/ProducerConsumer.java:85]
+	ReadWriteNode[2150,producerConsumer.Buffer@165,usedSlots,READ,Thread-4,producerConsumer/ProducerConsumer.java:93]
+	ReadWriteNode[2186,producerConsumer.Buffer@165,halted,WRITE,Thread-3,producerConsumer/ProducerConsumer.java:117]
+}
+success count: 8
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[y,2,READ] PatternTypeNode[x,2,READ] PatternTypeNode[y,1,WRITE] ]
+	matched: true
+	ReadWriteNode[2138,producerConsumer.Buffer@165,usedSlots,WRITE,Thread-3,producerConsumer/ProducerConsumer.java:81]
+	ReadWriteNode[2149,producerConsumer.Buffer@165,halted,READ,Thread-4,producerConsumer/ProducerConsumer.java:85]
+	ReadWriteNode[2158,producerConsumer.Buffer@165,usedSlots,READ,Thread-4,producerConsumer/ProducerConsumer.java:106]
+	ReadWriteNode[2186,producerConsumer.Buffer@165,halted,WRITE,Thread-3,producerConsumer/ProducerConsumer.java:117]
+}
+success count: 6
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[y,2,READ] PatternTypeNode[x,2,READ] PatternTypeNode[y,1,WRITE] ]
+	matched: true
+	ReadWriteNode[2138,producerConsumer.Buffer@165,usedSlots,WRITE,Thread-3,producerConsumer/ProducerConsumer.java:81]
+	ReadWriteNode[2149,producerConsumer.Buffer@165,halted,READ,Thread-4,producerConsumer/ProducerConsumer.java:85]
+	ReadWriteNode[2160,producerConsumer.Buffer@165,usedSlots,READ,Thread-4,producerConsumer/ProducerConsumer.java:110]
+	ReadWriteNode[2186,producerConsumer.Buffer@165,halted,WRITE,Thread-3,producerConsumer/ProducerConsumer.java:117]
+}
+success count: 6
+fail count: 0]
+time for getting pattern list : 47483

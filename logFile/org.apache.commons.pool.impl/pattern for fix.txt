@@ -1,0 +1,10 @@
+Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[y,2,READ] PatternTypeNode[x,2,READ] PatternTypeNode[y,1,WRITE] ]
+	matched: true
+	ReadWriteNode[431,org.apache.commons.pool.impl.GenericObjectPool@16c,_numActive,WRITE,Thread-1,org/apache/commons/pool/impl/GenericObjectPool.java:764]
+	ReadWriteNode[445,org.apache.commons.pool.impl.CursorableLinkedList@179,_size,READ,Thread-2,org/apache/commons/pool/impl/CursorableLinkedList.java:439]
+	ReadWriteNode[511,org.apache.commons.pool.impl.GenericObjectPool@16c,_numActive,READ,Thread-2,org/apache/commons/pool/impl/GenericObjectPool.java:843]
+	ReadWriteNode[548,org.apache.commons.pool.impl.CursorableLinkedList@179,_size,WRITE,Thread-1,org/apache/commons/pool/impl/CursorableLinkedList.java:735]
+}
+success count: 4
+fail count: 0

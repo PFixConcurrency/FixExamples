@@ -4,16 +4,16 @@ public class CheckField {
 	static InstanceExample ex;
 	private int num;
 	public static void main(String[] args) {
-synchronized (this){ synchronized (this){ synchronized (this){ synchronized (this){ synchronized (this){ synchronized (this){ 		ex = new InstanceExample();
-}}}}}}		Thread t1 = new Thread() {
+		ex = new InstanceExample();
+		Thread t1 = new Thread() {
 			public void run() {
-synchronized (this){ 				System.out.println("new thread." + ex.number);
-}synchronized (this){ 				ex.number = 12;
-synchronized (this){ }synchronized (ex){ 				ex.num2 = 12;
-}}//				assert ex.number == 12;
-synchronized (this){ 				if (ex.number != 12)
+synchronized (ex){ 				System.out.println("new thread." + ex.number);
+synchronized (ex){ 				ex.number = 12;
+				ex.num2 = 12;
+//				assert ex.number == 12;
+				if (ex.number != 12)
 					throw new RuntimeException("not equal");
-}				int c = ex.num2;
+ }}				int c = ex.num2;
 				//c -= ex.number;
 			}
 		};
@@ -21,9 +21,9 @@ synchronized (this){ 				if (ex.number != 12)
 		Thread t2 = new Thread() {
 			public void run() {
 				//int a = ex.number;
-synchronized (this){ 				ex.number = 13;
-synchronized (){   				ex.num2 = 1;
-}			}
+synchronized (ex){ 				ex.number = 13;
+}				ex.num2 = 1;
+			}
 		};
 		t1.start();
 		t2.start();

@@ -1,7 +1,0 @@
-Fix one
-Added Semaphore
-The location of semaphore defines : 21
-The location of semaphore use : 38
-result : fix success
-add lock num : 0
-time for fixing:22000

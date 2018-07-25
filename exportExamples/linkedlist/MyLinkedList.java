@@ -39,10 +39,10 @@ class MyLinkedList {
             MyListNode tmp;
             // Delete the synch block for the unsynch case
             synchronized (this) {
-                tmp = new MyListNode(x, p._current._next);
+synchronized (p._current){                 tmp = new MyListNode(x, p._current._next);
             } // Extend the synch block one stmt to eliminate the bug
             p._current._next = tmp;
-        }
+}        }
     }
 
     //Inserts element to the end of list .

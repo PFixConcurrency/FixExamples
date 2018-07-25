@@ -51,8 +51,8 @@ public class HashCodeTest {
         for (int i = 0; i < TEST_LENGTH; i++) {
             for (int j = 0; j < NUM_OF_THREADS - 1; j++) {
             	//System.out.println(h[j].hash[i]+", "+h[j + 1].hash[i]);
-synchronized (this){                 assert(h[j].hash[i] == h[j + 1].hash[i]);
-}            }
+                assert(h[j].hash[i] == h[j + 1].hash[i]);
+            }
         }
     }
 
@@ -69,8 +69,8 @@ synchronized (this){                 assert(h[j].hash[i] == h[j + 1].hash[i]);
         }
 
         public void run() {
-synchronized (this){             hash = new int[t.length];
-}            for (int i = 0; i < t.length; i++) {
+            hash = new int[t.length];
+            for (int i = 0; i < t.length; i++) {
                 hash[i] = t[i].hashCode();
             }
         }

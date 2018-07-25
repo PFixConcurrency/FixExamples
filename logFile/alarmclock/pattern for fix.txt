@@ -1,0 +1,9 @@
+Pattern {
+	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,READ] ]
+	matched: true
+	ReadWriteNode[766,alarmclock.MyLinkedList@162,size,READ,Thread-6,alarmclock/AlarmClock.java:308]
+	ReadWriteNode[1117,alarmclock.MyLinkedList@162,size,WRITE,Thread-2,alarmclock/AlarmClock.java:274]
+	ReadWriteNode[1159,alarmclock.MyLinkedList@162,size,READ,Thread-6,alarmclock/AlarmClock.java:339]
+}
+success count: 1
+fail count: 0

@@ -351,22 +351,22 @@ public class LoggingEvent implements java.io.Serializable {
 
   public
   String getRenderedMessage() {
-synchronized (){ synchronized (this){ synchronized (this){      if(renderedMessage == null && message != null) {
-synchronized (this){        if(message instanceof String)
-synchronized (){ synchronized (this){ synchronized (){ synchronized (this){ 	 renderedMessage = (String) message;
-}}}}       else {
+     if(renderedMessage == null && message != null) {
+       if(message instanceof String)
+	 renderedMessage = (String) message;
+       else {
 	 LoggerRepository repository = logger.getLoggerRepository();
 
-synchronized (this){ 	 if(repository instanceof RendererSupport) {
+	 if(repository instanceof RendererSupport) {
 	   RendererSupport rs = (RendererSupport) repository;
 	   renderedMessage= rs.getRendererMap().findAndRender(message);
 	 } else {
 	   renderedMessage = message.toString();
 	 }
- }       }
- }     }
+       }
+     }
      return renderedMessage;
-}}}  }
+  }
 
   /**
      Returns the time when the application started, in milliseconds

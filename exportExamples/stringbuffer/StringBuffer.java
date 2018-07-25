@@ -441,7 +441,7 @@ static Object objectFix = new Object();    /**
             sb = NULL;
         }
 
-synchronized (objectFix){         int len = sb.length();
+synchronized (sb){         int len = sb.length();
         int newcount = count + len;
         if (newcount > value.length)
             expandCapacity(newcount);

@@ -1,0 +1,1930 @@
+[Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[y,2,READ] PatternTypeNode[x,2,READ] PatternTypeNode[y,1,WRITE] ]
+	matched: true
+	ReadWriteNode[768,java.lang.ThreadGroup@b0,nUnstartedThreads,WRITE,Thread-4,java/lang/ThreadGroup.java:164]
+	ReadWriteNode[810,java.lang.ThreadGroup@b0,threads,READ,Thread-2,java/lang/ThreadGroup.java:163]
+	ReadWriteNode[813,java.lang.ThreadGroup@b0,nUnstartedThreads,READ,Thread-2,java/lang/ThreadGroup.java:164]
+	ReadWriteNode[824,java.lang.ThreadGroup@b0,threads,WRITE,Thread-4,java/lang/ThreadGroup.java:160]
+}
+success count: 0
+fail count: 1, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[y,2,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[y,1,WRITE] ]
+	matched: true
+	ReadWriteNode[766,java.lang.ThreadGroup@b0,nthreads,WRITE,Thread-4,java/lang/ThreadGroup.java:163]
+	ReadWriteNode[809,java.lang.ThreadGroup@b0,threads,WRITE,Thread-2,java/lang/ThreadGroup.java:160]
+	ReadWriteNode[812,java.lang.ThreadGroup@b0,nthreads,WRITE,Thread-2,java/lang/ThreadGroup.java:163]
+	ReadWriteNode[824,java.lang.ThreadGroup@b0,threads,WRITE,Thread-4,java/lang/ThreadGroup.java:160]
+}
+success count: 0
+fail count: 1, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[y,2,READ] PatternTypeNode[x,2,READ] PatternTypeNode[y,1,WRITE] ]
+	matched: true
+	ReadWriteNode[766,java.lang.ThreadGroup@b0,nthreads,WRITE,Thread-4,java/lang/ThreadGroup.java:163]
+	ReadWriteNode[810,java.lang.ThreadGroup@b0,threads,READ,Thread-2,java/lang/ThreadGroup.java:163]
+	ReadWriteNode[811,java.lang.ThreadGroup@b0,nthreads,READ,Thread-2,java/lang/ThreadGroup.java:163]
+	ReadWriteNode[824,java.lang.ThreadGroup@b0,threads,WRITE,Thread-4,java/lang/ThreadGroup.java:160]
+}
+success count: 0
+fail count: 1, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[y,2,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[y,1,WRITE] ]
+	matched: true
+	ReadWriteNode[729,java.lang.Thread,nameThreadNum,WRITE,Thread-2,java/lang/Thread.java:130]
+	ReadWriteNode[768,java.lang.ThreadGroup@b0,nUnstartedThreads,WRITE,Thread-4,java/lang/ThreadGroup.java:164]
+	ReadWriteNode[789,java.lang.Thread,nameThreadNum,WRITE,Thread-4,java/lang/Thread.java:130]
+	ReadWriteNode[814,java.lang.ThreadGroup@b0,nUnstartedThreads,WRITE,Thread-2,java/lang/ThreadGroup.java:164]
+}
+success count: 0
+fail count: 1, Pattern {
+	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] PatternTypeNode[y,2,WRITE] PatternTypeNode[y,1,READ] ]
+	matched: true
+	ReadWriteNode[764,java.lang.ThreadGroup@b0,threads,READ,Thread-4,java/lang/ThreadGroup.java:163]
+	ReadWriteNode[809,java.lang.ThreadGroup@b0,threads,WRITE,Thread-2,java/lang/ThreadGroup.java:160]
+	ReadWriteNode[812,java.lang.ThreadGroup@b0,nthreads,WRITE,Thread-2,java/lang/ThreadGroup.java:163]
+	ReadWriteNode[821,java.lang.ThreadGroup@b0,nthreads,READ,Thread-4,java/lang/ThreadGroup.java:158]
+}
+success count: 0
+fail count: 1, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,READ] ]
+	matched: true
+	ReadWriteNode[766,java.lang.ThreadGroup@b0,nthreads,WRITE,Thread-4,java/lang/ThreadGroup.java:163]
+	ReadWriteNode[812,java.lang.ThreadGroup@b0,nthreads,WRITE,Thread-2,java/lang/ThreadGroup.java:163]
+	ReadWriteNode[821,java.lang.ThreadGroup@b0,nthreads,READ,Thread-4,java/lang/ThreadGroup.java:158]
+}
+success count: 0
+fail count: 1, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,READ] ]
+	matched: true
+	ReadWriteNode[766,java.lang.ThreadGroup@b0,nthreads,WRITE,Thread-4,java/lang/ThreadGroup.java:163]
+	ReadWriteNode[812,java.lang.ThreadGroup@b0,nthreads,WRITE,Thread-2,java/lang/ThreadGroup.java:163]
+	ReadWriteNode[823,java.lang.ThreadGroup@b0,nthreads,READ,Thread-4,java/lang/ThreadGroup.java:159]
+}
+success count: 0
+fail count: 1, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[y,2,READ] PatternTypeNode[x,2,READ] PatternTypeNode[y,1,WRITE] ]
+	matched: true
+	ReadWriteNode[507,mergesort.MSort@1f6,group,WRITE,Thread-2,java/lang/Thread.java:122]
+	ReadWriteNode[764,java.lang.ThreadGroup@b0,threads,READ,Thread-4,java/lang/ThreadGroup.java:163]
+	ReadWriteNode[803,mergesort.MSort@1f6,group,READ,Thread-4,java/lang/Thread.java:264]
+	ReadWriteNode[809,java.lang.ThreadGroup@b0,threads,WRITE,Thread-2,java/lang/ThreadGroup.java:160]
+}
+success count: 0
+fail count: 1, Pattern {
+	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,READ] ]
+	matched: true
+	ReadWriteNode[764,java.lang.ThreadGroup@b0,threads,READ,Thread-4,java/lang/ThreadGroup.java:163]
+	ReadWriteNode[809,java.lang.ThreadGroup@b0,threads,WRITE,Thread-2,java/lang/ThreadGroup.java:160]
+	ReadWriteNode[822,java.lang.ThreadGroup@b0,threads,READ,Thread-4,java/lang/ThreadGroup.java:159]
+}
+success count: 0
+fail count: 1, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[y,2,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[y,1,WRITE] ]
+	matched: true
+	ReadWriteNode[768,java.lang.ThreadGroup@b0,nUnstartedThreads,WRITE,Thread-4,java/lang/ThreadGroup.java:164]
+	ReadWriteNode[809,java.lang.ThreadGroup@b0,threads,WRITE,Thread-2,java/lang/ThreadGroup.java:160]
+	ReadWriteNode[814,java.lang.ThreadGroup@b0,nUnstartedThreads,WRITE,Thread-2,java/lang/ThreadGroup.java:164]
+	ReadWriteNode[824,java.lang.ThreadGroup@b0,threads,WRITE,Thread-4,java/lang/ThreadGroup.java:160]
+}
+success count: 0
+fail count: 1, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] PatternTypeNode[y,2,READ] PatternTypeNode[y,1,WRITE] ]
+	matched: true
+	ReadWriteNode[766,java.lang.ThreadGroup@b0,nthreads,WRITE,Thread-4,java/lang/ThreadGroup.java:163]
+	ReadWriteNode[774,java.lang.ThreadGroup@b0,nthreads,READ,Thread-2,java/lang/ThreadGroup.java:159]
+	ReadWriteNode[810,java.lang.ThreadGroup@b0,threads,READ,Thread-2,java/lang/ThreadGroup.java:163]
+	ReadWriteNode[824,java.lang.ThreadGroup@b0,threads,WRITE,Thread-4,java/lang/ThreadGroup.java:160]
+}
+success count: 0
+fail count: 1, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,WRITE] ]
+	matched: true
+	ReadWriteNode[764,java.lang.ThreadGroup@b0,threads,READ,Thread-4,java/lang/ThreadGroup.java:163]
+	ReadWriteNode[809,java.lang.ThreadGroup@b0,threads,WRITE,Thread-2,java/lang/ThreadGroup.java:160]
+	ReadWriteNode[824,java.lang.ThreadGroup@b0,threads,WRITE,Thread-4,java/lang/ThreadGroup.java:160]
+}
+success count: 0
+fail count: 1, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] PatternTypeNode[y,2,READ] PatternTypeNode[y,1,WRITE] ]
+	matched: true
+	ReadWriteNode[766,java.lang.ThreadGroup@b0,nthreads,WRITE,Thread-4,java/lang/ThreadGroup.java:163]
+	ReadWriteNode[772,java.lang.ThreadGroup@b0,nthreads,READ,Thread-2,java/lang/ThreadGroup.java:158]
+	ReadWriteNode[810,java.lang.ThreadGroup@b0,threads,READ,Thread-2,java/lang/ThreadGroup.java:163]
+	ReadWriteNode[824,java.lang.ThreadGroup@b0,threads,WRITE,Thread-4,java/lang/ThreadGroup.java:160]
+}
+success count: 0
+fail count: 1, Pattern {
+	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,READ] ]
+	matched: true
+	ReadWriteNode[764,java.lang.ThreadGroup@b0,threads,READ,Thread-4,java/lang/ThreadGroup.java:163]
+	ReadWriteNode[809,java.lang.ThreadGroup@b0,threads,WRITE,Thread-2,java/lang/ThreadGroup.java:160]
+	ReadWriteNode[820,java.lang.ThreadGroup@b0,threads,READ,Thread-4,java/lang/ThreadGroup.java:155]
+}
+success count: 0
+fail count: 1, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[y,2,READ] PatternTypeNode[x,2,READ] PatternTypeNode[y,1,WRITE] ]
+	matched: true
+	ReadWriteNode[729,java.lang.Thread,nameThreadNum,WRITE,Thread-2,java/lang/Thread.java:130]
+	ReadWriteNode[764,java.lang.ThreadGroup@b0,threads,READ,Thread-4,java/lang/ThreadGroup.java:163]
+	ReadWriteNode[788,java.lang.Thread,nameThreadNum,READ,Thread-4,java/lang/Thread.java:130]
+	ReadWriteNode[809,java.lang.ThreadGroup@b0,threads,WRITE,Thread-2,java/lang/ThreadGroup.java:160]
+}
+success count: 0
+fail count: 1, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[y,2,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[y,1,WRITE] ]
+	matched: true
+	ReadWriteNode[729,java.lang.Thread,nameThreadNum,WRITE,Thread-2,java/lang/Thread.java:130]
+	ReadWriteNode[766,java.lang.ThreadGroup@b0,nthreads,WRITE,Thread-4,java/lang/ThreadGroup.java:163]
+	ReadWriteNode[789,java.lang.Thread,nameThreadNum,WRITE,Thread-4,java/lang/Thread.java:130]
+	ReadWriteNode[812,java.lang.ThreadGroup@b0,nthreads,WRITE,Thread-2,java/lang/ThreadGroup.java:163]
+}
+success count: 0
+fail count: 1, Pattern {
+	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] PatternTypeNode[y,2,WRITE] PatternTypeNode[y,1,READ] ]
+	matched: true
+	ReadWriteNode[764,java.lang.ThreadGroup@b0,threads,READ,Thread-4,java/lang/ThreadGroup.java:163]
+	ReadWriteNode[809,java.lang.ThreadGroup@b0,threads,WRITE,Thread-2,java/lang/ThreadGroup.java:160]
+	ReadWriteNode[812,java.lang.ThreadGroup@b0,nthreads,WRITE,Thread-2,java/lang/ThreadGroup.java:163]
+	ReadWriteNode[823,java.lang.ThreadGroup@b0,nthreads,READ,Thread-4,java/lang/ThreadGroup.java:159]
+}
+success count: 0
+fail count: 1, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[y,2,READ] PatternTypeNode[y,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[650,java.lang.ThreadGroup@b0,threads,WRITE,Thread-2,java/lang/ThreadGroup.java:160]
+	ReadWriteNode[757,mergesort.MSort,m_iCurrentThreadsAlive,READ,Thread-3,mergesort/MSort.java:54]
+	ReadWriteNode[764,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-2,mergesort/MSort.java:47]
+	ReadWriteNode[796,java.lang.ThreadGroup@b0,threads,READ,Thread-3,java/lang/ThreadGroup.java:163]
+}
+success count: 0
+fail count: 2, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,READ] ]
+	matched: true
+	ReadWriteNode[3909,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-3,mergesort/MSort.java:39]
+	ReadWriteNode[3921,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,main,mergesort/MSort.java:39]
+	ReadWriteNode[3926,mergesort.MSort,m_iCurrentThreadsAlive,READ,Thread-3,mergesort/MSort.java:54]
+}
+success count: 0
+fail count: 2, Pattern {
+	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[y,2,WRITE] PatternTypeNode[y,1,READ] PatternTypeNode[x,2,WRITE] ]
+	matched: true
+	ReadWriteNode[647,mergesort.MSort,m_iCurrentThreadsAlive,READ,Thread-2,mergesort/MSort.java:54]
+	ReadWriteNode[664,java.lang.ThreadGroup@b0,threads,WRITE,Thread-3,java/lang/ThreadGroup.java:160]
+	ReadWriteNode[701,java.lang.ThreadGroup@b0,threads,READ,Thread-2,java/lang/ThreadGroup.java:163]
+	ReadWriteNode[739,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-3,mergesort/MSort.java:47]
+}
+success count: 0
+fail count: 2, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[y,2,READ] PatternTypeNode[x,2,READ] PatternTypeNode[y,1,WRITE] ]
+	matched: true
+	ReadWriteNode[639,java.lang.ThreadGroup@b0,threads,WRITE,Thread-3,java/lang/ThreadGroup.java:160]
+	ReadWriteNode[750,mergesort.MSort,m_iCurrentThreadsAlive,READ,Thread-4,mergesort/MSort.java:54]
+	ReadWriteNode[764,java.lang.ThreadGroup@b0,threads,READ,Thread-4,java/lang/ThreadGroup.java:163]
+	ReadWriteNode[783,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-3,mergesort/MSort.java:47]
+}
+success count: 0
+fail count: 3, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[y,2,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[y,1,WRITE] ]
+	matched: true
+	ReadWriteNode[631,java.lang.ThreadGroup@b0,threads,WRITE,Thread-2,java/lang/ThreadGroup.java:160]
+	ReadWriteNode[667,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-3,mergesort/MSort.java:47]
+	ReadWriteNode[738,java.lang.ThreadGroup@b0,threads,WRITE,Thread-3,java/lang/ThreadGroup.java:160]
+	ReadWriteNode[740,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-2,mergesort/MSort.java:47]
+}
+success count: 0
+fail count: 3, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,READ] ]
+	matched: true
+	ReadWriteNode[3909,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-3,mergesort/MSort.java:39]
+	ReadWriteNode[3921,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,main,mergesort/MSort.java:39]
+	ReadWriteNode[4032,mergesort.MSort,m_iCurrentThreadsAlive,READ,Thread-3,mergesort/MSort.java:47]
+}
+success count: 0
+fail count: 3, Pattern {
+	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,WRITE] ]
+	matched: true
+	ReadWriteNode[3909,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-3,mergesort/MSort.java:39]
+	ReadWriteNode[3921,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,main,mergesort/MSort.java:39]
+	ReadWriteNode[4040,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-3,mergesort/MSort.java:47]
+}
+success count: 0
+fail count: 3, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[y,2,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[y,1,WRITE] ]
+	matched: true
+	ReadWriteNode[636,java.lang.ThreadGroup@b0,nUnstartedThreads,WRITE,Thread-2,java/lang/ThreadGroup.java:164]
+	ReadWriteNode[667,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-3,mergesort/MSort.java:47]
+	ReadWriteNode[710,java.lang.ThreadGroup@b0,nUnstartedThreads,WRITE,Thread-3,java/lang/ThreadGroup.java:164]
+	ReadWriteNode[740,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-2,mergesort/MSort.java:47]
+}
+success count: 0
+fail count: 4, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[y,2,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[y,1,WRITE] ]
+	matched: true
+	ReadWriteNode[634,java.lang.ThreadGroup@b0,nthreads,WRITE,Thread-2,java/lang/ThreadGroup.java:163]
+	ReadWriteNode[667,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-3,mergesort/MSort.java:47]
+	ReadWriteNode[708,java.lang.ThreadGroup@b0,nthreads,WRITE,Thread-3,java/lang/ThreadGroup.java:163]
+	ReadWriteNode[740,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-2,mergesort/MSort.java:47]
+}
+success count: 0
+fail count: 4, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[y,2,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[y,1,WRITE] ]
+	matched: true
+	ReadWriteNode[646,java.lang.Thread,nameThreadNum,WRITE,Thread-3,java/lang/Thread.java:130]
+	ReadWriteNode[685,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-2,mergesort/MSort.java:47]
+	ReadWriteNode[729,java.lang.Thread,nameThreadNum,WRITE,Thread-2,java/lang/Thread.java:130]
+	ReadWriteNode[783,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-3,mergesort/MSort.java:47]
+}
+success count: 0
+fail count: 5, Pattern {
+	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[y,2,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[y,1,READ] ]
+	matched: true
+	ReadWriteNode[649,mergesort.MSort,m_iCurrentThreadsAlive,READ,Thread-3,mergesort/MSort.java:54]
+	ReadWriteNode[662,java.lang.ThreadGroup@b0,threads,WRITE,Thread-2,java/lang/ThreadGroup.java:160]
+	ReadWriteNode[732,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-2,mergesort/MSort.java:47]
+	ReadWriteNode[741,java.lang.ThreadGroup@b0,threads,READ,Thread-3,java/lang/ThreadGroup.java:159]
+}
+success count: 0
+fail count: 5, Pattern {
+	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[y,2,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[y,1,READ] ]
+	matched: true
+	ReadWriteNode[649,mergesort.MSort,m_iCurrentThreadsAlive,READ,Thread-3,mergesort/MSort.java:54]
+	ReadWriteNode[665,java.lang.ThreadGroup@b0,nthreads,WRITE,Thread-2,java/lang/ThreadGroup.java:163]
+	ReadWriteNode[732,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-2,mergesort/MSort.java:47]
+	ReadWriteNode[740,java.lang.ThreadGroup@b0,nthreads,READ,Thread-3,java/lang/ThreadGroup.java:158]
+}
+success count: 0
+fail count: 5, Pattern {
+	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[y,2,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[y,1,READ] ]
+	matched: true
+	ReadWriteNode[649,mergesort.MSort,m_iCurrentThreadsAlive,READ,Thread-3,mergesort/MSort.java:54]
+	ReadWriteNode[662,java.lang.ThreadGroup@b0,threads,WRITE,Thread-2,java/lang/ThreadGroup.java:160]
+	ReadWriteNode[732,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-2,mergesort/MSort.java:47]
+	ReadWriteNode[739,java.lang.ThreadGroup@b0,threads,READ,Thread-3,java/lang/ThreadGroup.java:155]
+}
+success count: 0
+fail count: 5, Pattern {
+	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[y,2,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[y,1,READ] ]
+	matched: true
+	ReadWriteNode[649,mergesort.MSort,m_iCurrentThreadsAlive,READ,Thread-3,mergesort/MSort.java:54]
+	ReadWriteNode[665,java.lang.ThreadGroup@b0,nthreads,WRITE,Thread-2,java/lang/ThreadGroup.java:163]
+	ReadWriteNode[732,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-2,mergesort/MSort.java:47]
+	ReadWriteNode[742,java.lang.ThreadGroup@b0,nthreads,READ,Thread-3,java/lang/ThreadGroup.java:159]
+}
+success count: 0
+fail count: 5, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[639,java.lang.ThreadGroup@b0,threads,WRITE,Thread-3,java/lang/ThreadGroup.java:160]
+	ReadWriteNode[764,java.lang.ThreadGroup@b0,threads,READ,Thread-4,java/lang/ThreadGroup.java:163]
+}
+success count: 0
+fail count: 7, Pattern {
+	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[y,2,WRITE] PatternTypeNode[y,1,READ] PatternTypeNode[x,2,WRITE] ]
+	matched: true
+	ReadWriteNode[511,mergesort.MSort,m_iCurrentThreadsAlive,READ,Thread-2,mergesort/MSort.java:54]
+	ReadWriteNode[616,java.lang.Thread,nameThreadNum,WRITE,Thread-3,java/lang/Thread.java:130]
+	ReadWriteNode[631,java.lang.Thread,nameThreadNum,READ,Thread-2,java/lang/Thread.java:130]
+	ReadWriteNode[663,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-3,mergesort/MSort.java:47]
+}
+success count: 0
+fail count: 7, Pattern {
+	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[y,2,WRITE] PatternTypeNode[y,1,READ] PatternTypeNode[x,2,WRITE] ]
+	matched: true
+	ReadWriteNode[529,mergesort.MSort,m_iCurrentThreadsAlive,READ,Thread-2,mergesort/MSort.java:54]
+	ReadWriteNode[601,java.lang.ThreadGroup@b0,nUnstartedThreads,WRITE,Thread-3,java/lang/ThreadGroup.java:164]
+	ReadWriteNode[614,java.lang.ThreadGroup@b0,nUnstartedThreads,READ,Thread-2,java/lang/ThreadGroup.java:164]
+	ReadWriteNode[659,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-3,mergesort/MSort.java:47]
+}
+success count: 0
+fail count: 7, Pattern {
+	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[y,2,WRITE] PatternTypeNode[y,1,READ] PatternTypeNode[x,2,WRITE] ]
+	matched: true
+	ReadWriteNode[529,mergesort.MSort,m_iCurrentThreadsAlive,READ,Thread-2,mergesort/MSort.java:54]
+	ReadWriteNode[599,java.lang.ThreadGroup@b0,nthreads,WRITE,Thread-3,java/lang/ThreadGroup.java:163]
+	ReadWriteNode[612,java.lang.ThreadGroup@b0,nthreads,READ,Thread-2,java/lang/ThreadGroup.java:163]
+	ReadWriteNode[659,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-3,mergesort/MSort.java:47]
+}
+success count: 0
+fail count: 7, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[y,2,READ] PatternTypeNode[y,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[612,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-2,mergesort/MSort.java:47]
+	ReadWriteNode[701,java.lang.ThreadGroup@b0,threads,READ,Thread-3,java/lang/ThreadGroup.java:163]
+	ReadWriteNode[731,java.lang.ThreadGroup@b0,threads,WRITE,Thread-2,java/lang/ThreadGroup.java:160]
+	ReadWriteNode[766,mergesort.MSort,m_iCurrentThreadsAlive,READ,Thread-3,mergesort/MSort.java:47]
+}
+success count: 0
+fail count: 7, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[y,2,WRITE] PatternTypeNode[y,1,WRITE] PatternTypeNode[x,2,WRITE] ]
+	matched: true
+	ReadWriteNode[649,java.lang.ThreadGroup@b0,nthreads,WRITE,Thread-3,java/lang/ThreadGroup.java:163]
+	ReadWriteNode[668,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-2,mergesort/MSort.java:47]
+	ReadWriteNode[703,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-3,mergesort/MSort.java:47]
+	ReadWriteNode[759,java.lang.ThreadGroup@b0,nthreads,WRITE,Thread-2,java/lang/ThreadGroup.java:163]
+}
+success count: 0
+fail count: 10, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[y,2,WRITE] PatternTypeNode[y,1,WRITE] PatternTypeNode[x,2,WRITE] ]
+	matched: true
+	ReadWriteNode[653,java.lang.Thread,nameThreadNum,WRITE,Thread-3,java/lang/Thread.java:130]
+	ReadWriteNode[668,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-2,mergesort/MSort.java:47]
+	ReadWriteNode[703,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-3,mergesort/MSort.java:47]
+	ReadWriteNode[763,java.lang.Thread,nameThreadNum,WRITE,Thread-2,java/lang/Thread.java:130]
+}
+success count: 0
+fail count: 10, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[y,2,WRITE] PatternTypeNode[y,1,WRITE] PatternTypeNode[x,2,WRITE] ]
+	matched: true
+	ReadWriteNode[651,java.lang.ThreadGroup@b0,nUnstartedThreads,WRITE,Thread-3,java/lang/ThreadGroup.java:164]
+	ReadWriteNode[668,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-2,mergesort/MSort.java:47]
+	ReadWriteNode[703,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-3,mergesort/MSort.java:47]
+	ReadWriteNode[761,java.lang.ThreadGroup@b0,nUnstartedThreads,WRITE,Thread-2,java/lang/ThreadGroup.java:164]
+}
+success count: 0
+fail count: 10, Pattern {
+	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] PatternTypeNode[y,2,WRITE] PatternTypeNode[y,1,READ] ]
+	matched: true
+	ReadWriteNode[562,java.lang.ThreadGroup@b0,threads,READ,Thread-3,java/lang/ThreadGroup.java:163]
+	ReadWriteNode[648,java.lang.ThreadGroup@b0,threads,WRITE,Thread-2,java/lang/ThreadGroup.java:160]
+	ReadWriteNode[688,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-2,mergesort/MSort.java:47]
+	ReadWriteNode[693,mergesort.MSort,m_iCurrentThreadsAlive,READ,Thread-3,mergesort/MSort.java:54]
+}
+success count: 0
+fail count: 11, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[y,2,WRITE] PatternTypeNode[y,1,WRITE] PatternTypeNode[x,2,WRITE] ]
+	matched: true
+	ReadWriteNode[646,java.lang.ThreadGroup@b0,threads,WRITE,Thread-3,java/lang/ThreadGroup.java:160]
+	ReadWriteNode[668,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-2,mergesort/MSort.java:47]
+	ReadWriteNode[703,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-3,mergesort/MSort.java:47]
+	ReadWriteNode[756,java.lang.ThreadGroup@b0,threads,WRITE,Thread-2,java/lang/ThreadGroup.java:160]
+}
+success count: 0
+fail count: 12, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[y,2,WRITE] PatternTypeNode[y,1,WRITE] PatternTypeNode[x,2,WRITE] ]
+	matched: true
+	ReadWriteNode[611,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-2,mergesort/MSort.java:47]
+	ReadWriteNode[665,java.lang.ThreadGroup@b0,threads,WRITE,Thread-3,java/lang/ThreadGroup.java:160]
+	ReadWriteNode[739,java.lang.ThreadGroup@b0,threads,WRITE,Thread-2,java/lang/ThreadGroup.java:160]
+	ReadWriteNode[766,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-3,mergesort/MSort.java:47]
+}
+success count: 0
+fail count: 14, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[y,2,WRITE] PatternTypeNode[y,1,WRITE] PatternTypeNode[x,2,WRITE] ]
+	matched: true
+	ReadWriteNode[611,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-2,mergesort/MSort.java:47]
+	ReadWriteNode[681,java.lang.Thread,nameThreadNum,WRITE,Thread-3,java/lang/Thread.java:130]
+	ReadWriteNode[746,java.lang.Thread,nameThreadNum,WRITE,Thread-2,java/lang/Thread.java:130]
+	ReadWriteNode[766,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-3,mergesort/MSort.java:47]
+}
+success count: 0
+fail count: 14, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[y,2,WRITE] PatternTypeNode[y,1,WRITE] PatternTypeNode[x,2,WRITE] ]
+	matched: true
+	ReadWriteNode[611,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-2,mergesort/MSort.java:47]
+	ReadWriteNode[668,java.lang.ThreadGroup@b0,nthreads,WRITE,Thread-3,java/lang/ThreadGroup.java:163]
+	ReadWriteNode[742,java.lang.ThreadGroup@b0,nthreads,WRITE,Thread-2,java/lang/ThreadGroup.java:163]
+	ReadWriteNode[766,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-3,mergesort/MSort.java:47]
+}
+success count: 0
+fail count: 14, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[y,2,WRITE] PatternTypeNode[y,1,WRITE] PatternTypeNode[x,2,WRITE] ]
+	matched: true
+	ReadWriteNode[611,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-2,mergesort/MSort.java:47]
+	ReadWriteNode[670,java.lang.ThreadGroup@b0,nUnstartedThreads,WRITE,Thread-3,java/lang/ThreadGroup.java:164]
+	ReadWriteNode[744,java.lang.ThreadGroup@b0,nUnstartedThreads,WRITE,Thread-2,java/lang/ThreadGroup.java:164]
+	ReadWriteNode[766,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-3,mergesort/MSort.java:47]
+}
+success count: 0
+fail count: 14, Pattern {
+	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[y,2,WRITE] PatternTypeNode[y,1,READ] PatternTypeNode[x,2,WRITE] ]
+	matched: true
+	ReadWriteNode[647,java.lang.ThreadGroup@b0,threads,READ,Thread-3,java/lang/ThreadGroup.java:163]
+	ReadWriteNode[668,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-2,mergesort/MSort.java:47]
+	ReadWriteNode[694,mergesort.MSort,m_iCurrentThreadsAlive,READ,Thread-3,mergesort/MSort.java:47]
+	ReadWriteNode[756,java.lang.ThreadGroup@b0,threads,WRITE,Thread-2,java/lang/ThreadGroup.java:160]
+}
+success count: 0
+fail count: 15, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[y,2,READ] PatternTypeNode[x,2,READ] PatternTypeNode[y,1,WRITE] ]
+	matched: true
+	ReadWriteNode[642,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-3,mergesort/MSort.java:47]
+	ReadWriteNode[668,java.lang.ThreadGroup@b0,threads,READ,Thread-2,java/lang/ThreadGroup.java:163]
+	ReadWriteNode[734,mergesort.MSort,m_iCurrentThreadsAlive,READ,Thread-2,mergesort/MSort.java:47]
+	ReadWriteNode[742,java.lang.ThreadGroup@b0,threads,WRITE,Thread-3,java/lang/ThreadGroup.java:160]
+}
+success count: 1
+fail count: 21, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[y,2,READ] PatternTypeNode[y,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[653,java.lang.Thread,nameThreadNum,WRITE,Thread-3,java/lang/Thread.java:130]
+	ReadWriteNode[686,mergesort.MSort,m_iCurrentThreadsAlive,READ,Thread-2,mergesort/MSort.java:54]
+	ReadWriteNode[703,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-3,mergesort/MSort.java:47]
+	ReadWriteNode[762,java.lang.Thread,nameThreadNum,READ,Thread-2,java/lang/Thread.java:130]
+}
+success count: 1
+fail count: 19, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[y,2,READ] PatternTypeNode[y,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[651,java.lang.ThreadGroup@b0,nUnstartedThreads,WRITE,Thread-3,java/lang/ThreadGroup.java:164]
+	ReadWriteNode[686,mergesort.MSort,m_iCurrentThreadsAlive,READ,Thread-2,mergesort/MSort.java:54]
+	ReadWriteNode[703,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-3,mergesort/MSort.java:47]
+	ReadWriteNode[760,java.lang.ThreadGroup@b0,nUnstartedThreads,READ,Thread-2,java/lang/ThreadGroup.java:164]
+}
+success count: 1
+fail count: 19, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[y,2,READ] PatternTypeNode[y,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[649,java.lang.ThreadGroup@b0,nthreads,WRITE,Thread-3,java/lang/ThreadGroup.java:163]
+	ReadWriteNode[686,mergesort.MSort,m_iCurrentThreadsAlive,READ,Thread-2,mergesort/MSort.java:54]
+	ReadWriteNode[703,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-3,mergesort/MSort.java:47]
+	ReadWriteNode[758,java.lang.ThreadGroup@b0,nthreads,READ,Thread-2,java/lang/ThreadGroup.java:163]
+}
+success count: 1
+fail count: 19, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[y,2,READ] PatternTypeNode[y,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[646,java.lang.ThreadGroup@b0,threads,WRITE,Thread-3,java/lang/ThreadGroup.java:160]
+	ReadWriteNode[686,mergesort.MSort,m_iCurrentThreadsAlive,READ,Thread-2,mergesort/MSort.java:54]
+	ReadWriteNode[703,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-3,mergesort/MSort.java:47]
+	ReadWriteNode[748,java.lang.ThreadGroup@b0,threads,READ,Thread-2,java/lang/ThreadGroup.java:159]
+}
+success count: 1
+fail count: 18, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[y,2,READ] PatternTypeNode[y,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[646,java.lang.ThreadGroup@b0,threads,WRITE,Thread-3,java/lang/ThreadGroup.java:160]
+	ReadWriteNode[686,mergesort.MSort,m_iCurrentThreadsAlive,READ,Thread-2,mergesort/MSort.java:54]
+	ReadWriteNode[703,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-3,mergesort/MSort.java:47]
+	ReadWriteNode[746,java.lang.ThreadGroup@b0,threads,READ,Thread-2,java/lang/ThreadGroup.java:155]
+}
+success count: 1
+fail count: 18, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[y,2,READ] PatternTypeNode[y,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[649,java.lang.ThreadGroup@b0,nthreads,WRITE,Thread-3,java/lang/ThreadGroup.java:163]
+	ReadWriteNode[686,mergesort.MSort,m_iCurrentThreadsAlive,READ,Thread-2,mergesort/MSort.java:54]
+	ReadWriteNode[703,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-3,mergesort/MSort.java:47]
+	ReadWriteNode[749,java.lang.ThreadGroup@b0,nthreads,READ,Thread-2,java/lang/ThreadGroup.java:159]
+}
+success count: 1
+fail count: 15, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[y,2,READ] PatternTypeNode[y,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[649,java.lang.ThreadGroup@b0,nthreads,WRITE,Thread-3,java/lang/ThreadGroup.java:163]
+	ReadWriteNode[686,mergesort.MSort,m_iCurrentThreadsAlive,READ,Thread-2,mergesort/MSort.java:54]
+	ReadWriteNode[703,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-3,mergesort/MSort.java:47]
+	ReadWriteNode[747,java.lang.ThreadGroup@b0,nthreads,READ,Thread-2,java/lang/ThreadGroup.java:158]
+}
+success count: 1
+fail count: 15, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[y,2,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[y,1,WRITE] ]
+	matched: true
+	ReadWriteNode[642,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-3,mergesort/MSort.java:47]
+	ReadWriteNode[670,java.lang.ThreadGroup@b0,nthreads,WRITE,Thread-2,java/lang/ThreadGroup.java:163]
+	ReadWriteNode[737,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-2,mergesort/MSort.java:47]
+	ReadWriteNode[745,java.lang.ThreadGroup@b0,nthreads,WRITE,Thread-3,java/lang/ThreadGroup.java:163]
+}
+success count: 1
+fail count: 14, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[y,2,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[y,1,WRITE] ]
+	matched: true
+	ReadWriteNode[642,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-3,mergesort/MSort.java:47]
+	ReadWriteNode[675,java.lang.Thread,nameThreadNum,WRITE,Thread-2,java/lang/Thread.java:130]
+	ReadWriteNode[737,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-2,mergesort/MSort.java:47]
+	ReadWriteNode[749,java.lang.Thread,nameThreadNum,WRITE,Thread-3,java/lang/Thread.java:130]
+}
+success count: 1
+fail count: 14, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[y,2,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[y,1,WRITE] ]
+	matched: true
+	ReadWriteNode[642,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-3,mergesort/MSort.java:47]
+	ReadWriteNode[672,java.lang.ThreadGroup@b0,nUnstartedThreads,WRITE,Thread-2,java/lang/ThreadGroup.java:164]
+	ReadWriteNode[737,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-2,mergesort/MSort.java:47]
+	ReadWriteNode[747,java.lang.ThreadGroup@b0,nUnstartedThreads,WRITE,Thread-3,java/lang/ThreadGroup.java:164]
+}
+success count: 1
+fail count: 14, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[y,2,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[y,1,WRITE] ]
+	matched: true
+	ReadWriteNode[642,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-3,mergesort/MSort.java:47]
+	ReadWriteNode[667,java.lang.ThreadGroup@b0,threads,WRITE,Thread-2,java/lang/ThreadGroup.java:160]
+	ReadWriteNode[737,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-2,mergesort/MSort.java:47]
+	ReadWriteNode[742,java.lang.ThreadGroup@b0,threads,WRITE,Thread-3,java/lang/ThreadGroup.java:160]
+}
+success count: 1
+fail count: 14, Pattern {
+	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[y,2,WRITE] PatternTypeNode[y,1,READ] PatternTypeNode[x,2,WRITE] ]
+	matched: true
+	ReadWriteNode[529,mergesort.MSort,m_iCurrentThreadsAlive,READ,Thread-2,mergesort/MSort.java:54]
+	ReadWriteNode[596,java.lang.ThreadGroup@b0,threads,WRITE,Thread-3,java/lang/ThreadGroup.java:160]
+	ReadWriteNode[606,java.lang.ThreadGroup@b0,threads,READ,Thread-2,java/lang/ThreadGroup.java:159]
+	ReadWriteNode[659,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-3,mergesort/MSort.java:47]
+}
+success count: 1
+fail count: 10, Pattern {
+	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[y,2,WRITE] PatternTypeNode[y,1,READ] PatternTypeNode[x,2,WRITE] ]
+	matched: true
+	ReadWriteNode[529,mergesort.MSort,m_iCurrentThreadsAlive,READ,Thread-2,mergesort/MSort.java:54]
+	ReadWriteNode[596,java.lang.ThreadGroup@b0,threads,WRITE,Thread-3,java/lang/ThreadGroup.java:160]
+	ReadWriteNode[604,java.lang.ThreadGroup@b0,threads,READ,Thread-2,java/lang/ThreadGroup.java:155]
+	ReadWriteNode[659,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-3,mergesort/MSort.java:47]
+}
+success count: 1
+fail count: 10, Pattern {
+	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[y,2,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[y,1,READ] ]
+	matched: true
+	ReadWriteNode[649,mergesort.MSort,m_iCurrentThreadsAlive,READ,Thread-3,mergesort/MSort.java:54]
+	ReadWriteNode[665,java.lang.ThreadGroup@b0,nthreads,WRITE,Thread-2,java/lang/ThreadGroup.java:163]
+	ReadWriteNode[732,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-2,mergesort/MSort.java:47]
+	ReadWriteNode[753,java.lang.ThreadGroup@b0,nthreads,READ,Thread-3,java/lang/ThreadGroup.java:163]
+}
+success count: 1
+fail count: 8, Pattern {
+	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[y,2,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[y,1,READ] ]
+	matched: true
+	ReadWriteNode[649,mergesort.MSort,m_iCurrentThreadsAlive,READ,Thread-3,mergesort/MSort.java:54]
+	ReadWriteNode[670,java.lang.Thread,nameThreadNum,WRITE,Thread-2,java/lang/Thread.java:130]
+	ReadWriteNode[732,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-2,mergesort/MSort.java:47]
+	ReadWriteNode[757,java.lang.Thread,nameThreadNum,READ,Thread-3,java/lang/Thread.java:130]
+}
+success count: 1
+fail count: 8, Pattern {
+	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[y,2,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[y,1,READ] ]
+	matched: true
+	ReadWriteNode[649,mergesort.MSort,m_iCurrentThreadsAlive,READ,Thread-3,mergesort/MSort.java:54]
+	ReadWriteNode[667,java.lang.ThreadGroup@b0,nUnstartedThreads,WRITE,Thread-2,java/lang/ThreadGroup.java:164]
+	ReadWriteNode[732,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-2,mergesort/MSort.java:47]
+	ReadWriteNode[755,java.lang.ThreadGroup@b0,nUnstartedThreads,READ,Thread-3,java/lang/ThreadGroup.java:164]
+}
+success count: 1
+fail count: 8, Pattern {
+	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[y,2,WRITE] PatternTypeNode[y,1,READ] PatternTypeNode[x,2,WRITE] ]
+	matched: true
+	ReadWriteNode[529,mergesort.MSort,m_iCurrentThreadsAlive,READ,Thread-2,mergesort/MSort.java:54]
+	ReadWriteNode[599,java.lang.ThreadGroup@b0,nthreads,WRITE,Thread-3,java/lang/ThreadGroup.java:163]
+	ReadWriteNode[607,java.lang.ThreadGroup@b0,nthreads,READ,Thread-2,java/lang/ThreadGroup.java:159]
+	ReadWriteNode[659,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-3,mergesort/MSort.java:47]
+}
+success count: 1
+fail count: 8, Pattern {
+	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[y,2,WRITE] PatternTypeNode[y,1,READ] PatternTypeNode[x,2,WRITE] ]
+	matched: true
+	ReadWriteNode[529,mergesort.MSort,m_iCurrentThreadsAlive,READ,Thread-2,mergesort/MSort.java:54]
+	ReadWriteNode[599,java.lang.ThreadGroup@b0,nthreads,WRITE,Thread-3,java/lang/ThreadGroup.java:163]
+	ReadWriteNode[605,java.lang.ThreadGroup@b0,nthreads,READ,Thread-2,java/lang/ThreadGroup.java:158]
+	ReadWriteNode[659,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-3,mergesort/MSort.java:47]
+}
+success count: 1
+fail count: 8, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,WRITE] ]
+	matched: true
+	ReadWriteNode[593,mergesort.MSort,m_iCurrentThreadsAlive,READ,Thread-2,mergesort/MSort.java:54]
+	ReadWriteNode[642,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-3,mergesort/MSort.java:47]
+	ReadWriteNode[737,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-2,mergesort/MSort.java:47]
+}
+success count: 4
+fail count: 29, Pattern {
+	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,READ] ]
+	matched: true
+	ReadWriteNode[593,mergesort.MSort,m_iCurrentThreadsAlive,READ,Thread-2,mergesort/MSort.java:54]
+	ReadWriteNode[642,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-3,mergesort/MSort.java:47]
+	ReadWriteNode[734,mergesort.MSort,m_iCurrentThreadsAlive,READ,Thread-2,mergesort/MSort.java:47]
+}
+success count: 4
+fail count: 29, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[y,2,READ] PatternTypeNode[x,2,READ] PatternTypeNode[y,1,WRITE] ]
+	matched: true
+	ReadWriteNode[562,java.lang.ThreadGroup@b0,threads,WRITE,Thread-2,java/lang/ThreadGroup.java:160]
+	ReadWriteNode[672,mergesort.MSort,m_iCurrentThreadsAlive,READ,Thread-3,mergesort/MSort.java:54]
+	ReadWriteNode[728,java.lang.ThreadGroup@b0,threads,READ,Thread-3,java/lang/ThreadGroup.java:155]
+	ReadWriteNode[736,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-2,mergesort/MSort.java:47]
+}
+success count: 1
+fail count: 7, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[y,2,READ] PatternTypeNode[x,2,READ] PatternTypeNode[y,1,WRITE] ]
+	matched: true
+	ReadWriteNode[562,java.lang.ThreadGroup@b0,threads,WRITE,Thread-2,java/lang/ThreadGroup.java:160]
+	ReadWriteNode[672,mergesort.MSort,m_iCurrentThreadsAlive,READ,Thread-3,mergesort/MSort.java:54]
+	ReadWriteNode[730,java.lang.ThreadGroup@b0,threads,READ,Thread-3,java/lang/ThreadGroup.java:159]
+	ReadWriteNode[736,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-2,mergesort/MSort.java:47]
+}
+success count: 1
+fail count: 7, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[y,2,READ] PatternTypeNode[x,2,READ] PatternTypeNode[y,1,WRITE] ]
+	matched: true
+	ReadWriteNode[646,java.lang.Thread,nameThreadNum,WRITE,Thread-3,java/lang/Thread.java:130]
+	ReadWriteNode[703,mergesort.MSort,m_iCurrentThreadsAlive,READ,Thread-2,mergesort/MSort.java:54]
+	ReadWriteNode[728,java.lang.Thread,nameThreadNum,READ,Thread-2,java/lang/Thread.java:130]
+	ReadWriteNode[783,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-3,mergesort/MSort.java:47]
+}
+success count: 1
+fail count: 6, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[y,2,READ] PatternTypeNode[x,2,READ] PatternTypeNode[y,1,WRITE] ]
+	matched: true
+	ReadWriteNode[644,java.lang.ThreadGroup@b0,nUnstartedThreads,WRITE,Thread-3,java/lang/ThreadGroup.java:164]
+	ReadWriteNode[750,mergesort.MSort,m_iCurrentThreadsAlive,READ,Thread-4,mergesort/MSort.java:54]
+	ReadWriteNode[767,java.lang.ThreadGroup@b0,nUnstartedThreads,READ,Thread-4,java/lang/ThreadGroup.java:164]
+	ReadWriteNode[783,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-3,mergesort/MSort.java:47]
+}
+success count: 1
+fail count: 6, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[y,2,READ] PatternTypeNode[x,2,READ] PatternTypeNode[y,1,WRITE] ]
+	matched: true
+	ReadWriteNode[642,java.lang.ThreadGroup@b0,nthreads,WRITE,Thread-3,java/lang/ThreadGroup.java:163]
+	ReadWriteNode[750,mergesort.MSort,m_iCurrentThreadsAlive,READ,Thread-4,mergesort/MSort.java:54]
+	ReadWriteNode[765,java.lang.ThreadGroup@b0,nthreads,READ,Thread-4,java/lang/ThreadGroup.java:163]
+	ReadWriteNode[783,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-3,mergesort/MSort.java:47]
+}
+success count: 1
+fail count: 6, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[y,2,READ] PatternTypeNode[x,2,READ] PatternTypeNode[y,1,WRITE] ]
+	matched: true
+	ReadWriteNode[565,java.lang.ThreadGroup@b0,nthreads,WRITE,Thread-2,java/lang/ThreadGroup.java:163]
+	ReadWriteNode[672,mergesort.MSort,m_iCurrentThreadsAlive,READ,Thread-3,mergesort/MSort.java:54]
+	ReadWriteNode[731,java.lang.ThreadGroup@b0,nthreads,READ,Thread-3,java/lang/ThreadGroup.java:159]
+	ReadWriteNode[736,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-2,mergesort/MSort.java:47]
+}
+success count: 1
+fail count: 5, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[y,2,READ] PatternTypeNode[x,2,READ] PatternTypeNode[y,1,WRITE] ]
+	matched: true
+	ReadWriteNode[565,java.lang.ThreadGroup@b0,nthreads,WRITE,Thread-2,java/lang/ThreadGroup.java:163]
+	ReadWriteNode[672,mergesort.MSort,m_iCurrentThreadsAlive,READ,Thread-3,mergesort/MSort.java:54]
+	ReadWriteNode[729,java.lang.ThreadGroup@b0,nthreads,READ,Thread-3,java/lang/ThreadGroup.java:158]
+	ReadWriteNode[736,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-2,mergesort/MSort.java:47]
+}
+success count: 1
+fail count: 5, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,READ] ]
+	matched: true
+	ReadWriteNode[642,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-3,mergesort/MSort.java:47]
+	ReadWriteNode[737,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-2,mergesort/MSort.java:47]
+	ReadWriteNode[778,mergesort.MSort,m_iCurrentThreadsAlive,READ,Thread-3,mergesort/MSort.java:54]
+}
+success count: 8
+fail count: 27, Pattern {
+	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] ]
+	matched: true
+	ReadWriteNode[593,mergesort.MSort,m_iCurrentThreadsAlive,READ,Thread-2,mergesort/MSort.java:54]
+	ReadWriteNode[642,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-3,mergesort/MSort.java:47]
+}
+success count: 20
+fail count: 59, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] ]
+	matched: true
+	ReadWriteNode[642,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-3,mergesort/MSort.java:47]
+	ReadWriteNode[737,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-2,mergesort/MSort.java:47]
+}
+success count: 56
+fail count: 118, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[642,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-3,mergesort/MSort.java:47]
+	ReadWriteNode[734,mergesort.MSort,m_iCurrentThreadsAlive,READ,Thread-2,mergesort/MSort.java:47]
+}
+success count: 56
+fail count: 118, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[543,mergesort.MSort@1f6,m_iArray,WRITE,Thread-3,mergesort/MSort.java:102]
+	ReadWriteNode[591,mergesort.MSort@1f6,m_iArray,READ,Thread-4,mergesort/MSort.java:216]
+}
+success count: 176
+fail count: 235, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[426,mergesort.MSort@1eb,m_iArray,WRITE,main,mergesort/MSort.java:102]
+	ReadWriteNode[450,mergesort.MSort@1eb,m_iArray,READ,Thread-3,mergesort/MSort.java:211]
+}
+success count: 236
+fail count: 248, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[398,mergesort.MSort@1e4,bIsInit,WRITE,main,mergesort/MSort.java:103]
+	ReadWriteNode[435,mergesort.MSort@1e4,bIsInit,READ,Thread-2,mergesort/MSort.java:206]
+}
+success count: 236
+fail count: 248, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[y,2,WRITE] PatternTypeNode[y,1,WRITE] ]
+	matched: true
+	ReadWriteNode[600,java.lang.ThreadGroup@b0,nUnstartedThreads,WRITE,Thread-2,java/lang/ThreadGroup.java:164]
+	ReadWriteNode[614,java.lang.ThreadGroup@b0,nUnstartedThreads,WRITE,Thread-3,java/lang/ThreadGroup.java:164]
+	ReadWriteNode[663,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-3,mergesort/MSort.java:47]
+	ReadWriteNode[688,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-2,mergesort/MSort.java:47]
+}
+success count: 1
+fail count: 1, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[y,2,WRITE] PatternTypeNode[y,1,WRITE] ]
+	matched: true
+	ReadWriteNode[598,java.lang.ThreadGroup@b0,nthreads,WRITE,Thread-2,java/lang/ThreadGroup.java:163]
+	ReadWriteNode[612,java.lang.ThreadGroup@b0,nthreads,WRITE,Thread-3,java/lang/ThreadGroup.java:163]
+	ReadWriteNode[663,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-3,mergesort/MSort.java:47]
+	ReadWriteNode[688,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-2,mergesort/MSort.java:47]
+}
+success count: 1
+fail count: 1, Pattern {
+	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] PatternTypeNode[y,2,WRITE] PatternTypeNode[y,1,READ] ]
+	matched: true
+	ReadWriteNode[596,java.lang.ThreadGroup@b0,threads,READ,Thread-2,java/lang/ThreadGroup.java:163]
+	ReadWriteNode[609,java.lang.ThreadGroup@b0,threads,WRITE,Thread-3,java/lang/ThreadGroup.java:160]
+	ReadWriteNode[663,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-3,mergesort/MSort.java:47]
+	ReadWriteNode[676,mergesort.MSort,m_iCurrentThreadsAlive,READ,Thread-2,mergesort/MSort.java:47]
+}
+success count: 1
+fail count: 1, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[y,2,WRITE] PatternTypeNode[y,1,WRITE] ]
+	matched: true
+	ReadWriteNode[595,java.lang.ThreadGroup@b0,threads,WRITE,Thread-2,java/lang/ThreadGroup.java:160]
+	ReadWriteNode[609,java.lang.ThreadGroup@b0,threads,WRITE,Thread-3,java/lang/ThreadGroup.java:160]
+	ReadWriteNode[663,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-3,mergesort/MSort.java:47]
+	ReadWriteNode[688,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-2,mergesort/MSort.java:47]
+}
+success count: 1
+fail count: 1, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[y,2,WRITE] PatternTypeNode[y,1,WRITE] ]
+	matched: true
+	ReadWriteNode[617,java.lang.Thread,nameThreadNum,WRITE,Thread-2,java/lang/Thread.java:130]
+	ReadWriteNode[633,java.lang.Thread,nameThreadNum,WRITE,Thread-3,java/lang/Thread.java:130]
+	ReadWriteNode[659,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-3,mergesort/MSort.java:47]
+	ReadWriteNode[680,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-2,mergesort/MSort.java:47]
+}
+success count: 1
+fail count: 1, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[y,2,READ] PatternTypeNode[y,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[3909,mergesort.MSort@494,group,WRITE,Thread-3,java/lang/Thread.java:122]
+	ReadWriteNode[4199,mergesort.MSort,m_iCurrentThreadsAlive,READ,Thread-88,mergesort/MSort.java:54]
+	ReadWriteNode[4240,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-3,mergesort/MSort.java:47]
+	ReadWriteNode[4301,mergesort.MSort@494,group,READ,Thread-88,java/lang/Thread.java:264]
+}
+success count: 1
+fail count: 1, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[737,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-2,mergesort/MSort.java:47]
+	ReadWriteNode[778,mergesort.MSort,m_iCurrentThreadsAlive,READ,Thread-3,mergesort/MSort.java:54]
+}
+success count: 80
+fail count: 62, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[277,mergesort.MSort,m_iThreadLimit,WRITE,main,mergesort/MSort.java:178]
+	ReadWriteNode[770,mergesort.MSort,m_iThreadLimit,READ,Thread-3,mergesort/MSort.java:54]
+}
+success count: 176
+fail count: 128, Pattern {
+	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] ]
+	matched: true
+	ReadWriteNode[668,java.lang.ThreadGroup@b0,threads,READ,Thread-2,java/lang/ThreadGroup.java:163]
+	ReadWriteNode[742,java.lang.ThreadGroup@b0,threads,WRITE,Thread-3,java/lang/ThreadGroup.java:160]
+}
+success count: 176
+fail count: 127, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[390,mergesort.MSort@1e4,priority,WRITE,main,java/lang/Thread.java:138]
+	ReadWriteNode[679,mergesort.MSort@1e4,priority,READ,Thread-2,java/lang/Thread.java:260]
+}
+success count: 176
+fail count: 126, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[667,java.lang.ThreadGroup@b0,threads,WRITE,Thread-2,java/lang/ThreadGroup.java:160]
+	ReadWriteNode[728,java.lang.ThreadGroup@b0,threads,READ,Thread-3,java/lang/ThreadGroup.java:159]
+}
+success count: 176
+fail count: 126, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[421,mergesort.MSort@1eb,isDaemon,WRITE,main,java/lang/Thread.java:139]
+	ReadWriteNode[755,mergesort.MSort@1eb,isDaemon,READ,Thread-3,java/lang/Thread.java:212]
+}
+success count: 176
+fail count: 126, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[371,mergesort.MSort@1e4,group,WRITE,main,java/lang/Thread.java:122]
+	ReadWriteNode[638,mergesort.MSort@1e4,group,READ,Thread-2,java/lang/Thread.java:264]
+}
+success count: 176
+fail count: 126, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] ]
+	matched: true
+	ReadWriteNode[672,java.lang.ThreadGroup@b0,nUnstartedThreads,WRITE,Thread-2,java/lang/ThreadGroup.java:164]
+	ReadWriteNode[747,java.lang.ThreadGroup@b0,nUnstartedThreads,WRITE,Thread-3,java/lang/ThreadGroup.java:164]
+}
+success count: 176
+fail count: 126, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] ]
+	matched: true
+	ReadWriteNode[667,java.lang.ThreadGroup@b0,threads,WRITE,Thread-2,java/lang/ThreadGroup.java:160]
+	ReadWriteNode[742,java.lang.ThreadGroup@b0,threads,WRITE,Thread-3,java/lang/ThreadGroup.java:160]
+}
+success count: 176
+fail count: 126, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[670,java.lang.ThreadGroup@b0,nthreads,WRITE,Thread-2,java/lang/ThreadGroup.java:163]
+	ReadWriteNode[744,java.lang.ThreadGroup@b0,nthreads,READ,Thread-3,java/lang/ThreadGroup.java:163]
+}
+success count: 176
+fail count: 126, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[675,java.lang.Thread,nameThreadNum,WRITE,Thread-2,java/lang/Thread.java:130]
+	ReadWriteNode[748,java.lang.Thread,nameThreadNum,READ,Thread-3,java/lang/Thread.java:130]
+}
+success count: 176
+fail count: 126, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] ]
+	matched: true
+	ReadWriteNode[410,java.lang.ThreadGroup@b0,nthreads,WRITE,main,java/lang/ThreadGroup.java:163]
+	ReadWriteNode[670,java.lang.ThreadGroup@b0,nthreads,WRITE,Thread-2,java/lang/ThreadGroup.java:163]
+}
+success count: 176
+fail count: 126, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[407,java.lang.ThreadGroup@b0,threads,WRITE,main,java/lang/ThreadGroup.java:160]
+	ReadWriteNode[655,java.lang.ThreadGroup@b0,threads,READ,Thread-2,java/lang/ThreadGroup.java:155]
+}
+success count: 176
+fail count: 126, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[412,java.lang.ThreadGroup@b0,nUnstartedThreads,WRITE,main,java/lang/ThreadGroup.java:164]
+	ReadWriteNode[671,java.lang.ThreadGroup@b0,nUnstartedThreads,READ,Thread-2,java/lang/ThreadGroup.java:164]
+}
+success count: 176
+fail count: 126, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] ]
+	matched: true
+	ReadWriteNode[675,java.lang.Thread,nameThreadNum,WRITE,Thread-2,java/lang/Thread.java:130]
+	ReadWriteNode[749,java.lang.Thread,nameThreadNum,WRITE,Thread-3,java/lang/Thread.java:130]
+}
+success count: 176
+fail count: 126, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[670,java.lang.ThreadGroup@b0,nthreads,WRITE,Thread-2,java/lang/ThreadGroup.java:163]
+	ReadWriteNode[729,java.lang.ThreadGroup@b0,nthreads,READ,Thread-3,java/lang/ThreadGroup.java:159]
+}
+success count: 176
+fail count: 120, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[670,java.lang.ThreadGroup@b0,nthreads,WRITE,Thread-2,java/lang/ThreadGroup.java:163]
+	ReadWriteNode[727,java.lang.ThreadGroup@b0,nthreads,READ,Thread-3,java/lang/ThreadGroup.java:158]
+}
+success count: 176
+fail count: 120, Pattern {
+	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] PatternTypeNode[y,2,WRITE] PatternTypeNode[y,1,READ] ]
+	matched: true
+	ReadWriteNode[596,java.lang.ThreadGroup@b0,threads,READ,Thread-2,java/lang/ThreadGroup.java:163]
+	ReadWriteNode[609,java.lang.ThreadGroup@b0,threads,WRITE,Thread-3,java/lang/ThreadGroup.java:160]
+	ReadWriteNode[616,java.lang.Thread,nameThreadNum,WRITE,Thread-3,java/lang/Thread.java:130]
+	ReadWriteNode[631,java.lang.Thread,nameThreadNum,READ,Thread-2,java/lang/Thread.java:130]
+}
+success count: 3
+fail count: 2, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[y,2,WRITE] PatternTypeNode[y,1,WRITE] ]
+	matched: true
+	ReadWriteNode[600,java.lang.ThreadGroup@b0,nUnstartedThreads,WRITE,Thread-2,java/lang/ThreadGroup.java:164]
+	ReadWriteNode[614,java.lang.ThreadGroup@b0,nUnstartedThreads,WRITE,Thread-3,java/lang/ThreadGroup.java:164]
+	ReadWriteNode[616,java.lang.Thread,nameThreadNum,WRITE,Thread-3,java/lang/Thread.java:130]
+	ReadWriteNode[632,java.lang.Thread,nameThreadNum,WRITE,Thread-2,java/lang/Thread.java:130]
+}
+success count: 3
+fail count: 2, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[y,2,WRITE] PatternTypeNode[y,1,WRITE] ]
+	matched: true
+	ReadWriteNode[595,java.lang.ThreadGroup@b0,threads,WRITE,Thread-2,java/lang/ThreadGroup.java:160]
+	ReadWriteNode[609,java.lang.ThreadGroup@b0,threads,WRITE,Thread-3,java/lang/ThreadGroup.java:160]
+	ReadWriteNode[616,java.lang.Thread,nameThreadNum,WRITE,Thread-3,java/lang/Thread.java:130]
+	ReadWriteNode[632,java.lang.Thread,nameThreadNum,WRITE,Thread-2,java/lang/Thread.java:130]
+}
+success count: 3
+fail count: 2, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[y,2,WRITE] PatternTypeNode[y,1,WRITE] ]
+	matched: true
+	ReadWriteNode[598,java.lang.ThreadGroup@b0,nthreads,WRITE,Thread-2,java/lang/ThreadGroup.java:163]
+	ReadWriteNode[612,java.lang.ThreadGroup@b0,nthreads,WRITE,Thread-3,java/lang/ThreadGroup.java:163]
+	ReadWriteNode[616,java.lang.Thread,nameThreadNum,WRITE,Thread-3,java/lang/Thread.java:130]
+	ReadWriteNode[632,java.lang.Thread,nameThreadNum,WRITE,Thread-2,java/lang/Thread.java:130]
+}
+success count: 3
+fail count: 2, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[y,2,READ] PatternTypeNode[y,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[4035,mergesort.MSort@4a6,priority,WRITE,Thread-3,java/lang/Thread.java:138]
+	ReadWriteNode[4179,mergesort.MSort,m_iCurrentThreadsAlive,READ,Thread-90,mergesort/MSort.java:54]
+	ReadWriteNode[4240,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-3,mergesort/MSort.java:47]
+	ReadWriteNode[4270,mergesort.MSort@4a6,priority,READ,Thread-90,java/lang/Thread.java:260]
+}
+success count: 4
+fail count: 1, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[y,2,READ] PatternTypeNode[y,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[4037,mergesort.MSort@4a6,isDaemon,WRITE,Thread-3,java/lang/Thread.java:139]
+	ReadWriteNode[4179,mergesort.MSort,m_iCurrentThreadsAlive,READ,Thread-90,mergesort/MSort.java:54]
+	ReadWriteNode[4240,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-3,mergesort/MSort.java:47]
+	ReadWriteNode[4272,mergesort.MSort@4a6,isDaemon,READ,Thread-90,java/lang/Thread.java:212]
+}
+success count: 4
+fail count: 1, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[3387,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-2,mergesort/MSort.java:39]
+	ReadWriteNode[3743,mergesort.MSort,m_iCurrentThreadsAlive,READ,Thread-78,mergesort/MSort.java:54]
+}
+success count: 25
+fail count: 4, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[y,2,READ] PatternTypeNode[x,2,READ] PatternTypeNode[y,1,WRITE] ]
+	matched: true
+	ReadWriteNode[3935,mergesort.MSort@494,isDaemon,WRITE,Thread-3,java/lang/Thread.java:139]
+	ReadWriteNode[4276,java.lang.ThreadGroup@b0,threads,READ,Thread-88,java/lang/ThreadGroup.java:163]
+	ReadWriteNode[4296,mergesort.MSort@494,isDaemon,READ,Thread-88,java/lang/Thread.java:212]
+	ReadWriteNode[4345,java.lang.ThreadGroup@b0,threads,WRITE,Thread-3,java/lang/ThreadGroup.java:160]
+}
+success count: 41
+fail count: 5, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[y,2,READ] PatternTypeNode[x,2,READ] PatternTypeNode[y,1,WRITE] ]
+	matched: true
+	ReadWriteNode[3933,mergesort.MSort@494,priority,WRITE,Thread-3,java/lang/Thread.java:138]
+	ReadWriteNode[4276,java.lang.ThreadGroup@b0,threads,READ,Thread-88,java/lang/ThreadGroup.java:163]
+	ReadWriteNode[4294,mergesort.MSort@494,priority,READ,Thread-88,java/lang/Thread.java:260]
+	ReadWriteNode[4345,java.lang.ThreadGroup@b0,threads,WRITE,Thread-3,java/lang/ThreadGroup.java:160]
+}
+success count: 41
+fail count: 5, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] PatternTypeNode[y,2,READ] PatternTypeNode[y,1,WRITE] ]
+	matched: true
+	ReadWriteNode[3989,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-3,mergesort/MSort.java:47]
+	ReadWriteNode[4187,mergesort.MSort,m_iCurrentThreadsAlive,READ,Thread-88,mergesort/MSort.java:54]
+	ReadWriteNode[4276,java.lang.ThreadGroup@b0,threads,READ,Thread-88,java/lang/ThreadGroup.java:163]
+	ReadWriteNode[4345,java.lang.ThreadGroup@b0,threads,WRITE,Thread-3,java/lang/ThreadGroup.java:160]
+}
+success count: 33
+fail count: 4, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] PatternTypeNode[y,2,READ] PatternTypeNode[y,1,WRITE] ]
+	matched: true
+	ReadWriteNode[3940,mergesort.MSort@494,m_iArray,WRITE,Thread-3,mergesort/MSort.java:102]
+	ReadWriteNode[3978,mergesort.MSort@494,m_iArray,READ,Thread-88,mergesort/MSort.java:211]
+	ReadWriteNode[4276,java.lang.ThreadGroup@b0,threads,READ,Thread-88,java/lang/ThreadGroup.java:163]
+	ReadWriteNode[4345,java.lang.ThreadGroup@b0,threads,WRITE,Thread-3,java/lang/ThreadGroup.java:160]
+}
+success count: 42
+fail count: 5, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] PatternTypeNode[y,2,READ] PatternTypeNode[y,1,WRITE] ]
+	matched: true
+	ReadWriteNode[3941,mergesort.MSort@494,bIsInit,WRITE,Thread-3,mergesort/MSort.java:103]
+	ReadWriteNode[3975,mergesort.MSort@494,bIsInit,READ,Thread-88,mergesort/MSort.java:206]
+	ReadWriteNode[4276,java.lang.ThreadGroup@b0,threads,READ,Thread-88,java/lang/ThreadGroup.java:163]
+	ReadWriteNode[4345,java.lang.ThreadGroup@b0,threads,WRITE,Thread-3,java/lang/ThreadGroup.java:160]
+}
+success count: 42
+fail count: 5, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] PatternTypeNode[y,2,READ] PatternTypeNode[y,1,WRITE] ]
+	matched: true
+	ReadWriteNode[3940,mergesort.MSort@494,m_iArray,WRITE,Thread-3,mergesort/MSort.java:102]
+	ReadWriteNode[3986,mergesort.MSort@494,m_iArray,READ,Thread-88,mergesort/MSort.java:216]
+	ReadWriteNode[4276,java.lang.ThreadGroup@b0,threads,READ,Thread-88,java/lang/ThreadGroup.java:163]
+	ReadWriteNode[4345,java.lang.ThreadGroup@b0,threads,WRITE,Thread-3,java/lang/ThreadGroup.java:160]
+}
+success count: 42
+fail count: 5, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[y,2,READ] PatternTypeNode[x,2,READ] PatternTypeNode[y,1,WRITE] ]
+	matched: true
+	ReadWriteNode[3940,mergesort.MSort@494,m_iArray,WRITE,Thread-3,mergesort/MSort.java:102]
+	ReadWriteNode[4276,java.lang.ThreadGroup@b0,threads,READ,Thread-88,java/lang/ThreadGroup.java:163]
+	ReadWriteNode[4311,mergesort.MSort@494,m_iArray,READ,Thread-88,mergesort/MSort.java:229]
+	ReadWriteNode[4345,java.lang.ThreadGroup@b0,threads,WRITE,Thread-3,java/lang/ThreadGroup.java:160]
+}
+success count: 35
+fail count: 4, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[4373,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-3,mergesort/MSort.java:39]
+	ReadWriteNode[4377,mergesort.MSort,m_iCurrentThreadsAlive,READ,main,mergesort/MSort.java:39]
+}
+success count: 56
+fail count: 6, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] ]
+	matched: true
+	ReadWriteNode[4373,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-3,mergesort/MSort.java:39]
+	ReadWriteNode[4378,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,main,mergesort/MSort.java:39]
+}
+success count: 56
+fail count: 6, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] PatternTypeNode[y,2,READ] PatternTypeNode[y,1,WRITE] ]
+	matched: true
+	ReadWriteNode[3914,mergesort.MSort@494,group,WRITE,Thread-3,java/lang/Thread.java:122]
+	ReadWriteNode[4266,mergesort.MSort@494,group,READ,Thread-88,java/lang/Thread.java:264]
+	ReadWriteNode[4276,java.lang.ThreadGroup@b0,threads,READ,Thread-88,java/lang/ThreadGroup.java:163]
+	ReadWriteNode[4345,java.lang.ThreadGroup@b0,threads,WRITE,Thread-3,java/lang/ThreadGroup.java:160]
+}
+success count: 42
+fail count: 4, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] PatternTypeNode[y,2,READ] PatternTypeNode[y,1,WRITE] ]
+	matched: true
+	ReadWriteNode[3941,mergesort.MSort@494,m_iArray,WRITE,Thread-3,mergesort/MSort.java:102]
+	ReadWriteNode[3991,mergesort.MSort@494,m_iArray,READ,Thread-88,mergesort/MSort.java:216]
+	ReadWriteNode[4199,mergesort.MSort,m_iCurrentThreadsAlive,READ,Thread-88,mergesort/MSort.java:54]
+	ReadWriteNode[4240,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-3,mergesort/MSort.java:47]
+}
+success count: 11
+fail count: 1, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] PatternTypeNode[y,2,READ] PatternTypeNode[y,1,WRITE] ]
+	matched: true
+	ReadWriteNode[3942,mergesort.MSort@494,bIsInit,WRITE,Thread-3,mergesort/MSort.java:103]
+	ReadWriteNode[3982,mergesort.MSort@494,bIsInit,READ,Thread-88,mergesort/MSort.java:206]
+	ReadWriteNode[4199,mergesort.MSort,m_iCurrentThreadsAlive,READ,Thread-88,mergesort/MSort.java:54]
+	ReadWriteNode[4240,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-3,mergesort/MSort.java:47]
+}
+success count: 11
+fail count: 1, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] PatternTypeNode[y,2,READ] PatternTypeNode[y,1,WRITE] ]
+	matched: true
+	ReadWriteNode[4042,mergesort.MSort@4a6,m_iArray,WRITE,Thread-3,mergesort/MSort.java:102]
+	ReadWriteNode[4126,mergesort.MSort@4a6,m_iArray,READ,Thread-90,mergesort/MSort.java:211]
+	ReadWriteNode[4179,mergesort.MSort,m_iCurrentThreadsAlive,READ,Thread-90,mergesort/MSort.java:54]
+	ReadWriteNode[4240,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-3,mergesort/MSort.java:47]
+}
+success count: 11
+fail count: 1, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] ]
+	matched: true
+	ReadWriteNode[3529,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-2,mergesort/MSort.java:39]
+	ReadWriteNode[3989,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-3,mergesort/MSort.java:47]
+}
+success count: 40
+fail count: 3, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[3529,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-2,mergesort/MSort.java:39]
+	ReadWriteNode[3983,mergesort.MSort,m_iCurrentThreadsAlive,READ,Thread-3,mergesort/MSort.java:47]
+}
+success count: 40
+fail count: 3, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] PatternTypeNode[y,2,READ] PatternTypeNode[y,1,WRITE] ]
+	matched: true
+	ReadWriteNode[3940,mergesort.MSort@494,m_iArray,WRITE,Thread-3,mergesort/MSort.java:102]
+	ReadWriteNode[3978,mergesort.MSort@494,m_iArray,READ,Thread-88,mergesort/MSort.java:211]
+	ReadWriteNode[4187,mergesort.MSort,m_iCurrentThreadsAlive,READ,Thread-88,mergesort/MSort.java:54]
+	ReadWriteNode[4373,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-3,mergesort/MSort.java:39]
+}
+success count: 64
+fail count: 4, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] PatternTypeNode[y,2,READ] PatternTypeNode[y,1,WRITE] ]
+	matched: true
+	ReadWriteNode[536,mergesort.MSort@1f6,m_iArray,WRITE,Thread-2,mergesort/MSort.java:102]
+	ReadWriteNode[597,mergesort.MSort@1f6,m_iArray,READ,Thread-4,mergesort/MSort.java:216]
+	ReadWriteNode[3246,mergesort.MSort,m_iCurrentThreadsAlive,READ,Thread-4,mergesort/MSort.java:54]
+	ReadWriteNode[3529,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-2,mergesort/MSort.java:39]
+}
+success count: 64
+fail count: 4, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[y,2,READ] PatternTypeNode[x,2,READ] PatternTypeNode[y,1,WRITE] ]
+	matched: true
+	ReadWriteNode[3933,mergesort.MSort@494,priority,WRITE,Thread-3,java/lang/Thread.java:138]
+	ReadWriteNode[4187,mergesort.MSort,m_iCurrentThreadsAlive,READ,Thread-88,mergesort/MSort.java:54]
+	ReadWriteNode[4294,mergesort.MSort@494,priority,READ,Thread-88,java/lang/Thread.java:260]
+	ReadWriteNode[4373,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-3,mergesort/MSort.java:39]
+}
+success count: 64
+fail count: 4, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[y,2,READ] PatternTypeNode[x,2,READ] PatternTypeNode[y,1,WRITE] ]
+	matched: true
+	ReadWriteNode[3935,mergesort.MSort@494,isDaemon,WRITE,Thread-3,java/lang/Thread.java:139]
+	ReadWriteNode[4187,mergesort.MSort,m_iCurrentThreadsAlive,READ,Thread-88,mergesort/MSort.java:54]
+	ReadWriteNode[4296,mergesort.MSort@494,isDaemon,READ,Thread-88,java/lang/Thread.java:212]
+	ReadWriteNode[4373,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-3,mergesort/MSort.java:39]
+}
+success count: 64
+fail count: 4, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[y,2,READ] PatternTypeNode[x,2,READ] PatternTypeNode[y,1,WRITE] ]
+	matched: true
+	ReadWriteNode[3940,mergesort.MSort@494,m_iArray,WRITE,Thread-3,mergesort/MSort.java:102]
+	ReadWriteNode[4187,mergesort.MSort,m_iCurrentThreadsAlive,READ,Thread-88,mergesort/MSort.java:54]
+	ReadWriteNode[4311,mergesort.MSort@494,m_iArray,READ,Thread-88,mergesort/MSort.java:229]
+	ReadWriteNode[4373,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-3,mergesort/MSort.java:39]
+}
+success count: 64
+fail count: 4, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] PatternTypeNode[y,2,READ] PatternTypeNode[y,1,WRITE] ]
+	matched: true
+	ReadWriteNode[537,mergesort.MSort@1f6,bIsInit,WRITE,Thread-2,mergesort/MSort.java:103]
+	ReadWriteNode[579,mergesort.MSort@1f6,bIsInit,READ,Thread-4,mergesort/MSort.java:206]
+	ReadWriteNode[3246,mergesort.MSort,m_iCurrentThreadsAlive,READ,Thread-4,mergesort/MSort.java:54]
+	ReadWriteNode[3529,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-2,mergesort/MSort.java:39]
+}
+success count: 64
+fail count: 4, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[y,2,READ] PatternTypeNode[x,2,READ] PatternTypeNode[y,1,WRITE] ]
+	matched: true
+	ReadWriteNode[504,mergesort.MSort@1f6,group,WRITE,Thread-2,java/lang/Thread.java:122]
+	ReadWriteNode[3246,mergesort.MSort,m_iCurrentThreadsAlive,READ,Thread-4,mergesort/MSort.java:54]
+	ReadWriteNode[3289,mergesort.MSort@1f6,group,READ,Thread-4,java/lang/Thread.java:264]
+	ReadWriteNode[3529,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-2,mergesort/MSort.java:39]
+}
+success count: 64
+fail count: 4, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[397,mergesort.MSort@1e4,m_iArray,WRITE,main,mergesort/MSort.java:102]
+	ReadWriteNode[3532,mergesort.MSort@1e4,m_iArray,READ,Thread-2,mergesort/MSort.java:243]
+}
+success count: 55
+fail count: 3, Pattern {
+	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] ]
+	matched: true
+	ReadWriteNode[3246,mergesort.MSort,m_iCurrentThreadsAlive,READ,Thread-4,mergesort/MSort.java:54]
+	ReadWriteNode[3529,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-2,mergesort/MSort.java:39]
+}
+success count: 77
+fail count: 4, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] PatternTypeNode[x,1,WRITE] ]
+	matched: true
+	ReadWriteNode[3989,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-3,mergesort/MSort.java:47]
+	ReadWriteNode[4187,mergesort.MSort,m_iCurrentThreadsAlive,READ,Thread-88,mergesort/MSort.java:54]
+	ReadWriteNode[4373,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-3,mergesort/MSort.java:39]
+}
+success count: 65
+fail count: 3, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[536,mergesort.MSort@1f6,m_iArray,WRITE,Thread-2,mergesort/MSort.java:102]
+	ReadWriteNode[3361,mergesort.MSort@1f6,m_iArray,READ,Thread-4,mergesort/MSort.java:229]
+}
+success count: 120
+fail count: 4, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[y,2,READ] PatternTypeNode[x,2,READ] PatternTypeNode[y,1,WRITE] ]
+	matched: true
+	ReadWriteNode[3079,java.lang.ThreadGroup@b0,nthreads,WRITE,Thread-2,java/lang/ThreadGroup.java:163]
+	ReadWriteNode[3246,mergesort.MSort,m_iCurrentThreadsAlive,READ,Thread-4,mergesort/MSort.java:54]
+	ReadWriteNode[3332,java.lang.ThreadGroup@b0,nthreads,READ,Thread-4,java/lang/ThreadGroup.java:163]
+	ReadWriteNode[3529,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-2,mergesort/MSort.java:39]
+}
+success count: 26
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[y,2,READ] PatternTypeNode[x,2,READ] PatternTypeNode[y,1,WRITE] ]
+	matched: true
+	ReadWriteNode[3076,java.lang.ThreadGroup@b0,threads,WRITE,Thread-2,java/lang/ThreadGroup.java:160]
+	ReadWriteNode[3246,mergesort.MSort,m_iCurrentThreadsAlive,READ,Thread-4,mergesort/MSort.java:54]
+	ReadWriteNode[3308,java.lang.ThreadGroup@b0,threads,READ,Thread-4,java/lang/ThreadGroup.java:159]
+	ReadWriteNode[3529,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-2,mergesort/MSort.java:39]
+}
+success count: 26
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[y,2,READ] PatternTypeNode[x,2,READ] PatternTypeNode[y,1,WRITE] ]
+	matched: true
+	ReadWriteNode[3084,java.lang.Thread,nameThreadNum,WRITE,Thread-2,java/lang/Thread.java:130]
+	ReadWriteNode[3246,mergesort.MSort,m_iCurrentThreadsAlive,READ,Thread-4,mergesort/MSort.java:54]
+	ReadWriteNode[3337,java.lang.Thread,nameThreadNum,READ,Thread-4,java/lang/Thread.java:130]
+	ReadWriteNode[3529,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-2,mergesort/MSort.java:39]
+}
+success count: 26
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[y,2,READ] PatternTypeNode[x,2,READ] PatternTypeNode[y,1,WRITE] ]
+	matched: true
+	ReadWriteNode[3081,java.lang.ThreadGroup@b0,nUnstartedThreads,WRITE,Thread-2,java/lang/ThreadGroup.java:164]
+	ReadWriteNode[3246,mergesort.MSort,m_iCurrentThreadsAlive,READ,Thread-4,mergesort/MSort.java:54]
+	ReadWriteNode[3334,java.lang.ThreadGroup@b0,nUnstartedThreads,READ,Thread-4,java/lang/ThreadGroup.java:164]
+	ReadWriteNode[3529,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-2,mergesort/MSort.java:39]
+}
+success count: 26
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[y,2,READ] PatternTypeNode[x,2,READ] PatternTypeNode[y,1,WRITE] ]
+	matched: true
+	ReadWriteNode[3076,java.lang.ThreadGroup@b0,threads,WRITE,Thread-2,java/lang/ThreadGroup.java:160]
+	ReadWriteNode[3246,mergesort.MSort,m_iCurrentThreadsAlive,READ,Thread-4,mergesort/MSort.java:54]
+	ReadWriteNode[3306,java.lang.ThreadGroup@b0,threads,READ,Thread-4,java/lang/ThreadGroup.java:155]
+	ReadWriteNode[3529,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-2,mergesort/MSort.java:39]
+}
+success count: 26
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[y,2,READ] PatternTypeNode[x,2,READ] PatternTypeNode[y,1,WRITE] ]
+	matched: true
+	ReadWriteNode[3079,java.lang.ThreadGroup@b0,nthreads,WRITE,Thread-2,java/lang/ThreadGroup.java:163]
+	ReadWriteNode[3246,mergesort.MSort,m_iCurrentThreadsAlive,READ,Thread-4,mergesort/MSort.java:54]
+	ReadWriteNode[3309,java.lang.ThreadGroup@b0,nthreads,READ,Thread-4,java/lang/ThreadGroup.java:159]
+	ReadWriteNode[3529,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-2,mergesort/MSort.java:39]
+}
+success count: 26
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[y,2,READ] PatternTypeNode[x,2,READ] PatternTypeNode[y,1,WRITE] ]
+	matched: true
+	ReadWriteNode[3079,java.lang.ThreadGroup@b0,nthreads,WRITE,Thread-2,java/lang/ThreadGroup.java:163]
+	ReadWriteNode[3246,mergesort.MSort,m_iCurrentThreadsAlive,READ,Thread-4,mergesort/MSort.java:54]
+	ReadWriteNode[3307,java.lang.ThreadGroup@b0,nthreads,READ,Thread-4,java/lang/ThreadGroup.java:158]
+	ReadWriteNode[3529,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-2,mergesort/MSort.java:39]
+}
+success count: 26
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[y,2,WRITE] PatternTypeNode[y,1,WRITE] ]
+	matched: true
+	ReadWriteNode[670,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-2,mergesort/MSort.java:47]
+	ReadWriteNode[681,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-3,mergesort/MSort.java:47]
+	ReadWriteNode[3820,java.lang.Thread,nameThreadNum,WRITE,Thread-3,java/lang/Thread.java:130]
+	ReadWriteNode[4044,java.lang.Thread,nameThreadNum,WRITE,Thread-2,java/lang/Thread.java:130]
+}
+success count: 2
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,WRITE] ]
+	matched: true
+	ReadWriteNode[663,mergesort.MSort,m_iCurrentThreadsAlive,READ,Thread-3,mergesort/MSort.java:47]
+	ReadWriteNode[670,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-2,mergesort/MSort.java:47]
+	ReadWriteNode[681,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-3,mergesort/MSort.java:47]
+}
+success count: 7
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[y,2,WRITE] PatternTypeNode[y,1,WRITE] ]
+	matched: true
+	ReadWriteNode[4032,java.lang.ThreadGroup@b0,nthreads,WRITE,Thread-2,java/lang/ThreadGroup.java:163]
+	ReadWriteNode[4347,java.lang.ThreadGroup@b0,nthreads,WRITE,Thread-6,java/lang/ThreadGroup.java:163]
+	ReadWriteNode[4376,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-6,mergesort/MSort.java:39]
+	ReadWriteNode[4418,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-2,mergesort/MSort.java:39]
+}
+success count: 7
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] PatternTypeNode[y,2,WRITE] PatternTypeNode[y,1,READ] ]
+	matched: true
+	ReadWriteNode[4030,java.lang.ThreadGroup@b0,threads,READ,Thread-2,java/lang/ThreadGroup.java:163]
+	ReadWriteNode[4344,java.lang.ThreadGroup@b0,threads,WRITE,Thread-6,java/lang/ThreadGroup.java:160]
+	ReadWriteNode[4376,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-6,mergesort/MSort.java:39]
+	ReadWriteNode[4415,mergesort.MSort,m_iCurrentThreadsAlive,READ,Thread-2,mergesort/MSort.java:39]
+}
+success count: 7
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[y,2,WRITE] PatternTypeNode[y,1,WRITE] ]
+	matched: true
+	ReadWriteNode[4044,java.lang.Thread,nameThreadNum,WRITE,Thread-2,java/lang/Thread.java:130]
+	ReadWriteNode[4351,java.lang.Thread,nameThreadNum,WRITE,Thread-6,java/lang/Thread.java:130]
+	ReadWriteNode[4376,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-6,mergesort/MSort.java:39]
+	ReadWriteNode[4418,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-2,mergesort/MSort.java:39]
+}
+success count: 7
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[y,2,WRITE] PatternTypeNode[y,1,WRITE] ]
+	matched: true
+	ReadWriteNode[670,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-2,mergesort/MSort.java:47]
+	ReadWriteNode[681,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-3,mergesort/MSort.java:47]
+	ReadWriteNode[3790,java.lang.ThreadGroup@b0,nthreads,WRITE,Thread-3,java/lang/ThreadGroup.java:163]
+	ReadWriteNode[4032,java.lang.ThreadGroup@b0,nthreads,WRITE,Thread-2,java/lang/ThreadGroup.java:163]
+}
+success count: 2
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[y,2,WRITE] PatternTypeNode[y,1,WRITE] ]
+	matched: true
+	ReadWriteNode[670,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-2,mergesort/MSort.java:47]
+	ReadWriteNode[681,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-3,mergesort/MSort.java:47]
+	ReadWriteNode[3792,java.lang.ThreadGroup@b0,nUnstartedThreads,WRITE,Thread-3,java/lang/ThreadGroup.java:164]
+	ReadWriteNode[4034,java.lang.ThreadGroup@b0,nUnstartedThreads,WRITE,Thread-2,java/lang/ThreadGroup.java:164]
+}
+success count: 2
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[y,2,WRITE] PatternTypeNode[y,1,WRITE] ]
+	matched: true
+	ReadWriteNode[4034,java.lang.ThreadGroup@b0,nUnstartedThreads,WRITE,Thread-2,java/lang/ThreadGroup.java:164]
+	ReadWriteNode[4349,java.lang.ThreadGroup@b0,nUnstartedThreads,WRITE,Thread-6,java/lang/ThreadGroup.java:164]
+	ReadWriteNode[4376,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-6,mergesort/MSort.java:39]
+	ReadWriteNode[4418,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-2,mergesort/MSort.java:39]
+}
+success count: 7
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] ]
+	matched: true
+	ReadWriteNode[663,mergesort.MSort,m_iCurrentThreadsAlive,READ,Thread-3,mergesort/MSort.java:47]
+	ReadWriteNode[670,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-2,mergesort/MSort.java:47]
+}
+success count: 7
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[y,2,WRITE] PatternTypeNode[y,1,WRITE] ]
+	matched: true
+	ReadWriteNode[670,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-2,mergesort/MSort.java:47]
+	ReadWriteNode[681,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-3,mergesort/MSort.java:47]
+	ReadWriteNode[3787,java.lang.ThreadGroup@b0,threads,WRITE,Thread-3,java/lang/ThreadGroup.java:160]
+	ReadWriteNode[4029,java.lang.ThreadGroup@b0,threads,WRITE,Thread-2,java/lang/ThreadGroup.java:160]
+}
+success count: 2
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[y,2,WRITE] PatternTypeNode[y,1,WRITE] ]
+	matched: true
+	ReadWriteNode[4029,java.lang.ThreadGroup@b0,threads,WRITE,Thread-2,java/lang/ThreadGroup.java:160]
+	ReadWriteNode[4344,java.lang.ThreadGroup@b0,threads,WRITE,Thread-6,java/lang/ThreadGroup.java:160]
+	ReadWriteNode[4376,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-6,mergesort/MSort.java:39]
+	ReadWriteNode[4418,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-2,mergesort/MSort.java:39]
+}
+success count: 7
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] PatternTypeNode[y,2,WRITE] PatternTypeNode[y,1,READ] ]
+	matched: true
+	ReadWriteNode[651,mergesort.MSort,m_iCurrentThreadsAlive,READ,Thread-3,mergesort/MSort.java:47]
+	ReadWriteNode[671,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-2,mergesort/MSort.java:47]
+	ReadWriteNode[3678,java.lang.ThreadGroup@b0,nthreads,WRITE,Thread-2,java/lang/ThreadGroup.java:163]
+	ReadWriteNode[4083,java.lang.ThreadGroup@b0,nthreads,READ,Thread-3,java/lang/ThreadGroup.java:163]
+}
+success count: 2
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[y,2,WRITE] PatternTypeNode[y,1,WRITE] PatternTypeNode[x,2,WRITE] ]
+	matched: true
+	ReadWriteNode[676,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-3,mergesort/MSort.java:47]
+	ReadWriteNode[3678,java.lang.ThreadGroup@b0,nthreads,WRITE,Thread-2,java/lang/ThreadGroup.java:163]
+	ReadWriteNode[4084,java.lang.ThreadGroup@b0,nthreads,WRITE,Thread-3,java/lang/ThreadGroup.java:163]
+	ReadWriteNode[4351,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-2,mergesort/MSort.java:39]
+}
+success count: 2
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,WRITE] ]
+	matched: true
+	ReadWriteNode[676,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-3,mergesort/MSort.java:47]
+	ReadWriteNode[4351,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-2,mergesort/MSort.java:39]
+	ReadWriteNode[4385,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-3,mergesort/MSort.java:39]
+}
+success count: 6
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] PatternTypeNode[y,2,WRITE] PatternTypeNode[y,1,READ] ]
+	matched: true
+	ReadWriteNode[651,mergesort.MSort,m_iCurrentThreadsAlive,READ,Thread-3,mergesort/MSort.java:47]
+	ReadWriteNode[671,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-2,mergesort/MSort.java:47]
+	ReadWriteNode[3675,java.lang.ThreadGroup@b0,threads,WRITE,Thread-2,java/lang/ThreadGroup.java:160]
+	ReadWriteNode[4068,java.lang.ThreadGroup@b0,threads,READ,Thread-3,java/lang/ThreadGroup.java:159]
+}
+success count: 2
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] ]
+	matched: true
+	ReadWriteNode[676,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-3,mergesort/MSort.java:47]
+	ReadWriteNode[4351,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-2,mergesort/MSort.java:39]
+}
+success count: 7
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] PatternTypeNode[y,2,WRITE] PatternTypeNode[y,1,READ] ]
+	matched: true
+	ReadWriteNode[651,mergesort.MSort,m_iCurrentThreadsAlive,READ,Thread-3,mergesort/MSort.java:47]
+	ReadWriteNode[671,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-2,mergesort/MSort.java:47]
+	ReadWriteNode[3680,java.lang.ThreadGroup@b0,nUnstartedThreads,WRITE,Thread-2,java/lang/ThreadGroup.java:164]
+	ReadWriteNode[4085,java.lang.ThreadGroup@b0,nUnstartedThreads,READ,Thread-3,java/lang/ThreadGroup.java:164]
+}
+success count: 2
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,READ] ]
+	matched: true
+	ReadWriteNode[676,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-3,mergesort/MSort.java:47]
+	ReadWriteNode[4351,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-2,mergesort/MSort.java:39]
+	ReadWriteNode[4381,mergesort.MSort,m_iCurrentThreadsAlive,READ,Thread-3,mergesort/MSort.java:39]
+}
+success count: 6
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[676,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-3,mergesort/MSort.java:47]
+	ReadWriteNode[4316,mergesort.MSort,m_iCurrentThreadsAlive,READ,Thread-2,mergesort/MSort.java:39]
+}
+success count: 6
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] PatternTypeNode[y,2,WRITE] PatternTypeNode[y,1,READ] ]
+	matched: true
+	ReadWriteNode[651,mergesort.MSort,m_iCurrentThreadsAlive,READ,Thread-3,mergesort/MSort.java:47]
+	ReadWriteNode[671,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-2,mergesort/MSort.java:47]
+	ReadWriteNode[3675,java.lang.ThreadGroup@b0,threads,WRITE,Thread-2,java/lang/ThreadGroup.java:160]
+	ReadWriteNode[4066,java.lang.ThreadGroup@b0,threads,READ,Thread-3,java/lang/ThreadGroup.java:155]
+}
+success count: 2
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[y,2,WRITE] PatternTypeNode[y,1,WRITE] PatternTypeNode[x,2,WRITE] ]
+	matched: true
+	ReadWriteNode[676,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-3,mergesort/MSort.java:47]
+	ReadWriteNode[3683,java.lang.Thread,nameThreadNum,WRITE,Thread-2,java/lang/Thread.java:130]
+	ReadWriteNode[4089,java.lang.Thread,nameThreadNum,WRITE,Thread-3,java/lang/Thread.java:130]
+	ReadWriteNode[4351,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-2,mergesort/MSort.java:39]
+}
+success count: 2
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[y,2,WRITE] PatternTypeNode[y,1,WRITE] PatternTypeNode[x,2,WRITE] ]
+	matched: true
+	ReadWriteNode[676,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-3,mergesort/MSort.java:47]
+	ReadWriteNode[3680,java.lang.ThreadGroup@b0,nUnstartedThreads,WRITE,Thread-2,java/lang/ThreadGroup.java:164]
+	ReadWriteNode[4086,java.lang.ThreadGroup@b0,nUnstartedThreads,WRITE,Thread-3,java/lang/ThreadGroup.java:164]
+	ReadWriteNode[4351,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-2,mergesort/MSort.java:39]
+}
+success count: 2
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] PatternTypeNode[y,2,WRITE] PatternTypeNode[y,1,READ] ]
+	matched: true
+	ReadWriteNode[651,mergesort.MSort,m_iCurrentThreadsAlive,READ,Thread-3,mergesort/MSort.java:47]
+	ReadWriteNode[671,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-2,mergesort/MSort.java:47]
+	ReadWriteNode[3678,java.lang.ThreadGroup@b0,nthreads,WRITE,Thread-2,java/lang/ThreadGroup.java:163]
+	ReadWriteNode[4067,java.lang.ThreadGroup@b0,nthreads,READ,Thread-3,java/lang/ThreadGroup.java:158]
+}
+success count: 2
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[y,2,READ] PatternTypeNode[y,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[676,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-3,mergesort/MSort.java:47]
+	ReadWriteNode[3676,java.lang.ThreadGroup@b0,threads,READ,Thread-2,java/lang/ThreadGroup.java:163]
+	ReadWriteNode[4081,java.lang.ThreadGroup@b0,threads,WRITE,Thread-3,java/lang/ThreadGroup.java:160]
+	ReadWriteNode[4316,mergesort.MSort,m_iCurrentThreadsAlive,READ,Thread-2,mergesort/MSort.java:39]
+}
+success count: 2
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,READ] ]
+	matched: true
+	ReadWriteNode[671,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-2,mergesort/MSort.java:47]
+	ReadWriteNode[676,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-3,mergesort/MSort.java:47]
+	ReadWriteNode[4316,mergesort.MSort,m_iCurrentThreadsAlive,READ,Thread-2,mergesort/MSort.java:39]
+}
+success count: 6
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,WRITE] ]
+	matched: true
+	ReadWriteNode[4020,mergesort.MSort,m_iCurrentThreadsAlive,READ,Thread-3,mergesort/MSort.java:54]
+	ReadWriteNode[4351,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-2,mergesort/MSort.java:39]
+	ReadWriteNode[4385,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-3,mergesort/MSort.java:39]
+}
+success count: 6
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,READ] ]
+	matched: true
+	ReadWriteNode[4020,mergesort.MSort,m_iCurrentThreadsAlive,READ,Thread-3,mergesort/MSort.java:54]
+	ReadWriteNode[4351,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-2,mergesort/MSort.java:39]
+	ReadWriteNode[4381,mergesort.MSort,m_iCurrentThreadsAlive,READ,Thread-3,mergesort/MSort.java:39]
+}
+success count: 6
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] PatternTypeNode[y,2,WRITE] PatternTypeNode[y,1,READ] ]
+	matched: true
+	ReadWriteNode[651,mergesort.MSort,m_iCurrentThreadsAlive,READ,Thread-3,mergesort/MSort.java:47]
+	ReadWriteNode[671,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-2,mergesort/MSort.java:47]
+	ReadWriteNode[3683,java.lang.Thread,nameThreadNum,WRITE,Thread-2,java/lang/Thread.java:130]
+	ReadWriteNode[4088,java.lang.Thread,nameThreadNum,READ,Thread-3,java/lang/Thread.java:130]
+}
+success count: 2
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] PatternTypeNode[y,2,WRITE] PatternTypeNode[y,1,READ] ]
+	matched: true
+	ReadWriteNode[651,mergesort.MSort,m_iCurrentThreadsAlive,READ,Thread-3,mergesort/MSort.java:47]
+	ReadWriteNode[671,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-2,mergesort/MSort.java:47]
+	ReadWriteNode[3678,java.lang.ThreadGroup@b0,nthreads,WRITE,Thread-2,java/lang/ThreadGroup.java:163]
+	ReadWriteNode[4069,java.lang.ThreadGroup@b0,nthreads,READ,Thread-3,java/lang/ThreadGroup.java:159]
+}
+success count: 2
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,WRITE] ]
+	matched: true
+	ReadWriteNode[671,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-2,mergesort/MSort.java:47]
+	ReadWriteNode[676,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-3,mergesort/MSort.java:47]
+	ReadWriteNode[4351,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-2,mergesort/MSort.java:39]
+}
+success count: 7
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[y,2,WRITE] PatternTypeNode[y,1,WRITE] PatternTypeNode[x,2,WRITE] ]
+	matched: true
+	ReadWriteNode[676,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-3,mergesort/MSort.java:47]
+	ReadWriteNode[3675,java.lang.ThreadGroup@b0,threads,WRITE,Thread-2,java/lang/ThreadGroup.java:160]
+	ReadWriteNode[4081,java.lang.ThreadGroup@b0,threads,WRITE,Thread-3,java/lang/ThreadGroup.java:160]
+	ReadWriteNode[4351,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-2,mergesort/MSort.java:39]
+}
+success count: 2
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[y,2,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[y,1,WRITE] ]
+	matched: true
+	ReadWriteNode[4240,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-3,mergesort/MSort.java:47]
+	ReadWriteNode[4314,java.lang.ThreadGroup@b0,threads,WRITE,Thread-88,java/lang/ThreadGroup.java:160]
+	ReadWriteNode[4347,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-88,mergesort/MSort.java:39]
+	ReadWriteNode[4398,java.lang.ThreadGroup@b0,threads,WRITE,Thread-3,java/lang/ThreadGroup.java:160]
+}
+success count: 1
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[y,2,READ] PatternTypeNode[y,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[4042,mergesort.MSort@4a6,m_iArray,WRITE,Thread-3,mergesort/MSort.java:102]
+	ReadWriteNode[4179,mergesort.MSort,m_iCurrentThreadsAlive,READ,Thread-90,mergesort/MSort.java:54]
+	ReadWriteNode[4240,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-3,mergesort/MSort.java:47]
+	ReadWriteNode[4305,mergesort.MSort@4a6,m_iArray,READ,Thread-90,mergesort/MSort.java:229]
+}
+success count: 2
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[y,2,READ] PatternTypeNode[x,2,READ] PatternTypeNode[y,1,WRITE] ]
+	matched: true
+	ReadWriteNode[4240,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-3,mergesort/MSort.java:47]
+	ReadWriteNode[4315,java.lang.ThreadGroup@b0,threads,READ,Thread-88,java/lang/ThreadGroup.java:163]
+	ReadWriteNode[4343,mergesort.MSort,m_iCurrentThreadsAlive,READ,Thread-88,mergesort/MSort.java:39]
+	ReadWriteNode[4398,java.lang.ThreadGroup@b0,threads,WRITE,Thread-3,java/lang/ThreadGroup.java:160]
+}
+success count: 1
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[y,2,READ] PatternTypeNode[y,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[3941,mergesort.MSort@494,m_iArray,WRITE,Thread-3,mergesort/MSort.java:102]
+	ReadWriteNode[4199,mergesort.MSort,m_iCurrentThreadsAlive,READ,Thread-88,mergesort/MSort.java:54]
+	ReadWriteNode[4240,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-3,mergesort/MSort.java:47]
+	ReadWriteNode[4351,mergesort.MSort@494,m_iArray,READ,Thread-88,mergesort/MSort.java:243]
+}
+success count: 3
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[y,2,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[y,1,WRITE] ]
+	matched: true
+	ReadWriteNode[4240,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-3,mergesort/MSort.java:47]
+	ReadWriteNode[4321,java.lang.Thread,nameThreadNum,WRITE,Thread-88,java/lang/Thread.java:130]
+	ReadWriteNode[4347,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-88,mergesort/MSort.java:39]
+	ReadWriteNode[4405,java.lang.Thread,nameThreadNum,WRITE,Thread-3,java/lang/Thread.java:130]
+}
+success count: 1
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,READ] ]
+	matched: true
+	ReadWriteNode[4199,mergesort.MSort,m_iCurrentThreadsAlive,READ,Thread-88,mergesort/MSort.java:54]
+	ReadWriteNode[4240,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-3,mergesort/MSort.java:47]
+	ReadWriteNode[4343,mergesort.MSort,m_iCurrentThreadsAlive,READ,Thread-88,mergesort/MSort.java:39]
+}
+success count: 1
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,WRITE] ]
+	matched: true
+	ReadWriteNode[4199,mergesort.MSort,m_iCurrentThreadsAlive,READ,Thread-88,mergesort/MSort.java:54]
+	ReadWriteNode[4240,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-3,mergesort/MSort.java:47]
+	ReadWriteNode[4347,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-88,mergesort/MSort.java:39]
+}
+success count: 1
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[y,2,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[y,1,WRITE] ]
+	matched: true
+	ReadWriteNode[4240,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-3,mergesort/MSort.java:47]
+	ReadWriteNode[4317,java.lang.ThreadGroup@b0,nthreads,WRITE,Thread-88,java/lang/ThreadGroup.java:163]
+	ReadWriteNode[4347,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-88,mergesort/MSort.java:39]
+	ReadWriteNode[4401,java.lang.ThreadGroup@b0,nthreads,WRITE,Thread-3,java/lang/ThreadGroup.java:163]
+}
+success count: 1
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[y,2,READ] PatternTypeNode[x,2,READ] PatternTypeNode[y,1,WRITE] ]
+	matched: true
+	ReadWriteNode[4010,mergesort.MSort@4a6,group,WRITE,Thread-3,java/lang/Thread.java:122]
+	ReadWriteNode[4179,mergesort.MSort,m_iCurrentThreadsAlive,READ,Thread-90,mergesort/MSort.java:54]
+	ReadWriteNode[4236,mergesort.MSort@4a6,group,READ,Thread-90,java/lang/Thread.java:264]
+	ReadWriteNode[4240,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-3,mergesort/MSort.java:47]
+}
+success count: 10
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,READ] ]
+	matched: true
+	ReadWriteNode[4240,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-3,mergesort/MSort.java:47]
+	ReadWriteNode[4347,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-88,mergesort/MSort.java:39]
+	ReadWriteNode[4360,mergesort.MSort,m_iCurrentThreadsAlive,READ,Thread-3,mergesort/MSort.java:54]
+}
+success count: 1
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[y,2,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[y,1,WRITE] ]
+	matched: true
+	ReadWriteNode[4240,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-3,mergesort/MSort.java:47]
+	ReadWriteNode[4319,java.lang.ThreadGroup@b0,nUnstartedThreads,WRITE,Thread-88,java/lang/ThreadGroup.java:164]
+	ReadWriteNode[4347,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-88,mergesort/MSort.java:39]
+	ReadWriteNode[4403,java.lang.ThreadGroup@b0,nUnstartedThreads,WRITE,Thread-3,java/lang/ThreadGroup.java:164]
+}
+success count: 1
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[y,2,READ] PatternTypeNode[x,2,READ] PatternTypeNode[y,1,WRITE] ]
+	matched: true
+	ReadWriteNode[3941,mergesort.MSort@494,m_iArray,WRITE,Thread-3,mergesort/MSort.java:102]
+	ReadWriteNode[4315,java.lang.ThreadGroup@b0,threads,READ,Thread-88,java/lang/ThreadGroup.java:163]
+	ReadWriteNode[4351,mergesort.MSort@494,m_iArray,READ,Thread-88,mergesort/MSort.java:243]
+	ReadWriteNode[4398,java.lang.ThreadGroup@b0,threads,WRITE,Thread-3,java/lang/ThreadGroup.java:160]
+}
+success count: 4
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[y,2,WRITE] PatternTypeNode[y,1,READ] PatternTypeNode[x,2,WRITE] ]
+	matched: true
+	ReadWriteNode[3041,mergesort.MSort,m_iCurrentThreadsAlive,READ,Thread-4,mergesort/MSort.java:54]
+	ReadWriteNode[3177,java.lang.Thread,nameThreadNum,WRITE,Thread-2,java/lang/Thread.java:130]
+	ReadWriteNode[3240,java.lang.Thread,nameThreadNum,READ,Thread-4,java/lang/Thread.java:130]
+	ReadWriteNode[3442,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-2,mergesort/MSort.java:39]
+}
+success count: 10
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[y,2,WRITE] PatternTypeNode[y,1,READ] PatternTypeNode[x,2,WRITE] ]
+	matched: true
+	ReadWriteNode[3041,mergesort.MSort,m_iCurrentThreadsAlive,READ,Thread-4,mergesort/MSort.java:54]
+	ReadWriteNode[3143,java.lang.ThreadGroup@b0,threads,WRITE,Thread-2,java/lang/ThreadGroup.java:160]
+	ReadWriteNode[3209,java.lang.ThreadGroup@b0,threads,READ,Thread-4,java/lang/ThreadGroup.java:159]
+	ReadWriteNode[3442,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-2,mergesort/MSort.java:39]
+}
+success count: 11
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[y,2,WRITE] PatternTypeNode[y,1,READ] PatternTypeNode[x,2,WRITE] ]
+	matched: true
+	ReadWriteNode[3041,mergesort.MSort,m_iCurrentThreadsAlive,READ,Thread-4,mergesort/MSort.java:54]
+	ReadWriteNode[3146,java.lang.ThreadGroup@b0,nthreads,WRITE,Thread-2,java/lang/ThreadGroup.java:163]
+	ReadWriteNode[3208,java.lang.ThreadGroup@b0,nthreads,READ,Thread-4,java/lang/ThreadGroup.java:158]
+	ReadWriteNode[3442,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-2,mergesort/MSort.java:39]
+}
+success count: 11
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[y,2,WRITE] PatternTypeNode[y,1,READ] PatternTypeNode[x,2,WRITE] ]
+	matched: true
+	ReadWriteNode[3041,mergesort.MSort,m_iCurrentThreadsAlive,READ,Thread-4,mergesort/MSort.java:54]
+	ReadWriteNode[3143,java.lang.ThreadGroup@b0,threads,WRITE,Thread-2,java/lang/ThreadGroup.java:160]
+	ReadWriteNode[3207,java.lang.ThreadGroup@b0,threads,READ,Thread-4,java/lang/ThreadGroup.java:155]
+	ReadWriteNode[3442,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-2,mergesort/MSort.java:39]
+}
+success count: 11
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[y,2,WRITE] PatternTypeNode[y,1,READ] PatternTypeNode[x,2,WRITE] ]
+	matched: true
+	ReadWriteNode[3041,mergesort.MSort,m_iCurrentThreadsAlive,READ,Thread-4,mergesort/MSort.java:54]
+	ReadWriteNode[3148,java.lang.ThreadGroup@b0,nUnstartedThreads,WRITE,Thread-2,java/lang/ThreadGroup.java:164]
+	ReadWriteNode[3238,java.lang.ThreadGroup@b0,nUnstartedThreads,READ,Thread-4,java/lang/ThreadGroup.java:164]
+	ReadWriteNode[3442,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-2,mergesort/MSort.java:39]
+}
+success count: 10
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[y,2,WRITE] PatternTypeNode[y,1,READ] PatternTypeNode[x,2,WRITE] ]
+	matched: true
+	ReadWriteNode[3041,mergesort.MSort,m_iCurrentThreadsAlive,READ,Thread-4,mergesort/MSort.java:54]
+	ReadWriteNode[3146,java.lang.ThreadGroup@b0,nthreads,WRITE,Thread-2,java/lang/ThreadGroup.java:163]
+	ReadWriteNode[3210,java.lang.ThreadGroup@b0,nthreads,READ,Thread-4,java/lang/ThreadGroup.java:159]
+	ReadWriteNode[3442,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-2,mergesort/MSort.java:39]
+}
+success count: 11
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[y,2,WRITE] PatternTypeNode[y,1,READ] PatternTypeNode[x,2,WRITE] ]
+	matched: true
+	ReadWriteNode[3041,mergesort.MSort,m_iCurrentThreadsAlive,READ,Thread-4,mergesort/MSort.java:54]
+	ReadWriteNode[3146,java.lang.ThreadGroup@b0,nthreads,WRITE,Thread-2,java/lang/ThreadGroup.java:163]
+	ReadWriteNode[3236,java.lang.ThreadGroup@b0,nthreads,READ,Thread-4,java/lang/ThreadGroup.java:163]
+	ReadWriteNode[3442,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-2,mergesort/MSort.java:39]
+}
+success count: 10
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[y,2,WRITE] PatternTypeNode[y,1,WRITE] ]
+	matched: true
+	ReadWriteNode[4336,java.lang.Thread,nameThreadNum,WRITE,Thread-88,java/lang/Thread.java:130]
+	ReadWriteNode[4407,java.lang.Thread,nameThreadNum,WRITE,Thread-3,java/lang/Thread.java:130]
+	ReadWriteNode[4439,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-3,mergesort/MSort.java:47]
+	ReadWriteNode[4448,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-88,mergesort/MSort.java:39]
+}
+success count: 1
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[y,2,WRITE] PatternTypeNode[y,1,WRITE] ]
+	matched: true
+	ReadWriteNode[4324,java.lang.ThreadGroup@b0,nthreads,WRITE,Thread-88,java/lang/ThreadGroup.java:163]
+	ReadWriteNode[4402,java.lang.ThreadGroup@b0,nthreads,WRITE,Thread-3,java/lang/ThreadGroup.java:163]
+	ReadWriteNode[4439,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-3,mergesort/MSort.java:47]
+	ReadWriteNode[4448,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-88,mergesort/MSort.java:39]
+}
+success count: 1
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] PatternTypeNode[y,2,WRITE] PatternTypeNode[y,1,READ] ]
+	matched: true
+	ReadWriteNode[4322,java.lang.ThreadGroup@b0,threads,READ,Thread-88,java/lang/ThreadGroup.java:163]
+	ReadWriteNode[4399,java.lang.ThreadGroup@b0,threads,WRITE,Thread-3,java/lang/ThreadGroup.java:160]
+	ReadWriteNode[4439,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-3,mergesort/MSort.java:47]
+	ReadWriteNode[4445,mergesort.MSort,m_iCurrentThreadsAlive,READ,Thread-88,mergesort/MSort.java:39]
+}
+success count: 1
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[y,2,WRITE] PatternTypeNode[y,1,WRITE] ]
+	matched: true
+	ReadWriteNode[4326,java.lang.ThreadGroup@b0,nUnstartedThreads,WRITE,Thread-88,java/lang/ThreadGroup.java:164]
+	ReadWriteNode[4404,java.lang.ThreadGroup@b0,nUnstartedThreads,WRITE,Thread-3,java/lang/ThreadGroup.java:164]
+	ReadWriteNode[4439,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-3,mergesort/MSort.java:47]
+	ReadWriteNode[4448,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-88,mergesort/MSort.java:39]
+}
+success count: 1
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[y,2,READ] PatternTypeNode[y,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[3944,mergesort.MSort@494,m_iArray,WRITE,Thread-3,mergesort/MSort.java:102]
+	ReadWriteNode[4322,java.lang.ThreadGroup@b0,threads,READ,Thread-88,java/lang/ThreadGroup.java:163]
+	ReadWriteNode[4399,java.lang.ThreadGroup@b0,threads,WRITE,Thread-3,java/lang/ThreadGroup.java:160]
+	ReadWriteNode[4455,mergesort.MSort@494,m_iArray,READ,Thread-88,mergesort/MSort.java:229]
+}
+success count: 3
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[y,2,WRITE] PatternTypeNode[y,1,WRITE] ]
+	matched: true
+	ReadWriteNode[4321,java.lang.ThreadGroup@b0,threads,WRITE,Thread-88,java/lang/ThreadGroup.java:160]
+	ReadWriteNode[4399,java.lang.ThreadGroup@b0,threads,WRITE,Thread-3,java/lang/ThreadGroup.java:160]
+	ReadWriteNode[4439,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-3,mergesort/MSort.java:47]
+	ReadWriteNode[4448,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-88,mergesort/MSort.java:39]
+}
+success count: 1
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[y,2,READ] PatternTypeNode[x,2,READ] PatternTypeNode[y,1,WRITE] ]
+	matched: true
+	ReadWriteNode[3482,mergesort.MSort@444,m_iArray,WRITE,Thread-3,mergesort/MSort.java:102]
+	ReadWriteNode[3765,mergesort.MSort,m_iCurrentThreadsAlive,READ,Thread-78,mergesort/MSort.java:54]
+	ReadWriteNode[3876,mergesort.MSort@444,m_iArray,READ,Thread-78,mergesort/MSort.java:229]
+	ReadWriteNode[4008,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-3,mergesort/MSort.java:47]
+}
+success count: 6
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[y,2,READ] PatternTypeNode[x,2,READ] PatternTypeNode[y,1,WRITE] ]
+	matched: true
+	ReadWriteNode[3475,mergesort.MSort@444,priority,WRITE,Thread-3,java/lang/Thread.java:138]
+	ReadWriteNode[3765,mergesort.MSort,m_iCurrentThreadsAlive,READ,Thread-78,mergesort/MSort.java:54]
+	ReadWriteNode[3859,mergesort.MSort@444,priority,READ,Thread-78,java/lang/Thread.java:260]
+	ReadWriteNode[4008,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-3,mergesort/MSort.java:47]
+}
+success count: 7
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[y,2,READ] PatternTypeNode[x,2,READ] PatternTypeNode[y,1,WRITE] ]
+	matched: true
+	ReadWriteNode[3477,mergesort.MSort@444,isDaemon,WRITE,Thread-3,java/lang/Thread.java:139]
+	ReadWriteNode[3765,mergesort.MSort,m_iCurrentThreadsAlive,READ,Thread-78,mergesort/MSort.java:54]
+	ReadWriteNode[3861,mergesort.MSort@444,isDaemon,READ,Thread-78,java/lang/Thread.java:212]
+	ReadWriteNode[4008,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-3,mergesort/MSort.java:47]
+}
+success count: 7
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[y,2,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[y,1,READ] ]
+	matched: true
+	ReadWriteNode[4212,mergesort.MSort,m_iCurrentThreadsAlive,READ,Thread-4,mergesort/MSort.java:54]
+	ReadWriteNode[4271,java.lang.ThreadGroup@b0,nthreads,WRITE,Thread-3,java/lang/ThreadGroup.java:163]
+	ReadWriteNode[4329,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-3,mergesort/MSort.java:39]
+	ReadWriteNode[4336,java.lang.ThreadGroup@b0,nthreads,READ,Thread-4,java/lang/ThreadGroup.java:163]
+}
+success count: 1
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[y,2,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[y,1,READ] ]
+	matched: true
+	ReadWriteNode[4212,mergesort.MSort,m_iCurrentThreadsAlive,READ,Thread-4,mergesort/MSort.java:54]
+	ReadWriteNode[4275,java.lang.Thread,nameThreadNum,WRITE,Thread-3,java/lang/Thread.java:130]
+	ReadWriteNode[4329,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-3,mergesort/MSort.java:39]
+	ReadWriteNode[4340,java.lang.Thread,nameThreadNum,READ,Thread-4,java/lang/Thread.java:130]
+}
+success count: 1
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[y,2,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[y,1,READ] ]
+	matched: true
+	ReadWriteNode[4212,mergesort.MSort,m_iCurrentThreadsAlive,READ,Thread-4,mergesort/MSort.java:54]
+	ReadWriteNode[4273,java.lang.ThreadGroup@b0,nUnstartedThreads,WRITE,Thread-3,java/lang/ThreadGroup.java:164]
+	ReadWriteNode[4329,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-3,mergesort/MSort.java:39]
+	ReadWriteNode[4338,java.lang.ThreadGroup@b0,nUnstartedThreads,READ,Thread-4,java/lang/ThreadGroup.java:164]
+}
+success count: 1
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[y,2,READ] PatternTypeNode[y,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[4116,mergesort.MSort@4c4,isDaemon,WRITE,Thread-3,java/lang/Thread.java:139]
+	ReadWriteNode[4285,java.lang.ThreadGroup@b0,threads,READ,Thread-94,java/lang/ThreadGroup.java:163]
+	ReadWriteNode[4300,java.lang.ThreadGroup@b0,threads,WRITE,Thread-3,java/lang/ThreadGroup.java:160]
+	ReadWriteNode[4338,mergesort.MSort@4c4,isDaemon,READ,Thread-94,java/lang/Thread.java:212]
+}
+success count: 1
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[y,2,READ] PatternTypeNode[y,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[4114,mergesort.MSort@4c4,priority,WRITE,Thread-3,java/lang/Thread.java:138]
+	ReadWriteNode[4285,java.lang.ThreadGroup@b0,threads,READ,Thread-94,java/lang/ThreadGroup.java:163]
+	ReadWriteNode[4300,java.lang.ThreadGroup@b0,threads,WRITE,Thread-3,java/lang/ThreadGroup.java:160]
+	ReadWriteNode[4336,mergesort.MSort@4c4,priority,READ,Thread-94,java/lang/Thread.java:260]
+}
+success count: 1
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] PatternTypeNode[y,2,READ] PatternTypeNode[y,1,WRITE] ]
+	matched: true
+	ReadWriteNode[3914,mergesort.MSort@494,group,WRITE,Thread-3,java/lang/Thread.java:122]
+	ReadWriteNode[4208,mergesort.MSort@494,group,READ,Thread-88,java/lang/Thread.java:264]
+	ReadWriteNode[4347,mergesort.MSort,m_iCurrentThreadsAlive,READ,Thread-88,mergesort/MSort.java:39]
+	ReadWriteNode[4357,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-3,mergesort/MSort.java:47]
+}
+success count: 1
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,WRITE] ]
+	matched: true
+	ReadWriteNode[4347,mergesort.MSort,m_iCurrentThreadsAlive,READ,Thread-88,mergesort/MSort.java:39]
+	ReadWriteNode[4357,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-3,mergesort/MSort.java:47]
+	ReadWriteNode[4359,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-88,mergesort/MSort.java:39]
+}
+success count: 1
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] PatternTypeNode[y,2,READ] PatternTypeNode[y,1,WRITE] ]
+	matched: true
+	ReadWriteNode[4150,java.lang.ThreadGroup@b0,nthreads,WRITE,Thread-3,java/lang/ThreadGroup.java:163]
+	ReadWriteNode[4221,java.lang.ThreadGroup@b0,nthreads,READ,Thread-88,java/lang/ThreadGroup.java:163]
+	ReadWriteNode[4347,mergesort.MSort,m_iCurrentThreadsAlive,READ,Thread-88,mergesort/MSort.java:39]
+	ReadWriteNode[4357,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-3,mergesort/MSort.java:47]
+}
+success count: 1
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] PatternTypeNode[y,2,READ] PatternTypeNode[y,1,WRITE] ]
+	matched: true
+	ReadWriteNode[4147,java.lang.ThreadGroup@b0,threads,WRITE,Thread-3,java/lang/ThreadGroup.java:160]
+	ReadWriteNode[4215,java.lang.ThreadGroup@b0,threads,READ,Thread-88,java/lang/ThreadGroup.java:159]
+	ReadWriteNode[4347,mergesort.MSort,m_iCurrentThreadsAlive,READ,Thread-88,mergesort/MSort.java:39]
+	ReadWriteNode[4357,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-3,mergesort/MSort.java:47]
+}
+success count: 1
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] PatternTypeNode[y,2,READ] PatternTypeNode[y,1,WRITE] ]
+	matched: true
+	ReadWriteNode[3938,mergesort.MSort@494,isDaemon,WRITE,Thread-3,java/lang/Thread.java:139]
+	ReadWriteNode[4232,mergesort.MSort@494,isDaemon,READ,Thread-88,java/lang/Thread.java:212]
+	ReadWriteNode[4347,mergesort.MSort,m_iCurrentThreadsAlive,READ,Thread-88,mergesort/MSort.java:39]
+	ReadWriteNode[4357,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-3,mergesort/MSort.java:47]
+}
+success count: 1
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[y,2,READ] PatternTypeNode[y,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[3943,mergesort.MSort@494,m_iArray,WRITE,Thread-3,mergesort/MSort.java:102]
+	ReadWriteNode[4347,mergesort.MSort,m_iCurrentThreadsAlive,READ,Thread-88,mergesort/MSort.java:39]
+	ReadWriteNode[4357,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-3,mergesort/MSort.java:47]
+	ReadWriteNode[4388,mergesort.MSort@494,m_iArray,READ,Thread-88,mergesort/MSort.java:229]
+}
+success count: 1
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[4166,mergesort.MSort@4bd,m_iArray,WRITE,Thread-3,mergesort/MSort.java:102]
+	ReadWriteNode[4551,mergesort.MSort@4bd,m_iArray,READ,Thread-93,mergesort/MSort.java:263]
+}
+success count: 1
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] PatternTypeNode[y,2,READ] PatternTypeNode[y,1,WRITE] ]
+	matched: true
+	ReadWriteNode[3936,mergesort.MSort@494,priority,WRITE,Thread-3,java/lang/Thread.java:138]
+	ReadWriteNode[4230,mergesort.MSort@494,priority,READ,Thread-88,java/lang/Thread.java:260]
+	ReadWriteNode[4347,mergesort.MSort,m_iCurrentThreadsAlive,READ,Thread-88,mergesort/MSort.java:39]
+	ReadWriteNode[4357,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-3,mergesort/MSort.java:47]
+}
+success count: 1
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] PatternTypeNode[y,2,READ] PatternTypeNode[y,1,WRITE] ]
+	matched: true
+	ReadWriteNode[3943,mergesort.MSort@494,m_iArray,WRITE,Thread-3,mergesort/MSort.java:102]
+	ReadWriteNode[3995,mergesort.MSort@494,m_iArray,READ,Thread-88,mergesort/MSort.java:216]
+	ReadWriteNode[4347,mergesort.MSort,m_iCurrentThreadsAlive,READ,Thread-88,mergesort/MSort.java:39]
+	ReadWriteNode[4357,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-3,mergesort/MSort.java:47]
+}
+success count: 1
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] PatternTypeNode[y,2,READ] PatternTypeNode[y,1,WRITE] ]
+	matched: true
+	ReadWriteNode[4154,java.lang.Thread,nameThreadNum,WRITE,Thread-3,java/lang/Thread.java:130]
+	ReadWriteNode[4225,java.lang.Thread,nameThreadNum,READ,Thread-88,java/lang/Thread.java:130]
+	ReadWriteNode[4347,mergesort.MSort,m_iCurrentThreadsAlive,READ,Thread-88,mergesort/MSort.java:39]
+	ReadWriteNode[4357,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-3,mergesort/MSort.java:47]
+}
+success count: 1
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] PatternTypeNode[y,2,READ] PatternTypeNode[y,1,WRITE] ]
+	matched: true
+	ReadWriteNode[4150,java.lang.ThreadGroup@b0,nthreads,WRITE,Thread-3,java/lang/ThreadGroup.java:163]
+	ReadWriteNode[4216,java.lang.ThreadGroup@b0,nthreads,READ,Thread-88,java/lang/ThreadGroup.java:159]
+	ReadWriteNode[4347,mergesort.MSort,m_iCurrentThreadsAlive,READ,Thread-88,mergesort/MSort.java:39]
+	ReadWriteNode[4357,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-3,mergesort/MSort.java:47]
+}
+success count: 1
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] PatternTypeNode[y,2,READ] PatternTypeNode[y,1,WRITE] ]
+	matched: true
+	ReadWriteNode[3944,mergesort.MSort@494,bIsInit,WRITE,Thread-3,mergesort/MSort.java:103]
+	ReadWriteNode[3985,mergesort.MSort@494,bIsInit,READ,Thread-88,mergesort/MSort.java:206]
+	ReadWriteNode[4347,mergesort.MSort,m_iCurrentThreadsAlive,READ,Thread-88,mergesort/MSort.java:39]
+	ReadWriteNode[4357,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-3,mergesort/MSort.java:47]
+}
+success count: 1
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] PatternTypeNode[y,2,READ] PatternTypeNode[y,1,WRITE] ]
+	matched: true
+	ReadWriteNode[3943,mergesort.MSort@494,m_iArray,WRITE,Thread-3,mergesort/MSort.java:102]
+	ReadWriteNode[3988,mergesort.MSort@494,m_iArray,READ,Thread-88,mergesort/MSort.java:211]
+	ReadWriteNode[4347,mergesort.MSort,m_iCurrentThreadsAlive,READ,Thread-88,mergesort/MSort.java:39]
+	ReadWriteNode[4357,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-3,mergesort/MSort.java:47]
+}
+success count: 1
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] PatternTypeNode[y,2,READ] PatternTypeNode[y,1,WRITE] ]
+	matched: true
+	ReadWriteNode[4150,java.lang.ThreadGroup@b0,nthreads,WRITE,Thread-3,java/lang/ThreadGroup.java:163]
+	ReadWriteNode[4214,java.lang.ThreadGroup@b0,nthreads,READ,Thread-88,java/lang/ThreadGroup.java:158]
+	ReadWriteNode[4347,mergesort.MSort,m_iCurrentThreadsAlive,READ,Thread-88,mergesort/MSort.java:39]
+	ReadWriteNode[4357,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-3,mergesort/MSort.java:47]
+}
+success count: 1
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] ]
+	matched: true
+	ReadWriteNode[4347,mergesort.MSort,m_iCurrentThreadsAlive,READ,Thread-88,mergesort/MSort.java:39]
+	ReadWriteNode[4357,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-3,mergesort/MSort.java:47]
+}
+success count: 1
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] PatternTypeNode[y,2,READ] PatternTypeNode[y,1,WRITE] ]
+	matched: true
+	ReadWriteNode[4152,java.lang.ThreadGroup@b0,nUnstartedThreads,WRITE,Thread-3,java/lang/ThreadGroup.java:164]
+	ReadWriteNode[4223,java.lang.ThreadGroup@b0,nUnstartedThreads,READ,Thread-88,java/lang/ThreadGroup.java:164]
+	ReadWriteNode[4347,mergesort.MSort,m_iCurrentThreadsAlive,READ,Thread-88,mergesort/MSort.java:39]
+	ReadWriteNode[4357,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-3,mergesort/MSort.java:47]
+}
+success count: 1
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] PatternTypeNode[y,2,READ] PatternTypeNode[y,1,WRITE] ]
+	matched: true
+	ReadWriteNode[4147,java.lang.ThreadGroup@b0,threads,WRITE,Thread-3,java/lang/ThreadGroup.java:160]
+	ReadWriteNode[4213,java.lang.ThreadGroup@b0,threads,READ,Thread-88,java/lang/ThreadGroup.java:155]
+	ReadWriteNode[4347,mergesort.MSort,m_iCurrentThreadsAlive,READ,Thread-88,mergesort/MSort.java:39]
+	ReadWriteNode[4357,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-3,mergesort/MSort.java:47]
+}
+success count: 1
+fail count: 0]
+time for getting pattern list : 15503

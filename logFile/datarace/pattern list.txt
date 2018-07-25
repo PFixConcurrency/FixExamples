@@ -1,109 +1,109 @@
 [Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,READ] ]
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
 	matched: true
-	ReadWriteNode[591,datarace.Checker@1ce,buggy,WRITE,main,datarace/Checker.java:10]
-	ReadWriteNode[624,datarace.Checker@1ce,buggy,WRITE,Thread-7,datarace/Checker.java:15]
-	ReadWriteNode[625,datarace.Checker@1ce,buggy,READ,main,datarace/Main.java:28]
+	ReadWriteNode[597,datarace.Checker@1ce,ci,WRITE,main,datarace/Checker.java:9]
+	ReadWriteNode[629,datarace.Checker@1ce,ci,READ,Thread-7,datarace/Checker.java:14]
 }
 success count: 0
 fail count: 100, Pattern {
 	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
 	matched: true
-	ReadWriteNode[590,datarace.Checker@1ce,ci,WRITE,main,datarace/Checker.java:9]
-	ReadWriteNode[620,datarace.Checker@1ce,ci,READ,Thread-7,datarace/Checker.java:14]
+	ReadWriteNode[246,datarace.CustomerInfo@16f,accounts,WRITE,main,datarace/CustomerInfo.java:15]
+	ReadWriteNode[631,datarace.CustomerInfo@16f,accounts,READ,Thread-7,datarace/CustomerInfo.java:33]
+}
+success count: 0
+fail count: 100, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] ]
+	matched: true
+	ReadWriteNode[598,datarace.Checker@1ce,buggy,WRITE,main,datarace/Checker.java:10]
+	ReadWriteNode[633,datarace.Checker@1ce,buggy,WRITE,Thread-7,datarace/Checker.java:15]
+}
+success count: 0
+fail count: 100, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,READ] ]
+	matched: true
+	ReadWriteNode[598,datarace.Checker@1ce,buggy,WRITE,main,datarace/Checker.java:10]
+	ReadWriteNode[633,datarace.Checker@1ce,buggy,WRITE,Thread-7,datarace/Checker.java:15]
+	ReadWriteNode[634,datarace.Checker@1ce,buggy,READ,main,datarace/Main.java:28]
+}
+success count: 0
+fail count: 100, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[633,datarace.Checker@1ce,buggy,WRITE,Thread-7,datarace/Checker.java:15]
+	ReadWriteNode[634,datarace.Checker@1ce,buggy,READ,main,datarace/Main.java:28]
 }
 success count: 0
 fail count: 100, Pattern {
 	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
 	matched: true
 	ReadWriteNode[244,datarace.Main,THREAD_NUMBER,WRITE,main,datarace/Main.java:5]
-	ReadWriteNode[621,datarace.Main,THREAD_NUMBER,READ,Thread-7,datarace/Checker.java:14]
-}
-success count: 0
-fail count: 100, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
-	matched: true
-	ReadWriteNode[624,datarace.Checker@1ce,buggy,WRITE,Thread-7,datarace/Checker.java:15]
-	ReadWriteNode[625,datarace.Checker@1ce,buggy,READ,main,datarace/Main.java:28]
-}
-success count: 0
-fail count: 100, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] ]
-	matched: true
-	ReadWriteNode[591,datarace.Checker@1ce,buggy,WRITE,main,datarace/Checker.java:10]
-	ReadWriteNode[624,datarace.Checker@1ce,buggy,WRITE,Thread-7,datarace/Checker.java:15]
-}
-success count: 0
-fail count: 100, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
-	matched: true
-	ReadWriteNode[246,datarace.CustomerInfo@16f,accounts,WRITE,main,datarace/CustomerInfo.java:15]
-	ReadWriteNode[622,datarace.CustomerInfo@16f,accounts,READ,Thread-7,datarace/CustomerInfo.java:33]
+	ReadWriteNode[630,datarace.Main,THREAD_NUMBER,READ,Thread-7,datarace/Checker.java:14]
 }
 success count: 0
 fail count: 100, Pattern {
 	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,READ] ]
 	matched: true
-	ReadWriteNode[533,datarace.Account@163,balance,WRITE,Thread-4,datarace/Account.java:12]
-	ReadWriteNode[541,datarace.Account@163,balance,WRITE,Thread-5,datarace/Account.java:12]
-	ReadWriteNode[560,datarace.Account@163,balance,READ,Thread-4,datarace/Account.java:8]
+	ReadWriteNode[466,datarace.Account@163,balance,WRITE,Thread-2,datarace/Account.java:12]
+	ReadWriteNode[514,datarace.Account@163,balance,WRITE,Thread-4,datarace/Account.java:12]
+	ReadWriteNode[521,datarace.Account@163,balance,READ,Thread-2,datarace/Account.java:8]
 }
 success count: 0
-fail count: 202, Pattern {
+fail count: 194, Pattern {
 	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] ]
 	matched: true
-	ReadWriteNode[579,datarace.Account@163,balance,READ,Thread-3,datarace/Account.java:8]
-	ReadWriteNode[585,datarace.Account@163,balance,WRITE,Thread-6,datarace/Account.java:12]
+	ReadWriteNode[544,datarace.Account@163,balance,READ,Thread-1,datarace/Account.java:8]
+	ReadWriteNode[555,datarace.Account@163,balance,WRITE,Thread-3,datarace/Account.java:12]
 }
 success count: 0
-fail count: 410, Pattern {
+fail count: 413, Pattern {
 	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
 	matched: true
-	ReadWriteNode[585,datarace.Account@163,balance,WRITE,Thread-6,datarace/Account.java:12]
-	ReadWriteNode[623,datarace.Account@163,balance,READ,Thread-7,datarace/Account.java:8]
+	ReadWriteNode[514,datarace.Account@163,balance,WRITE,Thread-4,datarace/Account.java:12]
+	ReadWriteNode[521,datarace.Account@163,balance,READ,Thread-2,datarace/Account.java:8]
 }
 success count: 0
-fail count: 414, Pattern {
+fail count: 415, Pattern {
 	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] ]
 	matched: true
-	ReadWriteNode[533,datarace.Account@163,balance,WRITE,Thread-4,datarace/Account.java:12]
-	ReadWriteNode[541,datarace.Account@163,balance,WRITE,Thread-5,datarace/Account.java:12]
+	ReadWriteNode[466,datarace.Account@163,balance,WRITE,Thread-2,datarace/Account.java:12]
+	ReadWriteNode[514,datarace.Account@163,balance,WRITE,Thread-4,datarace/Account.java:12]
 }
 success count: 0
 fail count: 500, Pattern {
 	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
 	matched: true
-	ReadWriteNode[352,datarace.ThreadRun@18d,ci,WRITE,main,datarace/ThreadRun.java:8]
-	ReadWriteNode[449,datarace.ThreadRun@18d,ci,READ,Thread-3,datarace/ThreadRun.java:14]
+	ReadWriteNode[276,datarace.ThreadRun@177,ci,WRITE,main,datarace/ThreadRun.java:8]
+	ReadWriteNode[316,datarace.ThreadRun@177,ci,READ,Thread-1,datarace/ThreadRun.java:14]
 }
 success count: 0
 fail count: 600, Pattern {
 	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
 	matched: true
 	ReadWriteNode[246,datarace.CustomerInfo@16f,accounts,WRITE,main,datarace/CustomerInfo.java:15]
-	ReadWriteNode[519,datarace.CustomerInfo@16f,accounts,READ,Thread-5,datarace/CustomerInfo.java:26]
+	ReadWriteNode[470,datarace.CustomerInfo@16f,accounts,READ,Thread-2,datarace/CustomerInfo.java:29]
 }
 success count: 0
 fail count: 600, Pattern {
 	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
 	matched: true
 	ReadWriteNode[246,datarace.CustomerInfo@16f,accounts,WRITE,main,datarace/CustomerInfo.java:15]
-	ReadWriteNode[372,datarace.CustomerInfo@16f,accounts,READ,Thread-2,datarace/CustomerInfo.java:29]
+	ReadWriteNode[400,datarace.CustomerInfo@16f,accounts,READ,Thread-2,datarace/CustomerInfo.java:26]
 }
 success count: 0
 fail count: 600, Pattern {
 	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
 	matched: true
 	ReadWriteNode[42,java.lang.System,out,WRITE,main,java/lang/System.java:43]
-	ReadWriteNode[565,java.lang.System,out,READ,Thread-3,datarace/CustomerInfo.java:29]
+	ReadWriteNode[515,java.lang.System,out,READ,Thread-4,datarace/CustomerInfo.java:29]
 }
 success count: 0
 fail count: 600, Pattern {
 	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
 	matched: true
 	ReadWriteNode[246,datarace.CustomerInfo@16f,accounts,WRITE,main,datarace/CustomerInfo.java:15]
-	ReadWriteNode[584,datarace.CustomerInfo@16f,accounts,READ,Thread-6,datarace/CustomerInfo.java:28]
+	ReadWriteNode[435,datarace.CustomerInfo@16f,accounts,READ,Thread-1,datarace/CustomerInfo.java:28]
 }
 success count: 0
 fail count: 600]
-time for getting pattern list : 16471
+time for getting pattern list : 6979

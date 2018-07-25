@@ -1,4 +1,0 @@
-Fix two
-Lock Name : ac
-aim at : ReadWriteNode[1553,account.Account@1b7,amount,WRITE,Thread-4,account/Account.java:28]Lock start and stop position : 28->28
-result : fix success

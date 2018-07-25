@@ -10,7 +10,7 @@ import java.io.FileOutputStream;
  * To change this template use Options | File Templates.
  */
 public  class Bug implements Runnable{
-
+static Object objectFix = new Object();
     static int  Num_Of_Seats_Sold =0;
     int         Maximum_Capacity, Num_of_tickets_issued;
     boolean     StopSales = false;
@@ -57,10 +57,10 @@ public  class Bug implements Runnable{
     * "StopSales" ),
     */
     public void run() {
-synchronized (this){         Num_Of_Seats_Sold++;                       // making the sale
-}        if (Num_Of_Seats_Sold > Maximum_Capacity)  // checking
+synchronized (objectFix){         Num_Of_Seats_Sold++;                       // making the sale
+        if (Num_Of_Seats_Sold > Maximum_Capacity)  // checking
             StopSales = true;                      // updating
-    }
+}    }
 }
 
 

@@ -1,8 +1,9 @@
 Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,READ] ]
 	matched: true
-	ReadWriteNode[245,checkfield.CheckField,ex,WRITE,main,checkfield/CheckField.java:7]
-	ReadWriteNode[311,checkfield.CheckField,ex,READ,123,checkfield/CheckField.java:10]
+	ReadWriteNode[314,checkfield.InstanceExample@15f,number,WRITE,123,checkfield/CheckField.java:11]
+	ReadWriteNode[320,checkfield.InstanceExample@15f,number,WRITE,Thread-2,checkfield/CheckField.java:24]
+	ReadWriteNode[334,checkfield.InstanceExample@15f,number,READ,123,checkfield/CheckField.java:14]
 }
-success count: 76
-fail count: 24
+success count: 0
+fail count: 26

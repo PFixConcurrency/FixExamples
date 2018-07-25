@@ -2,5 +2,5 @@ Fix one
 Add synchronization
 Lock Name : this
 Locked position : 29->30
-result : fix fail
-time for fixing:25557
+result : fix success
+time for fixing:24453

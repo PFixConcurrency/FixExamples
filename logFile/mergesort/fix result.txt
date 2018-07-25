@@ -1,0 +1,245 @@
+Fix three
+Fix three
+Fix three
+Fix three
+Fix three
+Fix two
+Fix two
+Fix three
+Fix two
+Fix three
+Fix three
+Fix two
+Fix three
+Fix two
+Fix three
+Fix three
+Fix three
+Fix three
+Fix two
+aim at : ReadWriteNode[3909,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-3,mergesort/MSort.java:39]Lock start and stop position : 46->271
+Lock Name : this
+aim at : ReadWriteNode[3921,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,main,mergesort/MSort.java:39]Lock start and stop position : 39->39
+result : fix fail
+Fix three
+Fix three
+Fix three
+Fix two
+Fix two
+Fix three
+Fix three
+Fix three
+Fix three
+Fix three
+Fix three
+Fix three
+Fix one
+Add synchronization
+Fix three
+aim at : ReadWriteNode[511,mergesort.MSort,m_iCurrentThreadsAlive,READ,Thread-2,mergesort/MSort.java:54]Lock start and stop position : 46->271
+Fix three
+Fix three
+Fix three
+Fix three
+Fix three
+Fix three
+Fix three
+Fix three
+Fix three
+Fix three
+aim at : ReadWriteNode[611,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-2,mergesort/MSort.java:47]Lock start and stop position : 46->271
+Fix three
+Fix three
+Fix three
+Fix three
+Fix three
+Fix three
+Fix three
+Fix three
+Fix three
+Fix three
+Fix three
+Fix three
+Fix three
+aim at : ReadWriteNode[642,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-3,mergesort/MSort.java:47]Lock start and stop position : 46->271
+Fix three
+Fix three
+Fix three
+Fix three
+Fix three
+Fix three
+aim at : ReadWriteNode[649,mergesort.MSort,m_iCurrentThreadsAlive,READ,Thread-3,mergesort/MSort.java:54]Lock start and stop position : 46->271
+Fix three
+Fix three
+Fix three
+Fix two
+Fix two
+Fix three
+Fix three
+Fix three
+Fix three
+Fix three
+Fix three
+Fix three
+Fix two
+Fix one
+Add synchronization
+Lock Name : this
+Locked position54
+Lock Name : this
+Locked position47
+result : fix fail
+Fix one
+Add synchronization
+Lock Name : this
+Locked position : 47->48
+result : fix fail
+Fix one
+Add synchronization
+Lock Name : this
+Locked position : 47->48
+result : fix fail
+Fix one
+Add synchronization
+Lock Name : this
+Lock Name : this
+Locked position216
+result : fix fail
+Fix one
+Add synchronization
+Lock Name : this
+Lock Name : this
+Locked position211
+result : fix fail
+Fix one
+Add synchronization
+Lock Name : this
+Lock Name : this
+Locked position206
+result : fix fail
+Fix three
+Fix three
+Fix three
+Fix three
+Fix three
+Fix three
+Fix one
+Add synchronization
+Lock Name : this
+Locked position47
+Lock Name : this
+Locked position54
+result : fix fail
+Fix one
+Add synchronization
+Lock Name : this
+Locked position178
+Lock Name : this
+Locked position54
+result : fix fail
+Fix one
+Add synchronization
+Fix one
+Add synchronization
+Fix one
+Add synchronization
+Fix one
+Add synchronization
+Fix one
+Add synchronization
+Fix one
+Add synchronization
+Fix one
+Add synchronization
+Fix one
+Add synchronization
+Fix one
+Add synchronization
+Fix one
+Add synchronization
+Fix one
+Add synchronization
+Fix one
+Add synchronization
+Fix one
+Add synchronization
+Fix one
+Add synchronization
+Fix one
+Add synchronization
+Fix three
+Fix three
+Fix three
+Fix three
+Fix three
+Fix three
+Fix one
+Add synchronization
+Lock Name : this
+Locked position39
+Lock Name : this
+Locked position54
+result : fix fail
+Fix three
+Fix three
+Fix three
+Fix three
+Fix three
+Fix three
+Fix three
+Fix one
+Add synchronization
+Lock Name : this
+Locked position : 39->40
+result : fix fail
+Fix one
+Add synchronization
+Lock Name : this
+Locked position : 39->40
+result : fix fail
+Fix three
+Fix three
+Fix three
+Fix three
+Fix one
+Add synchronization
+Lock Name : this
+Locked position39
+Lock Name : this
+Locked position47
+result : fix fail
+Fix one
+Add synchronization
+Lock Name : this
+Locked position39
+Lock Name : this
+Locked position47
+result : fix fail
+Fix three
+Fix three
+Fix three
+Fix three
+Fix three
+Fix three
+Fix three
+Fix one
+Add synchronization
+Lock Name : this
+Lock Name : this
+Locked position243
+result : fix fail
+Fix one
+Add synchronization
+Lock Name : this
+Locked position54
+Lock Name : this
+Locked position39
+result : fix fail
+Fix two
+Fix one
+Add synchronization
+Lock Name : this
+Lock Name : this
+Locked position229
+result : fix fail
+time for fixing:292122
