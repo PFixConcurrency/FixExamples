@@ -3,443 +3,40 @@
   <component name="ChangeListManager">
     <list default="true" id="9f4e1b6d-5c87-4e1a-a05a-150c9330506c" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exportExamples/account/Account.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exportExamples/account/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exportExamples/account/ManageAccount.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exportExamples/account2/Account.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exportExamples/account2/Bank.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exportExamples/accountsubtype/Account.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exportExamples/accountsubtype/Bank.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exportExamples/accountsubtype/BusinessAccount.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exportExamples/accountsubtype/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exportExamples/accountsubtype/Manager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exportExamples/accountsubtype/PersonalAccount.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exportExamples/airline/Bug.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exportExamples/airline/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exportExamples/alarmclock/AlarmClock.java" beforeDir="false" afterPath="$PROJECT_DIR$/exportExamples/alarmclock/AlarmClock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exportExamples/buggyprogram/BuggyProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/exportExamples/buggyprogram/BuggyProgram.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exportExamples/checkfield/CheckField.java" beforeDir="false" afterPath="$PROJECT_DIR$/exportExamples/checkfield/CheckField.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exportExamples/consisitency/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/exportExamples/consisitency/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exportExamples/datarace/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/exportExamples/datarace/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exportExamples/datarace/Checker.java" beforeDir="false" afterPath="$PROJECT_DIR$/exportExamples/datarace/Checker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exportExamples/datarace/CustomerInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/exportExamples/datarace/CustomerInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exportExamples/even/EvenGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/exportExamples/even/EvenGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exportExamples/hashcodetest/HashCodeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/exportExamples/hashcodetest/HashCodeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exportExamples/hashcodetest/IntRange.java" beforeDir="false" afterPath="$PROJECT_DIR$/exportExamples/hashcodetest/IntRange.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exportExamples/linkedlist/MyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/exportExamples/linkedlist/MyLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exportExamples/linkedlist/MyListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/exportExamples/linkedlist/MyListNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exportExamples/org/apache/commons/pool/impl/CursorableLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/exportExamples/org/apache/commons/pool/impl/CursorableLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exportExamples/org/apache/log4j/Layout.java" beforeDir="false" afterPath="$PROJECT_DIR$/exportExamples/org/apache/log4j/Layout.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exportExamples/org/apache/log4j/TestThrowableStrRep.java" beforeDir="false" afterPath="$PROJECT_DIR$/exportExamples/org/apache/log4j/TestThrowableStrRep.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exportExamples/org/apache/log4j/WriterAppender.java" beforeDir="false" afterPath="$PROJECT_DIR$/exportExamples/org/apache/log4j/WriterAppender.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exportExamples/org/apache/log4j/spi/LoggingEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/exportExamples/org/apache/log4j/spi/LoggingEvent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exportExamples/org/apache/log4j/spi/ThrowableInformation.java" beforeDir="false" afterPath="$PROJECT_DIR$/exportExamples/org/apache/log4j/spi/ThrowableInformation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exportExamples/pingpong/BuggedProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/exportExamples/pingpong/BuggedProgram.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exportExamples/producerConsumer/ProducerConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/exportExamples/producerConsumer/ProducerConsumer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exportExamples/store/Store.java" beforeDir="false" afterPath="$PROJECT_DIR$/exportExamples/store/Store.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exportExamples/stringbuffer/StringBuffer.java" beforeDir="false" afterPath="$PROJECT_DIR$/exportExamples/stringbuffer/StringBuffer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exportExamples/wronglock2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/exportExamples/wronglock2/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/account/Account.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/account/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/account/ManageAccount.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/account2/Account.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/account2/Bank.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/accountsubtype/Account.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/accountsubtype/Bank.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/accountsubtype/BusinessAccount.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/accountsubtype/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/accountsubtype/Manager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/accountsubtype/PersonalAccount.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/airline/Bug.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/airline/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/airlinetickets/Airlinetickets.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/alarmclock/AlarmClock.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/alarmclock/Client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/alarmclock/Clock.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/alarmclock/Monitor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/alarmclock/MyLinkedList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/alarmclock/MyObject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/atmoerror/BankAccount.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/atmoerror/Customer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/atmoerror/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/bubblesort/BubbleSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/bubblesort/BubbleSortImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/bubblesort/OneBubble.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/bubblesort/Reporter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/buggyprogram/BuggyProgram$User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/buggyprogram/BuggyProgram.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/checkfield/CheckField$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/checkfield/CheckField$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/checkfield/CheckField.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/checkfield/InstanceExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/consisitency/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/critical/Critical.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/critical/Section.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/datarace/Account.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/datarace/Checker.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/datarace/CustomerInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/datarace/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/datarace/ThreadRun.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/even/EvenChecker.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/even/EvenGenerator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/even/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/hashcodetest/HashCodeTest$hashThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/hashcodetest/HashCodeTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/hashcodetest/IntRange.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/hashcodetest/NumberUtils$StringUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/hashcodetest/NumberUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/hashcodetest/Range.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/linkedlist/BugTester.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/linkedlist/MyLinkedList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/linkedlist/MyLinkedListItr.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/linkedlist/MyListBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/linkedlist/MyListNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/mergesort/MSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/mergesort/MergeSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/Appender.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/AppenderSkeleton.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/AsyncAppender$DiscardSummary.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/AsyncAppender$Dispatcher.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/AsyncAppender.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/BasicConfigurator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/Category.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/CategoryKey.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/ConsoleAppender$SystemErrStream.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/ConsoleAppender$SystemOutStream.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/ConsoleAppender.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/DailyRollingFileAppender.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/DefaultCategoryFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/Dispatcher.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/FileAppender.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/HTMLLayout.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/Hierarchy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/Layout.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/Level.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/LogManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/Logger.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/MDC.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/NDC$DiagnosticContext.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/NDC.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/PatternLayout.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/Priority.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/PropertyConfigurator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/PropertyWatchdog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/ProvisionNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/RollingCalendar.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/RollingFileAppender.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/SimpleLayout.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/TTCCLayout.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/TestThrowableStrRep$AppendThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/TestThrowableStrRep.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/WriterAppender.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/chainsaw/ControlPanel$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/chainsaw/ControlPanel$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/chainsaw/ControlPanel$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/chainsaw/ControlPanel$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/chainsaw/ControlPanel$5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/chainsaw/ControlPanel$6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/chainsaw/ControlPanel$7.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/chainsaw/ControlPanel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/chainsaw/DetailPanel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/chainsaw/EventDetails.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/chainsaw/ExitAction.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/chainsaw/LoadXMLAction.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/chainsaw/LoggingReceiver$Slurper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/chainsaw/LoggingReceiver.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/chainsaw/Main$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/chainsaw/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/chainsaw/MyTableModel$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/chainsaw/MyTableModel$Processor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/chainsaw/MyTableModel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/chainsaw/XMLFileHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/config/PropertyGetter$PropertyCallback.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/config/PropertyGetter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/config/PropertyPrinter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/config/PropertySetter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/config/PropertySetterException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/helpers/AbsoluteTimeDateFormat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/helpers/AppenderAttachableImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/helpers/BoundedFIFO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/helpers/CountingQuietWriter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/helpers/CyclicBuffer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/helpers/DateLayout.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/helpers/DateTimeDateFormat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/helpers/FileWatchdog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/helpers/FormattingInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/helpers/ISO8601DateFormat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/helpers/Loader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/helpers/LogLog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/helpers/NullEnumeration.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/helpers/OnlyOnceErrorHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/helpers/OptionConverter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/helpers/PatternConverter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/helpers/PatternParser$BasicPatternConverter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/helpers/PatternParser$CategoryPatternConverter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/helpers/PatternParser$ClassNamePatternConverter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/helpers/PatternParser$DatePatternConverter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/helpers/PatternParser$LiteralPatternConverter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/helpers/PatternParser$LocationPatternConverter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/helpers/PatternParser$MDCPatternConverter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/helpers/PatternParser$NamedPatternConverter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/helpers/PatternParser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/helpers/QuietWriter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/helpers/RelativeTimeDateFormat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/helpers/SyslogQuietWriter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/helpers/SyslogWriter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/helpers/ThreadLocalMap.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/helpers/Transform.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/jdbc/JDBCAppender.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/jmx/AbstractDynamicMBean.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/jmx/Agent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/jmx/AppenderDynamicMBean.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/jmx/HierarchyDynamicMBean.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/jmx/LayoutDynamicMBean.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/jmx/LoggerDynamicMBean.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/jmx/MethodUnion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/lf5/AppenderFinalizer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/lf5/DefaultLF5Configurator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/lf5/LF5Appender.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/lf5/Log4JLogRecord.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/lf5/LogLevel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/lf5/LogLevelFormatException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/lf5/LogRecord.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/lf5/LogRecordFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/lf5/PassingLogRecordFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/lf5/StartLogFactor5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/lf5/util/AdapterLogRecord.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/lf5/util/DateFormatManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/lf5/util/LogFileParser$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/lf5/util/LogFileParser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/lf5/util/LogMonitorAdapter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/lf5/util/Resource.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/lf5/util/ResourceUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/lf5/util/StreamUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/lf5/viewer/FilteredLogTableModel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/lf5/viewer/LF5SwingUtils$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/lf5/viewer/LF5SwingUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/lf5/viewer/LogBrokerMonitor$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/lf5/viewer/LogBrokerMonitor$10.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/lf5/viewer/LogBrokerMonitor$11.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/lf5/viewer/LogBrokerMonitor$12.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/lf5/viewer/LogBrokerMonitor$13.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/lf5/viewer/LogBrokerMonitor$14.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/lf5/viewer/LogBrokerMonitor$15.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/lf5/viewer/LogBrokerMonitor$16.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/lf5/viewer/LogBrokerMonitor$17.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/lf5/viewer/LogBrokerMonitor$18.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/lf5/viewer/LogBrokerMonitor$19.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/lf5/viewer/LogBrokerMonitor$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/lf5/viewer/LogBrokerMonitor$20.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/lf5/viewer/LogBrokerMonitor$21.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/lf5/viewer/LogBrokerMonitor$22.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/lf5/viewer/LogBrokerMonitor$23.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/lf5/viewer/LogBrokerMonitor$24.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/lf5/viewer/LogBrokerMonitor$25.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/lf5/viewer/LogBrokerMonitor$26.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/lf5/viewer/LogBrokerMonitor$27.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/lf5/viewer/LogBrokerMonitor$28.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/lf5/viewer/LogBrokerMonitor$29.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/lf5/viewer/LogBrokerMonitor$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/lf5/viewer/LogBrokerMonitor$30.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/lf5/viewer/LogBrokerMonitor$31.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/lf5/viewer/LogBrokerMonitor$32.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/lf5/viewer/LogBrokerMonitor$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/lf5/viewer/LogBrokerMonitor$5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/lf5/viewer/LogBrokerMonitor$6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/lf5/viewer/LogBrokerMonitor$7.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/lf5/viewer/LogBrokerMonitor$8.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/lf5/viewer/LogBrokerMonitor$9.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/lf5/viewer/LogBrokerMonitor$LogBrokerMonitorWindowAdaptor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/lf5/viewer/LogBrokerMonitor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/lf5/viewer/LogFactor5Dialog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/lf5/viewer/LogFactor5ErrorDialog$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/lf5/viewer/LogFactor5ErrorDialog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/lf5/viewer/LogFactor5InputDialog$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/lf5/viewer/LogFactor5InputDialog$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/lf5/viewer/LogFactor5InputDialog$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/lf5/viewer/LogFactor5InputDialog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/lf5/viewer/LogFactor5LoadingDialog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/lf5/viewer/LogTable$LogTableListSelectionListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/lf5/viewer/LogTable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/lf5/viewer/LogTableColumn.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/lf5/viewer/LogTableColumnFormatException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/lf5/viewer/LogTableModel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/lf5/viewer/LogTableRowRenderer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/lf5/viewer/TrackingAdjustmentListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/lf5/viewer/categoryexplorer/CategoryAbstractCellEditor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/lf5/viewer/categoryexplorer/CategoryElement.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/lf5/viewer/categoryexplorer/CategoryExplorerLogRecordFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/lf5/viewer/categoryexplorer/CategoryExplorerModel$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/lf5/viewer/categoryexplorer/CategoryExplorerModel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/lf5/viewer/categoryexplorer/CategoryExplorerTree$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/lf5/viewer/categoryexplorer/CategoryExplorerTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/lf5/viewer/categoryexplorer/CategoryImmediateEditor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/lf5/viewer/categoryexplorer/CategoryNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/lf5/viewer/categoryexplorer/CategoryNodeEditor$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/lf5/viewer/categoryexplorer/CategoryNodeEditor$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/lf5/viewer/categoryexplorer/CategoryNodeEditor$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/lf5/viewer/categoryexplorer/CategoryNodeEditor$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/lf5/viewer/categoryexplorer/CategoryNodeEditor$5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/lf5/viewer/categoryexplorer/CategoryNodeEditor$6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/lf5/viewer/categoryexplorer/CategoryNodeEditor$7.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/lf5/viewer/categoryexplorer/CategoryNodeEditor$8.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/lf5/viewer/categoryexplorer/CategoryNodeEditor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/lf5/viewer/categoryexplorer/CategoryNodeEditorRenderer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/lf5/viewer/categoryexplorer/CategoryNodeRenderer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/lf5/viewer/categoryexplorer/CategoryPath.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/lf5/viewer/categoryexplorer/TreeModelAdapter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/lf5/viewer/configure/ConfigurationManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/lf5/viewer/configure/MRUFileManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/net/DefaultEvaluator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/net/JMSAppender.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/net/JMSSink.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/net/SMTPAppender$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/net/SMTPAppender.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/net/SimpleSocketServer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/net/SocketAppender$Connector.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/net/SocketAppender.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/net/SocketHubAppender$ServerMonitor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/net/SocketHubAppender.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/net/SocketNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/net/SocketServer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/net/SyslogAppender.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/net/TelnetAppender$SocketHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/net/TelnetAppender.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/nt/NTEventLogAppender.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/or/DefaultRenderer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/or/ObjectRenderer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/or/RendererMap.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/or/ThreadGroupRenderer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/or/jms/MessageRenderer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/or/sax/AttributesRenderer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/spi/AppenderAttachable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/spi/Configurator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/spi/DefaultRepositorySelector.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/spi/ErrorCode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/spi/ErrorHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/spi/Filter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/spi/HierarchyEventListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/spi/LocationInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/spi/LoggerFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/spi/LoggerRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/spi/LoggingEvent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/spi/NOPLogger.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/spi/NOPLoggerRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/spi/NullWriter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/spi/OptionHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/spi/RendererSupport.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/spi/RepositorySelector.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/spi/RootCategory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/spi/RootLogger.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/spi/ThrowableInformation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/spi/TriggeringEventEvaluator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/spi/VectorWriter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/varia/DenyAllFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/varia/ExternallyRolledFileAppender.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/varia/FallbackErrorHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/varia/HUP.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/varia/HUPNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/varia/LevelMatchFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/varia/LevelRangeFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/varia/NullAppender.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/varia/ReloadingPropertyConfigurator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/varia/Roller.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/varia/StringMatchFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/xml/DOMConfigurator$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/xml/DOMConfigurator$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/xml/DOMConfigurator$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/xml/DOMConfigurator$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/xml/DOMConfigurator$5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/xml/DOMConfigurator$ParseAction.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/xml/DOMConfigurator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/xml/Log4jEntityResolver.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/xml/SAXErrorHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/xml/UnrecognizedElementHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/xml/XMLLayout.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/org/apache/log4j/xml/XMLWatchdog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/pingpong/BugThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/pingpong/BuggedProgram.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/pingpong/PP.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/pingpong/PingPong.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/producerConsumer/AttrData.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/producerConsumer/Attribute.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/producerConsumer/Buffer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/producerConsumer/BufferInterface.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/producerConsumer/Consumer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/producerConsumer/HaltException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/producerConsumer/Producer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/producerConsumer/ProducerConsumer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/reorder/CheckThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/reorder/CheckThread2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/reorder/ReorderTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/reorder/ReorderTest2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/reorder/SetCheck.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/reorder/SetCheck2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/reorder/SetThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/reorder/SetThread2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/store/Store.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/store/StoreTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/stringbuffer/StringBuffer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/stringbuffer/StringBufferTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/wrongLock/Data.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/wrongLock/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/wrongLock/TClass1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/wrongLock/TClass2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/wrongLock/WrongLock.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/wronglock2/Main$Struct.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateClass/wronglock2/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logFile/account/fix method and result.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logFile/account/pattern for fix.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logFile/account/sequence for fix.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logFile/account2/fix result.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logFile/account2/pattern for fix.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logFile/account2/pattern list.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logFile/account2/修复得到的pattern.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logFile/account2/修复得到的sequence.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logFile/account2/修复方法及结果.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logFile/accountsubtype/fix result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logFile/accountsubtype/fix result.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logFile/accountsubtype/pattern for fix.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logFile/accountsubtype/pattern for fix.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logFile/accountsubtype/pattern list.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logFile/accountsubtype/pattern list.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logFile/airline/fix result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logFile/airline/fix result.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logFile/airline/pattern for fix.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logFile/airline/pattern for fix.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logFile/airline/pattern list.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logFile/airline/pattern list.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logFile/buggyprogram/fix result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logFile/buggyprogram/fix result.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logFile/buggyprogram/pattern for fix.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logFile/buggyprogram/pattern for fix.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logFile/buggyprogram/pattern list.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logFile/buggyprogram/pattern list.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logFile/checkfield/fix result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logFile/checkfield/fix result.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logFile/checkfield/pattern for fix.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logFile/checkfield/pattern for fix.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logFile/checkfield/pattern list.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logFile/checkfield/pattern list.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logFile/consisitency/fix result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logFile/consisitency/fix result.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logFile/consisitency/pattern for fix.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logFile/consisitency/pattern for fix.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logFile/consisitency/pattern list.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logFile/consisitency/pattern list.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logFile/datarace/fix result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logFile/datarace/fix result.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logFile/datarace/pattern for fix.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logFile/datarace/pattern for fix.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logFile/datarace/pattern list.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logFile/datarace/pattern list.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logFile/even/fix result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logFile/even/fix result.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logFile/even/pattern for fix.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logFile/even/pattern for fix.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logFile/even/pattern list.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logFile/even/pattern list.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logFile/hashcodetest/pattern for fix.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logFile/hashcodetest/pattern for fix.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logFile/hashcodetest/pattern list.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logFile/hashcodetest/pattern list.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logFile/linkedlist/fix result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logFile/linkedlist/fix result.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logFile/linkedlist/pattern for fix.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logFile/linkedlist/pattern for fix.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logFile/linkedlist/pattern list.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logFile/linkedlist/pattern list.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logFile/org.apache.log4j/pattern for fix.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logFile/org.apache.log4j/pattern for fix.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logFile/org.apache.log4j/pattern list.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logFile/org.apache.log4j/pattern list.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logFile/pingpong/fix result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logFile/pingpong/fix result.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logFile/pingpong/pattern for fix.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logFile/pingpong/pattern for fix.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logFile/pingpong/pattern list.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logFile/pingpong/pattern list.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logFile/reorder/fix result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logFile/reorder/fix result.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logFile/reorder/pattern for fix.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logFile/reorder/pattern for fix.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logFile/reorder/pattern list.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logFile/reorder/pattern list.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logFile/store/fix result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logFile/store/fix result.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logFile/store/pattern for fix.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logFile/store/pattern for fix.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logFile/store/pattern list.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logFile/store/pattern list.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logFile/stringbuffer/fix result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logFile/stringbuffer/fix result.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logFile/stringbuffer/pattern for fix.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logFile/stringbuffer/pattern for fix.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logFile/stringbuffer/pattern list.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logFile/stringbuffer/pattern list.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logFile/wronglock2/fix result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logFile/wronglock2/fix result.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logFile/wronglock2/pattern for fix.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logFile/wronglock2/pattern for fix.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logFile/wronglock2/pattern list.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logFile/wronglock2/pattern list.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/entries.txt" beforeDir="false" afterPath="$PROJECT_DIR$/examples/entries.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exportExamples/airlinetickets/Airlinetickets.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exportExamples/bubblesort/BubbleSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exportExamples/bubblesort/BubbleSortImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exportExamples/bubblesort/OneBubble.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exportExamples/bubblesort/Reporter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exportExamples/bufwriter/BufWriter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exportExamples/bufwriter/Buffer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exportExamples/bufwriter/Checker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exportExamples/bufwriter/SyncWriter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exportExamples/bufwriter/Writer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exportExamples/twoStage/Data.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exportExamples/twoStage/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exportExamples/twoStage/ReadThread.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exportExamples/twoStage/TwoStage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exportExamples/twoStage/TwoStageThread.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logFile/airlinetickets/verify pattern.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logFile/airlinetickets/修复得到的pattern.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logFile/bubblesort/verify pattern.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logFile/bubblesort/修复得到的pattern.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logFile/bubblesort/修复得到的sequence.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logFile/bubblesort/修复方法及结果.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logFile/bufwriter/修复得到的pattern.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logFile/pack_test/verify pattern.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logFile/pack_test/修复得到的pattern.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logFile/pack_test/修复得到的sequence.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logFile/pack_test/修复方法及结果.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logFile/修复所使用的pattern.md" beforeDir="false" afterPath="$PROJECT_DIR$/PFix other files/修复所使用的pattern.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logFile/验证修复的结果.md" beforeDir="false" afterPath="$PROJECT_DIR$/PFix other files/验证修复的结果.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manualAnalysis/account2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manualAnalysis/examples2(未完成).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manualAnalysis/manager(未完成).txt" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -465,19 +62,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="entries.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/examples/entries.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="484">
+              <caret line="22" column="10" selection-start-line="22" selection-end-line="22" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="fix result.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/logFile/store/fix result.txt">
+        <entry file="file://$PROJECT_DIR$/logFile/pingpong/fix result.txt">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="Store.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/exportExamples/store/Store.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="StoreTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/exportExamples/store/StoreTest.java">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file leaf-file-name="pattern list.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/logFile/pingpong/pattern list.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2005" />
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -531,8 +134,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/examples/spec/reporter/Title.java" />
-        <option value="$PROJECT_DIR$/examples/spec/jbb/validity/LoopBounds.java" />
         <option value="$PROJECT_DIR$/exportExamples/accountsubtype/Manager.java" />
         <option value="$PROJECT_DIR$/examples/stringbuffer/StringBufferTest.java" />
         <option value="$PROJECT_DIR$/exportExamples/stringbuffer/StringBufferTest.java" />
@@ -582,6 +183,8 @@
         <option value="$PROJECT_DIR$/exportExamples/wronglock2/Main.java" />
         <option value="$PROJECT_DIR$/examples/org/apache/log4j/spi/ThrowableInformation.java" />
         <option value="$PROJECT_DIR$/exportExamples/stringbuffer/StringBuffer.java" />
+        <option value="$PROJECT_DIR$/examples/entries.txt" />
+        <option value="$PROJECT_DIR$/logFile/验证修复的结果.md" />
       </list>
     </option>
   </component>
@@ -597,11 +200,10 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1912" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="13" />
+    <option name="width" value="1918" />
+    <option name="height" value="1038" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -624,19 +226,12 @@
             <path>
               <item name="FixExamples" type="b2602c69:ProjectViewProjectNode" />
               <item name="FixExamples" type="462c0819:PsiDirectoryNode" />
-              <item name="exportExamples" type="462c0819:PsiDirectoryNode" />
+              <item name="examples" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="FixExamples" type="b2602c69:ProjectViewProjectNode" />
               <item name="FixExamples" type="462c0819:PsiDirectoryNode" />
               <item name="exportExamples" type="462c0819:PsiDirectoryNode" />
-              <item name="store" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FixExamples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FixExamples" type="462c0819:PsiDirectoryNode" />
-              <item name="exportExamples" type="462c0819:PsiDirectoryNode" />
-              <item name="wronglock2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="FixExamples" type="b2602c69:ProjectViewProjectNode" />
@@ -647,7 +242,7 @@
               <item name="FixExamples" type="b2602c69:ProjectViewProjectNode" />
               <item name="FixExamples" type="462c0819:PsiDirectoryNode" />
               <item name="logFile" type="462c0819:PsiDirectoryNode" />
-              <item name="store" type="462c0819:PsiDirectoryNode" />
+              <item name="pingpong" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -666,6 +261,9 @@
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\lhr\Desktop\pfix\FixExamples\PFix other files" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="random" />
       <recent name="checkfield" />
@@ -674,10 +272,10 @@
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\lhr\Desktop\pfix\FixExamples\exportExamples" />
+      <recent name="C:\Users\lhr\Desktop\pfix\FixExamples\logFile\wrongLock" />
       <recent name="C:\Users\lhr\Desktop\pfix\FixExamples\logFile\store" />
       <recent name="C:\Users\lhr\Desktop\pfix\FixExamples\logFile\reorder" />
       <recent name="C:\Users\lhr\Desktop\pfix\FixExamples\logFile\mergesort" />
-      <recent name="C:\Users\lhr\Desktop\pfix\FixExamples\logFile\linkedlist" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -902,7 +500,7 @@
       <workItem from="1532436996812" duration="6429000" />
       <workItem from="1532472455932" duration="15790000" />
       <workItem from="1532499752713" duration="15495000" />
-      <workItem from="1532521444581" duration="1785000" />
+      <workItem from="1532521444581" duration="3141000" />
     </task>
     <servers />
   </component>
@@ -918,7 +516,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="380469000" />
+    <option name="totallyTimeSpent" value="381825000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -930,7 +528,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="11" y="0" width="1534" height="830" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -946,7 +544,7 @@
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49731904" weight="0.8361582" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.153125" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19342105" />
       <window_info anchor="right" id="Database" order="5" weight="0.3297587" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -1009,150 +607,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/logFile/airline/pattern for fix.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logFile/airline/pattern list.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3198" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logFile/airline/fix result.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exportExamples/airline/Bug.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="562">
-          <caret line="59" column="32" selection-start-line="59" selection-start-column="32" selection-end-line="59" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logFile/alarmclock/fix result.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exportExamples/alarmclock/AlarmClock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6676" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exportExamples/atmoerror/BankAccount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="30" lean-forward="true" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logFile/atmoerror/pattern for fix.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logFile/atmoerror/pattern list.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1460" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logFile/atmoerror/fix result.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logFile/buggyprogram/fix result.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exportExamples/buggyprogram/BuggyProgram.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4366" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logFile/checkfield/fix result.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exportExamples/checkfield/CheckField.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="474">
-          <caret line="23" column="40" lean-forward="true" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exportExamples/consisitency/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logFile/consisitency/fix result.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logFile/consisitency/pattern for fix.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logFile/consisitency/pattern list.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logFile/critical/fix result.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="762">
-          <caret line="58" column="22" selection-start-line="58" selection-start-column="22" selection-end-line="58" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logFile/datarace/fix result.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-734" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exportExamples/datarace/Main.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exportExamples/datarace/Account.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exportExamples/datarace/Checker.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exportExamples/datarace/CustomerInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logFile/even/fix result.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exportExamples/even/Main.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exportExamples/even/EvenGenerator.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exportExamples/even/EvenChecker.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logFile/hashcodetest/fix result.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logFile/hashcodetest/pattern for fix.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exportExamples/hashcodetest/Range.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2029" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exportExamples/hashcodetest/IntRange.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="354" column="24" lean-forward="true" selection-start-line="354" selection-start-column="24" selection-end-line="354" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#12299#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logFile/linkedlist/fix result.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-777" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/exportExamples/linkedlist/BugTester.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1180,14 +634,6 @@
     <entry file="file://$PROJECT_DIR$/exportExamples/mergesort/MSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-5478" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logFile/pingpong/fix result.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logFile/pingpong/pattern list.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-660" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/exportExamples/pingpong/BuggedProgram.java">
@@ -1230,6 +676,222 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/exportExamples/store/Store.java">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logFile/stringbuffer/fix result.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logFile/wrongLock/fix result.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logFile/wrongLock/pattern for fix.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logFile/wrongLock/pattern list.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3505" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exportExamples/wrongLock/Data.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exportExamples/wrongLock/WrongLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="28" column="26" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exportExamples/wronglock2/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="28" column="29" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/lock.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-660" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="36" lean-forward="true" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/alarmclock/AlarmClock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="24" column="23" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/atmoerror/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/buggyprogram/BuggyProgram.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="52" column="25" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/checkfield/CheckField.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exportExamples/checkfield/CheckField.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-9" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/consisitency/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/critical/Critical.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/datarace/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/even/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/mergesort/MergeSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="17" column="22" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/org/apache/log4j/TestThrowableStrRep.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="7" column="32" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/org/apache/commons/pool/impl/TestGenericObjectPool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="31" column="34" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/pingpong/PingPong.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="21" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/reorder/ReorderTest2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="25" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/store/StoreTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/stringbuffer/StringBufferTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/wrongLock/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PFix other files/修复所使用的pattern.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PFix other files/验证修复的结果.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="44">
+            <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PFix other files/account2.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="220">
+            <caret line="10" column="27" lean-forward="true" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/wronglock2/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/entries.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="22" column="10" selection-start-line="22" selection-end-line="22" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logFile/pingpong/fix result.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logFile/pingpong/pattern list.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2005" />
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
