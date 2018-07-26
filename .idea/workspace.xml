@@ -3,40 +3,17 @@
   <component name="ChangeListManager">
     <list default="true" id="9f4e1b6d-5c87-4e1a-a05a-150c9330506c" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/entries.txt" beforeDir="false" afterPath="$PROJECT_DIR$/examples/entries.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exportExamples/airlinetickets/Airlinetickets.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exportExamples/bubblesort/BubbleSort.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exportExamples/bubblesort/BubbleSortImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exportExamples/bubblesort/OneBubble.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exportExamples/bubblesort/Reporter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exportExamples/bufwriter/BufWriter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exportExamples/bufwriter/Buffer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exportExamples/bufwriter/Checker.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exportExamples/bufwriter/SyncWriter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exportExamples/bufwriter/Writer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exportExamples/twoStage/Data.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exportExamples/twoStage/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exportExamples/twoStage/ReadThread.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exportExamples/twoStage/TwoStage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exportExamples/twoStage/TwoStageThread.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logFile/airlinetickets/verify pattern.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logFile/airlinetickets/修复得到的pattern.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logFile/bubblesort/verify pattern.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logFile/bubblesort/修复得到的pattern.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logFile/bubblesort/修复得到的sequence.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logFile/bubblesort/修复方法及结果.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logFile/bufwriter/修复得到的pattern.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logFile/pack_test/verify pattern.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logFile/pack_test/修复得到的pattern.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logFile/pack_test/修复得到的sequence.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logFile/pack_test/修复方法及结果.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logFile/修复所使用的pattern.md" beforeDir="false" afterPath="$PROJECT_DIR$/PFix other files/修复所使用的pattern.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logFile/验证修复的结果.md" beforeDir="false" afterPath="$PROJECT_DIR$/PFix other files/验证修复的结果.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manualAnalysis/account2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/manualAnalysis/examples2(未完成).txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/manualAnalysis/manager(未完成).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exportExamples/stringbuffer/StringBuffer.java" beforeDir="false" afterPath="$PROJECT_DIR$/exportExamples/stringbuffer/StringBuffer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exportExamples/wronglock2/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logFile/stringbuffer/fix result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logFile/stringbuffer/fix result.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logFile/stringbuffer/pattern for fix.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logFile/stringbuffer/pattern for fix.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logFile/stringbuffer/pattern list.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logFile/stringbuffer/pattern list.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logFile/wronglock2/fix result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logFile/wronglock2/pattern for fix.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logFile/wronglock2/pattern list.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patch/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Patch/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patch/entries.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Patch/entries.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/output.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -62,24 +39,33 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="entries.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/examples/entries.txt">
+      <file leaf-file-name="StringBuffer.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/exportExamples/stringbuffer/StringBuffer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
-              <caret line="22" column="10" selection-start-line="22" selection-end-line="22" selection-end-column="10" />
+            <state relative-caret-position="205">
+              <caret line="439" column="14" selection-start-line="439" selection-start-column="12" selection-end-line="439" selection-end-column="14" />
+              <folding>
+                <element signature="e#14616#14617#0" expanded="true" />
+                <element signature="e#14666#14667#0" expanded="true" />
+                <element signature="e#29669#29670#0" expanded="true" />
+                <element signature="e#29715#29716#0" expanded="true" />
+                <element signature="e#30752#30753#0" expanded="true" />
+                <element signature="e#30801#30802#0" expanded="true" />
+                <element signature="e#35035#35036#0" expanded="true" />
+                <element signature="e#35093#35094#0" expanded="true" />
+                <element signature="e#39722#39723#0" expanded="true" />
+                <element signature="e#39778#39779#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fix result.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/logFile/pingpong/fix result.txt">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="pattern list.txt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/logFile/pingpong/pattern list.txt">
+      <file leaf-file-name="StringBufferTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/exportExamples/stringbuffer/StringBufferTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2005" />
+            <state relative-caret-position="198">
+              <caret line="9" column="29" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="29" />
+            </state>
           </provider>
         </entry>
       </file>
@@ -110,10 +96,18 @@
       <find>data</find>
       <find>next()</find>
       <find>listable</find>
-      <find>synchronized (obj){</find>
-      <find>Locked positi</find>
+      <find />
+      <find />
       <find>objectFix</find>
       <find>synchronized</find>
+      <find>delete</find>
+      <find>StopSales</find>
+      <find>Num_Of_Seats_Sold</find>
+      <find>randomNumber</find>
+      <find>hashCode</find>
+      <find>p._current._next</find>
+      <find>pingPongPlayer</find>
+      <find>sb</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -152,7 +146,6 @@
         <option value="$PROJECT_DIR$/examples/atmoerror/Customer.java" />
         <option value="$PROJECT_DIR$/exportExamples/linkedlist/MyLinkedList.java" />
         <option value="$PROJECT_DIR$/exportExamples/buggyprogram/BuggyProgram.java" />
-        <option value="$PROJECT_DIR$/examples/buggyprogram/BuggyProgram.java" />
         <option value="$PROJECT_DIR$/examples/alarmclock/AlarmClock.java" />
         <option value="$PROJECT_DIR$/exportExamples/pingpong/BuggedProgram.java" />
         <option value="$PROJECT_DIR$/exportExamples/alarmclock/AlarmClock.java" />
@@ -172,7 +165,6 @@
         <option value="$PROJECT_DIR$/exportExamples/reorder/SetCheck2.java" />
         <option value="$PROJECT_DIR$/examples/account/Account.java" />
         <option value="$PROJECT_DIR$/logFile/wronglock2/修复方法及结果.txt" />
-        <option value="$PROJECT_DIR$/examples/Test.java" />
         <option value="$PROJECT_DIR$/examples/account2/Account.java" />
         <option value="$PROJECT_DIR$/examples/account2/Bank.java" />
         <option value="$PROJECT_DIR$/logFile/accountsubtype/修复方法及结果.txt" />
@@ -182,9 +174,11 @@
         <option value="$PROJECT_DIR$/examples/store/Store.java" />
         <option value="$PROJECT_DIR$/exportExamples/wronglock2/Main.java" />
         <option value="$PROJECT_DIR$/examples/org/apache/log4j/spi/ThrowableInformation.java" />
-        <option value="$PROJECT_DIR$/exportExamples/stringbuffer/StringBuffer.java" />
         <option value="$PROJECT_DIR$/examples/entries.txt" />
         <option value="$PROJECT_DIR$/logFile/验证修复的结果.md" />
+        <option value="$PROJECT_DIR$/exportExamples/stringbuffer/StringBuffer.java" />
+        <option value="$PROJECT_DIR$/examples/Test.java" />
+        <option value="$PROJECT_DIR$/examples/buggyprogram/BuggyProgram.java" />
       </list>
     </option>
   </component>
@@ -201,8 +195,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="13" />
-    <option name="width" value="1918" />
+    <option name="x" value="-8" />
+    <option name="width" value="1937" />
     <option name="height" value="1038" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -213,9 +207,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -226,34 +217,37 @@
             <path>
               <item name="FixExamples" type="b2602c69:ProjectViewProjectNode" />
               <item name="FixExamples" type="462c0819:PsiDirectoryNode" />
-              <item name="examples" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FixExamples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FixExamples" type="462c0819:PsiDirectoryNode" />
               <item name="exportExamples" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="FixExamples" type="b2602c69:ProjectViewProjectNode" />
               <item name="FixExamples" type="462c0819:PsiDirectoryNode" />
-              <item name="logFile" type="462c0819:PsiDirectoryNode" />
+              <item name="exportExamples" type="462c0819:PsiDirectoryNode" />
+              <item name="stringbuffer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FixExamples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FixExamples" type="462c0819:PsiDirectoryNode" />
+              <item name="generateClass" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="FixExamples" type="b2602c69:ProjectViewProjectNode" />
               <item name="FixExamples" type="462c0819:PsiDirectoryNode" />
               <item name="logFile" type="462c0819:PsiDirectoryNode" />
-              <item name="pingpong" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../新建文件夹 (2)/pfix/FixExamples" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -290,9 +284,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.StoreTest">
+  <component name="RunManager" selected="Application.BuggyProgram">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+    </configuration>
+    <configuration name="BuggyProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="buggyprogram.BuggyProgram" />
+      <module name="Patch" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="buggyprogram.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
     </configuration>
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="airline.Main" />
@@ -312,19 +317,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="wronglock2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="account.Main" />
-      <module name="Patch" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="account.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -400,19 +392,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
       <item itemvalue="Application.Test" />
       <item itemvalue="Application.Main (1)" />
       <item itemvalue="Application.Main (2)" />
       <item itemvalue="Application.StoreTest" />
+      <item itemvalue="Application.BuggyProgram" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BuggyProgram" />
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.StoreTest" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -500,7 +492,10 @@
       <workItem from="1532436996812" duration="6429000" />
       <workItem from="1532472455932" duration="15790000" />
       <workItem from="1532499752713" duration="15495000" />
-      <workItem from="1532521444581" duration="3141000" />
+      <workItem from="1532521444581" duration="5276000" />
+      <workItem from="1532572409133" duration="6086000" />
+      <workItem from="1532592251881" duration="3384000" />
+      <workItem from="1532604684658" duration="1539000" />
     </task>
     <servers />
   </component>
@@ -516,7 +511,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="381825000" />
+    <option name="totallyTimeSpent" value="394969000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -528,8 +523,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="11" y="0" width="1534" height="830" extended-state="0" />
-    <editor active="true" />
+    <frame x="-6" y="0" width="1549" height="830" extended-state="1" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32956153" />
@@ -539,19 +533,19 @@
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50268096" side_tool="true" weight="0.8387553" />
       <window_info anchor="right" id="Maven Projects" order="4" weight="0.3297587" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5979971" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32956153" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.59971714" />
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49731904" weight="0.8361582" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19342105" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20523138" />
       <window_info anchor="right" id="Database" order="5" weight="0.3297587" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="7" />
-      <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39886847" />
+      <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -565,10 +559,10 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32956153" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.59971714" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.59913325" />
       <window_info anchor="right" id="Theme Preview" order="7" />
-      <window_info active="true" anchor="bottom" id="Messages" order="10" visible="true" weight="0.32673267" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19504021" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32673267" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1609808" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -607,150 +601,19 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/exportExamples/linkedlist/BugTester.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exportExamples/linkedlist/MyLinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="41" column="28" selection-start-line="41" selection-start-column="28" selection-end-line="41" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logFile/org.apache.log4j/pattern list.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logFile/org.apache.log4j/fix result.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/logFile/mergesort/fix result.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exportExamples/mergesort/MergeSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exportExamples/mergesort/MSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5478" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exportExamples/pingpong/BuggedProgram.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="497">
-          <caret line="84" column="24" selection-start-line="84" selection-start-column="24" selection-end-line="84" selection-end-column="24" />
-        </state>
+        <state relative-caret-position="-4836" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/logFile/producerConsumer/fix result.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3263" />
+        <state relative-caret-position="-3502" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/logFile/reorder/fix result.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exportExamples/reorder/SetCheck.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/reorder/SetCheck2.java">
+    <entry file="file://$PROJECT_DIR$/exportExamples/producerConsumer/ProducerConsumer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exportExamples/reorder/SetCheck2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="28" lean-forward="true" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logFile/store/fix result.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exportExamples/store/StoreTest.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exportExamples/store/Store.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logFile/stringbuffer/fix result.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logFile/wrongLock/fix result.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logFile/wrongLock/pattern for fix.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logFile/wrongLock/pattern list.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3505" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exportExamples/wrongLock/Data.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exportExamples/wrongLock/WrongLock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="28" column="26" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exportExamples/wronglock2/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="28" column="29" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/lock.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-660" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="36" lean-forward="true" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/alarmclock/AlarmClock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="24" column="23" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/atmoerror/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/buggyprogram/BuggyProgram.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="52" column="25" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/checkfield/CheckField.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="23" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exportExamples/checkfield/CheckField.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-9" />
+        <state relative-caret-position="-3614" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/examples/consisitency/Main.java">
@@ -760,137 +623,248 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/examples/critical/Critical.java">
+    <entry file="file://$PROJECT_DIR$/exportExamples/accountsubtype/Account.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="21" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="21" />
+        <state relative-caret-position="-94" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/stringbuffer/StringBuffer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="418" column="16" selection-start-line="418" selection-start-column="14" selection-end-line="418" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/examples/datarace/Main.java">
+    <entry file="file://$PROJECT_DIR$/exportExamples/account/Account.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="17" />
+        <state relative-caret-position="346">
+          <caret line="31" column="33" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/examples/even/Main.java">
+    <entry file="file://$PROJECT_DIR$/logFile/airline/pattern for fix.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="17" />
+        <state relative-caret-position="66">
+          <caret line="3" column="48" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="48" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/examples/mergesort/MergeSort.java">
+    <entry file="file://$PROJECT_DIR$/exportExamples/airline/Bug.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="17" column="22" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="22" />
+        <state relative-caret-position="264">
+          <caret line="21" column="14" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/examples/org/apache/log4j/TestThrowableStrRep.java">
+    <entry file="file://$PROJECT_DIR$/examples/airline/Bug.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="7" column="32" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="32" />
+        <state relative-caret-position="738">
+          <caret line="52" column="6" lean-forward="true" selection-start-line="52" selection-start-column="6" selection-end-line="52" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/examples/org/apache/commons/pool/impl/TestGenericObjectPool.java">
+    <entry file="file://$PROJECT_DIR$/examples/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="31" column="34" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="34" />
+        <state relative-caret-position="132">
+          <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/examples/pingpong/PingPong.java">
+    <entry file="file://$PROJECT_DIR$/examples/buggyprogram/BuggyProgram.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="21" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="21" />
+        <state relative-caret-position="290">
+          <caret line="306" column="22" lean-forward="true" selection-start-line="306" selection-start-column="22" selection-end-line="306" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/examples/reorder/ReorderTest2.java">
+    <entry file="file://$PROJECT_DIR$/exportExamples/hashcodetest/IntRange.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="25" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="25" />
+        <state relative-caret-position="205">
+          <caret line="349" column="25" selection-start-line="349" selection-start-column="17" selection-end-line="349" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/examples/store/StoreTest.java">
+    <entry file="file://$PROJECT_DIR$/logFile/org.apache.log4j/pattern for fix.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="22" />
+        <state relative-caret-position="66">
+          <caret line="3" column="72" selection-start-line="3" selection-start-column="69" selection-end-line="3" selection-end-column="72" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/examples/stringbuffer/StringBufferTest.java">
+    <entry file="file://$PROJECT_DIR$/exportExamples/org/apache/log4j/spi/ThrowableInformation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="70" column="32" selection-start-line="70" selection-start-column="29" selection-end-line="70" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exportExamples/org/apache/log4j/TestThrowableStrRep.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-446" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exportExamples/pingpong/BuggedProgram.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="88" column="27" selection-start-line="88" selection-start-column="13" selection-end-line="88" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logFile/pingpong/pattern for fix.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="63" selection-start-line="3" selection-start-column="49" selection-end-line="3" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exportExamples/wrongLock/WrongLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="18" column="29" lean-forward="true" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exportExamples/wronglock2/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="28" column="50" selection-start-line="28" selection-start-column="49" selection-end-line="28" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exportExamples/atmoerror/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" column="28" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logFile/buggyprogram/pattern for fix.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="13" lean-forward="true" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logFile/linkedlist/pattern for fix.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="53" selection-start-line="3" selection-start-column="48" selection-end-line="3" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exportExamples/linkedlist/MyLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="36" column="37" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logFile/datarace/pattern for fix.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="56" selection-start-line="3" selection-start-column="48" selection-end-line="3" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exportExamples/datarace/CustomerInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="30" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="30" />
+          <folding>
+            <element signature="e#883#884#0" expanded="true" />
+            <element signature="e#943#944#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exportExamples/buggyprogram/BuggyProgram.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-827">
+          <caret line="312" column="50" selection-start-line="312" selection-start-column="38" selection-end-line="312" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#12811#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exportExamples/consisitency/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exportExamples/critical/Critical.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="44" column="21" selection-start-line="44" selection-start-column="21" selection-end-line="44" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exportExamples/even/EvenGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="42" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exportExamples/accountsubtype/BusinessAccount.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exportExamples/accountsubtype/PersonalAccount.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exportExamples/atmoerror/Customer.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exportExamples/atmoerror/BankAccount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exportExamples/checkfield/CheckField.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="23" column="24" lean-forward="true" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logFile/reorder/pattern for fix.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exportExamples/reorder/SetCheck2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="27" column="1" lean-forward="true" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exportExamples/stringbuffer/StringBufferTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="9" column="29" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/examples/wrongLock/Main.java">
+    <entry file="file://$PROJECT_DIR$/exportExamples/stringbuffer/StringBuffer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="17" />
+        <state relative-caret-position="205">
+          <caret line="439" column="14" selection-start-line="439" selection-start-column="12" selection-end-line="439" selection-end-column="14" />
+          <folding>
+            <element signature="e#14616#14617#0" expanded="true" />
+            <element signature="e#14666#14667#0" expanded="true" />
+            <element signature="e#29669#29670#0" expanded="true" />
+            <element signature="e#29715#29716#0" expanded="true" />
+            <element signature="e#30752#30753#0" expanded="true" />
+            <element signature="e#30801#30802#0" expanded="true" />
+            <element signature="e#35035#35036#0" expanded="true" />
+            <element signature="e#35093#35094#0" expanded="true" />
+            <element signature="e#39722#39723#0" expanded="true" />
+            <element signature="e#39778#39779#0" expanded="true" />
+          </folding>
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PFix other files/修复所使用的pattern.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PFix other files/验证修复的结果.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="44">
-            <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PFix other files/account2.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/output.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="220">
-            <caret line="10" column="27" lean-forward="true" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/wronglock2/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/entries.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="22" column="10" selection-start-line="22" selection-end-line="22" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logFile/pingpong/fix result.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logFile/pingpong/pattern list.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2005" />
       </provider>
     </entry>
   </component>
