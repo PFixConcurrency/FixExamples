@@ -8,7 +8,33 @@ generateClass是修复后的程序生成的class文件
 
 logFile是将运行时的一些信息记录下来
 
-manualAnalysis人工分析程序得到的修复方法
+|                    program main                    |
+| :------------------------------------------------: |
+|                    account.Main                    |
+|                accountsubtype.Main                 |
+|                    airline.Main                    |
+|               alarmclock.AlarmClock                |
+|                   atmoerror.Main                   |
+|             buggyprogram.BuggyProgram              |
+|               checkfield.CheckField                |
+|                 consisitency.Main                  |
+|                 critical.Critical                  |
+|                   datarace.Main                    |
+|                     even.Main                      |
+|             hashcodetest.HashCodeTest              |
+|                linkedlist.BugTester                |
+|                mergesort.MergeSort                 |
+| org.apache.commons.pool.impl.TestGenericObjectPool |
+|        org.apache.log4j.TestThrowableStrRep        |
+|                 pingpong.PingPong                  |
+|         producerConsumer.ProducerConsumer          |
+|                reorder.ReorderTest2                |
+|                  store.StoreTest                   |
+|           stringbuffer.StringBufferTest            |
+|                   wrongLock.Main                   |
+|                  wronglock2.Main                   |
+
+
 
 |  id  |     program      | get pattern time(ms) | fix time(ms) | lock num |
 | :--: | :--------------: | :------------------: | :----------: | :------: |
