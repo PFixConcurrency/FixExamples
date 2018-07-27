@@ -1,12 +1,12 @@
 # FixExamples
 
-examples是原来的程序
+examples:original program
 
-exportExamples是修复后的程序
+exportExamples:fixed program
 
-generateClass是修复后的程序生成的class文件
+generateClass:generate class file
 
-logFile是将运行时的一些信息记录下来
+logFile:log runtime information
 
 |                    program main                    |
 | :------------------------------------------------: |
