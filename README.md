@@ -1,5 +1,33 @@
 # FixExamples
 
+**Specification **
+
+*account*:
+
+Deadlocks are introduced in it and JPF determines the fix failed.
+
+use pattern 
+
+ReadWriteNode[1569,account.Account@1bf,amount,READ,Thread-4,account/Account.java:28]
+ReadWriteNode[1580,account.Account@1bf,amount,WRITE,Thread-6,account/Account.java:20]
+ReadWriteNode[1601,account.Account@1bf,amount,WRITE,Thread-4,account/Account.java:28]
+
+We know that we lock 28 lines of the account.java file,like this:
+
+synchronized (ac) {ac.amount += mn;
+
+}
+
+*accountsubtype*,buggyprogram:
+
+Sometimes you need to run multiple times to get the correct fix.
+
+*pingpong*:
+
+This program's bug is difficult to expose and requires multiple runs.
+
+**dir**
+
 examples:original program
 
 exportExamples:fixed program
@@ -7,6 +35,8 @@ exportExamples:fixed program
 generateClass:generate class file
 
 logFile:log runtime information
+
+**program entry**
 
 |                    program main                    |
 | :------------------------------------------------: |
