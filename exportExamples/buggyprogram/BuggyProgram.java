@@ -309,7 +309,7 @@ public class BuggyProgram {
             while (i != numOfUsers) {
                 generate();
 
-                for (i = 0; i < numOfUsers; ++i) {
+synchronized (this){                 for (i = 0; i < numOfUsers; ++i) {
                     if (history[i] == randomNumber) {
                         break;
                     }
@@ -317,7 +317,7 @@ public class BuggyProgram {
             }
 
 
-synchronized (this){             present();
+            present();
             record();
 }
 

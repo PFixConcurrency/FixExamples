@@ -1,271 +1,263 @@
 [Pattern {
 	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,READ] ]
 	matched: true
-	ReadWriteNode[635,buggyprogram.BuggyProgram@16e,randomNumber,READ,Thread-1,buggyprogram/BuggyProgram.java:355]
-	ReadWriteNode[640,buggyprogram.BuggyProgram@16e,randomNumber,WRITE,Thread-2,buggyprogram/BuggyProgram.java:338]
-	ReadWriteNode[670,buggyprogram.BuggyProgram@16e,randomNumber,READ,Thread-1,buggyprogram/BuggyProgram.java:370]
-}
-success count: 0
-fail count: 2, Pattern {
-	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,READ] ]
-	matched: true
-	ReadWriteNode[583,buggyprogram.BuggyProgram@16e,randomNumber,READ,Thread-1,buggyprogram/BuggyProgram.java:313]
-	ReadWriteNode[640,buggyprogram.BuggyProgram@16e,randomNumber,WRITE,Thread-2,buggyprogram/BuggyProgram.java:338]
-	ReadWriteNode[670,buggyprogram.BuggyProgram@16e,randomNumber,READ,Thread-1,buggyprogram/BuggyProgram.java:370]
+	ReadWriteNode[488,buggyprogram.BuggyProgram@16e,randomNumber,READ,Thread-2,buggyprogram/BuggyProgram.java:313]
+	ReadWriteNode[514,buggyprogram.BuggyProgram@16e,randomNumber,WRITE,Thread-3,buggyprogram/BuggyProgram.java:338]
+	ReadWriteNode[599,buggyprogram.BuggyProgram@16e,randomNumber,READ,Thread-2,buggyprogram/BuggyProgram.java:370]
 }
 success count: 2
-fail count: 2, Pattern {
+fail count: 1, Pattern {
+	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,READ] ]
+	matched: true
+	ReadWriteNode[488,buggyprogram.BuggyProgram@16e,randomNumber,READ,Thread-2,buggyprogram/BuggyProgram.java:313]
+	ReadWriteNode[514,buggyprogram.BuggyProgram@16e,randomNumber,WRITE,Thread-3,buggyprogram/BuggyProgram.java:338]
+	ReadWriteNode[556,buggyprogram.BuggyProgram@16e,randomNumber,READ,Thread-2,buggyprogram/BuggyProgram.java:355]
+}
+success count: 2
+fail count: 1, Pattern {
 	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] ]
 	matched: true
-	ReadWriteNode[596,buggyprogram.BuggyProgram@16e,randomNumber,READ,Thread-1,buggyprogram/BuggyProgram.java:355]
-	ReadWriteNode[648,buggyprogram.BuggyProgram@16e,randomNumber,WRITE,Thread-2,buggyprogram/BuggyProgram.java:338]
+	ReadWriteNode[488,buggyprogram.BuggyProgram@16e,randomNumber,READ,Thread-2,buggyprogram/BuggyProgram.java:313]
+	ReadWriteNode[514,buggyprogram.BuggyProgram@16e,randomNumber,WRITE,Thread-3,buggyprogram/BuggyProgram.java:338]
 }
-success count: 6
+success count: 10
 fail count: 4, Pattern {
 	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] ]
 	matched: true
-	ReadWriteNode[521,buggyprogram.BuggyProgram@16e,randomNumber,READ,Thread-1,buggyprogram/BuggyProgram.java:313]
-	ReadWriteNode[648,buggyprogram.BuggyProgram@16e,randomNumber,WRITE,Thread-2,buggyprogram/BuggyProgram.java:338]
+	ReadWriteNode[574,buggyprogram.BuggyProgram@16e,randomNumber,READ,Thread-2,buggyprogram/BuggyProgram.java:370]
+	ReadWriteNode[677,buggyprogram.BuggyProgram@16e,randomNumber,WRITE,Thread-1,buggyprogram/BuggyProgram.java:338]
 }
 success count: 8
-fail count: 4, Pattern {
+fail count: 3, Pattern {
 	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] ]
 	matched: true
-	ReadWriteNode[622,buggyprogram.BuggyProgram@16e,randomNumber,READ,Thread-1,buggyprogram/BuggyProgram.java:370]
-	ReadWriteNode[648,buggyprogram.BuggyProgram@16e,randomNumber,WRITE,Thread-2,buggyprogram/BuggyProgram.java:338]
+	ReadWriteNode[627,buggyprogram.BuggyProgram@16e,randomNumber,READ,Thread-3,buggyprogram/BuggyProgram.java:355]
+	ReadWriteNode[677,buggyprogram.BuggyProgram@16e,randomNumber,WRITE,Thread-1,buggyprogram/BuggyProgram.java:338]
 }
-success count: 6
-fail count: 2, Pattern {
-	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] ]
-	matched: true
-	ReadWriteNode[453,buggyprogram.BuggyProgram@16e,randomNumber,READ,Thread-2,buggyprogram/BuggyProgram.java:339]
-	ReadWriteNode[480,buggyprogram.BuggyProgram@16e,randomNumber,WRITE,Thread-3,buggyprogram/BuggyProgram.java:338]
-}
-success count: 140
-fail count: 4, Pattern {
+success count: 8
+fail count: 3, Pattern {
 	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,READ] ]
 	matched: true
-	ReadWriteNode[453,buggyprogram.BuggyProgram@16e,randomNumber,READ,Thread-2,buggyprogram/BuggyProgram.java:339]
-	ReadWriteNode[480,buggyprogram.BuggyProgram@16e,randomNumber,WRITE,Thread-3,buggyprogram/BuggyProgram.java:338]
-	ReadWriteNode[543,buggyprogram.BuggyProgram@16e,randomNumber,READ,Thread-2,buggyprogram/BuggyProgram.java:313]
+	ReadWriteNode[448,buggyprogram.BuggyProgram@16e,randomNumber,READ,Thread-2,buggyprogram/BuggyProgram.java:339]
+	ReadWriteNode[478,buggyprogram.BuggyProgram@16e,randomNumber,WRITE,Thread-3,buggyprogram/BuggyProgram.java:338]
+	ReadWriteNode[636,buggyprogram.BuggyProgram@16e,randomNumber,READ,Thread-2,buggyprogram/BuggyProgram.java:370]
 }
-success count: 86
-fail count: 2, Pattern {
+success count: 89
+fail count: 3, Pattern {
 	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,READ] ]
 	matched: true
-	ReadWriteNode[453,buggyprogram.BuggyProgram@16e,randomNumber,READ,Thread-2,buggyprogram/BuggyProgram.java:339]
-	ReadWriteNode[480,buggyprogram.BuggyProgram@16e,randomNumber,WRITE,Thread-3,buggyprogram/BuggyProgram.java:338]
-	ReadWriteNode[612,buggyprogram.BuggyProgram@16e,randomNumber,READ,Thread-2,buggyprogram/BuggyProgram.java:355]
+	ReadWriteNode[448,buggyprogram.BuggyProgram@16e,randomNumber,READ,Thread-2,buggyprogram/BuggyProgram.java:339]
+	ReadWriteNode[478,buggyprogram.BuggyProgram@16e,randomNumber,WRITE,Thread-3,buggyprogram/BuggyProgram.java:338]
+	ReadWriteNode[585,buggyprogram.BuggyProgram@16e,randomNumber,READ,Thread-2,buggyprogram/BuggyProgram.java:355]
 }
-success count: 86
-fail count: 2, Pattern {
+success count: 89
+fail count: 3, Pattern {
 	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,READ] ]
 	matched: true
-	ReadWriteNode[436,buggyprogram.BuggyProgram@16e,randomNumber,WRITE,Thread-2,buggyprogram/BuggyProgram.java:338]
-	ReadWriteNode[480,buggyprogram.BuggyProgram@16e,randomNumber,WRITE,Thread-3,buggyprogram/BuggyProgram.java:338]
-	ReadWriteNode[612,buggyprogram.BuggyProgram@16e,randomNumber,READ,Thread-2,buggyprogram/BuggyProgram.java:355]
+	ReadWriteNode[431,buggyprogram.BuggyProgram@16e,randomNumber,WRITE,Thread-2,buggyprogram/BuggyProgram.java:338]
+	ReadWriteNode[478,buggyprogram.BuggyProgram@16e,randomNumber,WRITE,Thread-3,buggyprogram/BuggyProgram.java:338]
+	ReadWriteNode[636,buggyprogram.BuggyProgram@16e,randomNumber,READ,Thread-2,buggyprogram/BuggyProgram.java:370]
 }
 success count: 98
+fail count: 3, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,READ] ]
+	matched: true
+	ReadWriteNode[431,buggyprogram.BuggyProgram@16e,randomNumber,WRITE,Thread-2,buggyprogram/BuggyProgram.java:338]
+	ReadWriteNode[478,buggyprogram.BuggyProgram@16e,randomNumber,WRITE,Thread-3,buggyprogram/BuggyProgram.java:338]
+	ReadWriteNode[585,buggyprogram.BuggyProgram@16e,randomNumber,READ,Thread-2,buggyprogram/BuggyProgram.java:355]
+}
+success count: 98
+fail count: 3, Pattern {
+	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] ]
+	matched: true
+	ReadWriteNode[448,buggyprogram.BuggyProgram@16e,randomNumber,READ,Thread-2,buggyprogram/BuggyProgram.java:339]
+	ReadWriteNode[478,buggyprogram.BuggyProgram@16e,randomNumber,WRITE,Thread-3,buggyprogram/BuggyProgram.java:338]
+}
+success count: 151
+fail count: 4, Pattern {
+	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,READ] ]
+	matched: true
+	ReadWriteNode[448,buggyprogram.BuggyProgram@16e,randomNumber,READ,Thread-2,buggyprogram/BuggyProgram.java:339]
+	ReadWriteNode[478,buggyprogram.BuggyProgram@16e,randomNumber,WRITE,Thread-3,buggyprogram/BuggyProgram.java:338]
+	ReadWriteNode[534,buggyprogram.BuggyProgram@16e,randomNumber,READ,Thread-2,buggyprogram/BuggyProgram.java:313]
+}
+success count: 91
 fail count: 2, Pattern {
 	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] ]
 	matched: true
 	ReadWriteNode[253,buggyprogram.BuggyProgram@16e,randomNumber,WRITE,main,buggyprogram/BuggyProgram.java:66]
-	ReadWriteNode[400,buggyprogram.BuggyProgram@16e,randomNumber,WRITE,Thread-1,buggyprogram/BuggyProgram.java:338]
+	ReadWriteNode[416,buggyprogram.BuggyProgram@16e,randomNumber,WRITE,Thread-1,buggyprogram/BuggyProgram.java:338]
 }
 success count: 98
 fail count: 2, Pattern {
 	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] ]
 	matched: true
-	ReadWriteNode[436,buggyprogram.BuggyProgram@16e,randomNumber,WRITE,Thread-2,buggyprogram/BuggyProgram.java:338]
-	ReadWriteNode[480,buggyprogram.BuggyProgram@16e,randomNumber,WRITE,Thread-3,buggyprogram/BuggyProgram.java:338]
+	ReadWriteNode[431,buggyprogram.BuggyProgram@16e,randomNumber,WRITE,Thread-2,buggyprogram/BuggyProgram.java:338]
+	ReadWriteNode[478,buggyprogram.BuggyProgram@16e,randomNumber,WRITE,Thread-3,buggyprogram/BuggyProgram.java:338]
 }
 success count: 196
 fail count: 4, Pattern {
 	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
 	matched: true
 	ReadWriteNode[275,buggyprogram.BuggyProgram$User@179,this$0,WRITE,main,buggyprogram/BuggyProgram.java:290]
-	ReadWriteNode[387,buggyprogram.BuggyProgram$User@179,this$0,READ,Thread-1,buggyprogram/BuggyProgram.java:338]
+	ReadWriteNode[407,buggyprogram.BuggyProgram$User@179,this$0,READ,Thread-1,buggyprogram/BuggyProgram.java:338]
 }
 success count: 294
 fail count: 6, Pattern {
 	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
 	matched: true
 	ReadWriteNode[251,buggyprogram.BuggyProgram,numOfUsers,WRITE,main,buggyprogram/BuggyProgram.java:164]
-	ReadWriteNode[572,buggyprogram.BuggyProgram,numOfUsers,READ,Thread-3,buggyprogram/BuggyProgram.java:309]
+	ReadWriteNode[569,buggyprogram.BuggyProgram,numOfUsers,READ,Thread-1,buggyprogram/BuggyProgram.java:309]
 }
 success count: 294
 fail count: 6, Pattern {
 	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
 	matched: true
 	ReadWriteNode[275,buggyprogram.BuggyProgram$User@179,this$0,WRITE,main,buggyprogram/BuggyProgram.java:290]
-	ReadWriteNode[580,buggyprogram.BuggyProgram$User@179,this$0,READ,Thread-1,buggyprogram/BuggyProgram.java:313]
+	ReadWriteNode[557,buggyprogram.BuggyProgram$User@179,this$0,READ,Thread-1,buggyprogram/BuggyProgram.java:313]
 }
 success count: 294
 fail count: 6, Pattern {
 	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
 	matched: true
 	ReadWriteNode[335,buggyprogram.BuggyProgram$User@189,userNumber,WRITE,main,buggyprogram/BuggyProgram.java:291]
-	ReadWriteNode[427,buggyprogram.BuggyProgram$User@189,userNumber,READ,Thread-2,buggyprogram/BuggyProgram.java:338]
+	ReadWriteNode[400,buggyprogram.BuggyProgram$User@189,userNumber,READ,Thread-2,buggyprogram/BuggyProgram.java:338]
 }
 success count: 294
 fail count: 6, Pattern {
 	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
 	matched: true
 	ReadWriteNode[306,buggyprogram.BuggyProgram$User@189,this$0,WRITE,main,buggyprogram/BuggyProgram.java:290]
-	ReadWriteNode[596,buggyprogram.BuggyProgram$User@189,this$0,READ,Thread-2,buggyprogram/BuggyProgram.java:355]
+	ReadWriteNode[579,buggyprogram.BuggyProgram$User@189,this$0,READ,Thread-2,buggyprogram/BuggyProgram.java:355]
 }
 success count: 294
 fail count: 6, Pattern {
 	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
 	matched: true
 	ReadWriteNode[251,buggyprogram.BuggyProgram,numOfUsers,WRITE,main,buggyprogram/BuggyProgram.java:164]
-	ReadWriteNode[592,buggyprogram.BuggyProgram,numOfUsers,READ,Thread-1,buggyprogram/BuggyProgram.java:312]
+	ReadWriteNode[614,buggyprogram.BuggyProgram,numOfUsers,READ,Thread-3,buggyprogram/BuggyProgram.java:312]
 }
 success count: 294
 fail count: 6, Pattern {
 	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
 	matched: true
 	ReadWriteNode[275,buggyprogram.BuggyProgram$User@179,this$0,WRITE,main,buggyprogram/BuggyProgram.java:290]
-	ReadWriteNode[666,buggyprogram.BuggyProgram$User@179,this$0,READ,Thread-1,buggyprogram/BuggyProgram.java:370]
+	ReadWriteNode[629,buggyprogram.BuggyProgram$User@179,this$0,READ,Thread-1,buggyprogram/BuggyProgram.java:370]
 }
 success count: 294
 fail count: 6, Pattern {
 	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
 	matched: true
 	ReadWriteNode[256,buggyprogram.BuggyProgram,history,WRITE,main,buggyprogram/BuggyProgram.java:92]
-	ReadWriteNode[632,buggyprogram.BuggyProgram,history,READ,Thread-2,buggyprogram/BuggyProgram.java:370]
+	ReadWriteNode[625,buggyprogram.BuggyProgram,history,READ,Thread-2,buggyprogram/BuggyProgram.java:370]
 }
 success count: 294
 fail count: 6, Pattern {
 	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
 	matched: true
 	ReadWriteNode[304,buggyprogram.BuggyProgram$User@179,userNumber,WRITE,main,buggyprogram/BuggyProgram.java:291]
-	ReadWriteNode[665,buggyprogram.BuggyProgram$User@179,userNumber,READ,Thread-1,buggyprogram/BuggyProgram.java:370]
+	ReadWriteNode[628,buggyprogram.BuggyProgram$User@179,userNumber,READ,Thread-1,buggyprogram/BuggyProgram.java:370]
 }
 success count: 294
 fail count: 6, Pattern {
 	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
 	matched: true
 	ReadWriteNode[337,buggyprogram.BuggyProgram$User@191,this$0,WRITE,main,buggyprogram/BuggyProgram.java:290]
-	ReadWriteNode[483,buggyprogram.BuggyProgram$User@191,this$0,READ,Thread-3,buggyprogram/BuggyProgram.java:339]
+	ReadWriteNode[481,buggyprogram.BuggyProgram$User@191,this$0,READ,Thread-3,buggyprogram/BuggyProgram.java:339]
 }
 success count: 294
 fail count: 6, Pattern {
 	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
 	matched: true
 	ReadWriteNode[260,buggyprogram.BuggyProgram,generated,WRITE,main,buggyprogram/BuggyProgram.java:94]
-	ReadWriteNode[424,buggyprogram.BuggyProgram,generated,READ,Thread-2,buggyprogram/BuggyProgram.java:338]
+	ReadWriteNode[395,buggyprogram.BuggyProgram,generated,READ,Thread-1,buggyprogram/BuggyProgram.java:338]
 }
 success count: 294
 fail count: 6, Pattern {
 	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
 	matched: true
 	ReadWriteNode[303,buggyprogram.BuggyProgram$User@179,random,WRITE,main,buggyprogram/BuggyProgram.java:276]
-	ReadWriteNode[392,buggyprogram.BuggyProgram$User@179,random,READ,Thread-1,buggyprogram/BuggyProgram.java:338]
+	ReadWriteNode[413,buggyprogram.BuggyProgram$User@179,random,READ,Thread-1,buggyprogram/BuggyProgram.java:338]
 }
 success count: 294
 fail count: 6, Pattern {
 	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
 	matched: true
 	ReadWriteNode[42,java.lang.System,out,WRITE,main,java/lang/System.java:43]
-	ReadWriteNode[552,java.lang.System,out,READ,Thread-2,buggyprogram/BuggyProgram.java:355]
+	ReadWriteNode[548,java.lang.System,out,READ,Thread-2,buggyprogram/BuggyProgram.java:355]
 }
 success count: 294
 fail count: 6, Pattern {
 	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
 	matched: true
 	ReadWriteNode[42,java.lang.System,out,WRITE,main,java/lang/System.java:43]
-	ReadWriteNode[482,java.lang.System,out,READ,Thread-3,buggyprogram/BuggyProgram.java:339]
+	ReadWriteNode[480,java.lang.System,out,READ,Thread-3,buggyprogram/BuggyProgram.java:339]
 }
 success count: 294
 fail count: 6, Pattern {
 	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
 	matched: true
 	ReadWriteNode[304,buggyprogram.BuggyProgram$User@179,userNumber,WRITE,main,buggyprogram/BuggyProgram.java:291]
-	ReadWriteNode[654,buggyprogram.BuggyProgram$User@179,userNumber,READ,Thread-1,buggyprogram/BuggyProgram.java:355]
+	ReadWriteNode[587,buggyprogram.BuggyProgram$User@179,userNumber,READ,Thread-1,buggyprogram/BuggyProgram.java:355]
 }
 success count: 294
 fail count: 6, Pattern {
 	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
 	matched: true
 	ReadWriteNode[256,buggyprogram.BuggyProgram,history,WRITE,main,buggyprogram/BuggyProgram.java:92]
-	ReadWriteNode[555,buggyprogram.BuggyProgram,history,READ,Thread-3,buggyprogram/BuggyProgram.java:313]
+	ReadWriteNode[545,buggyprogram.BuggyProgram,history,READ,Thread-1,buggyprogram/BuggyProgram.java:313]
 }
 success count: 294
 fail count: 6, Pattern {
 	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
 	matched: true
 	ReadWriteNode[258,buggyprogram.BuggyProgram,presented,WRITE,main,buggyprogram/BuggyProgram.java:93]
-	ReadWriteNode[651,buggyprogram.BuggyProgram,presented,READ,Thread-1,buggyprogram/BuggyProgram.java:355]
+	ReadWriteNode[657,buggyprogram.BuggyProgram,presented,READ,Thread-3,buggyprogram/BuggyProgram.java:355]
 }
 success count: 294
 fail count: 6, Pattern {
 	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,READ] ]
 	matched: true
-	ReadWriteNode[436,buggyprogram.BuggyProgram@16e,randomNumber,WRITE,Thread-2,buggyprogram/BuggyProgram.java:338]
-	ReadWriteNode[480,buggyprogram.BuggyProgram@16e,randomNumber,WRITE,Thread-3,buggyprogram/BuggyProgram.java:338]
-	ReadWriteNode[543,buggyprogram.BuggyProgram@16e,randomNumber,READ,Thread-2,buggyprogram/BuggyProgram.java:313]
+	ReadWriteNode[431,buggyprogram.BuggyProgram@16e,randomNumber,WRITE,Thread-2,buggyprogram/BuggyProgram.java:338]
+	ReadWriteNode[478,buggyprogram.BuggyProgram@16e,randomNumber,WRITE,Thread-3,buggyprogram/BuggyProgram.java:338]
+	ReadWriteNode[534,buggyprogram.BuggyProgram@16e,randomNumber,READ,Thread-2,buggyprogram/BuggyProgram.java:313]
 }
 success count: 100
 fail count: 2, Pattern {
 	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
 	matched: true
-	ReadWriteNode[480,buggyprogram.BuggyProgram@16e,randomNumber,WRITE,Thread-3,buggyprogram/BuggyProgram.java:338]
-	ReadWriteNode[543,buggyprogram.BuggyProgram@16e,randomNumber,READ,Thread-2,buggyprogram/BuggyProgram.java:313]
+	ReadWriteNode[478,buggyprogram.BuggyProgram@16e,randomNumber,WRITE,Thread-3,buggyprogram/BuggyProgram.java:338]
+	ReadWriteNode[596,buggyprogram.BuggyProgram@16e,randomNumber,READ,Thread-1,buggyprogram/BuggyProgram.java:355]
 }
-success count: 193
+success count: 192
+fail count: 3, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[478,buggyprogram.BuggyProgram@16e,randomNumber,WRITE,Thread-3,buggyprogram/BuggyProgram.java:338]
+	ReadWriteNode[636,buggyprogram.BuggyProgram@16e,randomNumber,READ,Thread-2,buggyprogram/BuggyProgram.java:370]
+}
+success count: 192
+fail count: 3, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[478,buggyprogram.BuggyProgram@16e,randomNumber,WRITE,Thread-3,buggyprogram/BuggyProgram.java:338]
+	ReadWriteNode[534,buggyprogram.BuggyProgram@16e,randomNumber,READ,Thread-2,buggyprogram/BuggyProgram.java:313]
+}
+success count: 192
 fail count: 2, Pattern {
 	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
 	matched: true
-	ReadWriteNode[480,buggyprogram.BuggyProgram@16e,randomNumber,WRITE,Thread-3,buggyprogram/BuggyProgram.java:338]
-	ReadWriteNode[645,buggyprogram.BuggyProgram@16e,randomNumber,READ,Thread-2,buggyprogram/BuggyProgram.java:370]
-}
-success count: 193
-fail count: 2, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
-	matched: true
-	ReadWriteNode[480,buggyprogram.BuggyProgram@16e,randomNumber,WRITE,Thread-3,buggyprogram/BuggyProgram.java:338]
-	ReadWriteNode[612,buggyprogram.BuggyProgram@16e,randomNumber,READ,Thread-2,buggyprogram/BuggyProgram.java:355]
-}
-success count: 193
-fail count: 2, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,READ] ]
-	matched: true
-	ReadWriteNode[436,buggyprogram.BuggyProgram@16e,randomNumber,WRITE,Thread-2,buggyprogram/BuggyProgram.java:338]
-	ReadWriteNode[480,buggyprogram.BuggyProgram@16e,randomNumber,WRITE,Thread-3,buggyprogram/BuggyProgram.java:338]
-	ReadWriteNode[645,buggyprogram.BuggyProgram@16e,randomNumber,READ,Thread-2,buggyprogram/BuggyProgram.java:370]
-}
-success count: 98
-fail count: 0, Pattern {
-	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,READ] ]
-	matched: true
-	ReadWriteNode[453,buggyprogram.BuggyProgram@16e,randomNumber,READ,Thread-2,buggyprogram/BuggyProgram.java:339]
-	ReadWriteNode[480,buggyprogram.BuggyProgram@16e,randomNumber,WRITE,Thread-3,buggyprogram/BuggyProgram.java:338]
-	ReadWriteNode[645,buggyprogram.BuggyProgram@16e,randomNumber,READ,Thread-2,buggyprogram/BuggyProgram.java:370]
-}
-success count: 86
-fail count: 0, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
-	matched: true
-	ReadWriteNode[449,buggyprogram.BuggyProgram@16e,randomNumber,WRITE,Thread-2,buggyprogram/BuggyProgram.java:338]
-	ReadWriteNode[465,buggyprogram.BuggyProgram@16e,randomNumber,READ,Thread-3,buggyprogram/BuggyProgram.java:339]
-}
-success count: 87
-fail count: 0, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,READ] ]
-	matched: true
-	ReadWriteNode[444,buggyprogram.BuggyProgram@16e,randomNumber,WRITE,Thread-3,buggyprogram/BuggyProgram.java:338]
-	ReadWriteNode[449,buggyprogram.BuggyProgram@16e,randomNumber,WRITE,Thread-2,buggyprogram/BuggyProgram.java:338]
-	ReadWriteNode[465,buggyprogram.BuggyProgram@16e,randomNumber,READ,Thread-3,buggyprogram/BuggyProgram.java:339]
+	ReadWriteNode[446,buggyprogram.BuggyProgram@16e,randomNumber,WRITE,Thread-3,buggyprogram/BuggyProgram.java:338]
+	ReadWriteNode[481,buggyprogram.BuggyProgram@16e,randomNumber,READ,Thread-1,buggyprogram/BuggyProgram.java:339]
 }
 success count: 74
 fail count: 0, Pattern {
-	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,READ] ]
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,READ] ]
 	matched: true
-	ReadWriteNode[487,buggyprogram.BuggyProgram@16e,randomNumber,READ,Thread-1,buggyprogram/BuggyProgram.java:313]
-	ReadWriteNode[500,buggyprogram.BuggyProgram@16e,randomNumber,WRITE,Thread-3,buggyprogram/BuggyProgram.java:338]
-	ReadWriteNode[559,buggyprogram.BuggyProgram@16e,randomNumber,READ,Thread-1,buggyprogram/BuggyProgram.java:355]
+	ReadWriteNode[429,buggyprogram.BuggyProgram@16e,randomNumber,WRITE,Thread-2,buggyprogram/BuggyProgram.java:338]
+	ReadWriteNode[446,buggyprogram.BuggyProgram@16e,randomNumber,WRITE,Thread-3,buggyprogram/BuggyProgram.java:338]
+	ReadWriteNode[450,buggyprogram.BuggyProgram@16e,randomNumber,READ,Thread-2,buggyprogram/BuggyProgram.java:339]
 }
-success count: 2
+success count: 63
 fail count: 0]
-time for getting pattern list : 8575
+time for getting pattern list : 8367
