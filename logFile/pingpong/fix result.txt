@@ -3,4 +3,4 @@ Add synchronization
 Lock Name : this
 Locked position : 85->90
 result : fix success
-time for fixing:25922
+time for fixing:28491

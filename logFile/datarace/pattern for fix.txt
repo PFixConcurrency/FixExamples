@@ -1,8 +1,8 @@
 Pattern {
-	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] ]
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
 	matched: true
-	ReadWriteNode[528,datarace.Account@163,balance,READ,Thread-1,datarace/Account.java:8]
-	ReadWriteNode[564,datarace.Account@163,balance,WRITE,Thread-5,datarace/Account.java:12]
+	ReadWriteNode[246,datarace.CustomerInfo@16f,accounts,WRITE,main,datarace/CustomerInfo.java:15]
+	ReadWriteNode[400,datarace.CustomerInfo@16f,accounts,READ,Thread-2,datarace/CustomerInfo.java:26]
 }
-success count: 4
-fail count: 388
+success count: 0
+fail count: 600

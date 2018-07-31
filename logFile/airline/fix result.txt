@@ -1,7 +1,5 @@
 Fix three
-Locked position : 32->66
-result : fix fail
-Fix three
-Locked position : 60->66
+aim at : ReadWriteNode[1137,airline.Bug@15e,StopSales,READ,main,airline/Bug.java:38]Lock start and stop position : 38->51
+aim at : ReadWriteNode[1140,airline.Bug,Num_Of_Seats_Sold,WRITE,Thread-19,airline/Bug.java:60]Lock start and stop position : 60->62
 result : fix success
-time for fixing:99625
+time for fixing:5836

@@ -52,7 +52,7 @@ import java.util.Random;
 // ============================   Class definition   ===========================
 public class BuggyProgram {
 
-static Object objectFix = new Object();    // ==============================   Constants   ==============================
+    // ==============================   Constants   ==============================
     public static final int LITTLE_CONCURRENCY = 3,
             AVERAGE_CONCURRENCY = 33,
             LOT_CONCURRENCY = 333,
@@ -309,7 +309,7 @@ static Object objectFix = new Object();    // ==============================   C
             while (i != numOfUsers) {
                 generate();
 
-synchronized (objectFix){                 for (i = 0; i < numOfUsers; ++i) {
+                for (i = 0; i < numOfUsers; ++i) {
                     if (history[i] == randomNumber) {
                         break;
                     }
@@ -319,7 +319,7 @@ synchronized (objectFix){                 for (i = 0; i < numOfUsers; ++i) {
 
             present();
             record();
-}
+
 
         }
 
@@ -335,8 +335,8 @@ synchronized (objectFix){                 for (i = 0; i < numOfUsers; ++i) {
         // _________________________________________________________________________
 
         protected synchronized void generate() {
-            generated[userNumber] = randomNumber = random.nextInt(1000);
-            System.out.println(randomNumber);
+synchronized (this){             generated[userNumber] = randomNumber = random.nextInt(1000);
+}            System.out.println(randomNumber);
 //    	  (long) (Math.random(1) *
 //                                           Math.pow(10, MAX_DIGITS));
         }
@@ -367,7 +367,7 @@ synchronized (objectFix){                 for (i = 0; i < numOfUsers; ++i) {
         // _________________________________________________________________________
 
         protected synchronized void record() {
-            history[userNumber] = randomNumber;
-        }
+synchronized (this){             history[userNumber] = randomNumber;
+}        }
     }
 }

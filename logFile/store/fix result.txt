@@ -1,7 +1,6 @@
-Fix two
+Fix one
+Add synchronization
 Lock Name : this
-aim at : ReadWriteNode[362,store.Store@15e,customerCost,READ,Thread-2,store/Store.java:12]Lock start and stop position : 12->12
-Lock Name : this
-aim at : ReadWriteNode[368,store.Store@15e,customerCost,WRITE,Thread-1,store/Store.java:12]Lock start and stop position : 12->12
+Locked position : 12->13
 result : fix success
-time for fixing:22828
+time for fixing:5136
