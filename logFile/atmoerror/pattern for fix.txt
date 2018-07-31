@@ -1,8 +1,9 @@
 Pattern {
-	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] ]
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,WRITE] ]
 	matched: true
-	ReadWriteNode[481,atmoerror.BankAccount@15e,total,READ,Thread-2,atmoerror/BankAccount.java:7]
-	ReadWriteNode[484,atmoerror.BankAccount@15e,total,WRITE,Thread-1,atmoerror/BankAccount.java:7]
+	ReadWriteNode[472,atmoerror.BankAccount@15e,total,READ,Thread-1,atmoerror/BankAccount.java:7]
+	ReadWriteNode[484,atmoerror.BankAccount@15e,total,WRITE,Thread-2,atmoerror/BankAccount.java:7]
+	ReadWriteNode[487,atmoerror.BankAccount@15e,total,WRITE,Thread-1,atmoerror/BankAccount.java:7]
 }
 success count: 0
-fail count: 13
+fail count: 7

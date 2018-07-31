@@ -1,893 +1,884 @@
 [Pattern {
-	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,READ] ]
+	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] PatternTypeNode[y,2,WRITE] PatternTypeNode[y,1,READ] ]
 	matched: true
-	ReadWriteNode[3154,org.apache.log4j.spi.ThrowableInformation@375,rep,READ,Thread-3,org/apache/log4j/spi/ThrowableInformation.java:71]
-	ReadWriteNode[3186,org.apache.log4j.spi.ThrowableInformation@375,rep,WRITE,Thread-1,org/apache/log4j/spi/ThrowableInformation.java:90]
-	ReadWriteNode[3189,org.apache.log4j.spi.ThrowableInformation@375,rep,READ,Thread-3,org/apache/log4j/spi/ThrowableInformation.java:72]
+	ReadWriteNode[1000,org.apache.log4j.spi.LoggingEvent@1de,renderedMessage,READ,Thread-1,org/apache/log4j/spi/LoggingEvent.java:354]
+	ReadWriteNode[1014,org.apache.log4j.spi.LoggingEvent@1de,renderedMessage,WRITE,Thread-4,org/apache/log4j/spi/LoggingEvent.java:356]
+	ReadWriteNode[1989,org.apache.log4j.spi.ThrowableInformation@375,rep,WRITE,Thread-4,org/apache/log4j/spi/ThrowableInformation.java:90]
+	ReadWriteNode[1992,org.apache.log4j.spi.ThrowableInformation@375,rep,READ,Thread-1,org/apache/log4j/spi/ThrowableInformation.java:71]
 }
-success count: 1
+success count: 0
 fail count: 1, Pattern {
+	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] PatternTypeNode[y,2,WRITE] PatternTypeNode[y,1,READ] ]
+	matched: true
+	ReadWriteNode[1000,org.apache.log4j.spi.LoggingEvent@1de,renderedMessage,READ,Thread-1,org/apache/log4j/spi/LoggingEvent.java:354]
+	ReadWriteNode[1014,org.apache.log4j.spi.LoggingEvent@1de,renderedMessage,WRITE,Thread-4,org/apache/log4j/spi/LoggingEvent.java:356]
+	ReadWriteNode[1989,org.apache.log4j.spi.ThrowableInformation@375,rep,WRITE,Thread-4,org/apache/log4j/spi/ThrowableInformation.java:90]
+	ReadWriteNode[1995,org.apache.log4j.spi.ThrowableInformation@375,rep,READ,Thread-1,org/apache/log4j/spi/ThrowableInformation.java:72]
+}
+success count: 0
+fail count: 1, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] PatternTypeNode[y,2,READ] PatternTypeNode[y,1,WRITE] ]
+	matched: true
+	ReadWriteNode[984,org.apache.log4j.spi.LoggingEvent@1de,renderedMessage,WRITE,Thread-3,org/apache/log4j/spi/LoggingEvent.java:356]
+	ReadWriteNode[1008,org.apache.log4j.spi.LoggingEvent@1de,renderedMessage,READ,Thread-2,org/apache/log4j/spi/LoggingEvent.java:354]
+	ReadWriteNode[3614,org.apache.log4j.spi.ThrowableInformation@375,rep,READ,Thread-2,org/apache/log4j/spi/ThrowableInformation.java:91]
+	ReadWriteNode[3936,org.apache.log4j.spi.ThrowableInformation@375,rep,WRITE,Thread-3,org/apache/log4j/spi/ThrowableInformation.java:90]
+}
+success count: 27
+fail count: 9, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] PatternTypeNode[y,2,READ] PatternTypeNode[y,1,WRITE] ]
+	matched: true
+	ReadWriteNode[984,org.apache.log4j.spi.LoggingEvent@1de,renderedMessage,WRITE,Thread-3,org/apache/log4j/spi/LoggingEvent.java:356]
+	ReadWriteNode[1013,org.apache.log4j.spi.LoggingEvent@1de,renderedMessage,READ,Thread-2,org/apache/log4j/spi/LoggingEvent.java:368]
+	ReadWriteNode[3614,org.apache.log4j.spi.ThrowableInformation@375,rep,READ,Thread-2,org/apache/log4j/spi/ThrowableInformation.java:91]
+	ReadWriteNode[3936,org.apache.log4j.spi.ThrowableInformation@375,rep,WRITE,Thread-3,org/apache/log4j/spi/ThrowableInformation.java:90]
+}
+success count: 38
+fail count: 10, Pattern {
 	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[y,2,WRITE] PatternTypeNode[y,1,READ] PatternTypeNode[x,2,WRITE] ]
 	matched: true
-	ReadWriteNode[1184,org.apache.log4j.spi.ThrowableInformation@375,rep,READ,Thread-1,org/apache/log4j/spi/ThrowableInformation.java:71]
-	ReadWriteNode[1398,java.util.ArrayList,DEFAULTCAPACITY_EMPTY_ELEMENTDATA,WRITE,Thread-2,java/util/ArrayList.java:127]
-	ReadWriteNode[2654,java.util.ArrayList,DEFAULTCAPACITY_EMPTY_ELEMENTDATA,READ,Thread-1,java/util/ArrayList.java:224]
-	ReadWriteNode[3094,org.apache.log4j.spi.ThrowableInformation@375,rep,WRITE,Thread-2,org/apache/log4j/spi/ThrowableInformation.java:90]
+	ReadWriteNode[1188,org.apache.log4j.spi.ThrowableInformation@375,rep,READ,Thread-1,org/apache/log4j/spi/ThrowableInformation.java:71]
+	ReadWriteNode[1401,java.util.ArrayList,DEFAULTCAPACITY_EMPTY_ELEMENTDATA,WRITE,Thread-4,java/util/ArrayList.java:126]
+	ReadWriteNode[3187,java.util.ArrayList,DEFAULTCAPACITY_EMPTY_ELEMENTDATA,READ,Thread-1,java/util/ArrayList.java:223]
+	ReadWriteNode[3216,org.apache.log4j.spi.ThrowableInformation@375,rep,WRITE,Thread-4,org/apache/log4j/spi/ThrowableInformation.java:90]
 }
-success count: 9
-fail count: 6, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] PatternTypeNode[y,2,READ] PatternTypeNode[y,1,WRITE] ]
-	matched: true
-	ReadWriteNode[1000,org.apache.log4j.spi.LoggingEvent@1de,renderedMessage,WRITE,Thread-3,org/apache/log4j/spi/LoggingEvent.java:356]
-	ReadWriteNode[1016,org.apache.log4j.spi.LoggingEvent@1de,renderedMessage,READ,Thread-1,org/apache/log4j/spi/LoggingEvent.java:368]
-	ReadWriteNode[1978,org.apache.log4j.spi.ThrowableInformation@375,rep,READ,Thread-1,org/apache/log4j/spi/ThrowableInformation.java:72]
-	ReadWriteNode[3241,org.apache.log4j.spi.ThrowableInformation@375,rep,WRITE,Thread-3,org/apache/log4j/spi/ThrowableInformation.java:90]
-}
-success count: 2
-fail count: 1, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] PatternTypeNode[y,2,READ] PatternTypeNode[y,1,WRITE] ]
-	matched: true
-	ReadWriteNode[1000,org.apache.log4j.spi.LoggingEvent@1de,renderedMessage,WRITE,Thread-3,org/apache/log4j/spi/LoggingEvent.java:356]
-	ReadWriteNode[1006,org.apache.log4j.spi.LoggingEvent@1de,renderedMessage,READ,Thread-1,org/apache/log4j/spi/LoggingEvent.java:354]
-	ReadWriteNode[1978,org.apache.log4j.spi.ThrowableInformation@375,rep,READ,Thread-1,org/apache/log4j/spi/ThrowableInformation.java:72]
-	ReadWriteNode[3241,org.apache.log4j.spi.ThrowableInformation@375,rep,WRITE,Thread-3,org/apache/log4j/spi/ThrowableInformation.java:90]
-}
-success count: 2
-fail count: 1, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] PatternTypeNode[y,2,READ] PatternTypeNode[y,1,WRITE] ]
-	matched: true
-	ReadWriteNode[1295,java.io.BufferedReader,defaultCharBufferSize,WRITE,Thread-2,java/io/BufferedReader.java:88]
-	ReadWriteNode[1395,java.io.BufferedReader,defaultCharBufferSize,READ,Thread-3,java/io/BufferedReader.java:116]
-	ReadWriteNode[3825,org.apache.log4j.spi.ThrowableInformation@375,rep,READ,Thread-3,org/apache/log4j/spi/ThrowableInformation.java:93]
-	ReadWriteNode[3856,org.apache.log4j.spi.ThrowableInformation@375,rep,WRITE,Thread-2,org/apache/log4j/spi/ThrowableInformation.java:90]
-}
-success count: 17
-fail count: 8, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] PatternTypeNode[y,2,READ] PatternTypeNode[y,1,WRITE] ]
-	matched: true
-	ReadWriteNode[1440,java.util.ArrayList,DEFAULTCAPACITY_EMPTY_ELEMENTDATA,WRITE,Thread-2,java/util/ArrayList.java:127]
-	ReadWriteNode[2268,java.util.ArrayList,DEFAULTCAPACITY_EMPTY_ELEMENTDATA,READ,Thread-3,java/util/ArrayList.java:224]
-	ReadWriteNode[3825,org.apache.log4j.spi.ThrowableInformation@375,rep,READ,Thread-3,org/apache/log4j/spi/ThrowableInformation.java:93]
-	ReadWriteNode[3856,org.apache.log4j.spi.ThrowableInformation@375,rep,WRITE,Thread-2,org/apache/log4j/spi/ThrowableInformation.java:90]
-}
-success count: 13
-fail count: 6, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] PatternTypeNode[y,2,READ] PatternTypeNode[y,1,WRITE] ]
-	matched: true
-	ReadWriteNode[1440,java.util.ArrayList,DEFAULTCAPACITY_EMPTY_ELEMENTDATA,WRITE,Thread-2,java/util/ArrayList.java:127]
-	ReadWriteNode[1596,java.util.ArrayList,DEFAULTCAPACITY_EMPTY_ELEMENTDATA,READ,Thread-1,java/util/ArrayList.java:166]
-	ReadWriteNode[3581,org.apache.log4j.spi.ThrowableInformation@375,rep,READ,Thread-1,org/apache/log4j/spi/ThrowableInformation.java:93]
-	ReadWriteNode[3856,org.apache.log4j.spi.ThrowableInformation@375,rep,WRITE,Thread-2,org/apache/log4j/spi/ThrowableInformation.java:90]
-}
-success count: 13
-fail count: 6, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] PatternTypeNode[y,2,READ] PatternTypeNode[y,1,WRITE] ]
-	matched: true
-	ReadWriteNode[1002,org.apache.log4j.spi.LoggingEvent@1de,renderedMessage,WRITE,Thread-2,org/apache/log4j/spi/LoggingEvent.java:356]
-	ReadWriteNode[1009,org.apache.log4j.spi.LoggingEvent@1de,renderedMessage,READ,Thread-1,org/apache/log4j/spi/LoggingEvent.java:368]
-	ReadWriteNode[2735,org.apache.log4j.spi.ThrowableInformation@375,rep,READ,Thread-1,org/apache/log4j/spi/ThrowableInformation.java:93]
-	ReadWriteNode[3249,org.apache.log4j.spi.ThrowableInformation@375,rep,WRITE,Thread-2,org/apache/log4j/spi/ThrowableInformation.java:90]
-}
-success count: 22
-fail count: 10, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
-	matched: true
-	ReadWriteNode[1873,org.apache.log4j.spi.ThrowableInformation@375,rep,WRITE,Thread-4,org/apache/log4j/spi/ThrowableInformation.java:90]
-	ReadWriteNode[1881,org.apache.log4j.spi.ThrowableInformation@375,rep,READ,Thread-2,org/apache/log4j/spi/ThrowableInformation.java:72]
-}
-success count: 9
-fail count: 4, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
-	matched: true
-	ReadWriteNode[1873,org.apache.log4j.spi.ThrowableInformation@375,rep,WRITE,Thread-4,org/apache/log4j/spi/ThrowableInformation.java:90]
-	ReadWriteNode[1878,org.apache.log4j.spi.ThrowableInformation@375,rep,READ,Thread-2,org/apache/log4j/spi/ThrowableInformation.java:71]
-}
-success count: 9
+success count: 16
 fail count: 4, Pattern {
 	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] PatternTypeNode[y,2,READ] PatternTypeNode[y,1,WRITE] ]
 	matched: true
-	ReadWriteNode[1033,org.apache.log4j.spi.LoggingEvent@1de,renderedMessage,WRITE,Thread-1,org/apache/log4j/spi/LoggingEvent.java:356]
-	ReadWriteNode[1036,org.apache.log4j.spi.LoggingEvent@1de,renderedMessage,READ,Thread-4,org/apache/log4j/spi/LoggingEvent.java:368]
-	ReadWriteNode[3882,org.apache.log4j.spi.ThrowableInformation@375,rep,READ,Thread-4,org/apache/log4j/spi/ThrowableInformation.java:91]
-	ReadWriteNode[3889,org.apache.log4j.spi.ThrowableInformation@375,rep,WRITE,Thread-1,org/apache/log4j/spi/ThrowableInformation.java:90]
+	ReadWriteNode[984,org.apache.log4j.spi.LoggingEvent@1de,renderedMessage,WRITE,Thread-3,org/apache/log4j/spi/LoggingEvent.java:356]
+	ReadWriteNode[1008,org.apache.log4j.spi.LoggingEvent@1de,renderedMessage,READ,Thread-2,org/apache/log4j/spi/LoggingEvent.java:354]
+	ReadWriteNode[3836,org.apache.log4j.spi.ThrowableInformation@375,rep,READ,Thread-2,org/apache/log4j/spi/ThrowableInformation.java:93]
+	ReadWriteNode[3936,org.apache.log4j.spi.ThrowableInformation@375,rep,WRITE,Thread-3,org/apache/log4j/spi/ThrowableInformation.java:90]
 }
-success count: 26
-fail count: 11, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] PatternTypeNode[y,2,READ] PatternTypeNode[y,1,WRITE] ]
+success count: 24
+fail count: 6, Pattern {
+	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[y,2,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[y,1,READ] ]
 	matched: true
-	ReadWriteNode[1001,org.apache.log4j.spi.LoggingEvent@1de,renderedMessage,WRITE,Thread-3,org/apache/log4j/spi/LoggingEvent.java:356]
-	ReadWriteNode[1015,org.apache.log4j.spi.LoggingEvent@1de,renderedMessage,READ,Thread-2,org/apache/log4j/spi/LoggingEvent.java:354]
-	ReadWriteNode[2999,org.apache.log4j.spi.ThrowableInformation@375,rep,READ,Thread-2,org/apache/log4j/spi/ThrowableInformation.java:93]
-	ReadWriteNode[3363,org.apache.log4j.spi.ThrowableInformation@375,rep,WRITE,Thread-3,org/apache/log4j/spi/ThrowableInformation.java:90]
-}
-success count: 17
-fail count: 7, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] PatternTypeNode[y,2,READ] PatternTypeNode[y,1,WRITE] ]
-	matched: true
-	ReadWriteNode[1001,org.apache.log4j.spi.LoggingEvent@1de,renderedMessage,WRITE,Thread-3,org/apache/log4j/spi/LoggingEvent.java:356]
-	ReadWriteNode[1015,org.apache.log4j.spi.LoggingEvent@1de,renderedMessage,READ,Thread-2,org/apache/log4j/spi/LoggingEvent.java:354]
-	ReadWriteNode[2522,org.apache.log4j.spi.ThrowableInformation@375,rep,READ,Thread-2,org/apache/log4j/spi/ThrowableInformation.java:91]
-	ReadWriteNode[3363,org.apache.log4j.spi.ThrowableInformation@375,rep,WRITE,Thread-3,org/apache/log4j/spi/ThrowableInformation.java:90]
-}
-success count: 20
-fail count: 8, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[y,2,READ] PatternTypeNode[y,1,WRITE] PatternTypeNode[x,2,READ] ]
-	matched: true
-	ReadWriteNode[1360,java.util.ArrayList,DEFAULTCAPACITY_EMPTY_ELEMENTDATA,WRITE,Thread-1,java/util/ArrayList.java:127]
-	ReadWriteNode[1592,org.apache.log4j.spi.ThrowableInformation@375,rep,READ,Thread-4,org/apache/log4j/spi/ThrowableInformation.java:71]
-	ReadWriteNode[2100,org.apache.log4j.spi.ThrowableInformation@375,rep,WRITE,Thread-1,org/apache/log4j/spi/ThrowableInformation.java:90]
-	ReadWriteNode[2803,java.util.ArrayList,DEFAULTCAPACITY_EMPTY_ELEMENTDATA,READ,Thread-4,java/util/ArrayList.java:166]
-}
-success count: 21
-fail count: 8, Pattern {
-	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,READ] ]
-	matched: true
-	ReadWriteNode[3882,org.apache.log4j.spi.ThrowableInformation@375,rep,READ,Thread-4,org/apache/log4j/spi/ThrowableInformation.java:91]
-	ReadWriteNode[3889,org.apache.log4j.spi.ThrowableInformation@375,rep,WRITE,Thread-1,org/apache/log4j/spi/ThrowableInformation.java:90]
-	ReadWriteNode[3892,org.apache.log4j.spi.ThrowableInformation@375,rep,READ,Thread-4,org/apache/log4j/spi/ThrowableInformation.java:93]
-}
-success count: 31
-fail count: 11, Pattern {
-	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] ]
-	matched: true
-	ReadWriteNode[1026,org.apache.log4j.spi.LoggingEvent@1de,renderedMessage,READ,Thread-2,org/apache/log4j/spi/LoggingEvent.java:368]
-	ReadWriteNode[1033,org.apache.log4j.spi.LoggingEvent@1de,renderedMessage,WRITE,Thread-1,org/apache/log4j/spi/LoggingEvent.java:356]
+	ReadWriteNode[1263,org.apache.log4j.spi.ThrowableInformation@375,rep,READ,Thread-4,org/apache/log4j/spi/ThrowableInformation.java:71]
+	ReadWriteNode[1406,java.util.ArrayList,DEFAULTCAPACITY_EMPTY_ELEMENTDATA,WRITE,Thread-3,java/util/ArrayList.java:126]
+	ReadWriteNode[2143,org.apache.log4j.spi.ThrowableInformation@375,rep,WRITE,Thread-3,org/apache/log4j/spi/ThrowableInformation.java:90]
+	ReadWriteNode[2440,java.util.ArrayList,DEFAULTCAPACITY_EMPTY_ELEMENTDATA,READ,Thread-4,java/util/ArrayList.java:165]
 }
 success count: 82
-fail count: 28, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[y,2,READ] PatternTypeNode[y,1,WRITE] PatternTypeNode[x,2,READ] ]
-	matched: true
-	ReadWriteNode[1360,java.util.ArrayList,DEFAULTCAPACITY_EMPTY_ELEMENTDATA,WRITE,Thread-1,java/util/ArrayList.java:127]
-	ReadWriteNode[1592,org.apache.log4j.spi.ThrowableInformation@375,rep,READ,Thread-4,org/apache/log4j/spi/ThrowableInformation.java:71]
-	ReadWriteNode[2100,org.apache.log4j.spi.ThrowableInformation@375,rep,WRITE,Thread-1,org/apache/log4j/spi/ThrowableInformation.java:90]
-	ReadWriteNode[3824,java.util.ArrayList,DEFAULTCAPACITY_EMPTY_ELEMENTDATA,READ,Thread-4,java/util/ArrayList.java:224]
-}
-success count: 21
-fail count: 7, Pattern {
+fail count: 19, Pattern {
 	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] PatternTypeNode[y,2,READ] PatternTypeNode[y,1,WRITE] ]
 	matched: true
-	ReadWriteNode[1295,java.io.BufferedReader,defaultCharBufferSize,WRITE,Thread-2,java/io/BufferedReader.java:88]
-	ReadWriteNode[1580,java.io.BufferedReader,defaultCharBufferSize,READ,Thread-1,java/io/BufferedReader.java:116]
-	ReadWriteNode[3574,org.apache.log4j.spi.ThrowableInformation@375,rep,READ,Thread-1,org/apache/log4j/spi/ThrowableInformation.java:91]
-	ReadWriteNode[3856,org.apache.log4j.spi.ThrowableInformation@375,rep,WRITE,Thread-2,org/apache/log4j/spi/ThrowableInformation.java:90]
+	ReadWriteNode[984,org.apache.log4j.spi.LoggingEvent@1de,renderedMessage,WRITE,Thread-3,org/apache/log4j/spi/LoggingEvent.java:356]
+	ReadWriteNode[1013,org.apache.log4j.spi.LoggingEvent@1de,renderedMessage,READ,Thread-2,org/apache/log4j/spi/LoggingEvent.java:368]
+	ReadWriteNode[3836,org.apache.log4j.spi.ThrowableInformation@375,rep,READ,Thread-2,org/apache/log4j/spi/ThrowableInformation.java:93]
+	ReadWriteNode[3936,org.apache.log4j.spi.ThrowableInformation@375,rep,WRITE,Thread-3,org/apache/log4j/spi/ThrowableInformation.java:90]
 }
-success count: 22
+success count: 34
 fail count: 7, Pattern {
-	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[y,2,WRITE] PatternTypeNode[y,1,READ] PatternTypeNode[x,2,WRITE] ]
+	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] PatternTypeNode[y,2,WRITE] PatternTypeNode[y,1,READ] ]
 	matched: true
-	ReadWriteNode[1209,org.apache.log4j.spi.ThrowableInformation@375,rep,READ,Thread-1,org/apache/log4j/spi/ThrowableInformation.java:71]
-	ReadWriteNode[1418,java.util.ArrayList,DEFAULTCAPACITY_EMPTY_ELEMENTDATA,WRITE,Thread-2,java/util/ArrayList.java:127]
-	ReadWriteNode[2019,java.util.ArrayList,DEFAULTCAPACITY_EMPTY_ELEMENTDATA,READ,Thread-1,java/util/ArrayList.java:166]
-	ReadWriteNode[2276,org.apache.log4j.spi.ThrowableInformation@375,rep,WRITE,Thread-2,org/apache/log4j/spi/ThrowableInformation.java:90]
+	ReadWriteNode[1031,org.apache.log4j.spi.LoggingEvent@1de,renderedMessage,READ,Thread-1,org/apache/log4j/spi/LoggingEvent.java:368]
+	ReadWriteNode[1044,org.apache.log4j.spi.LoggingEvent@1de,renderedMessage,WRITE,Thread-3,org/apache/log4j/spi/LoggingEvent.java:356]
+	ReadWriteNode[3907,org.apache.log4j.spi.ThrowableInformation@375,rep,WRITE,Thread-3,org/apache/log4j/spi/ThrowableInformation.java:90]
+	ReadWriteNode[3920,org.apache.log4j.spi.ThrowableInformation@375,rep,READ,Thread-1,org/apache/log4j/spi/ThrowableInformation.java:93]
 }
-success count: 56
-fail count: 17, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[y,2,READ] PatternTypeNode[y,1,WRITE] PatternTypeNode[x,2,READ] ]
+success count: 5
+fail count: 1, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
 	matched: true
-	ReadWriteNode[1299,java.io.BufferedReader,defaultCharBufferSize,WRITE,Thread-1,java/io/BufferedReader.java:88]
-	ReadWriteNode[1303,org.apache.log4j.spi.ThrowableInformation@375,rep,READ,Thread-3,org/apache/log4j/spi/ThrowableInformation.java:71]
-	ReadWriteNode[1961,org.apache.log4j.spi.ThrowableInformation@375,rep,WRITE,Thread-1,org/apache/log4j/spi/ThrowableInformation.java:90]
-	ReadWriteNode[3038,java.io.BufferedReader,defaultCharBufferSize,READ,Thread-3,java/io/BufferedReader.java:116]
+	ReadWriteNode[2129,org.apache.log4j.spi.ThrowableInformation@375,rep,WRITE,Thread-4,org/apache/log4j/spi/ThrowableInformation.java:90]
+	ReadWriteNode[2142,org.apache.log4j.spi.ThrowableInformation@375,rep,READ,Thread-1,org/apache/log4j/spi/ThrowableInformation.java:71]
 }
-success count: 40
-fail count: 12, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,WRITE] ]
+success count: 10
+fail count: 2, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
 	matched: true
-	ReadWriteNode[977,org.apache.log4j.spi.LoggingEvent@1de,renderedMessage,READ,Thread-4,org/apache/log4j/spi/LoggingEvent.java:354]
-	ReadWriteNode[1001,org.apache.log4j.spi.LoggingEvent@1de,renderedMessage,WRITE,Thread-3,org/apache/log4j/spi/LoggingEvent.java:356]
-	ReadWriteNode[1021,org.apache.log4j.spi.LoggingEvent@1de,renderedMessage,WRITE,Thread-4,org/apache/log4j/spi/LoggingEvent.java:356]
+	ReadWriteNode[2129,org.apache.log4j.spi.ThrowableInformation@375,rep,WRITE,Thread-4,org/apache/log4j/spi/ThrowableInformation.java:90]
+	ReadWriteNode[2367,org.apache.log4j.spi.ThrowableInformation@375,rep,READ,Thread-1,org/apache/log4j/spi/ThrowableInformation.java:72]
 }
-success count: 47
-fail count: 14, Pattern {
+success count: 10
+fail count: 2, Pattern {
 	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] ]
 	matched: true
-	ReadWriteNode[947,org.apache.log4j.spi.LoggingEvent@1de,renderedMessage,READ,Thread-1,org/apache/log4j/spi/LoggingEvent.java:354]
-	ReadWriteNode[1001,org.apache.log4j.spi.LoggingEvent@1de,renderedMessage,WRITE,Thread-3,org/apache/log4j/spi/LoggingEvent.java:356]
+	ReadWriteNode[2367,org.apache.log4j.spi.ThrowableInformation@375,rep,READ,Thread-1,org/apache/log4j/spi/ThrowableInformation.java:72]
+	ReadWriteNode[3263,org.apache.log4j.spi.ThrowableInformation@375,rep,WRITE,Thread-3,org/apache/log4j/spi/ThrowableInformation.java:90]
 }
-success count: 118
-fail count: 33, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
-	matched: true
-	ReadWriteNode[1001,org.apache.log4j.spi.LoggingEvent@1de,renderedMessage,WRITE,Thread-3,org/apache/log4j/spi/LoggingEvent.java:356]
-	ReadWriteNode[1015,org.apache.log4j.spi.LoggingEvent@1de,renderedMessage,READ,Thread-2,org/apache/log4j/spi/LoggingEvent.java:354]
-}
-success count: 144
-fail count: 40, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] PatternTypeNode[y,2,READ] PatternTypeNode[y,1,WRITE] ]
-	matched: true
-	ReadWriteNode[997,org.apache.log4j.spi.LoggingEvent@1de,renderedMessage,WRITE,Thread-2,org/apache/log4j/spi/LoggingEvent.java:356]
-	ReadWriteNode[1019,org.apache.log4j.spi.LoggingEvent@1de,renderedMessage,READ,Thread-1,org/apache/log4j/spi/LoggingEvent.java:354]
-	ReadWriteNode[1194,org.apache.log4j.spi.ThrowableInformation@375,rep,READ,Thread-1,org/apache/log4j/spi/ThrowableInformation.java:71]
-	ReadWriteNode[2333,org.apache.log4j.spi.ThrowableInformation@375,rep,WRITE,Thread-2,org/apache/log4j/spi/ThrowableInformation.java:90]
-}
-success count: 52
-fail count: 14, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
-	matched: true
-	ReadWriteNode[342,org.apache.log4j.WriterAppender@17e,layout,WRITE,main,org/apache/log4j/AppenderSkeleton.java:278]
-	ReadWriteNode[848,org.apache.log4j.WriterAppender@17e,layout,READ,Thread-3,org/apache/log4j/WriterAppender.java:302]
-}
-success count: 316
-fail count: 84, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
-	matched: true
-	ReadWriteNode[318,java.lang.StringBuffer@1bd,value,WRITE,main,java/lang/AbstractStringBuilder.java:68]
-	ReadWriteNode[1099,java.lang.StringBuffer@1bd,value,READ,Thread-2,java/lang/StringBuffer.java:669]
-}
-success count: 316
-fail count: 84, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
-	matched: true
-	ReadWriteNode[266,org.apache.log4j.WriterAppender@184,closed,WRITE,main,org/apache/log4j/AppenderSkeleton.java:65]
-	ReadWriteNode[806,org.apache.log4j.WriterAppender@184,closed,READ,Thread-4,org/apache/log4j/WriterAppender.java:171]
-}
-success count: 316
-fail count: 84, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
-	matched: true
-	ReadWriteNode[292,org.apache.log4j.Layout,LINE_SEP,WRITE,main,org/apache/log4j/Layout.java:34]
-	ReadWriteNode[1059,org.apache.log4j.Layout,LINE_SEP,READ,Thread-3,org/apache/log4j/SimpleLayout.java:64]
-}
-success count: 316
-fail count: 84, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
-	matched: true
-	ReadWriteNode[285,org.apache.log4j.WriterAppender@168,qw,WRITE,main,org/apache/log4j/WriterAppender.java:287]
-	ReadWriteNode[791,org.apache.log4j.WriterAppender@168,qw,READ,Thread-1,org/apache/log4j/WriterAppender.java:176]
-}
-success count: 316
-fail count: 84, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
-	matched: true
-	ReadWriteNode[656,org.apache.log4j.TestThrowableStrRep$AppendThread@379,appender,WRITE,main,org/apache/log4j/TestThrowableStrRep.java:64]
-	ReadWriteNode[751,org.apache.log4j.TestThrowableStrRep$AppendThread@379,appender,READ,Thread-1,org/apache/log4j/TestThrowableStrRep.java:69]
-}
-success count: 316
-fail count: 84, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
-	matched: true
-	ReadWriteNode[319,org.apache.log4j.SimpleLayout@1bc,sbuf,WRITE,main,org/apache/log4j/SimpleLayout.java:38]
-	ReadWriteNode[1012,org.apache.log4j.SimpleLayout@1bc,sbuf,READ,Thread-2,org/apache/log4j/SimpleLayout.java:63]
-}
-success count: 316
-fail count: 84, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
-	matched: true
-	ReadWriteNode[401,org.apache.log4j.Level@21a,levelStr,WRITE,main,org/apache/log4j/Priority.java:83]
-	ReadWriteNode[922,org.apache.log4j.Level@21a,levelStr,READ,Thread-3,org/apache/log4j/Priority.java:146]
-}
-success count: 316
-fail count: 84, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
-	matched: true
-	ReadWriteNode[360,org.apache.log4j.WriterAppender@184,qw,WRITE,main,org/apache/log4j/WriterAppender.java:287]
-	ReadWriteNode[830,org.apache.log4j.WriterAppender@184,qw,READ,Thread-4,org/apache/log4j/WriterAppender.java:302]
-}
-success count: 316
-fail count: 84, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
-	matched: true
-	ReadWriteNode[341,org.apache.log4j.SimpleLayout@1c4,sbuf,WRITE,main,org/apache/log4j/SimpleLayout.java:38]
-	ReadWriteNode[1030,org.apache.log4j.SimpleLayout@1c4,sbuf,READ,Thread-3,org/apache/log4j/SimpleLayout.java:64]
-}
-success count: 316
-fail count: 84, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
-	matched: true
-	ReadWriteNode[296,java.lang.StringBuffer@1b5,value,WRITE,main,java/lang/AbstractStringBuilder.java:68]
-	ReadWriteNode[858,java.lang.StringBuffer@1b5,value,READ,Thread-1,java/lang/AbstractStringBuilder.java:123]
-}
-success count: 316
-fail count: 84, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
-	matched: true
-	ReadWriteNode[297,org.apache.log4j.SimpleLayout@1ae,sbuf,WRITE,main,org/apache/log4j/SimpleLayout.java:38]
-	ReadWriteNode[877,org.apache.log4j.SimpleLayout@1ae,sbuf,READ,Thread-1,org/apache/log4j/SimpleLayout.java:61]
-}
-success count: 316
-fail count: 84, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
-	matched: true
-	ReadWriteNode[297,org.apache.log4j.SimpleLayout@1ae,sbuf,WRITE,main,org/apache/log4j/SimpleLayout.java:38]
-	ReadWriteNode[1075,org.apache.log4j.SimpleLayout@1ae,sbuf,READ,Thread-1,org/apache/log4j/SimpleLayout.java:65]
-}
-success count: 316
-fail count: 84, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
-	matched: true
-	ReadWriteNode[623,org.apache.log4j.spi.LoggingEvent@1de,level,WRITE,main,org/apache/log4j/spi/LoggingEvent.java:156]
-	ReadWriteNode[950,org.apache.log4j.spi.LoggingEvent@1de,level,READ,Thread-2,org/apache/log4j/spi/LoggingEvent.java:256]
-}
-success count: 316
-fail count: 84, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
-	matched: true
-	ReadWriteNode[717,org.apache.log4j.TestThrowableStrRep$AppendThread@389,event,WRITE,main,org/apache/log4j/TestThrowableStrRep.java:65]
-	ReadWriteNode[783,org.apache.log4j.TestThrowableStrRep$AppendThread@389,event,READ,Thread-3,org/apache/log4j/TestThrowableStrRep.java:69]
-}
-success count: 316
-fail count: 84, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
-	matched: true
-	ReadWriteNode[342,org.apache.log4j.WriterAppender@17e,layout,WRITE,main,org/apache/log4j/AppenderSkeleton.java:278]
-	ReadWriteNode[821,org.apache.log4j.WriterAppender@17e,layout,READ,Thread-3,org/apache/log4j/WriterAppender.java:182]
-}
-success count: 316
-fail count: 84, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
-	matched: true
-	ReadWriteNode[319,org.apache.log4j.SimpleLayout@1bc,sbuf,WRITE,main,org/apache/log4j/SimpleLayout.java:38]
-	ReadWriteNode[997,org.apache.log4j.SimpleLayout@1bc,sbuf,READ,Thread-2,org/apache/log4j/SimpleLayout.java:62]
-}
-success count: 316
-fail count: 84, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
-	matched: true
-	ReadWriteNode[297,org.apache.log4j.SimpleLayout@1ae,sbuf,WRITE,main,org/apache/log4j/SimpleLayout.java:38]
-	ReadWriteNode[842,org.apache.log4j.SimpleLayout@1ae,sbuf,READ,Thread-1,org/apache/log4j/SimpleLayout.java:60]
-}
-success count: 316
-fail count: 84, Pattern {
+success count: 10
+fail count: 2, Pattern {
 	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,READ] ]
 	matched: true
-	ReadWriteNode[1015,org.apache.log4j.spi.LoggingEvent@1de,renderedMessage,READ,Thread-2,org/apache/log4j/spi/LoggingEvent.java:354]
-	ReadWriteNode[1021,org.apache.log4j.spi.LoggingEvent@1de,renderedMessage,WRITE,Thread-4,org/apache/log4j/spi/LoggingEvent.java:356]
-	ReadWriteNode[1026,org.apache.log4j.spi.LoggingEvent@1de,renderedMessage,READ,Thread-2,org/apache/log4j/spi/LoggingEvent.java:368]
+	ReadWriteNode[1019,org.apache.log4j.spi.LoggingEvent@1de,renderedMessage,READ,Thread-4,org/apache/log4j/spi/LoggingEvent.java:354]
+	ReadWriteNode[1024,org.apache.log4j.spi.LoggingEvent@1de,renderedMessage,WRITE,Thread-2,org/apache/log4j/spi/LoggingEvent.java:356]
+	ReadWriteNode[1047,org.apache.log4j.spi.LoggingEvent@1de,renderedMessage,READ,Thread-4,org/apache/log4j/spi/LoggingEvent.java:368]
 }
-success count: 19
-fail count: 5, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] PatternTypeNode[y,2,READ] PatternTypeNode[y,1,WRITE] ]
+success count: 20
+fail count: 4, Pattern {
+	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[y,2,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[y,1,READ] ]
 	matched: true
-	ReadWriteNode[1440,java.util.ArrayList,DEFAULTCAPACITY_EMPTY_ELEMENTDATA,WRITE,Thread-2,java/util/ArrayList.java:127]
-	ReadWriteNode[1596,java.util.ArrayList,DEFAULTCAPACITY_EMPTY_ELEMENTDATA,READ,Thread-1,java/util/ArrayList.java:166]
-	ReadWriteNode[3574,org.apache.log4j.spi.ThrowableInformation@375,rep,READ,Thread-1,org/apache/log4j/spi/ThrowableInformation.java:91]
-	ReadWriteNode[3856,org.apache.log4j.spi.ThrowableInformation@375,rep,WRITE,Thread-2,org/apache/log4j/spi/ThrowableInformation.java:90]
+	ReadWriteNode[1263,org.apache.log4j.spi.ThrowableInformation@375,rep,READ,Thread-4,org/apache/log4j/spi/ThrowableInformation.java:71]
+	ReadWriteNode[1333,java.io.BufferedReader,defaultCharBufferSize,WRITE,Thread-3,java/io/BufferedReader.java:88]
+	ReadWriteNode[2143,org.apache.log4j.spi.ThrowableInformation@375,rep,WRITE,Thread-3,org/apache/log4j/spi/ThrowableInformation.java:90]
+	ReadWriteNode[2402,java.io.BufferedReader,defaultCharBufferSize,READ,Thread-4,java/io/BufferedReader.java:116]
 }
-success count: 19
-fail count: 5, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] PatternTypeNode[y,2,READ] PatternTypeNode[y,1,WRITE] ]
-	matched: true
-	ReadWriteNode[1440,java.util.ArrayList,DEFAULTCAPACITY_EMPTY_ELEMENTDATA,WRITE,Thread-2,java/util/ArrayList.java:127]
-	ReadWriteNode[3296,java.util.ArrayList,DEFAULTCAPACITY_EMPTY_ELEMENTDATA,READ,Thread-1,java/util/ArrayList.java:224]
-	ReadWriteNode[3574,org.apache.log4j.spi.ThrowableInformation@375,rep,READ,Thread-1,org/apache/log4j/spi/ThrowableInformation.java:91]
-	ReadWriteNode[3856,org.apache.log4j.spi.ThrowableInformation@375,rep,WRITE,Thread-2,org/apache/log4j/spi/ThrowableInformation.java:90]
-}
-success count: 19
-fail count: 5, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
-	matched: true
-	ReadWriteNode[283,org.apache.log4j.helpers.QuietWriter@1a5,out,WRITE,main,java/io/FilterWriter.java:56]
-	ReadWriteNode[4249,org.apache.log4j.helpers.QuietWriter@1a5,out,READ,Thread-1,org/apache/log4j/helpers/QuietWriter.java:48]
-}
-success count: 316
-fail count: 83, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
-	matched: true
-	ReadWriteNode[331,java.io.FileWriter@1bf,out,WRITE,main,java/io/OutputStreamWriter.java:48]
-	ReadWriteNode[4215,java.io.FileWriter@1bf,out,READ,Thread-3,java/io/OutputStreamWriter.java:121]
-}
-success count: 316
-fail count: 83, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
-	matched: true
-	ReadWriteNode[308,java.io.FileWriter@1b7,buf,WRITE,main,java/io/OutputStreamWriter.java:45]
-	ReadWriteNode[4174,java.io.FileWriter@1b7,buf,READ,Thread-2,java/io/OutputStreamWriter.java:121]
-}
-success count: 316
-fail count: 83, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
-	matched: true
-	ReadWriteNode[328,java.io.FileOutputStream@1c0,fd,WRITE,main,java/io/FileOutputStream.java:29]
-	ReadWriteNode[4217,java.io.FileOutputStream@1c0,fd,READ,Thread-3,java/io/FileOutputStream.java:68]
-}
-success count: 316
-fail count: 83, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
-	matched: true
-	ReadWriteNode[330,java.io.FileWriter@1bf,buf,WRITE,main,java/io/OutputStreamWriter.java:45]
-	ReadWriteNode[4214,java.io.FileWriter@1bf,buf,READ,Thread-3,java/io/OutputStreamWriter.java:120]
-}
-success count: 316
-fail count: 83, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
-	matched: true
-	ReadWriteNode[320,org.apache.log4j.WriterAppender@178,layout,WRITE,main,org/apache/log4j/AppenderSkeleton.java:278]
-	ReadWriteNode[1191,org.apache.log4j.WriterAppender@178,layout,READ,Thread-2,org/apache/log4j/WriterAppender.java:304]
-}
-success count: 316
-fail count: 83, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
-	matched: true
-	ReadWriteNode[626,org.apache.log4j.spi.LoggingEvent@1de,throwableInfo,WRITE,main,org/apache/log4j/spi/LoggingEvent.java:159]
-	ReadWriteNode[1260,org.apache.log4j.spi.LoggingEvent@1de,throwableInfo,READ,Thread-3,org/apache/log4j/spi/LoggingEvent.java:407]
-}
-success count: 316
-fail count: 82, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
-	matched: true
-	ReadWriteNode[626,org.apache.log4j.spi.LoggingEvent@1de,throwableInfo,WRITE,main,org/apache/log4j/spi/LoggingEvent.java:159]
-	ReadWriteNode[1203,org.apache.log4j.spi.LoggingEvent@1de,throwableInfo,READ,Thread-2,org/apache/log4j/spi/LoggingEvent.java:404]
-}
-success count: 316
-fail count: 82, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
-	matched: true
-	ReadWriteNode[181,java.util.Properties@106,table,WRITE,main,java/util/Hashtable.java:406]
-	ReadWriteNode[1318,java.util.Properties@106,table,READ,Thread-3,java/util/Hashtable.java:363]
-}
-success count: 307
-fail count: 78, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
-	matched: true
-	ReadWriteNode[57,java.lang.System,properties,WRITE,main,java/lang/System.java:46]
-	ReadWriteNode[1222,java.lang.System,properties,READ,Thread-1,java/lang/System.java:174]
-}
-success count: 307
-fail count: 78, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
-	matched: true
-	ReadWriteNode[625,org.apache.log4j.spi.ThrowableInformation@375,throwable,WRITE,main,org/apache/log4j/spi/ThrowableInformation.java:49]
-	ReadWriteNode[1424,org.apache.log4j.spi.ThrowableInformation@375,throwable,READ,Thread-3,org/apache/log4j/spi/ThrowableInformation.java:76]
-}
-success count: 307
-fail count: 78, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
-	matched: true
-	ReadWriteNode[78,java.util.Hashtable$Entry@142,hash,WRITE,main,java/util/Hashtable.java:1262]
-	ReadWriteNode[1278,java.util.Hashtable$Entry@142,hash,READ,Thread-2,java/util/Hashtable.java:367]
-}
-success count: 307
-fail count: 78, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
-	matched: true
-	ReadWriteNode[79,java.util.Hashtable$Entry@142,key,WRITE,main,java/util/Hashtable.java:1263]
-	ReadWriteNode[1351,java.util.Hashtable$Entry@142,key,READ,Thread-3,java/util/Hashtable.java:367]
-}
-success count: 307
-fail count: 78, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
-	matched: true
-	ReadWriteNode[80,java.util.Hashtable$Entry@142,value,WRITE,main,java/util/Hashtable.java:1264]
-	ReadWriteNode[1282,java.util.Hashtable$Entry@142,value,READ,Thread-2,java/util/Hashtable.java:368]
-}
-success count: 307
-fail count: 78, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
-	matched: true
-	ReadWriteNode[624,org.apache.log4j.spi.LoggingEvent@1de,message,WRITE,main,org/apache/log4j/spi/LoggingEvent.java:157]
-	ReadWriteNode[994,org.apache.log4j.spi.LoggingEvent@1de,message,READ,Thread-3,org/apache/log4j/spi/LoggingEvent.java:356]
-}
-success count: 150
-fail count: 38, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
-	matched: true
-	ReadWriteNode[624,org.apache.log4j.spi.LoggingEvent@1de,message,WRITE,main,org/apache/log4j/spi/LoggingEvent.java:157]
-	ReadWriteNode[1004,org.apache.log4j.spi.LoggingEvent@1de,message,READ,Thread-1,org/apache/log4j/spi/LoggingEvent.java:354]
-}
-success count: 150
-fail count: 38, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
-	matched: true
-	ReadWriteNode[624,org.apache.log4j.spi.LoggingEvent@1de,message,WRITE,main,org/apache/log4j/spi/LoggingEvent.java:157]
-	ReadWriteNode[988,org.apache.log4j.spi.LoggingEvent@1de,message,READ,Thread-4,org/apache/log4j/spi/LoggingEvent.java:355]
-}
-success count: 150
-fail count: 38, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
-	matched: true
-	ReadWriteNode[1033,org.apache.log4j.spi.LoggingEvent@1de,renderedMessage,WRITE,Thread-1,org/apache/log4j/spi/LoggingEvent.java:356]
-	ReadWriteNode[1036,org.apache.log4j.spi.LoggingEvent@1de,renderedMessage,READ,Thread-4,org/apache/log4j/spi/LoggingEvent.java:368]
-}
-success count: 186
-fail count: 47, Pattern {
-	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] PatternTypeNode[y,2,WRITE] PatternTypeNode[y,1,READ] ]
-	matched: true
-	ReadWriteNode[949,org.apache.log4j.spi.LoggingEvent@1de,renderedMessage,READ,Thread-3,org/apache/log4j/spi/LoggingEvent.java:354]
-	ReadWriteNode[971,org.apache.log4j.spi.LoggingEvent@1de,renderedMessage,WRITE,Thread-2,org/apache/log4j/spi/LoggingEvent.java:356]
-	ReadWriteNode[1295,java.io.BufferedReader,defaultCharBufferSize,WRITE,Thread-2,java/io/BufferedReader.java:88]
-	ReadWriteNode[1395,java.io.BufferedReader,defaultCharBufferSize,READ,Thread-3,java/io/BufferedReader.java:116]
-}
-success count: 40
-fail count: 10, Pattern {
+success count: 41
+fail count: 8, Pattern {
 	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] ]
 	matched: true
-	ReadWriteNode[1263,org.apache.log4j.spi.ThrowableInformation@375,rep,READ,Thread-3,org/apache/log4j/spi/ThrowableInformation.java:71]
-	ReadWriteNode[2276,org.apache.log4j.spi.ThrowableInformation@375,rep,WRITE,Thread-2,org/apache/log4j/spi/ThrowableInformation.java:90]
+	ReadWriteNode[1022,org.apache.log4j.spi.LoggingEvent@1de,renderedMessage,READ,Thread-3,org/apache/log4j/spi/LoggingEvent.java:368]
+	ReadWriteNode[1024,org.apache.log4j.spi.LoggingEvent@1de,renderedMessage,WRITE,Thread-2,org/apache/log4j/spi/LoggingEvent.java:356]
 }
-success count: 237
-fail count: 59, Pattern {
+success count: 78
+fail count: 15, Pattern {
 	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
 	matched: true
-	ReadWriteNode[1342,java.io.BufferedReader,defaultCharBufferSize,WRITE,Thread-2,java/io/BufferedReader.java:88]
-	ReadWriteNode[2023,java.io.BufferedReader,defaultCharBufferSize,READ,Thread-3,java/io/BufferedReader.java:116]
+	ReadWriteNode[984,org.apache.log4j.spi.LoggingEvent@1de,renderedMessage,WRITE,Thread-3,org/apache/log4j/spi/LoggingEvent.java:356]
+	ReadWriteNode[1005,org.apache.log4j.spi.LoggingEvent@1de,renderedMessage,READ,Thread-4,org/apache/log4j/spi/LoggingEvent.java:354]
 }
-success count: 228
-fail count: 56, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
-	matched: true
-	ReadWriteNode[1418,java.util.ArrayList,DEFAULTCAPACITY_EMPTY_ELEMENTDATA,WRITE,Thread-2,java/util/ArrayList.java:127]
-	ReadWriteNode[2048,java.util.ArrayList,DEFAULTCAPACITY_EMPTY_ELEMENTDATA,READ,Thread-3,java/util/ArrayList.java:166]
-}
-success count: 228
-fail count: 56, Pattern {
-	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] PatternTypeNode[y,2,WRITE] PatternTypeNode[y,1,READ] ]
-	matched: true
-	ReadWriteNode[949,org.apache.log4j.spi.LoggingEvent@1de,renderedMessage,READ,Thread-3,org/apache/log4j/spi/LoggingEvent.java:354]
-	ReadWriteNode[971,org.apache.log4j.spi.LoggingEvent@1de,renderedMessage,WRITE,Thread-2,org/apache/log4j/spi/LoggingEvent.java:356]
-	ReadWriteNode[1440,java.util.ArrayList,DEFAULTCAPACITY_EMPTY_ELEMENTDATA,WRITE,Thread-2,java/util/ArrayList.java:127]
-	ReadWriteNode[1450,java.util.ArrayList,DEFAULTCAPACITY_EMPTY_ELEMENTDATA,READ,Thread-3,java/util/ArrayList.java:166]
-}
-success count: 37
-fail count: 9, Pattern {
-	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] PatternTypeNode[y,2,WRITE] PatternTypeNode[y,1,READ] ]
-	matched: true
-	ReadWriteNode[949,org.apache.log4j.spi.LoggingEvent@1de,renderedMessage,READ,Thread-3,org/apache/log4j/spi/LoggingEvent.java:354]
-	ReadWriteNode[971,org.apache.log4j.spi.LoggingEvent@1de,renderedMessage,WRITE,Thread-2,org/apache/log4j/spi/LoggingEvent.java:356]
-	ReadWriteNode[1440,java.util.ArrayList,DEFAULTCAPACITY_EMPTY_ELEMENTDATA,WRITE,Thread-2,java/util/ArrayList.java:127]
-	ReadWriteNode[2268,java.util.ArrayList,DEFAULTCAPACITY_EMPTY_ELEMENTDATA,READ,Thread-3,java/util/ArrayList.java:224]
-}
-success count: 37
-fail count: 9, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
-	matched: true
-	ReadWriteNode[1418,java.util.ArrayList,DEFAULTCAPACITY_EMPTY_ELEMENTDATA,WRITE,Thread-2,java/util/ArrayList.java:127]
-	ReadWriteNode[3366,java.util.ArrayList,DEFAULTCAPACITY_EMPTY_ELEMENTDATA,READ,Thread-1,java/util/ArrayList.java:224]
-}
-success count: 228
-fail count: 55, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,WRITE] ]
-	matched: true
-	ReadWriteNode[1263,org.apache.log4j.spi.ThrowableInformation@375,rep,READ,Thread-3,org/apache/log4j/spi/ThrowableInformation.java:71]
-	ReadWriteNode[2276,org.apache.log4j.spi.ThrowableInformation@375,rep,WRITE,Thread-2,org/apache/log4j/spi/ThrowableInformation.java:90]
-	ReadWriteNode[3363,org.apache.log4j.spi.ThrowableInformation@375,rep,WRITE,Thread-3,org/apache/log4j/spi/ThrowableInformation.java:90]
-}
-success count: 79
-fail count: 19, Pattern {
+success count: 161
+fail count: 30, Pattern {
 	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] ]
 	matched: true
-	ReadWriteNode[1021,org.apache.log4j.spi.LoggingEvent@1de,renderedMessage,WRITE,Thread-4,org/apache/log4j/spi/LoggingEvent.java:356]
-	ReadWriteNode[1033,org.apache.log4j.spi.LoggingEvent@1de,renderedMessage,WRITE,Thread-1,org/apache/log4j/spi/LoggingEvent.java:356]
+	ReadWriteNode[1011,org.apache.log4j.spi.LoggingEvent@1de,renderedMessage,WRITE,Thread-1,org/apache/log4j/spi/LoggingEvent.java:356]
+	ReadWriteNode[1024,org.apache.log4j.spi.LoggingEvent@1de,renderedMessage,WRITE,Thread-2,org/apache/log4j/spi/LoggingEvent.java:356]
 }
-success count: 71
-fail count: 17, Pattern {
-	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] ]
+success count: 70
+fail count: 13, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] PatternTypeNode[y,2,READ] PatternTypeNode[y,1,WRITE] ]
 	matched: true
-	ReadWriteNode[3189,org.apache.log4j.spi.ThrowableInformation@375,rep,READ,Thread-3,org/apache/log4j/spi/ThrowableInformation.java:72]
-	ReadWriteNode[3229,org.apache.log4j.spi.ThrowableInformation@375,rep,WRITE,Thread-2,org/apache/log4j/spi/ThrowableInformation.java:90]
+	ReadWriteNode[1398,java.util.ArrayList,DEFAULTCAPACITY_EMPTY_ELEMENTDATA,WRITE,Thread-3,java/util/ArrayList.java:126]
+	ReadWriteNode[1406,java.util.ArrayList,DEFAULTCAPACITY_EMPTY_ELEMENTDATA,READ,Thread-4,java/util/ArrayList.java:165]
+	ReadWriteNode[2139,org.apache.log4j.spi.ThrowableInformation@375,rep,READ,Thread-4,org/apache/log4j/spi/ThrowableInformation.java:93]
+	ReadWriteNode[3263,org.apache.log4j.spi.ThrowableInformation@375,rep,WRITE,Thread-3,org/apache/log4j/spi/ThrowableInformation.java:90]
 }
-success count: 9
+success count: 11
 fail count: 2, Pattern {
 	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] PatternTypeNode[y,2,READ] PatternTypeNode[y,1,WRITE] ]
 	matched: true
-	ReadWriteNode[997,org.apache.log4j.spi.LoggingEvent@1de,renderedMessage,WRITE,Thread-2,org/apache/log4j/spi/LoggingEvent.java:356]
-	ReadWriteNode[1022,org.apache.log4j.spi.LoggingEvent@1de,renderedMessage,READ,Thread-4,org/apache/log4j/spi/LoggingEvent.java:368]
-	ReadWriteNode[1306,org.apache.log4j.spi.ThrowableInformation@375,rep,READ,Thread-4,org/apache/log4j/spi/ThrowableInformation.java:71]
-	ReadWriteNode[2333,org.apache.log4j.spi.ThrowableInformation@375,rep,WRITE,Thread-2,org/apache/log4j/spi/ThrowableInformation.java:90]
+	ReadWriteNode[1398,java.util.ArrayList,DEFAULTCAPACITY_EMPTY_ELEMENTDATA,WRITE,Thread-3,java/util/ArrayList.java:126]
+	ReadWriteNode[2083,java.util.ArrayList,DEFAULTCAPACITY_EMPTY_ELEMENTDATA,READ,Thread-4,java/util/ArrayList.java:223]
+	ReadWriteNode[2139,org.apache.log4j.spi.ThrowableInformation@375,rep,READ,Thread-4,org/apache/log4j/spi/ThrowableInformation.java:93]
+	ReadWriteNode[3263,org.apache.log4j.spi.ThrowableInformation@375,rep,WRITE,Thread-3,org/apache/log4j/spi/ThrowableInformation.java:90]
 }
-success count: 64
-fail count: 14, Pattern {
+success count: 11
+fail count: 2, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[632,org.apache.log4j.spi.LoggingEvent@1de,message,WRITE,main,org/apache/log4j/spi/LoggingEvent.java:157]
+	ReadWriteNode[972,org.apache.log4j.spi.LoggingEvent@1de,message,READ,Thread-3,org/apache/log4j/spi/LoggingEvent.java:355]
+}
+success count: 155
+fail count: 28, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[632,org.apache.log4j.spi.LoggingEvent@1de,message,WRITE,main,org/apache/log4j/spi/LoggingEvent.java:157]
+	ReadWriteNode[969,org.apache.log4j.spi.LoggingEvent@1de,message,READ,Thread-3,org/apache/log4j/spi/LoggingEvent.java:354]
+}
+success count: 155
+fail count: 28, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[632,org.apache.log4j.spi.LoggingEvent@1de,message,WRITE,main,org/apache/log4j/spi/LoggingEvent.java:157]
+	ReadWriteNode[977,org.apache.log4j.spi.LoggingEvent@1de,message,READ,Thread-3,org/apache/log4j/spi/LoggingEvent.java:356]
+}
+success count: 155
+fail count: 28, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[984,org.apache.log4j.spi.LoggingEvent@1de,renderedMessage,WRITE,Thread-3,org/apache/log4j/spi/LoggingEvent.java:356]
+	ReadWriteNode[1013,org.apache.log4j.spi.LoggingEvent@1de,renderedMessage,READ,Thread-2,org/apache/log4j/spi/LoggingEvent.java:368]
+}
+success count: 202
+fail count: 36, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,WRITE] ]
+	matched: true
+	ReadWriteNode[958,org.apache.log4j.spi.LoggingEvent@1de,renderedMessage,READ,Thread-2,org/apache/log4j/spi/LoggingEvent.java:354]
+	ReadWriteNode[1011,org.apache.log4j.spi.LoggingEvent@1de,renderedMessage,WRITE,Thread-1,org/apache/log4j/spi/LoggingEvent.java:356]
+	ReadWriteNode[1024,org.apache.log4j.spi.LoggingEvent@1de,renderedMessage,WRITE,Thread-2,org/apache/log4j/spi/LoggingEvent.java:356]
+}
+success count: 45
+fail count: 8, Pattern {
 	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] PatternTypeNode[y,2,WRITE] PatternTypeNode[y,1,READ] ]
 	matched: true
-	ReadWriteNode[994,org.apache.log4j.spi.LoggingEvent@1de,renderedMessage,READ,Thread-4,org/apache/log4j/spi/LoggingEvent.java:368]
-	ReadWriteNode[999,org.apache.log4j.spi.LoggingEvent@1de,renderedMessage,WRITE,Thread-1,org/apache/log4j/spi/LoggingEvent.java:356]
-	ReadWriteNode[1361,java.util.ArrayList,DEFAULTCAPACITY_EMPTY_ELEMENTDATA,WRITE,Thread-1,java/util/ArrayList.java:127]
-	ReadWriteNode[3252,java.util.ArrayList,DEFAULTCAPACITY_EMPTY_ELEMENTDATA,READ,Thread-4,java/util/ArrayList.java:224]
+	ReadWriteNode[958,org.apache.log4j.spi.LoggingEvent@1de,renderedMessage,READ,Thread-2,org/apache/log4j/spi/LoggingEvent.java:354]
+	ReadWriteNode[1011,org.apache.log4j.spi.LoggingEvent@1de,renderedMessage,WRITE,Thread-1,org/apache/log4j/spi/LoggingEvent.java:356]
+	ReadWriteNode[1310,java.io.BufferedReader,defaultCharBufferSize,WRITE,Thread-1,java/io/BufferedReader.java:88]
+	ReadWriteNode[1785,java.io.BufferedReader,defaultCharBufferSize,READ,Thread-2,java/io/BufferedReader.java:116]
 }
-success count: 19
-fail count: 4, Pattern {
+success count: 34
+fail count: 6, Pattern {
 	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] PatternTypeNode[y,2,WRITE] PatternTypeNode[y,1,READ] ]
 	matched: true
-	ReadWriteNode[994,org.apache.log4j.spi.LoggingEvent@1de,renderedMessage,READ,Thread-4,org/apache/log4j/spi/LoggingEvent.java:368]
-	ReadWriteNode[999,org.apache.log4j.spi.LoggingEvent@1de,renderedMessage,WRITE,Thread-1,org/apache/log4j/spi/LoggingEvent.java:356]
-	ReadWriteNode[1361,java.util.ArrayList,DEFAULTCAPACITY_EMPTY_ELEMENTDATA,WRITE,Thread-1,java/util/ArrayList.java:127]
-	ReadWriteNode[2391,java.util.ArrayList,DEFAULTCAPACITY_EMPTY_ELEMENTDATA,READ,Thread-4,java/util/ArrayList.java:166]
+	ReadWriteNode[958,org.apache.log4j.spi.LoggingEvent@1de,renderedMessage,READ,Thread-2,org/apache/log4j/spi/LoggingEvent.java:354]
+	ReadWriteNode[1011,org.apache.log4j.spi.LoggingEvent@1de,renderedMessage,WRITE,Thread-1,org/apache/log4j/spi/LoggingEvent.java:356]
+	ReadWriteNode[1411,java.util.ArrayList,DEFAULTCAPACITY_EMPTY_ELEMENTDATA,WRITE,Thread-1,java/util/ArrayList.java:126]
+	ReadWriteNode[1801,java.util.ArrayList,DEFAULTCAPACITY_EMPTY_ELEMENTDATA,READ,Thread-2,java/util/ArrayList.java:165]
 }
-success count: 19
-fail count: 4, Pattern {
+success count: 34
+fail count: 6, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,WRITE] ]
+	matched: true
+	ReadWriteNode[1188,org.apache.log4j.spi.ThrowableInformation@375,rep,READ,Thread-1,org/apache/log4j/spi/ThrowableInformation.java:71]
+	ReadWriteNode[3216,org.apache.log4j.spi.ThrowableInformation@375,rep,WRITE,Thread-4,org/apache/log4j/spi/ThrowableInformation.java:90]
+	ReadWriteNode[3338,org.apache.log4j.spi.ThrowableInformation@375,rep,WRITE,Thread-1,org/apache/log4j/spi/ThrowableInformation.java:90]
+}
+success count: 85
+fail count: 15, Pattern {
+	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] ]
+	matched: true
+	ReadWriteNode[1188,org.apache.log4j.spi.ThrowableInformation@375,rep,READ,Thread-1,org/apache/log4j/spi/ThrowableInformation.java:71]
+	ReadWriteNode[3216,org.apache.log4j.spi.ThrowableInformation@375,rep,WRITE,Thread-4,org/apache/log4j/spi/ThrowableInformation.java:90]
+}
+success count: 255
+fail count: 45, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[347,org.apache.log4j.SimpleLayout@1c4,sbuf,WRITE,main,org/apache/log4j/SimpleLayout.java:38]
+	ReadWriteNode[1059,org.apache.log4j.SimpleLayout@1c4,sbuf,READ,Thread-3,org/apache/log4j/SimpleLayout.java:65]
+}
+success count: 340
+fail count: 60, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[277,java.io.FileWriter@193,buf,WRITE,main,java/io/OutputStreamWriter.java:45]
+	ReadWriteNode[4189,java.io.FileWriter@193,buf,READ,Thread-1,java/io/OutputStreamWriter.java:121]
+}
+success count: 340
+fail count: 60, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[260,org.apache.log4j.WriterAppender@17e,closed,WRITE,main,org/apache/log4j/AppenderSkeleton.java:65]
+	ReadWriteNode[784,org.apache.log4j.WriterAppender@17e,closed,READ,Thread-3,org/apache/log4j/WriterAppender.java:171]
+}
+success count: 340
+fail count: 60, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[294,org.apache.log4j.Layout,LINE_SEP,WRITE,main,org/apache/log4j/Layout.java:34]
+	ReadWriteNode[1027,org.apache.log4j.Layout,LINE_SEP,READ,Thread-4,org/apache/log4j/SimpleLayout.java:64]
+}
+success count: 340
+fail count: 60, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[343,org.apache.log4j.WriterAppender@17e,qw,WRITE,main,org/apache/log4j/WriterAppender.java:287]
+	ReadWriteNode[793,org.apache.log4j.WriterAppender@17e,qw,READ,Thread-3,org/apache/log4j/WriterAppender.java:176]
+}
+success count: 340
+fail count: 60, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[284,org.apache.log4j.helpers.QuietWriter@1a5,out,WRITE,main,java/io/FilterWriter.java:56]
+	ReadWriteNode[4184,org.apache.log4j.helpers.QuietWriter@1a5,out,READ,Thread-1,org/apache/log4j/helpers/QuietWriter.java:48]
+}
+success count: 340
+fail count: 60, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[724,org.apache.log4j.TestThrowableStrRep$AppendThread@389,appender,WRITE,main,org/apache/log4j/TestThrowableStrRep.java:64]
+	ReadWriteNode[767,org.apache.log4j.TestThrowableStrRep$AppendThread@389,appender,READ,Thread-3,org/apache/log4j/TestThrowableStrRep.java:69]
+}
+success count: 340
+fail count: 60, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[323,org.apache.log4j.SimpleLayout@1bc,sbuf,WRITE,main,org/apache/log4j/SimpleLayout.java:38]
+	ReadWriteNode[942,org.apache.log4j.SimpleLayout@1bc,sbuf,READ,Thread-2,org/apache/log4j/SimpleLayout.java:61]
+}
+success count: 340
+fail count: 60, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[372,org.apache.log4j.WriterAppender@184,layout,WRITE,main,org/apache/log4j/AppenderSkeleton.java:278]
+	ReadWriteNode[1176,org.apache.log4j.WriterAppender@184,layout,READ,Thread-4,org/apache/log4j/WriterAppender.java:304]
+}
+success count: 340
+fail count: 60, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[695,org.apache.log4j.TestThrowableStrRep$AppendThread@382,event,WRITE,main,org/apache/log4j/TestThrowableStrRep.java:65]
+	ReadWriteNode[790,org.apache.log4j.TestThrowableStrRep$AppendThread@382,event,READ,Thread-2,org/apache/log4j/TestThrowableStrRep.java:69]
+}
+success count: 340
+fail count: 60, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[347,org.apache.log4j.SimpleLayout@1c4,sbuf,WRITE,main,org/apache/log4j/SimpleLayout.java:38]
+	ReadWriteNode[940,org.apache.log4j.SimpleLayout@1c4,sbuf,READ,Thread-3,org/apache/log4j/SimpleLayout.java:62]
+}
+success count: 340
+fail count: 60, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[634,org.apache.log4j.spi.LoggingEvent@1de,throwableInfo,WRITE,main,org/apache/log4j/spi/LoggingEvent.java:159]
+	ReadWriteNode[1226,org.apache.log4j.spi.LoggingEvent@1de,throwableInfo,READ,Thread-4,org/apache/log4j/spi/LoggingEvent.java:407]
+}
+success count: 340
+fail count: 60, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[278,java.io.FileWriter@193,out,WRITE,main,java/io/OutputStreamWriter.java:48]
+	ReadWriteNode[4188,java.io.FileWriter@193,out,READ,Thread-1,java/io/OutputStreamWriter.java:121]
+}
+success count: 340
+fail count: 60, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[298,java.lang.StringBuffer@1b5,value,WRITE,main,java/lang/AbstractStringBuilder.java:68]
+	ReadWriteNode[1064,java.lang.StringBuffer@1b5,value,READ,Thread-1,java/lang/StringBuffer.java:669]
+}
+success count: 340
+fail count: 60, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[634,org.apache.log4j.spi.LoggingEvent@1de,throwableInfo,WRITE,main,org/apache/log4j/spi/LoggingEvent.java:159]
+	ReadWriteNode[1309,org.apache.log4j.spi.LoggingEvent@1de,throwableInfo,READ,Thread-3,org/apache/log4j/spi/LoggingEvent.java:404]
+}
+success count: 340
+fail count: 60, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[334,java.io.FileWriter@1bf,buf,WRITE,main,java/io/OutputStreamWriter.java:45]
+	ReadWriteNode[4234,java.io.FileWriter@1bf,buf,READ,Thread-3,java/io/OutputStreamWriter.java:120]
+}
+success count: 340
+fail count: 60, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[299,org.apache.log4j.SimpleLayout@1ae,sbuf,WRITE,main,org/apache/log4j/SimpleLayout.java:38]
+	ReadWriteNode[989,org.apache.log4j.SimpleLayout@1ae,sbuf,READ,Thread-1,org/apache/log4j/SimpleLayout.java:63]
+}
+success count: 340
+fail count: 60, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[308,java.io.FileOutputStream@1b8,fd,WRITE,main,java/io/FileOutputStream.java:29]
+	ReadWriteNode[4242,java.io.FileOutputStream@1b8,fd,READ,Thread-2,java/io/FileOutputStream.java:68]
+}
+success count: 340
+fail count: 60, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[324,org.apache.log4j.WriterAppender@178,layout,WRITE,main,org/apache/log4j/AppenderSkeleton.java:278]
+	ReadWriteNode[826,org.apache.log4j.WriterAppender@178,layout,READ,Thread-2,org/apache/log4j/WriterAppender.java:302]
+}
+success count: 340
+fail count: 60, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[631,org.apache.log4j.spi.LoggingEvent@1de,level,WRITE,main,org/apache/log4j/spi/LoggingEvent.java:156]
+	ReadWriteNode[925,org.apache.log4j.spi.LoggingEvent@1de,level,READ,Thread-1,org/apache/log4j/spi/LoggingEvent.java:256]
+}
+success count: 340
+fail count: 60, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[409,org.apache.log4j.Level@21a,levelStr,WRITE,main,org/apache/log4j/Priority.java:83]
+	ReadWriteNode[952,org.apache.log4j.Level@21a,levelStr,READ,Thread-2,org/apache/log4j/Priority.java:146]
+}
+success count: 340
+fail count: 60, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[319,org.apache.log4j.WriterAppender@178,qw,WRITE,main,org/apache/log4j/WriterAppender.java:287]
+	ReadWriteNode[817,org.apache.log4j.WriterAppender@178,qw,READ,Thread-2,org/apache/log4j/WriterAppender.java:302]
+}
+success count: 340
+fail count: 60, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[347,org.apache.log4j.SimpleLayout@1c4,sbuf,WRITE,main,org/apache/log4j/SimpleLayout.java:38]
+	ReadWriteNode[1037,org.apache.log4j.SimpleLayout@1c4,sbuf,READ,Thread-3,org/apache/log4j/SimpleLayout.java:64]
+}
+success count: 340
+fail count: 60, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[324,org.apache.log4j.WriterAppender@178,layout,WRITE,main,org/apache/log4j/AppenderSkeleton.java:278]
+	ReadWriteNode[814,org.apache.log4j.WriterAppender@178,layout,READ,Thread-2,org/apache/log4j/WriterAppender.java:182]
+}
+success count: 340
+fail count: 60, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[323,org.apache.log4j.SimpleLayout@1bc,sbuf,WRITE,main,org/apache/log4j/SimpleLayout.java:38]
+	ReadWriteNode[854,org.apache.log4j.SimpleLayout@1bc,sbuf,READ,Thread-2,org/apache/log4j/SimpleLayout.java:60]
+}
+success count: 340
+fail count: 60, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[298,java.lang.StringBuffer@1b5,value,WRITE,main,java/lang/AbstractStringBuilder.java:68]
+	ReadWriteNode[882,java.lang.StringBuffer@1b5,value,READ,Thread-1,java/lang/AbstractStringBuilder.java:123]
+}
+success count: 340
+fail count: 60, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[181,java.util.Properties@106,table,WRITE,main,java/util/Hashtable.java:405]
+	ReadWriteNode[1229,java.util.Properties@106,table,READ,Thread-1,java/util/Hashtable.java:362]
+}
+success count: 330
+fail count: 58, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[633,org.apache.log4j.spi.ThrowableInformation@375,throwable,WRITE,main,org/apache/log4j/spi/ThrowableInformation.java:49]
+	ReadWriteNode[1279,org.apache.log4j.spi.ThrowableInformation@375,throwable,READ,Thread-1,org/apache/log4j/spi/ThrowableInformation.java:76]
+}
+success count: 330
+fail count: 58, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[80,java.util.Hashtable$Entry@142,value,WRITE,main,java/util/Hashtable.java:1255]
+	ReadWriteNode[1399,java.util.Hashtable$Entry@142,value,READ,Thread-2,java/util/Hashtable.java:367]
+}
+success count: 330
+fail count: 58, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[57,java.lang.System,properties,WRITE,main,java/lang/System.java:46]
+	ReadWriteNode[1244,java.lang.System,properties,READ,Thread-4,java/lang/System.java:174]
+}
+success count: 330
+fail count: 58, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[79,java.util.Hashtable$Entry@142,key,WRITE,main,java/util/Hashtable.java:1254]
+	ReadWriteNode[1254,java.util.Hashtable$Entry@142,key,READ,Thread-1,java/util/Hashtable.java:366]
+}
+success count: 330
+fail count: 58, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[78,java.util.Hashtable$Entry@142,hash,WRITE,main,java/util/Hashtable.java:1253]
+	ReadWriteNode[1266,java.util.Hashtable$Entry@142,hash,READ,Thread-4,java/util/Hashtable.java:366]
+}
+success count: 330
+fail count: 58, Pattern {
 	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[y,2,WRITE] PatternTypeNode[y,1,READ] PatternTypeNode[x,2,WRITE] ]
 	matched: true
-	ReadWriteNode[1263,org.apache.log4j.spi.ThrowableInformation@375,rep,READ,Thread-3,org/apache/log4j/spi/ThrowableInformation.java:71]
-	ReadWriteNode[1342,java.io.BufferedReader,defaultCharBufferSize,WRITE,Thread-2,java/io/BufferedReader.java:88]
-	ReadWriteNode[2023,java.io.BufferedReader,defaultCharBufferSize,READ,Thread-3,java/io/BufferedReader.java:116]
-	ReadWriteNode[2276,org.apache.log4j.spi.ThrowableInformation@375,rep,WRITE,Thread-2,org/apache/log4j/spi/ThrowableInformation.java:90]
+	ReadWriteNode[1188,org.apache.log4j.spi.ThrowableInformation@375,rep,READ,Thread-1,org/apache/log4j/spi/ThrowableInformation.java:71]
+	ReadWriteNode[1312,java.io.BufferedReader,defaultCharBufferSize,WRITE,Thread-4,java/io/BufferedReader.java:88]
+	ReadWriteNode[1360,java.io.BufferedReader,defaultCharBufferSize,READ,Thread-1,java/io/BufferedReader.java:116]
+	ReadWriteNode[3216,org.apache.log4j.spi.ThrowableInformation@375,rep,WRITE,Thread-4,org/apache/log4j/spi/ThrowableInformation.java:90]
 }
-success count: 57
-fail count: 12, Pattern {
-	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] ]
+success count: 75
+fail count: 13, Pattern {
+	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,READ] ]
 	matched: true
-	ReadWriteNode[2522,org.apache.log4j.spi.ThrowableInformation@375,rep,READ,Thread-2,org/apache/log4j/spi/ThrowableInformation.java:91]
-	ReadWriteNode[3363,org.apache.log4j.spi.ThrowableInformation@375,rep,WRITE,Thread-3,org/apache/log4j/spi/ThrowableInformation.java:90]
+	ReadWriteNode[3237,org.apache.log4j.spi.ThrowableInformation@375,rep,READ,Thread-2,org/apache/log4j/spi/ThrowableInformation.java:91]
+	ReadWriteNode[3254,org.apache.log4j.spi.ThrowableInformation@375,rep,WRITE,Thread-1,org/apache/log4j/spi/ThrowableInformation.java:90]
+	ReadWriteNode[3397,org.apache.log4j.spi.ThrowableInformation@375,rep,READ,Thread-2,org/apache/log4j/spi/ThrowableInformation.java:93]
 }
-success count: 215
-fail count: 45, Pattern {
+success count: 35
+fail count: 6, Pattern {
 	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[y,2,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[y,1,READ] ]
 	matched: true
-	ReadWriteNode[1287,org.apache.log4j.spi.ThrowableInformation@375,rep,READ,Thread-4,org/apache/log4j/spi/ThrowableInformation.java:71]
-	ReadWriteNode[1418,java.util.ArrayList,DEFAULTCAPACITY_EMPTY_ELEMENTDATA,WRITE,Thread-2,java/util/ArrayList.java:127]
-	ReadWriteNode[2276,org.apache.log4j.spi.ThrowableInformation@375,rep,WRITE,Thread-2,org/apache/log4j/spi/ThrowableInformation.java:90]
-	ReadWriteNode[3837,java.util.ArrayList,DEFAULTCAPACITY_EMPTY_ELEMENTDATA,READ,Thread-4,java/util/ArrayList.java:224]
+	ReadWriteNode[1208,org.apache.log4j.spi.ThrowableInformation@375,rep,READ,Thread-2,org/apache/log4j/spi/ThrowableInformation.java:71]
+	ReadWriteNode[1401,java.util.ArrayList,DEFAULTCAPACITY_EMPTY_ELEMENTDATA,WRITE,Thread-4,java/util/ArrayList.java:126]
+	ReadWriteNode[3216,org.apache.log4j.spi.ThrowableInformation@375,rep,WRITE,Thread-4,org/apache/log4j/spi/ThrowableInformation.java:90]
+	ReadWriteNode[3341,java.util.ArrayList,DEFAULTCAPACITY_EMPTY_ELEMENTDATA,READ,Thread-2,java/util/ArrayList.java:223]
 }
-success count: 121
-fail count: 25, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] ]
+success count: 140
+fail count: 24, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
 	matched: true
-	ReadWriteNode[2276,org.apache.log4j.spi.ThrowableInformation@375,rep,WRITE,Thread-2,org/apache/log4j/spi/ThrowableInformation.java:90]
-	ReadWriteNode[3363,org.apache.log4j.spi.ThrowableInformation@375,rep,WRITE,Thread-3,org/apache/log4j/spi/ThrowableInformation.java:90]
+	ReadWriteNode[1312,java.io.BufferedReader,defaultCharBufferSize,WRITE,Thread-4,java/io/BufferedReader.java:88]
+	ReadWriteNode[1360,java.io.BufferedReader,defaultCharBufferSize,READ,Thread-1,java/io/BufferedReader.java:116]
 }
-success count: 228
-fail count: 46, Pattern {
+success count: 245
+fail count: 42, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[1401,java.util.ArrayList,DEFAULTCAPACITY_EMPTY_ELEMENTDATA,WRITE,Thread-4,java/util/ArrayList.java:126]
+	ReadWriteNode[2155,java.util.ArrayList,DEFAULTCAPACITY_EMPTY_ELEMENTDATA,READ,Thread-2,java/util/ArrayList.java:165]
+}
+success count: 245
+fail count: 41, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[y,2,READ] PatternTypeNode[x,2,READ] PatternTypeNode[y,1,WRITE] ]
+	matched: true
+	ReadWriteNode[1312,java.io.BufferedReader,defaultCharBufferSize,WRITE,Thread-4,java/io/BufferedReader.java:88]
+	ReadWriteNode[1377,org.apache.log4j.spi.ThrowableInformation@375,rep,READ,Thread-3,org/apache/log4j/spi/ThrowableInformation.java:71]
+	ReadWriteNode[2511,java.io.BufferedReader,defaultCharBufferSize,READ,Thread-3,java/io/BufferedReader.java:116]
+	ReadWriteNode[3216,org.apache.log4j.spi.ThrowableInformation@375,rep,WRITE,Thread-4,org/apache/log4j/spi/ThrowableInformation.java:90]
+}
+success count: 12
+fail count: 2, Pattern {
 	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] ]
 	matched: true
-	ReadWriteNode[2999,org.apache.log4j.spi.ThrowableInformation@375,rep,READ,Thread-2,org/apache/log4j/spi/ThrowableInformation.java:93]
-	ReadWriteNode[3363,org.apache.log4j.spi.ThrowableInformation@375,rep,WRITE,Thread-3,org/apache/log4j/spi/ThrowableInformation.java:90]
+	ReadWriteNode[958,org.apache.log4j.spi.LoggingEvent@1de,renderedMessage,READ,Thread-2,org/apache/log4j/spi/LoggingEvent.java:354]
+	ReadWriteNode[1011,org.apache.log4j.spi.LoggingEvent@1de,renderedMessage,WRITE,Thread-1,org/apache/log4j/spi/LoggingEvent.java:356]
 }
-success count: 194
-fail count: 37, Pattern {
-	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[y,2,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[y,1,READ] ]
-	matched: true
-	ReadWriteNode[1287,org.apache.log4j.spi.ThrowableInformation@375,rep,READ,Thread-4,org/apache/log4j/spi/ThrowableInformation.java:71]
-	ReadWriteNode[1418,java.util.ArrayList,DEFAULTCAPACITY_EMPTY_ELEMENTDATA,WRITE,Thread-2,java/util/ArrayList.java:127]
-	ReadWriteNode[2276,org.apache.log4j.spi.ThrowableInformation@375,rep,WRITE,Thread-2,org/apache/log4j/spi/ThrowableInformation.java:90]
-	ReadWriteNode[2770,java.util.ArrayList,DEFAULTCAPACITY_EMPTY_ELEMENTDATA,READ,Thread-4,java/util/ArrayList.java:166]
-}
-success count: 74
-fail count: 14, Pattern {
+success count: 115
+fail count: 19, Pattern {
 	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,READ] ]
 	matched: true
-	ReadWriteNode[3879,org.apache.log4j.spi.ThrowableInformation@375,rep,WRITE,Thread-4,org/apache/log4j/spi/ThrowableInformation.java:90]
-	ReadWriteNode[3889,org.apache.log4j.spi.ThrowableInformation@375,rep,WRITE,Thread-1,org/apache/log4j/spi/ThrowableInformation.java:90]
-	ReadWriteNode[3892,org.apache.log4j.spi.ThrowableInformation@375,rep,READ,Thread-4,org/apache/log4j/spi/ThrowableInformation.java:93]
+	ReadWriteNode[3232,org.apache.log4j.spi.ThrowableInformation@375,rep,WRITE,Thread-2,org/apache/log4j/spi/ThrowableInformation.java:90]
+	ReadWriteNode[3254,org.apache.log4j.spi.ThrowableInformation@375,rep,WRITE,Thread-1,org/apache/log4j/spi/ThrowableInformation.java:90]
+	ReadWriteNode[3397,org.apache.log4j.spi.ThrowableInformation@375,rep,READ,Thread-2,org/apache/log4j/spi/ThrowableInformation.java:93]
 }
-success count: 64
-fail count: 12, Pattern {
-	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[y,2,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[y,1,READ] ]
+success count: 55
+fail count: 9, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
 	matched: true
-	ReadWriteNode[1287,org.apache.log4j.spi.ThrowableInformation@375,rep,READ,Thread-4,org/apache/log4j/spi/ThrowableInformation.java:71]
-	ReadWriteNode[1342,java.io.BufferedReader,defaultCharBufferSize,WRITE,Thread-2,java/io/BufferedReader.java:88]
-	ReadWriteNode[2276,org.apache.log4j.spi.ThrowableInformation@375,rep,WRITE,Thread-2,org/apache/log4j/spi/ThrowableInformation.java:90]
-	ReadWriteNode[2754,java.io.BufferedReader,defaultCharBufferSize,READ,Thread-4,java/io/BufferedReader.java:116]
+	ReadWriteNode[1401,java.util.ArrayList,DEFAULTCAPACITY_EMPTY_ELEMENTDATA,WRITE,Thread-4,java/util/ArrayList.java:126]
+	ReadWriteNode[3341,java.util.ArrayList,DEFAULTCAPACITY_EMPTY_ELEMENTDATA,READ,Thread-2,java/util/ArrayList.java:223]
 }
-success count: 44
+success count: 245
+fail count: 40, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] PatternTypeNode[y,2,READ] PatternTypeNode[y,1,WRITE] ]
+	matched: true
+	ReadWriteNode[976,org.apache.log4j.spi.LoggingEvent@1de,renderedMessage,WRITE,Thread-1,org/apache/log4j/spi/LoggingEvent.java:356]
+	ReadWriteNode[1144,org.apache.log4j.spi.LoggingEvent@1de,renderedMessage,READ,Thread-4,org/apache/log4j/spi/LoggingEvent.java:368]
+	ReadWriteNode[1841,org.apache.log4j.spi.ThrowableInformation@375,rep,READ,Thread-4,org/apache/log4j/spi/ThrowableInformation.java:71]
+	ReadWriteNode[2405,org.apache.log4j.spi.ThrowableInformation@375,rep,WRITE,Thread-1,org/apache/log4j/spi/ThrowableInformation.java:90]
+}
+success count: 68
+fail count: 11, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] ]
+	matched: true
+	ReadWriteNode[3611,org.apache.log4j.spi.ThrowableInformation@375,rep,WRITE,Thread-2,org/apache/log4j/spi/ThrowableInformation.java:90]
+	ReadWriteNode[3936,org.apache.log4j.spi.ThrowableInformation@375,rep,WRITE,Thread-3,org/apache/log4j/spi/ThrowableInformation.java:90]
+}
+success count: 245
+fail count: 38, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] PatternTypeNode[y,2,READ] PatternTypeNode[y,1,WRITE] ]
+	matched: true
+	ReadWriteNode[1307,java.io.BufferedReader,defaultCharBufferSize,WRITE,Thread-3,java/io/BufferedReader.java:88]
+	ReadWriteNode[1361,java.io.BufferedReader,defaultCharBufferSize,READ,Thread-4,java/io/BufferedReader.java:116]
+	ReadWriteNode[2139,org.apache.log4j.spi.ThrowableInformation@375,rep,READ,Thread-4,org/apache/log4j/spi/ThrowableInformation.java:93]
+	ReadWriteNode[3263,org.apache.log4j.spi.ThrowableInformation@375,rep,WRITE,Thread-3,org/apache/log4j/spi/ThrowableInformation.java:90]
+}
+success count: 13
+fail count: 2, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,READ] ]
+	matched: true
+	ReadWriteNode[1001,org.apache.log4j.spi.LoggingEvent@1de,renderedMessage,WRITE,Thread-4,org/apache/log4j/spi/LoggingEvent.java:356]
+	ReadWriteNode[1006,org.apache.log4j.spi.LoggingEvent@1de,renderedMessage,WRITE,Thread-2,org/apache/log4j/spi/LoggingEvent.java:356]
+	ReadWriteNode[1014,org.apache.log4j.spi.LoggingEvent@1de,renderedMessage,READ,Thread-4,org/apache/log4j/spi/LoggingEvent.java:368]
+}
+success count: 27
+fail count: 4, Pattern {
+	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] PatternTypeNode[y,2,WRITE] PatternTypeNode[y,1,READ] ]
+	matched: true
+	ReadWriteNode[958,org.apache.log4j.spi.LoggingEvent@1de,renderedMessage,READ,Thread-2,org/apache/log4j/spi/LoggingEvent.java:354]
+	ReadWriteNode[1011,org.apache.log4j.spi.LoggingEvent@1de,renderedMessage,WRITE,Thread-1,org/apache/log4j/spi/LoggingEvent.java:356]
+	ReadWriteNode[1411,java.util.ArrayList,DEFAULTCAPACITY_EMPTY_ELEMENTDATA,WRITE,Thread-1,java/util/ArrayList.java:126]
+	ReadWriteNode[3162,java.util.ArrayList,DEFAULTCAPACITY_EMPTY_ELEMENTDATA,READ,Thread-2,java/util/ArrayList.java:223]
+}
+success count: 34
+fail count: 5, Pattern {
+	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] ]
+	matched: true
+	ReadWriteNode[3595,org.apache.log4j.spi.ThrowableInformation@375,rep,READ,Thread-1,org/apache/log4j/spi/ThrowableInformation.java:91]
+	ReadWriteNode[3611,org.apache.log4j.spi.ThrowableInformation@375,rep,WRITE,Thread-2,org/apache/log4j/spi/ThrowableInformation.java:90]
+}
+success count: 233
+fail count: 33, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] PatternTypeNode[y,2,READ] PatternTypeNode[y,1,WRITE] ]
+	matched: true
+	ReadWriteNode[976,org.apache.log4j.spi.LoggingEvent@1de,renderedMessage,WRITE,Thread-1,org/apache/log4j/spi/LoggingEvent.java:356]
+	ReadWriteNode[1141,org.apache.log4j.spi.LoggingEvent@1de,renderedMessage,READ,Thread-4,org/apache/log4j/spi/LoggingEvent.java:354]
+	ReadWriteNode[1841,org.apache.log4j.spi.ThrowableInformation@375,rep,READ,Thread-4,org/apache/log4j/spi/ThrowableInformation.java:71]
+	ReadWriteNode[2405,org.apache.log4j.spi.ThrowableInformation@375,rep,WRITE,Thread-1,org/apache/log4j/spi/ThrowableInformation.java:90]
+}
+success count: 58
 fail count: 8, Pattern {
 	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
 	matched: true
-	ReadWriteNode[3889,org.apache.log4j.spi.ThrowableInformation@375,rep,WRITE,Thread-1,org/apache/log4j/spi/ThrowableInformation.java:90]
-	ReadWriteNode[3892,org.apache.log4j.spi.ThrowableInformation@375,rep,READ,Thread-4,org/apache/log4j/spi/ThrowableInformation.java:93]
+	ReadWriteNode[3254,org.apache.log4j.spi.ThrowableInformation@375,rep,WRITE,Thread-1,org/apache/log4j/spi/ThrowableInformation.java:90]
+	ReadWriteNode[3397,org.apache.log4j.spi.ThrowableInformation@375,rep,READ,Thread-2,org/apache/log4j/spi/ThrowableInformation.java:93]
 }
-success count: 73
-fail count: 13, Pattern {
+success count: 66
+fail count: 9, Pattern {
+	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[y,2,WRITE] PatternTypeNode[y,1,READ] PatternTypeNode[x,2,WRITE] ]
+	matched: true
+	ReadWriteNode[1377,org.apache.log4j.spi.ThrowableInformation@375,rep,READ,Thread-3,org/apache/log4j/spi/ThrowableInformation.java:71]
+	ReadWriteNode[1401,java.util.ArrayList,DEFAULTCAPACITY_EMPTY_ELEMENTDATA,WRITE,Thread-4,java/util/ArrayList.java:126]
+	ReadWriteNode[2962,java.util.ArrayList,DEFAULTCAPACITY_EMPTY_ELEMENTDATA,READ,Thread-3,java/util/ArrayList.java:165]
+	ReadWriteNode[3216,org.apache.log4j.spi.ThrowableInformation@375,rep,WRITE,Thread-4,org/apache/log4j/spi/ThrowableInformation.java:90]
+}
+success count: 74
+fail count: 10, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[y,2,READ] PatternTypeNode[y,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[1251,java.io.BufferedReader,defaultCharBufferSize,WRITE,Thread-3,java/io/BufferedReader.java:88]
+	ReadWriteNode[1360,org.apache.log4j.spi.ThrowableInformation@375,rep,READ,Thread-1,org/apache/log4j/spi/ThrowableInformation.java:71]
+	ReadWriteNode[2135,org.apache.log4j.spi.ThrowableInformation@375,rep,WRITE,Thread-3,org/apache/log4j/spi/ThrowableInformation.java:90]
+	ReadWriteNode[2639,java.io.BufferedReader,defaultCharBufferSize,READ,Thread-1,java/io/BufferedReader.java:116]
+}
+success count: 52
+fail count: 7, Pattern {
+	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] ]
+	matched: true
+	ReadWriteNode[3604,org.apache.log4j.spi.ThrowableInformation@375,rep,READ,Thread-1,org/apache/log4j/spi/ThrowableInformation.java:93]
+	ReadWriteNode[3611,org.apache.log4j.spi.ThrowableInformation@375,rep,WRITE,Thread-2,org/apache/log4j/spi/ThrowableInformation.java:90]
+}
+success count: 217
+fail count: 29, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] PatternTypeNode[y,2,READ] PatternTypeNode[y,1,WRITE] ]
+	matched: true
+	ReadWriteNode[1411,java.util.ArrayList,DEFAULTCAPACITY_EMPTY_ELEMENTDATA,WRITE,Thread-1,java/util/ArrayList.java:126]
+	ReadWriteNode[3162,java.util.ArrayList,DEFAULTCAPACITY_EMPTY_ELEMENTDATA,READ,Thread-2,java/util/ArrayList.java:223]
+	ReadWriteNode[3237,org.apache.log4j.spi.ThrowableInformation@375,rep,READ,Thread-2,org/apache/log4j/spi/ThrowableInformation.java:91]
+	ReadWriteNode[3254,org.apache.log4j.spi.ThrowableInformation@375,rep,WRITE,Thread-1,org/apache/log4j/spi/ThrowableInformation.java:90]
+}
+success count: 18
+fail count: 2, Pattern {
 	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[y,2,WRITE] PatternTypeNode[y,1,WRITE] ]
 	matched: true
-	ReadWriteNode[1030,org.apache.log4j.spi.LoggingEvent@1de,renderedMessage,WRITE,Thread-2,org/apache/log4j/spi/LoggingEvent.java:356]
-	ReadWriteNode[1052,org.apache.log4j.spi.LoggingEvent@1de,renderedMessage,WRITE,Thread-4,org/apache/log4j/spi/LoggingEvent.java:356]
-	ReadWriteNode[3139,org.apache.log4j.spi.ThrowableInformation@375,rep,WRITE,Thread-4,org/apache/log4j/spi/ThrowableInformation.java:90]
-	ReadWriteNode[3867,org.apache.log4j.spi.ThrowableInformation@375,rep,WRITE,Thread-2,org/apache/log4j/spi/ThrowableInformation.java:90]
+	ReadWriteNode[1011,org.apache.log4j.spi.LoggingEvent@1de,renderedMessage,WRITE,Thread-1,org/apache/log4j/spi/LoggingEvent.java:356]
+	ReadWriteNode[1024,org.apache.log4j.spi.LoggingEvent@1de,renderedMessage,WRITE,Thread-2,org/apache/log4j/spi/LoggingEvent.java:356]
+	ReadWriteNode[3232,org.apache.log4j.spi.ThrowableInformation@375,rep,WRITE,Thread-2,org/apache/log4j/spi/ThrowableInformation.java:90]
+	ReadWriteNode[3254,org.apache.log4j.spi.ThrowableInformation@375,rep,WRITE,Thread-1,org/apache/log4j/spi/ThrowableInformation.java:90]
 }
-success count: 17
-fail count: 3, Pattern {
-	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] PatternTypeNode[y,2,WRITE] PatternTypeNode[y,1,READ] ]
+success count: 18
+fail count: 2, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] PatternTypeNode[y,2,READ] PatternTypeNode[y,1,WRITE] ]
 	matched: true
-	ReadWriteNode[974,org.apache.log4j.spi.LoggingEvent@1de,renderedMessage,READ,Thread-3,org/apache/log4j/spi/LoggingEvent.java:354]
-	ReadWriteNode[979,org.apache.log4j.spi.LoggingEvent@1de,renderedMessage,WRITE,Thread-4,org/apache/log4j/spi/LoggingEvent.java:356]
-	ReadWriteNode[3854,org.apache.log4j.spi.ThrowableInformation@375,rep,WRITE,Thread-4,org/apache/log4j/spi/ThrowableInformation.java:90]
-	ReadWriteNode[3864,org.apache.log4j.spi.ThrowableInformation@375,rep,READ,Thread-3,org/apache/log4j/spi/ThrowableInformation.java:93]
+	ReadWriteNode[1411,java.util.ArrayList,DEFAULTCAPACITY_EMPTY_ELEMENTDATA,WRITE,Thread-1,java/util/ArrayList.java:126]
+	ReadWriteNode[1801,java.util.ArrayList,DEFAULTCAPACITY_EMPTY_ELEMENTDATA,READ,Thread-2,java/util/ArrayList.java:165]
+	ReadWriteNode[3237,org.apache.log4j.spi.ThrowableInformation@375,rep,READ,Thread-2,org/apache/log4j/spi/ThrowableInformation.java:91]
+	ReadWriteNode[3254,org.apache.log4j.spi.ThrowableInformation@375,rep,WRITE,Thread-1,org/apache/log4j/spi/ThrowableInformation.java:90]
 }
-success count: 6
-fail count: 1, Pattern {
+success count: 18
+fail count: 2, Pattern {
 	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
 	matched: true
-	ReadWriteNode[338,org.apache.log4j.WriterAppender@17e,qw,WRITE,main,org/apache/log4j/WriterAppender.java:287]
-	ReadWriteNode[4093,org.apache.log4j.WriterAppender@17e,qw,READ,Thread-3,org/apache/log4j/WriterAppender.java:309]
+	ReadWriteNode[343,org.apache.log4j.WriterAppender@17e,qw,WRITE,main,org/apache/log4j/WriterAppender.java:287]
+	ReadWriteNode[4165,org.apache.log4j.WriterAppender@17e,qw,READ,Thread-3,org/apache/log4j/WriterAppender.java:309]
 }
-success count: 316
-fail count: 50, Pattern {
-	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] PatternTypeNode[y,2,WRITE] PatternTypeNode[y,1,READ] ]
+success count: 340
+fail count: 36, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] PatternTypeNode[y,2,READ] PatternTypeNode[y,1,WRITE] ]
 	matched: true
-	ReadWriteNode[994,org.apache.log4j.spi.LoggingEvent@1de,renderedMessage,READ,Thread-4,org/apache/log4j/spi/LoggingEvent.java:368]
-	ReadWriteNode[999,org.apache.log4j.spi.LoggingEvent@1de,renderedMessage,WRITE,Thread-1,org/apache/log4j/spi/LoggingEvent.java:356]
-	ReadWriteNode[1312,java.io.BufferedReader,defaultCharBufferSize,WRITE,Thread-1,java/io/BufferedReader.java:88]
-	ReadWriteNode[2366,java.io.BufferedReader,defaultCharBufferSize,READ,Thread-4,java/io/BufferedReader.java:116]
+	ReadWriteNode[1310,java.io.BufferedReader,defaultCharBufferSize,WRITE,Thread-1,java/io/BufferedReader.java:88]
+	ReadWriteNode[1785,java.io.BufferedReader,defaultCharBufferSize,READ,Thread-2,java/io/BufferedReader.java:116]
+	ReadWriteNode[3237,org.apache.log4j.spi.ThrowableInformation@375,rep,READ,Thread-2,org/apache/log4j/spi/ThrowableInformation.java:91]
+	ReadWriteNode[3254,org.apache.log4j.spi.ThrowableInformation@375,rep,WRITE,Thread-1,org/apache/log4j/spi/ThrowableInformation.java:90]
 }
 success count: 19
+fail count: 2, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,READ] ]
+	matched: true
+	ReadWriteNode[3263,org.apache.log4j.spi.ThrowableInformation@375,rep,WRITE,Thread-3,org/apache/log4j/spi/ThrowableInformation.java:90]
+	ReadWriteNode[3266,org.apache.log4j.spi.ThrowableInformation@375,rep,WRITE,Thread-2,org/apache/log4j/spi/ThrowableInformation.java:90]
+	ReadWriteNode[3285,org.apache.log4j.spi.ThrowableInformation@375,rep,READ,Thread-3,org/apache/log4j/spi/ThrowableInformation.java:91]
+}
+success count: 32
 fail count: 3, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,READ] ]
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
 	matched: true
-	ReadWriteNode[1021,org.apache.log4j.spi.LoggingEvent@1de,renderedMessage,WRITE,Thread-4,org/apache/log4j/spi/LoggingEvent.java:356]
-	ReadWriteNode[1033,org.apache.log4j.spi.LoggingEvent@1de,renderedMessage,WRITE,Thread-1,org/apache/log4j/spi/LoggingEvent.java:356]
-	ReadWriteNode[1036,org.apache.log4j.spi.LoggingEvent@1de,renderedMessage,READ,Thread-4,org/apache/log4j/spi/LoggingEvent.java:368]
+	ReadWriteNode[3266,org.apache.log4j.spi.ThrowableInformation@375,rep,WRITE,Thread-2,org/apache/log4j/spi/ThrowableInformation.java:90]
+	ReadWriteNode[3285,org.apache.log4j.spi.ThrowableInformation@375,rep,READ,Thread-3,org/apache/log4j/spi/ThrowableInformation.java:91]
 }
-success count: 26
-fail count: 4, Pattern {
+success count: 34
+fail count: 3, Pattern {
 	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] PatternTypeNode[y,2,WRITE] PatternTypeNode[y,1,READ] ]
 	matched: true
-	ReadWriteNode[1024,org.apache.log4j.spi.LoggingEvent@1de,renderedMessage,READ,Thread-3,org/apache/log4j/spi/LoggingEvent.java:368]
-	ReadWriteNode[1033,org.apache.log4j.spi.LoggingEvent@1de,renderedMessage,WRITE,Thread-1,org/apache/log4j/spi/LoggingEvent.java:356]
-	ReadWriteNode[3889,org.apache.log4j.spi.ThrowableInformation@375,rep,WRITE,Thread-1,org/apache/log4j/spi/ThrowableInformation.java:90]
-	ReadWriteNode[3906,org.apache.log4j.spi.ThrowableInformation@375,rep,READ,Thread-3,org/apache/log4j/spi/ThrowableInformation.java:93]
+	ReadWriteNode[1031,org.apache.log4j.spi.LoggingEvent@1de,renderedMessage,READ,Thread-1,org/apache/log4j/spi/LoggingEvent.java:368]
+	ReadWriteNode[1044,org.apache.log4j.spi.LoggingEvent@1de,renderedMessage,WRITE,Thread-3,org/apache/log4j/spi/LoggingEvent.java:356]
+	ReadWriteNode[3816,java.lang.String@439,value,WRITE,Thread-3,java/lang/String.java:78]
+	ReadWriteNode[4173,java.lang.String@439,value,READ,Thread-1,java/lang/String.java:175]
 }
-success count: 7
-fail count: 1, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
-	matched: true
-	ReadWriteNode[316,org.apache.log4j.WriterAppender@178,qw,WRITE,main,org/apache/log4j/WriterAppender.java:287]
-	ReadWriteNode[4139,org.apache.log4j.WriterAppender@178,qw,READ,Thread-2,org/apache/log4j/WriterAppender.java:310]
-}
-success count: 316
-fail count: 17, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
-	matched: true
-	ReadWriteNode[292,org.apache.log4j.Layout,LINE_SEP,WRITE,main,org/apache/log4j/Layout.java:34]
-	ReadWriteNode[4177,org.apache.log4j.Layout,LINE_SEP,READ,Thread-3,org/apache/log4j/WriterAppender.java:310]
-}
-success count: 316
-fail count: 15, Pattern {
-	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] PatternTypeNode[y,2,WRITE] PatternTypeNode[y,1,READ] ]
-	matched: true
-	ReadWriteNode[949,org.apache.log4j.spi.LoggingEvent@1de,renderedMessage,READ,Thread-3,org/apache/log4j/spi/LoggingEvent.java:354]
-	ReadWriteNode[971,org.apache.log4j.spi.LoggingEvent@1de,renderedMessage,WRITE,Thread-2,org/apache/log4j/spi/LoggingEvent.java:356]
-	ReadWriteNode[1994,java.lang.String@415,value,WRITE,Thread-2,java/lang/String.java:78]
-	ReadWriteNode[3898,java.lang.String@415,value,READ,Thread-3,java/lang/String.java:175]
-}
-success count: 35
-fail count: 1, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,READ] ]
-	matched: true
-	ReadWriteNode[3003,org.apache.log4j.spi.ThrowableInformation@375,rep,WRITE,Thread-2,org/apache/log4j/spi/ThrowableInformation.java:90]
-	ReadWriteNode[3123,org.apache.log4j.spi.ThrowableInformation@375,rep,WRITE,Thread-3,org/apache/log4j/spi/ThrowableInformation.java:90]
-	ReadWriteNode[3606,org.apache.log4j.spi.ThrowableInformation@375,rep,READ,Thread-2,org/apache/log4j/spi/ThrowableInformation.java:91]
-}
-success count: 35
-fail count: 1, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
-	matched: true
-	ReadWriteNode[3123,org.apache.log4j.spi.ThrowableInformation@375,rep,WRITE,Thread-3,org/apache/log4j/spi/ThrowableInformation.java:90]
-	ReadWriteNode[3606,org.apache.log4j.spi.ThrowableInformation@375,rep,READ,Thread-2,org/apache/log4j/spi/ThrowableInformation.java:91]
-}
-success count: 38
+success count: 23
 fail count: 1, Pattern {
 	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[y,2,READ] PatternTypeNode[y,1,WRITE] PatternTypeNode[x,2,READ] ]
 	matched: true
-	ReadWriteNode[3593,java.lang.String@436,value,WRITE,Thread-4,java/lang/String.java:78]
-	ReadWriteNode[3944,org.apache.log4j.spi.ThrowableInformation@375,rep,READ,Thread-1,org/apache/log4j/spi/ThrowableInformation.java:93]
-	ReadWriteNode[3990,org.apache.log4j.spi.ThrowableInformation@375,rep,WRITE,Thread-4,org/apache/log4j/spi/ThrowableInformation.java:90]
-	ReadWriteNode[4203,java.lang.String@436,value,READ,Thread-1,java/lang/String.java:175]
+	ReadWriteNode[1333,java.util.ArrayList,DEFAULTCAPACITY_EMPTY_ELEMENTDATA,WRITE,Thread-2,java/util/ArrayList.java:126]
+	ReadWriteNode[1342,org.apache.log4j.spi.ThrowableInformation@375,rep,READ,Thread-3,org/apache/log4j/spi/ThrowableInformation.java:71]
+	ReadWriteNode[2004,org.apache.log4j.spi.ThrowableInformation@375,rep,WRITE,Thread-2,org/apache/log4j/spi/ThrowableInformation.java:90]
+	ReadWriteNode[2365,java.util.ArrayList,DEFAULTCAPACITY_EMPTY_ELEMENTDATA,READ,Thread-3,java/util/ArrayList.java:165]
 }
-success count: 47
+success count: 23
+fail count: 1, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[y,2,READ] PatternTypeNode[y,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[1333,java.util.ArrayList,DEFAULTCAPACITY_EMPTY_ELEMENTDATA,WRITE,Thread-2,java/util/ArrayList.java:126]
+	ReadWriteNode[1342,org.apache.log4j.spi.ThrowableInformation@375,rep,READ,Thread-3,org/apache/log4j/spi/ThrowableInformation.java:71]
+	ReadWriteNode[2004,org.apache.log4j.spi.ThrowableInformation@375,rep,WRITE,Thread-2,org/apache/log4j/spi/ThrowableInformation.java:90]
+	ReadWriteNode[3177,java.util.ArrayList,DEFAULTCAPACITY_EMPTY_ELEMENTDATA,READ,Thread-3,java/util/ArrayList.java:223]
+}
+success count: 24
+fail count: 1, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[y,2,READ] PatternTypeNode[y,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[1866,java.lang.String@40f,value,WRITE,Thread-1,java/lang/String.java:78]
+	ReadWriteNode[3228,org.apache.log4j.spi.ThrowableInformation@375,rep,READ,Thread-4,org/apache/log4j/spi/ThrowableInformation.java:93]
+	ReadWriteNode[3338,org.apache.log4j.spi.ThrowableInformation@375,rep,WRITE,Thread-1,org/apache/log4j/spi/ThrowableInformation.java:90]
+	ReadWriteNode[3622,java.lang.String@40f,value,READ,Thread-4,java/lang/String.java:175]
+}
+success count: 33
 fail count: 1, Pattern {
 	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
 	matched: true
-	ReadWriteNode[3215,java.lang.String@42e,value,WRITE,Thread-1,java/lang/String.java:78]
-	ReadWriteNode[4102,java.lang.String@42e,value,READ,Thread-4,java/lang/String.java:175]
+	ReadWriteNode[294,org.apache.log4j.Layout,LINE_SEP,WRITE,main,org/apache/log4j/Layout.java:34]
+	ReadWriteNode[4225,org.apache.log4j.Layout,LINE_SEP,READ,Thread-3,org/apache/log4j/WriterAppender.java:310]
 }
-success count: 272
-fail count: 5, Pattern {
+success count: 340
+fail count: 10, Pattern {
 	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
 	matched: true
-	ReadWriteNode[255,org.apache.log4j.WriterAppender@178,immediateFlush,WRITE,main,org/apache/log4j/WriterAppender.java:55]
-	ReadWriteNode[4182,org.apache.log4j.WriterAppender@178,immediateFlush,READ,Thread-2,org/apache/log4j/WriterAppender.java:315]
+	ReadWriteNode[367,org.apache.log4j.WriterAppender@184,qw,WRITE,main,org/apache/log4j/WriterAppender.java:287]
+	ReadWriteNode[4078,org.apache.log4j.WriterAppender@184,qw,READ,Thread-4,org/apache/log4j/WriterAppender.java:310]
 }
-success count: 316
-fail count: 0, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+success count: 340
+fail count: 10, Pattern {
+	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] PatternTypeNode[y,2,WRITE] PatternTypeNode[y,1,READ] ]
 	matched: true
-	ReadWriteNode[283,org.apache.log4j.helpers.QuietWriter@1a5,out,WRITE,main,java/io/FilterWriter.java:56]
-	ReadWriteNode[4257,org.apache.log4j.helpers.QuietWriter@1a5,out,READ,Thread-1,org/apache/log4j/helpers/QuietWriter.java:58]
+	ReadWriteNode[958,org.apache.log4j.spi.LoggingEvent@1de,renderedMessage,READ,Thread-2,org/apache/log4j/spi/LoggingEvent.java:354]
+	ReadWriteNode[1011,org.apache.log4j.spi.LoggingEvent@1de,renderedMessage,WRITE,Thread-1,org/apache/log4j/spi/LoggingEvent.java:356]
+	ReadWriteNode[1543,java.lang.String@404,value,WRITE,Thread-1,java/lang/String.java:78]
+	ReadWriteNode[3871,java.lang.String@404,value,READ,Thread-2,java/lang/String.java:175]
 }
-success count: 316
-fail count: 0, Pattern {
+success count: 39
+fail count: 1, Pattern {
 	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[y,2,READ] PatternTypeNode[y,1,WRITE] PatternTypeNode[x,2,READ] ]
 	matched: true
-	ReadWriteNode[3215,java.lang.String@42e,value,WRITE,Thread-1,java/lang/String.java:78]
-	ReadWriteNode[3882,org.apache.log4j.spi.ThrowableInformation@375,rep,READ,Thread-4,org/apache/log4j/spi/ThrowableInformation.java:91]
-	ReadWriteNode[3889,org.apache.log4j.spi.ThrowableInformation@375,rep,WRITE,Thread-1,org/apache/log4j/spi/ThrowableInformation.java:90]
-	ReadWriteNode[4102,java.lang.String@42e,value,READ,Thread-4,java/lang/String.java:175]
+	ReadWriteNode[3175,java.lang.String@42e,value,WRITE,Thread-1,java/lang/String.java:78]
+	ReadWriteNode[3221,org.apache.log4j.spi.ThrowableInformation@375,rep,READ,Thread-4,org/apache/log4j/spi/ThrowableInformation.java:91]
+	ReadWriteNode[3338,org.apache.log4j.spi.ThrowableInformation@375,rep,WRITE,Thread-1,org/apache/log4j/spi/ThrowableInformation.java:90]
+	ReadWriteNode[4042,java.lang.String@42e,value,READ,Thread-4,java/lang/String.java:175]
 }
-success count: 128
+success count: 123
+fail count: 3, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[2731,java.lang.String@428,value,WRITE,Thread-1,java/lang/String.java:78]
+	ReadWriteNode[3977,java.lang.String@428,value,READ,Thread-4,java/lang/String.java:175]
+}
+success count: 260
+fail count: 3, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[319,org.apache.log4j.WriterAppender@178,qw,WRITE,main,org/apache/log4j/WriterAppender.java:287]
+	ReadWriteNode[4261,org.apache.log4j.WriterAppender@178,qw,READ,Thread-2,org/apache/log4j/WriterAppender.java:316]
+}
+success count: 340
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[249,org.apache.log4j.WriterAppender@168,immediateFlush,WRITE,main,org/apache/log4j/WriterAppender.java:55]
+	ReadWriteNode[4204,org.apache.log4j.WriterAppender@168,immediateFlush,READ,Thread-1,org/apache/log4j/WriterAppender.java:315]
+}
+success count: 340
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[365,org.apache.log4j.helpers.QuietWriter@1cb,out,WRITE,main,java/io/FilterWriter.java:56]
+	ReadWriteNode[4144,org.apache.log4j.helpers.QuietWriter@1cb,out,READ,Thread-4,org/apache/log4j/helpers/QuietWriter.java:58]
+}
+success count: 340
 fail count: 0, Pattern {
 	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] PatternTypeNode[y,2,WRITE] PatternTypeNode[y,1,READ] ]
 	matched: true
-	ReadWriteNode[1024,org.apache.log4j.spi.LoggingEvent@1de,renderedMessage,READ,Thread-3,org/apache/log4j/spi/LoggingEvent.java:368]
-	ReadWriteNode[1033,org.apache.log4j.spi.LoggingEvent@1de,renderedMessage,WRITE,Thread-1,org/apache/log4j/spi/LoggingEvent.java:356]
-	ReadWriteNode[2978,java.lang.String@42b,value,WRITE,Thread-1,java/lang/String.java:78]
-	ReadWriteNode[4009,java.lang.String@42b,value,READ,Thread-3,java/lang/String.java:175]
+	ReadWriteNode[958,org.apache.log4j.spi.LoggingEvent@1de,renderedMessage,READ,Thread-2,org/apache/log4j/spi/LoggingEvent.java:354]
+	ReadWriteNode[1011,org.apache.log4j.spi.LoggingEvent@1de,renderedMessage,WRITE,Thread-1,org/apache/log4j/spi/LoggingEvent.java:356]
+	ReadWriteNode[3254,org.apache.log4j.spi.ThrowableInformation@375,rep,WRITE,Thread-1,org/apache/log4j/spi/ThrowableInformation.java:90]
+	ReadWriteNode[3397,org.apache.log4j.spi.ThrowableInformation@375,rep,READ,Thread-2,org/apache/log4j/spi/ThrowableInformation.java:93]
 }
-success count: 26
+success count: 14
 fail count: 0, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] PatternTypeNode[y,2,WRITE] PatternTypeNode[y,1,READ] ]
 	matched: true
-	ReadWriteNode[338,org.apache.log4j.WriterAppender@17e,qw,WRITE,main,org/apache/log4j/WriterAppender.java:287]
-	ReadWriteNode[4241,org.apache.log4j.WriterAppender@17e,qw,READ,Thread-3,org/apache/log4j/WriterAppender.java:316]
+	ReadWriteNode[978,org.apache.log4j.spi.LoggingEvent@1de,renderedMessage,READ,Thread-2,org/apache/log4j/spi/LoggingEvent.java:354]
+	ReadWriteNode[1017,org.apache.log4j.spi.LoggingEvent@1de,renderedMessage,WRITE,Thread-3,org/apache/log4j/spi/LoggingEvent.java:356]
+	ReadWriteNode[3916,org.apache.log4j.spi.ThrowableInformation@375,rep,WRITE,Thread-3,org/apache/log4j/spi/ThrowableInformation.java:90]
+	ReadWriteNode[3927,org.apache.log4j.spi.ThrowableInformation@375,rep,READ,Thread-2,org/apache/log4j/spi/ThrowableInformation.java:91]
 }
-success count: 316
-fail count: 0, Pattern {
-	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[y,2,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[y,1,READ] ]
-	matched: true
-	ReadWriteNode[3652,org.apache.log4j.spi.ThrowableInformation@375,rep,READ,Thread-3,org/apache/log4j/spi/ThrowableInformation.java:91]
-	ReadWriteNode[3859,java.lang.String@43a,value,WRITE,Thread-4,java/lang/String.java:78]
-	ReadWriteNode[3916,org.apache.log4j.spi.ThrowableInformation@375,rep,WRITE,Thread-4,org/apache/log4j/spi/ThrowableInformation.java:90]
-	ReadWriteNode[4192,java.lang.String@43a,value,READ,Thread-3,java/lang/String.java:175]
-}
-success count: 1
+success count: 4
 fail count: 0, Pattern {
 	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[y,2,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[y,1,READ] ]
 	matched: true
-	ReadWriteNode[1269,org.apache.log4j.spi.ThrowableInformation@375,rep,READ,Thread-3,org/apache/log4j/spi/ThrowableInformation.java:71]
-	ReadWriteNode[1892,java.lang.String@40f,value,WRITE,Thread-2,java/lang/String.java:78]
-	ReadWriteNode[3003,org.apache.log4j.spi.ThrowableInformation@375,rep,WRITE,Thread-2,org/apache/log4j/spi/ThrowableInformation.java:90]
-	ReadWriteNode[3907,java.lang.String@40f,value,READ,Thread-3,java/lang/String.java:175]
+	ReadWriteNode[1256,org.apache.log4j.spi.ThrowableInformation@375,rep,READ,Thread-4,org/apache/log4j/spi/ThrowableInformation.java:71]
+	ReadWriteNode[2381,java.lang.String@419,value,WRITE,Thread-1,java/lang/String.java:78]
+	ReadWriteNode[2811,org.apache.log4j.spi.ThrowableInformation@375,rep,WRITE,Thread-1,org/apache/log4j/spi/ThrowableInformation.java:90]
+	ReadWriteNode[4074,java.lang.String@419,value,READ,Thread-4,java/lang/String.java:175]
+}
+success count: 10
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] PatternTypeNode[y,2,WRITE] PatternTypeNode[y,1,READ] ]
+	matched: true
+	ReadWriteNode[1031,org.apache.log4j.spi.LoggingEvent@1de,renderedMessage,READ,Thread-1,org/apache/log4j/spi/LoggingEvent.java:368]
+	ReadWriteNode[1044,org.apache.log4j.spi.LoggingEvent@1de,renderedMessage,WRITE,Thread-3,org/apache/log4j/spi/LoggingEvent.java:356]
+	ReadWriteNode[3907,org.apache.log4j.spi.ThrowableInformation@375,rep,WRITE,Thread-3,org/apache/log4j/spi/ThrowableInformation.java:90]
+	ReadWriteNode[3913,org.apache.log4j.spi.ThrowableInformation@375,rep,READ,Thread-1,org/apache/log4j/spi/ThrowableInformation.java:91]
+}
+success count: 2
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] PatternTypeNode[y,2,WRITE] PatternTypeNode[y,1,READ] ]
+	matched: true
+	ReadWriteNode[1026,org.apache.log4j.spi.LoggingEvent@1de,renderedMessage,READ,Thread-1,org/apache/log4j/spi/LoggingEvent.java:368]
+	ReadWriteNode[1033,org.apache.log4j.spi.LoggingEvent@1de,renderedMessage,WRITE,Thread-2,org/apache/log4j/spi/LoggingEvent.java:356]
+	ReadWriteNode[1459,java.util.ArrayList,DEFAULTCAPACITY_EMPTY_ELEMENTDATA,WRITE,Thread-2,java/util/ArrayList.java:126]
+	ReadWriteNode[1582,java.util.ArrayList,DEFAULTCAPACITY_EMPTY_ELEMENTDATA,READ,Thread-1,java/util/ArrayList.java:165]
 }
 success count: 11
 fail count: 0, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[y,2,READ] PatternTypeNode[x,2,READ] PatternTypeNode[y,1,WRITE] ]
+	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] PatternTypeNode[y,2,WRITE] PatternTypeNode[y,1,READ] ]
 	matched: true
-	ReadWriteNode[1285,java.io.BufferedReader,defaultCharBufferSize,WRITE,Thread-2,java/io/BufferedReader.java:88]
-	ReadWriteNode[1291,org.apache.log4j.spi.ThrowableInformation@375,rep,READ,Thread-3,org/apache/log4j/spi/ThrowableInformation.java:71]
-	ReadWriteNode[2155,java.io.BufferedReader,defaultCharBufferSize,READ,Thread-3,java/io/BufferedReader.java:116]
-	ReadWriteNode[2414,org.apache.log4j.spi.ThrowableInformation@375,rep,WRITE,Thread-2,org/apache/log4j/spi/ThrowableInformation.java:90]
+	ReadWriteNode[1026,org.apache.log4j.spi.LoggingEvent@1de,renderedMessage,READ,Thread-1,org/apache/log4j/spi/LoggingEvent.java:368]
+	ReadWriteNode[1033,org.apache.log4j.spi.LoggingEvent@1de,renderedMessage,WRITE,Thread-2,org/apache/log4j/spi/LoggingEvent.java:356]
+	ReadWriteNode[1459,java.util.ArrayList,DEFAULTCAPACITY_EMPTY_ELEMENTDATA,WRITE,Thread-2,java/util/ArrayList.java:126]
+	ReadWriteNode[3170,java.util.ArrayList,DEFAULTCAPACITY_EMPTY_ELEMENTDATA,READ,Thread-1,java/util/ArrayList.java:223]
 }
-success count: 7
+success count: 11
 fail count: 0, Pattern {
 	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] PatternTypeNode[y,2,WRITE] PatternTypeNode[y,1,READ] ]
 	matched: true
-	ReadWriteNode[990,org.apache.log4j.spi.LoggingEvent@1de,renderedMessage,READ,Thread-1,org/apache/log4j/spi/LoggingEvent.java:368]
-	ReadWriteNode[992,org.apache.log4j.spi.LoggingEvent@1de,renderedMessage,WRITE,Thread-3,org/apache/log4j/spi/LoggingEvent.java:356]
-	ReadWriteNode[3289,org.apache.log4j.spi.ThrowableInformation@375,rep,WRITE,Thread-3,org/apache/log4j/spi/ThrowableInformation.java:90]
-	ReadWriteNode[3319,org.apache.log4j.spi.ThrowableInformation@375,rep,READ,Thread-1,org/apache/log4j/spi/ThrowableInformation.java:91]
+	ReadWriteNode[1026,org.apache.log4j.spi.LoggingEvent@1de,renderedMessage,READ,Thread-1,org/apache/log4j/spi/LoggingEvent.java:368]
+	ReadWriteNode[1033,org.apache.log4j.spi.LoggingEvent@1de,renderedMessage,WRITE,Thread-2,org/apache/log4j/spi/LoggingEvent.java:356]
+	ReadWriteNode[1339,java.io.BufferedReader,defaultCharBufferSize,WRITE,Thread-2,java/io/BufferedReader.java:88]
+	ReadWriteNode[1445,java.io.BufferedReader,defaultCharBufferSize,READ,Thread-1,java/io/BufferedReader.java:116]
 }
-success count: 2
+success count: 11
 fail count: 0, Pattern {
-	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] PatternTypeNode[y,2,WRITE] PatternTypeNode[y,1,READ] ]
+	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[y,2,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[y,1,READ] ]
 	matched: true
-	ReadWriteNode[1006,org.apache.log4j.spi.LoggingEvent@1de,renderedMessage,READ,Thread-1,org/apache/log4j/spi/LoggingEvent.java:354]
-	ReadWriteNode[1018,org.apache.log4j.spi.LoggingEvent@1de,renderedMessage,WRITE,Thread-4,org/apache/log4j/spi/LoggingEvent.java:356]
-	ReadWriteNode[1913,org.apache.log4j.spi.ThrowableInformation@375,rep,WRITE,Thread-4,org/apache/log4j/spi/ThrowableInformation.java:90]
-	ReadWriteNode[1978,org.apache.log4j.spi.ThrowableInformation@375,rep,READ,Thread-1,org/apache/log4j/spi/ThrowableInformation.java:72]
-}
-success count: 2
-fail count: 0, Pattern {
-	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] PatternTypeNode[y,2,WRITE] PatternTypeNode[y,1,READ] ]
-	matched: true
-	ReadWriteNode[1016,org.apache.log4j.spi.LoggingEvent@1de,renderedMessage,READ,Thread-1,org/apache/log4j/spi/LoggingEvent.java:368]
-	ReadWriteNode[1018,org.apache.log4j.spi.LoggingEvent@1de,renderedMessage,WRITE,Thread-4,org/apache/log4j/spi/LoggingEvent.java:356]
-	ReadWriteNode[1913,org.apache.log4j.spi.ThrowableInformation@375,rep,WRITE,Thread-4,org/apache/log4j/spi/ThrowableInformation.java:90]
-	ReadWriteNode[1940,org.apache.log4j.spi.ThrowableInformation@375,rep,READ,Thread-1,org/apache/log4j/spi/ThrowableInformation.java:71]
+	ReadWriteNode[3623,org.apache.log4j.spi.ThrowableInformation@375,rep,READ,Thread-4,org/apache/log4j/spi/ThrowableInformation.java:91]
+	ReadWriteNode[3831,java.lang.String@43a,value,WRITE,Thread-2,java/lang/String.java:78]
+	ReadWriteNode[3876,org.apache.log4j.spi.ThrowableInformation@375,rep,WRITE,Thread-2,org/apache/log4j/spi/ThrowableInformation.java:90]
+	ReadWriteNode[4183,java.lang.String@43a,value,READ,Thread-4,java/lang/String.java:175]
 }
 success count: 1
-fail count: 0, Pattern {
-	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] PatternTypeNode[y,2,WRITE] PatternTypeNode[y,1,READ] ]
-	matched: true
-	ReadWriteNode[1006,org.apache.log4j.spi.LoggingEvent@1de,renderedMessage,READ,Thread-1,org/apache/log4j/spi/LoggingEvent.java:354]
-	ReadWriteNode[1018,org.apache.log4j.spi.LoggingEvent@1de,renderedMessage,WRITE,Thread-4,org/apache/log4j/spi/LoggingEvent.java:356]
-	ReadWriteNode[1913,org.apache.log4j.spi.ThrowableInformation@375,rep,WRITE,Thread-4,org/apache/log4j/spi/ThrowableInformation.java:90]
-	ReadWriteNode[1940,org.apache.log4j.spi.ThrowableInformation@375,rep,READ,Thread-1,org/apache/log4j/spi/ThrowableInformation.java:71]
-}
-success count: 2
-fail count: 0, Pattern {
-	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] PatternTypeNode[y,2,WRITE] PatternTypeNode[y,1,READ] ]
-	matched: true
-	ReadWriteNode[1016,org.apache.log4j.spi.LoggingEvent@1de,renderedMessage,READ,Thread-1,org/apache/log4j/spi/LoggingEvent.java:368]
-	ReadWriteNode[1018,org.apache.log4j.spi.LoggingEvent@1de,renderedMessage,WRITE,Thread-4,org/apache/log4j/spi/LoggingEvent.java:356]
-	ReadWriteNode[1913,org.apache.log4j.spi.ThrowableInformation@375,rep,WRITE,Thread-4,org/apache/log4j/spi/ThrowableInformation.java:90]
-	ReadWriteNode[1978,org.apache.log4j.spi.ThrowableInformation@375,rep,READ,Thread-1,org/apache/log4j/spi/ThrowableInformation.java:72]
-}
-success count: 1
-fail count: 0, Pattern {
-	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] PatternTypeNode[y,2,WRITE] PatternTypeNode[y,1,READ] ]
-	matched: true
-	ReadWriteNode[979,org.apache.log4j.spi.LoggingEvent@1de,renderedMessage,READ,Thread-3,org/apache/log4j/spi/LoggingEvent.java:354]
-	ReadWriteNode[1012,org.apache.log4j.spi.LoggingEvent@1de,renderedMessage,WRITE,Thread-1,org/apache/log4j/spi/LoggingEvent.java:356]
-	ReadWriteNode[3634,org.apache.log4j.spi.ThrowableInformation@375,rep,WRITE,Thread-1,org/apache/log4j/spi/ThrowableInformation.java:90]
-	ReadWriteNode[3637,org.apache.log4j.spi.ThrowableInformation@375,rep,READ,Thread-3,org/apache/log4j/spi/ThrowableInformation.java:91]
-}
-success count: 2
 fail count: 0, Pattern {
 	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[y,2,READ] PatternTypeNode[y,1,WRITE] PatternTypeNode[x,2,READ] ]
 	matched: true
-	ReadWriteNode[2913,java.lang.String@41a,value,WRITE,Thread-3,java/lang/String.java:78]
-	ReadWriteNode[3144,org.apache.log4j.spi.ThrowableInformation@375,rep,READ,Thread-4,org/apache/log4j/spi/ThrowableInformation.java:71]
-	ReadWriteNode[3214,org.apache.log4j.spi.ThrowableInformation@375,rep,WRITE,Thread-3,org/apache/log4j/spi/ThrowableInformation.java:90]
-	ReadWriteNode[3538,java.lang.String@41a,value,READ,Thread-4,java/lang/String.java:175]
+	ReadWriteNode[2662,java.lang.String@416,value,WRITE,Thread-3,java/lang/String.java:78]
+	ReadWriteNode[2734,org.apache.log4j.spi.ThrowableInformation@375,rep,READ,Thread-4,org/apache/log4j/spi/ThrowableInformation.java:71]
+	ReadWriteNode[2739,org.apache.log4j.spi.ThrowableInformation@375,rep,WRITE,Thread-3,org/apache/log4j/spi/ThrowableInformation.java:90]
+	ReadWriteNode[3434,java.lang.String@416,value,READ,Thread-4,java/lang/String.java:175]
 }
 success count: 3
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,READ] ]
+	matched: true
+	ReadWriteNode[2734,org.apache.log4j.spi.ThrowableInformation@375,rep,READ,Thread-4,org/apache/log4j/spi/ThrowableInformation.java:71]
+	ReadWriteNode[2739,org.apache.log4j.spi.ThrowableInformation@375,rep,WRITE,Thread-3,org/apache/log4j/spi/ThrowableInformation.java:90]
+	ReadWriteNode[2752,org.apache.log4j.spi.ThrowableInformation@375,rep,READ,Thread-4,org/apache/log4j/spi/ThrowableInformation.java:72]
+}
+success count: 1
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[y,2,READ] PatternTypeNode[x,2,READ] PatternTypeNode[y,1,WRITE] ]
+	matched: true
+	ReadWriteNode[1390,java.util.ArrayList,DEFAULTCAPACITY_EMPTY_ELEMENTDATA,WRITE,Thread-2,java/util/ArrayList.java:126]
+	ReadWriteNode[1507,org.apache.log4j.spi.ThrowableInformation@375,rep,READ,Thread-3,org/apache/log4j/spi/ThrowableInformation.java:71]
+	ReadWriteNode[2978,java.util.ArrayList,DEFAULTCAPACITY_EMPTY_ELEMENTDATA,READ,Thread-3,java/util/ArrayList.java:165]
+	ReadWriteNode[3101,org.apache.log4j.spi.ThrowableInformation@375,rep,WRITE,Thread-2,org/apache/log4j/spi/ThrowableInformation.java:90]
+}
+success count: 1
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] PatternTypeNode[y,2,READ] PatternTypeNode[y,1,WRITE] ]
+	matched: true
+	ReadWriteNode[988,org.apache.log4j.spi.LoggingEvent@1de,renderedMessage,WRITE,Thread-4,org/apache/log4j/spi/LoggingEvent.java:356]
+	ReadWriteNode[1090,org.apache.log4j.spi.LoggingEvent@1de,renderedMessage,READ,Thread-3,org/apache/log4j/spi/LoggingEvent.java:368]
+	ReadWriteNode[1919,org.apache.log4j.spi.ThrowableInformation@375,rep,READ,Thread-3,org/apache/log4j/spi/ThrowableInformation.java:72]
+	ReadWriteNode[2628,org.apache.log4j.spi.ThrowableInformation@375,rep,WRITE,Thread-4,org/apache/log4j/spi/ThrowableInformation.java:90]
+}
+success count: 2
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] PatternTypeNode[y,2,READ] PatternTypeNode[y,1,WRITE] ]
+	matched: true
+	ReadWriteNode[988,org.apache.log4j.spi.LoggingEvent@1de,renderedMessage,WRITE,Thread-4,org/apache/log4j/spi/LoggingEvent.java:356]
+	ReadWriteNode[1082,org.apache.log4j.spi.LoggingEvent@1de,renderedMessage,READ,Thread-3,org/apache/log4j/spi/LoggingEvent.java:354]
+	ReadWriteNode[1919,org.apache.log4j.spi.ThrowableInformation@375,rep,READ,Thread-3,org/apache/log4j/spi/ThrowableInformation.java:72]
+	ReadWriteNode[2628,org.apache.log4j.spi.ThrowableInformation@375,rep,WRITE,Thread-4,org/apache/log4j/spi/ThrowableInformation.java:90]
+}
+success count: 2
 fail count: 0]
-time for getting pattern list : 68633
+time for getting pattern list : 23259

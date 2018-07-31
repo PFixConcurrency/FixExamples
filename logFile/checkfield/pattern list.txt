@@ -1,188 +1,188 @@
 [Pattern {
 	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[y,2,WRITE] PatternTypeNode[y,1,WRITE] ]
 	matched: true
-	ReadWriteNode[321,checkfield.InstanceExample@15f,number,WRITE,123,checkfield/CheckField.java:11]
-	ReadWriteNode[324,checkfield.InstanceExample@15f,number,WRITE,Thread-2,checkfield/CheckField.java:24]
-	ReadWriteNode[330,checkfield.InstanceExample@15f,num2,WRITE,Thread-2,checkfield/CheckField.java:25]
-	ReadWriteNode[332,checkfield.InstanceExample@15f,num2,WRITE,123,checkfield/CheckField.java:12]
+	ReadWriteNode[318,checkfield.InstanceExample@15f,number,WRITE,123,checkfield/CheckField.java:11]
+	ReadWriteNode[329,checkfield.InstanceExample@15f,number,WRITE,Thread-2,checkfield/CheckField.java:24]
+	ReadWriteNode[333,checkfield.InstanceExample@15f,num2,WRITE,Thread-2,checkfield/CheckField.java:25]
+	ReadWriteNode[335,checkfield.InstanceExample@15f,num2,WRITE,123,checkfield/CheckField.java:12]
 }
 success count: 0
-fail count: 7, Pattern {
+fail count: 9, Pattern {
 	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
 	matched: true
-	ReadWriteNode[320,checkfield.InstanceExample@15f,number,WRITE,Thread-2,checkfield/CheckField.java:24]
-	ReadWriteNode[334,checkfield.InstanceExample@15f,number,READ,123,checkfield/CheckField.java:14]
+	ReadWriteNode[326,checkfield.InstanceExample@15f,number,WRITE,Thread-2,checkfield/CheckField.java:24]
+	ReadWriteNode[344,checkfield.InstanceExample@15f,number,READ,123,checkfield/CheckField.java:14]
 }
 success count: 0
-fail count: 26, Pattern {
+fail count: 29, Pattern {
 	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,READ] ]
 	matched: true
-	ReadWriteNode[314,checkfield.InstanceExample@15f,number,WRITE,123,checkfield/CheckField.java:11]
-	ReadWriteNode[320,checkfield.InstanceExample@15f,number,WRITE,Thread-2,checkfield/CheckField.java:24]
-	ReadWriteNode[334,checkfield.InstanceExample@15f,number,READ,123,checkfield/CheckField.java:14]
+	ReadWriteNode[323,checkfield.InstanceExample@15f,number,WRITE,123,checkfield/CheckField.java:11]
+	ReadWriteNode[326,checkfield.InstanceExample@15f,number,WRITE,Thread-2,checkfield/CheckField.java:24]
+	ReadWriteNode[344,checkfield.InstanceExample@15f,number,READ,123,checkfield/CheckField.java:14]
 }
 success count: 0
-fail count: 26, Pattern {
+fail count: 29, Pattern {
 	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] ]
 	matched: true
-	ReadWriteNode[314,checkfield.InstanceExample@15f,number,WRITE,123,checkfield/CheckField.java:11]
-	ReadWriteNode[320,checkfield.InstanceExample@15f,number,WRITE,Thread-2,checkfield/CheckField.java:24]
+	ReadWriteNode[323,checkfield.InstanceExample@15f,number,WRITE,123,checkfield/CheckField.java:11]
+	ReadWriteNode[326,checkfield.InstanceExample@15f,number,WRITE,Thread-2,checkfield/CheckField.java:24]
 }
-success count: 26
-fail count: 26, Pattern {
+success count: 19
+fail count: 29, Pattern {
 	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] ]
 	matched: true
-	ReadWriteNode[329,checkfield.InstanceExample@15f,num2,WRITE,123,checkfield/CheckField.java:12]
-	ReadWriteNode[332,checkfield.InstanceExample@15f,num2,WRITE,Thread-2,checkfield/CheckField.java:25]
+	ReadWriteNode[335,checkfield.InstanceExample@15f,num2,WRITE,123,checkfield/CheckField.java:12]
+	ReadWriteNode[344,checkfield.InstanceExample@15f,num2,WRITE,Thread-2,checkfield/CheckField.java:25]
 }
-success count: 34
+success count: 28
 fail count: 14, Pattern {
 	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
 	matched: true
 	ReadWriteNode[245,checkfield.CheckField,ex,WRITE,main,checkfield/CheckField.java:7]
-	ReadWriteNode[330,checkfield.CheckField,ex,READ,123,checkfield/CheckField.java:12]
+	ReadWriteNode[329,checkfield.CheckField,ex,READ,123,checkfield/CheckField.java:12]
 }
-success count: 74
-fail count: 26, Pattern {
+success count: 71
+fail count: 29, Pattern {
 	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
 	matched: true
 	ReadWriteNode[245,checkfield.CheckField,ex,WRITE,main,checkfield/CheckField.java:7]
-	ReadWriteNode[324,checkfield.CheckField,ex,READ,Thread-2,checkfield/CheckField.java:25]
+	ReadWriteNode[327,checkfield.CheckField,ex,READ,123,checkfield/CheckField.java:11]
 }
-success count: 74
-fail count: 26, Pattern {
+success count: 71
+fail count: 29, Pattern {
 	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
 	matched: true
 	ReadWriteNode[42,java.lang.System,out,WRITE,main,java/lang/System.java:43]
-	ReadWriteNode[302,java.lang.System,out,READ,123,checkfield/CheckField.java:10]
+	ReadWriteNode[304,java.lang.System,out,READ,123,checkfield/CheckField.java:10]
 }
-success count: 74
-fail count: 26, Pattern {
+success count: 71
+fail count: 29, Pattern {
 	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
 	matched: true
 	ReadWriteNode[245,checkfield.CheckField,ex,WRITE,main,checkfield/CheckField.java:7]
-	ReadWriteNode[314,checkfield.CheckField,ex,READ,Thread-2,checkfield/CheckField.java:24]
+	ReadWriteNode[315,checkfield.CheckField,ex,READ,123,checkfield/CheckField.java:10]
 }
-success count: 74
-fail count: 26, Pattern {
+success count: 71
+fail count: 29, Pattern {
 	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
 	matched: true
 	ReadWriteNode[245,checkfield.CheckField,ex,WRITE,main,checkfield/CheckField.java:7]
-	ReadWriteNode[305,checkfield.CheckField,ex,READ,123,checkfield/CheckField.java:10]
+	ReadWriteNode[311,checkfield.CheckField,ex,READ,Thread-2,checkfield/CheckField.java:24]
 }
-success count: 74
-fail count: 26, Pattern {
+success count: 71
+fail count: 29, Pattern {
 	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
 	matched: true
 	ReadWriteNode[245,checkfield.CheckField,ex,WRITE,main,checkfield/CheckField.java:7]
-	ReadWriteNode[335,checkfield.CheckField,ex,READ,123,checkfield/CheckField.java:14]
+	ReadWriteNode[331,checkfield.CheckField,ex,READ,123,checkfield/CheckField.java:14]
 }
-success count: 74
-fail count: 26, Pattern {
+success count: 71
+fail count: 29, Pattern {
 	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
 	matched: true
 	ReadWriteNode[245,checkfield.CheckField,ex,WRITE,main,checkfield/CheckField.java:7]
-	ReadWriteNode[321,checkfield.CheckField,ex,READ,123,checkfield/CheckField.java:11]
+	ReadWriteNode[318,checkfield.CheckField,ex,READ,Thread-2,checkfield/CheckField.java:25]
 }
-success count: 74
-fail count: 26, Pattern {
+success count: 71
+fail count: 29, Pattern {
 	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] ]
 	matched: true
-	ReadWriteNode[333,checkfield.InstanceExample@15f,num2,WRITE,Thread-2,checkfield/CheckField.java:25]
-	ReadWriteNode[334,checkfield.InstanceExample@15f,num2,WRITE,123,checkfield/CheckField.java:12]
+	ReadWriteNode[324,checkfield.InstanceExample@15f,num2,WRITE,Thread-2,checkfield/CheckField.java:25]
+	ReadWriteNode[330,checkfield.InstanceExample@15f,num2,WRITE,123,checkfield/CheckField.java:12]
 }
-success count: 40
-fail count: 7, Pattern {
+success count: 43
+fail count: 9, Pattern {
 	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] ]
 	matched: true
-	ReadWriteNode[318,checkfield.InstanceExample@15f,number,WRITE,Thread-2,checkfield/CheckField.java:24]
-	ReadWriteNode[327,checkfield.InstanceExample@15f,number,WRITE,123,checkfield/CheckField.java:11]
+	ReadWriteNode[312,checkfield.InstanceExample@15f,number,WRITE,Thread-2,checkfield/CheckField.java:24]
+	ReadWriteNode[328,checkfield.InstanceExample@15f,number,WRITE,123,checkfield/CheckField.java:11]
 }
-success count: 48
+success count: 52
 fail count: 0, Pattern {
 	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
 	matched: true
 	ReadWriteNode[245,checkfield.CheckField,ex,WRITE,main,checkfield/CheckField.java:7]
-	ReadWriteNode[337,checkfield.CheckField,ex,READ,123,checkfield/CheckField.java:16]
+	ReadWriteNode[333,checkfield.CheckField,ex,READ,123,checkfield/CheckField.java:16]
 }
-success count: 74
+success count: 71
 fail count: 0, Pattern {
-	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] ]
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
 	matched: true
-	ReadWriteNode[309,checkfield.InstanceExample@15f,number,READ,123,checkfield/CheckField.java:10]
-	ReadWriteNode[318,checkfield.InstanceExample@15f,number,WRITE,Thread-2,checkfield/CheckField.java:24]
+	ReadWriteNode[312,checkfield.InstanceExample@15f,number,WRITE,Thread-2,checkfield/CheckField.java:24]
+	ReadWriteNode[321,checkfield.InstanceExample@15f,number,READ,123,checkfield/CheckField.java:10]
 }
-success count: 20
+success count: 30
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[344,checkfield.InstanceExample@15f,num2,WRITE,Thread-2,checkfield/CheckField.java:25]
+	ReadWriteNode[348,checkfield.InstanceExample@15f,num2,READ,123,checkfield/CheckField.java:16]
+}
+success count: 11
 fail count: 0, Pattern {
 	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,WRITE] ]
 	matched: true
-	ReadWriteNode[309,checkfield.InstanceExample@15f,number,READ,123,checkfield/CheckField.java:10]
-	ReadWriteNode[318,checkfield.InstanceExample@15f,number,WRITE,Thread-2,checkfield/CheckField.java:24]
-	ReadWriteNode[327,checkfield.InstanceExample@15f,number,WRITE,123,checkfield/CheckField.java:11]
+	ReadWriteNode[310,checkfield.InstanceExample@15f,number,READ,123,checkfield/CheckField.java:10]
+	ReadWriteNode[322,checkfield.InstanceExample@15f,number,WRITE,Thread-2,checkfield/CheckField.java:24]
+	ReadWriteNode[329,checkfield.InstanceExample@15f,number,WRITE,123,checkfield/CheckField.java:11]
 }
-success count: 20
-fail count: 0, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
-	matched: true
-	ReadWriteNode[314,checkfield.InstanceExample@15f,number,WRITE,Thread-2,checkfield/CheckField.java:24]
-	ReadWriteNode[321,checkfield.InstanceExample@15f,number,READ,123,checkfield/CheckField.java:10]
-}
-success count: 28
+success count: 22
 fail count: 0, Pattern {
 	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] ]
 	matched: true
-	ReadWriteNode[312,checkfield.InstanceExample@15f,number,READ,123,checkfield/CheckField.java:14]
-	ReadWriteNode[316,checkfield.InstanceExample@15f,number,WRITE,Thread-2,checkfield/CheckField.java:24]
+	ReadWriteNode[310,checkfield.InstanceExample@15f,number,READ,123,checkfield/CheckField.java:10]
+	ReadWriteNode[322,checkfield.InstanceExample@15f,number,WRITE,Thread-2,checkfield/CheckField.java:24]
 }
-success count: 26
-fail count: 0, Pattern {
-	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] ]
-	matched: true
-	ReadWriteNode[314,checkfield.InstanceExample@15f,num2,READ,123,checkfield/CheckField.java:16]
-	ReadWriteNode[318,checkfield.InstanceExample@15f,num2,WRITE,Thread-2,checkfield/CheckField.java:25]
-}
-success count: 25
-fail count: 0, Pattern {
-	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] PatternTypeNode[y,2,WRITE] PatternTypeNode[y,1,READ] ]
-	matched: true
-	ReadWriteNode[314,checkfield.InstanceExample@15f,number,READ,123,checkfield/CheckField.java:10]
-	ReadWriteNode[317,checkfield.InstanceExample@15f,number,WRITE,Thread-2,checkfield/CheckField.java:24]
-	ReadWriteNode[336,checkfield.InstanceExample@15f,num2,WRITE,Thread-2,checkfield/CheckField.java:25]
-	ReadWriteNode[340,checkfield.InstanceExample@15f,num2,READ,123,checkfield/CheckField.java:16]
-}
-success count: 6
+success count: 22
 fail count: 0, Pattern {
 	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,READ] ]
 	matched: true
-	ReadWriteNode[330,checkfield.InstanceExample@15f,num2,WRITE,123,checkfield/CheckField.java:12]
-	ReadWriteNode[336,checkfield.InstanceExample@15f,num2,WRITE,Thread-2,checkfield/CheckField.java:25]
-	ReadWriteNode[340,checkfield.InstanceExample@15f,num2,READ,123,checkfield/CheckField.java:16]
+	ReadWriteNode[335,checkfield.InstanceExample@15f,num2,WRITE,123,checkfield/CheckField.java:12]
+	ReadWriteNode[344,checkfield.InstanceExample@15f,num2,WRITE,Thread-2,checkfield/CheckField.java:25]
+	ReadWriteNode[348,checkfield.InstanceExample@15f,num2,READ,123,checkfield/CheckField.java:16]
 }
-success count: 9
-fail count: 0, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
-	matched: true
-	ReadWriteNode[336,checkfield.InstanceExample@15f,num2,WRITE,Thread-2,checkfield/CheckField.java:25]
-	ReadWriteNode[340,checkfield.InstanceExample@15f,num2,READ,123,checkfield/CheckField.java:16]
-}
-success count: 9
+success count: 11
 fail count: 0, Pattern {
 	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[y,2,WRITE] PatternTypeNode[y,1,WRITE] ]
 	matched: true
-	ReadWriteNode[317,checkfield.InstanceExample@15f,number,WRITE,Thread-2,checkfield/CheckField.java:24]
-	ReadWriteNode[324,checkfield.InstanceExample@15f,number,WRITE,123,checkfield/CheckField.java:11]
-	ReadWriteNode[330,checkfield.InstanceExample@15f,num2,WRITE,123,checkfield/CheckField.java:12]
-	ReadWriteNode[336,checkfield.InstanceExample@15f,num2,WRITE,Thread-2,checkfield/CheckField.java:25]
+	ReadWriteNode[322,checkfield.InstanceExample@15f,number,WRITE,Thread-2,checkfield/CheckField.java:24]
+	ReadWriteNode[329,checkfield.InstanceExample@15f,number,WRITE,123,checkfield/CheckField.java:11]
+	ReadWriteNode[335,checkfield.InstanceExample@15f,num2,WRITE,123,checkfield/CheckField.java:12]
+	ReadWriteNode[344,checkfield.InstanceExample@15f,num2,WRITE,Thread-2,checkfield/CheckField.java:25]
 }
-success count: 8
+success count: 9
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] PatternTypeNode[y,2,WRITE] PatternTypeNode[y,1,READ] ]
+	matched: true
+	ReadWriteNode[310,checkfield.InstanceExample@15f,number,READ,123,checkfield/CheckField.java:10]
+	ReadWriteNode[322,checkfield.InstanceExample@15f,number,WRITE,Thread-2,checkfield/CheckField.java:24]
+	ReadWriteNode[344,checkfield.InstanceExample@15f,num2,WRITE,Thread-2,checkfield/CheckField.java:25]
+	ReadWriteNode[348,checkfield.InstanceExample@15f,num2,READ,123,checkfield/CheckField.java:16]
+}
+success count: 4
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] ]
+	matched: true
+	ReadWriteNode[316,checkfield.InstanceExample@15f,num2,READ,123,checkfield/CheckField.java:16]
+	ReadWriteNode[322,checkfield.InstanceExample@15f,num2,WRITE,Thread-2,checkfield/CheckField.java:25]
+}
+success count: 17
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] ]
+	matched: true
+	ReadWriteNode[314,checkfield.InstanceExample@15f,number,READ,123,checkfield/CheckField.java:14]
+	ReadWriteNode[320,checkfield.InstanceExample@15f,number,WRITE,Thread-2,checkfield/CheckField.java:24]
+}
+success count: 19
 fail count: 0, Pattern {
 	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] PatternTypeNode[y,2,WRITE] PatternTypeNode[y,1,READ] ]
 	matched: true
 	ReadWriteNode[333,checkfield.InstanceExample@15f,number,READ,123,checkfield/CheckField.java:14]
-	ReadWriteNode[336,checkfield.InstanceExample@15f,number,WRITE,Thread-2,checkfield/CheckField.java:24]
+	ReadWriteNode[339,checkfield.InstanceExample@15f,number,WRITE,Thread-2,checkfield/CheckField.java:24]
 	ReadWriteNode[345,checkfield.InstanceExample@15f,num2,WRITE,Thread-2,checkfield/CheckField.java:25]
-	ReadWriteNode[346,checkfield.InstanceExample@15f,num2,READ,123,checkfield/CheckField.java:16]
+	ReadWriteNode[348,checkfield.InstanceExample@15f,num2,READ,123,checkfield/CheckField.java:16]
 }
-success count: 2
+success count: 4
 fail count: 0]
-time for getting pattern list : 6553
+time for getting pattern list : 7012

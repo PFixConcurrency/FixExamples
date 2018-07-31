@@ -1,7 +1,4 @@
 Fix three
-aim at : ReadWriteNode[321,checkfield.InstanceExample@15f,number,WRITE,123,checkfield/CheckField.java:11]Lock start and stop position : 11->12
-aim at : ReadWriteNode[324,checkfield.InstanceExample@15f,number,WRITE,Thread-2,checkfield/CheckField.java:24]Lock start and stop position : 24->26
-result : fix fail
 Fix one
 Added Semaphore
 The location of semaphore defines : 14
@@ -10,8 +7,8 @@ result : fix fail
 Fix two
 Lock Name : ex
 Lock Name : ex
-aim at : ReadWriteNode[314,checkfield.InstanceExample@15f,number,WRITE,123,checkfield/CheckField.java:11]Lock start and stop position : 11->15
+aim at : ReadWriteNode[323,checkfield.InstanceExample@15f,number,WRITE,123,checkfield/CheckField.java:11]Lock start and stop position : 11->15
 Lock Name : ex
-aim at : ReadWriteNode[320,checkfield.InstanceExample@15f,number,WRITE,Thread-2,checkfield/CheckField.java:24]Lock start and stop position : 24->24
+aim at : ReadWriteNode[326,checkfield.InstanceExample@15f,number,WRITE,Thread-2,checkfield/CheckField.java:24]Lock start and stop position : 24->24
 result : fix success
-time for fixing:5299
+time for fixing:8511

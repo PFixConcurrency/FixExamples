@@ -68,7 +68,7 @@ public class ThrowableInformation implements java.io.Serializable {
 
   public
   String[] getThrowableStrRep() {
-synchronized (this){      if(rep != null) {
+synchronized (this){     if(rep != null) {
       return (String[]) rep.clone();
     } else {
       StringWriter sw = new StringWriter();
@@ -87,7 +87,7 @@ synchronized (this){      if(rep != null) {
       } catch(IOException ex) {
           lines.add(ex.toString());
       }
-       rep = new String[lines.size()];
+      rep = new String[lines.size()];
       lines.toArray(rep);
     }
 }    return rep;

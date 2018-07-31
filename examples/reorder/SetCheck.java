@@ -11,7 +11,7 @@ public class SetCheck {
     private int a=0;
     private int b=0;
     void set() {
-	a = 1;
+        a = 1;
 	b = -1;
     }
 	

@@ -1,8 +1,14 @@
-Fix one
-Add synchronization
+Fix two
+aim at : ReadWriteNode[635,buggyprogram.BuggyProgram@16e,randomNumber,READ,Thread-1,buggyprogram/BuggyProgram.java:355]Lock start and stop position : 320->321
 Lock Name : this
-Locked position370
 Lock Name : this
-Locked position338
+Lock Name : this
+Lock Name : this
+Lock Name : this
+Lock Name : this
+Lock Name : this
+Lock Name : this
+Lock Name : this
+aim at : ReadWriteNode[640,buggyprogram.BuggyProgram@16e,randomNumber,WRITE,Thread-2,buggyprogram/BuggyProgram.java:338]Lock start and stop position : 338->338
 result : fix success
-time for fixing:6197
+time for fixing:21328

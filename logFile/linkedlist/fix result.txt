@@ -1,72 +1,43 @@
 Fix three
-aim at : ReadWriteNode[491,linkedlist.MyListNode@191,_next,WRITE,Thread-1,linkedlist/MyListNode.java:21]Lock start and stop position : 21->44
-Lock Name : itr
-aim at : ReadWriteNode[500,linkedlist.MyListNode@187,_next,READ,Thread-2,linkedlist/MyLinkedList.java:53]Lock start and stop position : 52->53
+Fix three
+Fix three
+Fix three
+aim at : ReadWriteNode[385,linkedlist.MyListNode@187,_next,WRITE,Thread-2,linkedlist/MyListNode.java:21]Lock start and stop position : 21->44
+aim at : ReadWriteNode[486,linkedlist.MyListNode@187,_next,READ,Thread-1,linkedlist/MyLinkedList.java:52]Lock start and stop position : 21->52
 result : fix fail
 Fix three
-aim at : ReadWriteNode[530,linkedlist.MyListNode@191,_next,WRITE,Thread-1,linkedlist/MyListNode.java:21]Lock start and stop position : 21->44
-aim at : ReadWriteNode[539,linkedlist.MyListNode@18e,_next,READ,Thread-2,linkedlist/MyLinkedList.java:53]Lock start and stop position : 52->53
+aim at : ReadWriteNode[385,linkedlist.MyListNode@187,_next,WRITE,Thread-2,linkedlist/MyListNode.java:21]Lock start and stop position : 21->52
+aim at : ReadWriteNode[493,linkedlist.MyListNode@187,_next,READ,Thread-1,linkedlist/MyLinkedList.java:53]Lock start and stop position : 21->53
 result : fix fail
 Fix three
-Lock Name : p._current
-aim at : ReadWriteNode[375,linkedlist.MyListNode@163,_next,WRITE,Thread-1,linkedlist/MyLinkedList.java:44]Lock start and stop position : 44->44
-aim at : ReadWriteNode[379,linkedlist.MyListNode@187,_next,WRITE,Thread-2,linkedlist/MyListNode.java:21]Lock start and stop position : 21->44
-result : fix fail
-Fix three
-Lock Name : p._current
-aim at : ReadWriteNode[360,linkedlist.MyListNode@163,_next,READ,Thread-2,linkedlist/MyLinkedList.java:42]Lock start and stop position : 41->43
-aim at : ReadWriteNode[373,linkedlist.MyListNode@187,_next,WRITE,Thread-1,linkedlist/MyListNode.java:21]Lock start and stop position : 21->44
-result : fix fail
-Fix three
-aim at : ReadWriteNode[364,linkedlist.MyListNode@184,_next,WRITE,Thread-2,linkedlist/MyListNode.java:21]Lock start and stop position : 21->44
-Lock Name : p._current
-aim at : ReadWriteNode[383,linkedlist.MyListNode@163,_next,WRITE,Thread-1,linkedlist/MyLinkedList.java:44]Lock start and stop position : 44->44
-result : fix fail
-Fix three
-aim at : ReadWriteNode[364,linkedlist.MyListNode@184,_next,WRITE,Thread-2,linkedlist/MyListNode.java:21]Lock start and stop position : 21->44
-Lock Name : p._current
-aim at : ReadWriteNode[415,linkedlist.MyListNode@184,_next,READ,Thread-1,linkedlist/MyLinkedList.java:42]Lock start and stop position : 41->43
-result : fix fail
-Fix three
-Lock Name : p._current
-aim at : ReadWriteNode[374,linkedlist.MyListNode@163,_next,WRITE,Thread-2,linkedlist/MyLinkedList.java:44]Lock start and stop position : 44->44
-Lock Name : p._current
-aim at : ReadWriteNode[377,linkedlist.MyListNode@163,_next,READ,Thread-1,linkedlist/MyLinkedList.java:42]Lock start and stop position : 41->43
-result : fix fail
-Fix three
-Lock Name : p._current
-aim at : ReadWriteNode[481,linkedlist.MyListNode@18a,_next,WRITE,Thread-2,linkedlist/MyLinkedList.java:44]Lock start and stop position : 44->44
-aim at : ReadWriteNode[500,linkedlist.MyListNode@18a,_next,READ,Thread-1,linkedlist/MyLinkedList.java:53]Lock start and stop position : 21->53
-result : fix fail
-Fix three
-Lock Name : p._current
-aim at : ReadWriteNode[389,linkedlist.MyListNode@163,_next,WRITE,Thread-2,linkedlist/MyLinkedList.java:44]Lock start and stop position : 44->44
-aim at : ReadWriteNode[472,linkedlist.MyListNode@163,_next,READ,Thread-1,linkedlist/MyLinkedList.java:52]Lock start and stop position : 21->53
-result : fix fail
-Fix three
-aim at : ReadWriteNode[418,linkedlist.MyListNode@18a,_next,WRITE,Thread-1,linkedlist/MyListNode.java:21]Lock start and stop position : 21->53
-Lock Name : p._current
-aim at : ReadWriteNode[481,linkedlist.MyListNode@18a,_next,WRITE,Thread-2,linkedlist/MyLinkedList.java:44]Lock start and stop position : 44->44
+aim at : ReadWriteNode[395,linkedlist.MyListNode@187,_next,WRITE,Thread-1,linkedlist/MyListNode.java:21]Lock start and stop position : 21->53
+aim at : ReadWriteNode[462,linkedlist.MyListNode@185,_next,READ,Thread-2,linkedlist/MyLinkedList.java:42]Lock start and stop position : 21->53
 result : fix fail
 Fix two
-aim at : ReadWriteNode[463,linkedlist.MyListNode@18e,_next,WRITE,Thread-2,linkedlist/MyListNode.java:21]Lock start and stop position : 21->53
-Lock Name : itr
-aim at : ReadWriteNode[503,linkedlist.MyListNode@18e,_next,READ,Thread-1,linkedlist/MyLinkedList.java:52]Lock start and stop position : 52->53
-result : fix fail
-Fix two
-aim at : ReadWriteNode[463,linkedlist.MyListNode@18e,_next,WRITE,Thread-2,linkedlist/MyListNode.java:21]Lock start and stop position : 21->53
-Lock Name : p._current
-aim at : ReadWriteNode[519,linkedlist.MyListNode@18e,_next,READ,Thread-1,linkedlist/MyLinkedList.java:42]Lock start and stop position : 41->43
+aim at : ReadWriteNode[444,linkedlist.MyListNode@18b,_next,WRITE,Thread-1,linkedlist/MyListNode.java:21]Lock start and stop position : 21->53
+Lock Name : this
+aim at : ReadWriteNode[536,linkedlist.MyListNode@18b,_next,READ,Thread-2,linkedlist/MyLinkedList.java:53]Lock start and stop position : 52->53
 result : fix fail
 Fix three
-Lock Name : p._current
-aim at : ReadWriteNode[360,linkedlist.MyListNode@163,_next,READ,Thread-2,linkedlist/MyLinkedList.java:42]Lock start and stop position : 41->43
-Lock Name : p._current
-aim at : ReadWriteNode[381,linkedlist.MyListNode@163,_next,WRITE,Thread-1,linkedlist/MyLinkedList.java:44]Lock start and stop position : 41->44
+aim at : ReadWriteNode[492,linkedlist.MyListNode@18e,_next,WRITE,Thread-2,linkedlist/MyListNode.java:21]Lock start and stop position : 21->53
+aim at : ReadWriteNode[503,linkedlist.MyListNode@18b,_next,READ,Thread-1,linkedlist/MyLinkedList.java:53]Lock start and stop position : 21->53
 result : fix fail
-Fix one
-Add synchronization
-Lock Name : p._current
-Locked position : 42->45
+Fix three
+aim at : ReadWriteNode[492,linkedlist.MyListNode@18e,_next,WRITE,Thread-2,linkedlist/MyListNode.java:21]Lock start and stop position : 21->53
+aim at : ReadWriteNode[500,linkedlist.MyListNode@18b,_next,READ,Thread-1,linkedlist/MyLinkedList.java:52]Lock start and stop position : 21->53
+result : fix fail
+Fix three
+aim at : ReadWriteNode[391,linkedlist.MyListNode@187,_next,WRITE,Thread-2,linkedlist/MyListNode.java:21]Lock start and stop position : 21->53
+aim at : ReadWriteNode[426,linkedlist.MyListNode@187,_next,READ,Thread-1,linkedlist/MyLinkedList.java:42]Lock start and stop position : 21->53
+result : fix fail
+Fix three
+aim at : ReadWriteNode[395,linkedlist.MyListNode@187,_next,WRITE,Thread-1,linkedlist/MyListNode.java:21]Lock start and stop position : 21->53
+aim at : ReadWriteNode[462,linkedlist.MyListNode@185,_next,READ,Thread-2,linkedlist/MyLinkedList.java:42]Lock start and stop position : 21->53
+result : fix fail
+Fix three
+Lock Name : this
+Lock Name : this
+Lock Name : this
+Locked position : 38->48
 result : fix success
-time for fixing:87626
+time for fixing:82361

@@ -1,59 +1,59 @@
 [Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,WRITE] ]
+	matched: true
+	ReadWriteNode[365,store.Store@15e,customerCost,READ,Thread-2,store/Store.java:12]
+	ReadWriteNode[368,store.Store@15e,customerCost,WRITE,Thread-1,store/Store.java:12]
+	ReadWriteNode[370,store.Store@15e,customerCost,WRITE,Thread-2,store/Store.java:12]
+}
+success count: 0
+fail count: 19, Pattern {
 	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] ]
 	matched: true
 	ReadWriteNode[365,store.Store@15e,customerCost,READ,Thread-2,store/Store.java:12]
 	ReadWriteNode[368,store.Store@15e,customerCost,WRITE,Thread-1,store/Store.java:12]
 }
 success count: 0
-fail count: 11, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,WRITE] ]
+fail count: 19, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
 	matched: true
+	ReadWriteNode[245,store.Store@15e,customerCost,WRITE,main,store/Store.java:7]
 	ReadWriteNode[365,store.Store@15e,customerCost,READ,Thread-2,store/Store.java:12]
+}
+success count: 23
+fail count: 96, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] ]
+	matched: true
 	ReadWriteNode[368,store.Store@15e,customerCost,WRITE,Thread-1,store/Store.java:12]
-	ReadWriteNode[373,store.Store@15e,customerCost,WRITE,Thread-2,store/Store.java:12]
+	ReadWriteNode[370,store.Store@15e,customerCost,WRITE,Thread-2,store/Store.java:12]
 }
-success count: 0
-fail count: 11, Pattern {
+success count: 23
+fail count: 77, Pattern {
 	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
 	matched: true
-	ReadWriteNode[245,store.Store@15e,customerCost,WRITE,main,store/Store.java:7]
-	ReadWriteNode[335,store.Store@15e,customerCost,READ,Thread-1,store/Store.java:12]
+	ReadWriteNode[370,store.Store@15e,customerCost,WRITE,Thread-2,store/Store.java:12]
+	ReadWriteNode[374,store.Store@15e,customerCost,READ,main,store/Store.java:16]
 }
-success count: 28
-fail count: 83, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
-	matched: true
-	ReadWriteNode[366,store.Store@15e,customerCost,WRITE,Thread-2,store/Store.java:12]
-	ReadWriteNode[369,store.Store@15e,customerCost,READ,main,store/Store.java:16]
-}
-success count: 28
-fail count: 72, Pattern {
+success count: 23
+fail count: 77, Pattern {
 	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] ]
 	matched: true
 	ReadWriteNode[245,store.Store@15e,customerCost,WRITE,main,store/Store.java:7]
-	ReadWriteNode[346,store.Store@15e,customerCost,WRITE,Thread-1,store/Store.java:12]
+	ReadWriteNode[368,store.Store@15e,customerCost,WRITE,Thread-1,store/Store.java:12]
 }
-success count: 28
-fail count: 72, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] ]
-	matched: true
-	ReadWriteNode[346,store.Store@15e,customerCost,WRITE,Thread-1,store/Store.java:12]
-	ReadWriteNode[366,store.Store@15e,customerCost,WRITE,Thread-2,store/Store.java:12]
-}
-success count: 28
-fail count: 72, Pattern {
+success count: 23
+fail count: 77, Pattern {
 	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
 	matched: true
 	ReadWriteNode[246,store.StoreTest,store,WRITE,main,store/StoreTest.java:7]
-	ReadWriteNode[364,store.StoreTest,store,READ,Thread-2,store/StoreTest.java:35]
+	ReadWriteNode[341,store.StoreTest,store,READ,Thread-1,store/StoreTest.java:35]
 }
-success count: 56
-fail count: 144, Pattern {
+success count: 46
+fail count: 154, Pattern {
 	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
 	matched: true
-	ReadWriteNode[346,store.Store@15e,customerCost,WRITE,Thread-1,store/Store.java:12]
-	ReadWriteNode[365,store.Store@15e,customerCost,READ,Thread-2,store/Store.java:12]
+	ReadWriteNode[363,store.Store@15e,customerCost,WRITE,Thread-2,store/Store.java:12]
+	ReadWriteNode[364,store.Store@15e,customerCost,READ,Thread-1,store/Store.java:12]
 }
-success count: 28
-fail count: 61]
-time for getting pattern list : 6847
+success count: 23
+fail count: 58]
+time for getting pattern list : 7135

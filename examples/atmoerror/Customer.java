@@ -18,12 +18,11 @@ public class Customer implements Runnable {
     @Override
     public void run() {
 
-        while (cash > 0) {  //直至将钱用光
+        while (cash > 0) {
             cost(1);
         }
 
-        System.out.println("total: " + account.getTotal());   //打印出银行账户的总计金额
-        //这是原程序中的判断
+        System.out.println("total: " + account.getTotal());
         /*if (account.getTotal() != 10)
             throw new RuntimeException();*/
     }

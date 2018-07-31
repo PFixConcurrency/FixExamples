@@ -25,8 +25,8 @@ public class Account {
       //System.out.println("ac.amount is $"+ac.amount);
       if (name.equals("D")) {
 	System.out.println("unprotected");
-        ac.amount+=mn;//no aquire for the other lock!!
-                  //+= might cause problem --it is not atomic.
+            ac.amount += mn;//no aquire for the other lock!!
+        //+= might cause problem --it is not atomic.
       } else {
 	//System.out.println("protected");
 	synchronized (ac) { ac.amount+=mn; }

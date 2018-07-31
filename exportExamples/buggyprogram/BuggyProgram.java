@@ -317,9 +317,9 @@ public class BuggyProgram {
             }
 
 
-            present();
+synchronized (this){             present();
             record();
-
+}
 
         }
 
@@ -367,7 +367,7 @@ synchronized (this){             generated[userNumber] = randomNumber = random.n
         // _________________________________________________________________________
 
         protected synchronized void record() {
-synchronized (this){             history[userNumber] = randomNumber;
-}        }
+            history[userNumber] = randomNumber;
+        }
     }
 }

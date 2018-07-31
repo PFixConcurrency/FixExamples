@@ -2,80 +2,80 @@
 	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[y,2,WRITE] PatternTypeNode[y,1,WRITE] ]
 	matched: true
 	ReadWriteNode[314,consisitency.Main,a,WRITE,Thread-1,consisitency/Main.java:15]
-	ReadWriteNode[357,consisitency.Main,a,WRITE,Thread-3,consisitency/Main.java:15]
-	ReadWriteNode[376,consisitency.Main,b,WRITE,Thread-3,consisitency/Main.java:16]
-	ReadWriteNode[385,consisitency.Main,b,WRITE,Thread-1,consisitency/Main.java:16]
+	ReadWriteNode[330,consisitency.Main,a,WRITE,Thread-2,consisitency/Main.java:15]
+	ReadWriteNode[373,consisitency.Main,b,WRITE,Thread-2,consisitency/Main.java:16]
+	ReadWriteNode[384,consisitency.Main,b,WRITE,Thread-1,consisitency/Main.java:16]
 }
-success count: 13
-fail count: 16, Pattern {
+success count: 16
+fail count: 18, Pattern {
 	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
 	matched: true
-	ReadWriteNode[363,consisitency.Main,a,WRITE,Thread-2,consisitency/Main.java:15]
-	ReadWriteNode[390,consisitency.Main,a,READ,main,consisitency/Main.java:30]
-}
-success count: 81
-fail count: 19, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
-	matched: true
-	ReadWriteNode[363,consisitency.Main,a,WRITE,Thread-2,consisitency/Main.java:15]
-	ReadWriteNode[392,consisitency.Main,a,READ,main,consisitency/Main.java:31]
-}
-success count: 81
-fail count: 19, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
-	matched: true
-	ReadWriteNode[385,consisitency.Main,b,WRITE,Thread-1,consisitency/Main.java:16]
-	ReadWriteNode[391,consisitency.Main,b,READ,main,consisitency/Main.java:30]
-}
-success count: 81
-fail count: 19, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] ]
-	matched: true
-	ReadWriteNode[246,consisitency.Main,b,WRITE,main,consisitency/Main.java:7]
-	ReadWriteNode[369,consisitency.Main,b,WRITE,Thread-2,consisitency/Main.java:16]
+	ReadWriteNode[387,consisitency.Main,b,WRITE,Thread-3,consisitency/Main.java:16]
+	ReadWriteNode[393,consisitency.Main,b,READ,main,consisitency/Main.java:30]
 }
 success count: 81
 fail count: 19, Pattern {
 	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] ]
 	matched: true
 	ReadWriteNode[245,consisitency.Main,a,WRITE,main,consisitency/Main.java:6]
-	ReadWriteNode[314,consisitency.Main,a,WRITE,Thread-1,consisitency/Main.java:15]
+	ReadWriteNode[285,consisitency.Main,a,WRITE,Thread-1,consisitency/Main.java:15]
 }
 success count: 81
 fail count: 19, Pattern {
 	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
 	matched: true
-	ReadWriteNode[385,consisitency.Main,b,WRITE,Thread-1,consisitency/Main.java:16]
-	ReadWriteNode[393,consisitency.Main,b,READ,main,consisitency/Main.java:31]
+	ReadWriteNode[387,consisitency.Main,b,WRITE,Thread-3,consisitency/Main.java:16]
+	ReadWriteNode[395,consisitency.Main,b,READ,main,consisitency/Main.java:31]
 }
 success count: 81
 fail count: 19, Pattern {
 	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] ]
 	matched: true
-	ReadWriteNode[357,consisitency.Main,a,WRITE,Thread-3,consisitency/Main.java:15]
-	ReadWriteNode[363,consisitency.Main,a,WRITE,Thread-2,consisitency/Main.java:15]
+	ReadWriteNode[246,consisitency.Main,b,WRITE,main,consisitency/Main.java:7]
+	ReadWriteNode[291,consisitency.Main,b,WRITE,Thread-1,consisitency/Main.java:16]
+}
+success count: 81
+fail count: 19, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[373,consisitency.Main,a,WRITE,Thread-3,consisitency/Main.java:15]
+	ReadWriteNode[392,consisitency.Main,a,READ,main,consisitency/Main.java:30]
+}
+success count: 81
+fail count: 19, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[373,consisitency.Main,a,WRITE,Thread-3,consisitency/Main.java:15]
+	ReadWriteNode[394,consisitency.Main,a,READ,main,consisitency/Main.java:31]
+}
+success count: 81
+fail count: 19, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] ]
+	matched: true
+	ReadWriteNode[291,consisitency.Main,b,WRITE,Thread-1,consisitency/Main.java:16]
+	ReadWriteNode[366,consisitency.Main,b,WRITE,Thread-2,consisitency/Main.java:16]
 }
 success count: 162
 fail count: 38, Pattern {
 	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] ]
 	matched: true
-	ReadWriteNode[376,consisitency.Main,b,WRITE,Thread-3,consisitency/Main.java:16]
-	ReadWriteNode[385,consisitency.Main,b,WRITE,Thread-1,consisitency/Main.java:16]
+	ReadWriteNode[285,consisitency.Main,a,WRITE,Thread-1,consisitency/Main.java:15]
+	ReadWriteNode[329,consisitency.Main,a,WRITE,Thread-2,consisitency/Main.java:15]
 }
 success count: 162
 fail count: 38, Pattern {
 	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
 	matched: true
-	ReadWriteNode[320,consisitency.Main@175,num,WRITE,main,consisitency/Main.java:11]
-	ReadWriteNode[371,consisitency.Main@175,num,READ,Thread-3,consisitency/Main.java:16]
+	ReadWriteNode[336,consisitency.Main@175,num,WRITE,main,consisitency/Main.java:11]
+	ReadWriteNode[370,consisitency.Main@175,num,READ,Thread-3,consisitency/Main.java:15]
 }
 success count: 243
 fail count: 57, Pattern {
 	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
 	matched: true
-	ReadWriteNode[279,consisitency.Main@16d,num,WRITE,main,consisitency/Main.java:11]
-	ReadWriteNode[360,consisitency.Main@16d,num,READ,Thread-2,consisitency/Main.java:15]
+	ReadWriteNode[336,consisitency.Main@175,num,WRITE,main,consisitency/Main.java:11]
+	ReadWriteNode[378,consisitency.Main@175,num,READ,Thread-3,consisitency/Main.java:16]
 }
 success count: 243
 fail count: 57]
-time for getting pattern list : 5745
+time for getting pattern list : 6995

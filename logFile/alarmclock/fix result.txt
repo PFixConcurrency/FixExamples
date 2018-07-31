@@ -1,75 +1,84 @@
 Fix three
 Fix one
 Add synchronization
+Fix one
+Add synchronization
+Fix two
 Lock Name : this
-Locked position295
 Lock Name : this
-Locked position273
+Lock Name : this
+Lock Name : this
+Lock Name : this
+Lock Name : this
+Lock Name : this
+Lock Name : this
+Lock Name : this
+Lock Name : this
+Lock Name : this
+Lock Name : this
+Lock Name : this
+Lock Name : this
+aim at : ReadWriteNode[1204,alarmclock.MyLinkedList@162,size,WRITE,Thread-1,alarmclock/AlarmClock.java:295]Lock start and stop position : 294->295
+Lock Name : this
+Lock Name : this
+Lock Name : this
+Lock Name : this
+Lock Name : this
+aim at : ReadWriteNode[1272,alarmclock.MyLinkedList@162,size,WRITE,Thread-5,alarmclock/AlarmClock.java:274]Lock start and stop position : 274->274
 result : fix fail
+Fix one
+Add synchronization
 Fix two
-Fix two
 Lock Name : this
 Lock Name : this
-aim at : ReadWriteNode[1251,alarmclock.MyLinkedList@162,size,WRITE,Thread-1,alarmclock/AlarmClock.java:295]Lock start and stop position : 290->295
 Lock Name : this
-aim at : ReadWriteNode[1297,alarmclock.MyLinkedList@162,size,WRITE,Thread-5,alarmclock/AlarmClock.java:274]Lock start and stop position : 274->274
+Lock Name : this
+Lock Name : this
+Lock Name : this
+Lock Name : this
+aim at : ReadWriteNode[1204,alarmclock.MyLinkedList@162,size,WRITE,Thread-1,alarmclock/AlarmClock.java:295]Lock start and stop position : 295->295
+Lock Name : this
+Lock Name : this
+Lock Name : this
+Lock Name : this
+Lock Name : this
+aim at : ReadWriteNode[1272,alarmclock.MyLinkedList@162,size,WRITE,Thread-5,alarmclock/AlarmClock.java:274]Lock start and stop position : 274->274
 result : fix fail
 Fix three
 Fix one
 Add synchronization
-Lock Name : this
-Locked position295
-Lock Name : this
-Locked position242
-result : fix fail
-Fix two
-Fix two
-Lock Name : this
-Lock Name : this
-aim at : ReadWriteNode[1251,alarmclock.MyLinkedList@162,size,WRITE,Thread-1,alarmclock/AlarmClock.java:295]Lock start and stop position : 294->295
-Lock Name : this
-aim at : ReadWriteNode[1297,alarmclock.MyLinkedList@162,size,WRITE,Thread-5,alarmclock/AlarmClock.java:274]Lock start and stop position : 274->274
-result : fix fail
-Fix three
-Fix three
 Fix one
 Add synchronization
-Lock Name : this
-Locked position295
-Lock Name : this
-Locked position320
-result : fix fail
 Fix one
 Add synchronization
-Lock Name : this
-Locked position295
-Lock Name : this
-Locked position308
-result : fix fail
-Fix three
-Fix one
-Add synchronization
-Lock Name : this
-Locked position295
-Lock Name : this
-Locked position274
-result : fix fail
-Fix one
-Add synchronization
-Lock Name : this
-Locked position295
-Lock Name : this
-Locked position274
-result : fix fail
 Fix two
 Fix three
-Fix one
-Add synchronization
+Fix two
 Lock Name : this
-Locked position295
 Lock Name : this
-Locked position339
+Lock Name : this
+Lock Name : this
+Lock Name : this
+Lock Name : this
+Lock Name : this
+Lock Name : this
+Lock Name : this
+Lock Name : this
+Lock Name : this
+Lock Name : this
+Lock Name : this
+Lock Name : this
+aim at : ReadWriteNode[1204,alarmclock.MyLinkedList@162,size,WRITE,Thread-1,alarmclock/AlarmClock.java:295]Lock start and stop position : 290->295
+Lock Name : this
+Lock Name : this
+Lock Name : this
+Lock Name : this
+Lock Name : this
+aim at : ReadWriteNode[1272,alarmclock.MyLinkedList@162,size,WRITE,Thread-5,alarmclock/AlarmClock.java:274]Lock start and stop position : 274->274
 result : fix fail
+Fix three
+Fix three
+Fix two
 Fix one
 Add synchronization
 Lock Name : this
@@ -78,16 +87,33 @@ Locked position205
 result : fix fail
 Fix one
 Add synchronization
-Lock Name : this
-Lock Name : this
+Fix one
+Add synchronization
+Fix one
+Add synchronization
+Fix one
+Add synchronization
+Fix one
+Add synchronization
+Fix one
+Add synchronization
+Fix one
+Add synchronization
+Fix one
+Add synchronization
+Fix one
+Add synchronization
+Fix one
+Add synchronization
+Fix one
+Add synchronization
+Fix one
+Added Semaphore
+The location of semaphore defines : 138
+The location of semaphore use : 164
 result : fix fail
 Fix one
 Add synchronization
-Lock Name : this
-Locked position274
-Lock Name : this
-Locked position238
-result : fix fail
 Fix one
 Add synchronization
 Fix one
@@ -168,26 +194,4 @@ Fix one
 Add synchronization
 Fix one
 Add synchronization
-Fix one
-Add synchronization
-Fix one
-Add synchronization
-Fix one
-Add synchronization
-Fix one
-Add synchronization
-Fix one
-Add synchronization
-Fix one
-Add synchronization
-Fix one
-Add synchronization
-Fix one
-Add synchronization
-Fix one
-Add synchronization
-Fix one
-Add synchronization
-Fix one
-Add synchronization
-time for fixing:77988
+time for fixing:114065

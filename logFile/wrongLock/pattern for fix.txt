@@ -1,9 +1,9 @@
 Pattern {
 	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,READ] ]
 	matched: true
-	ReadWriteNode[328,wrongLock.Data@15f,value,READ,Thread-1,wrongLock/WrongLock.java:20]
-	ReadWriteNode[339,wrongLock.Data@15f,value,WRITE,Thread-2,wrongLock/WrongLock.java:30]
-	ReadWriteNode[341,wrongLock.Data@15f,value,READ,Thread-1,wrongLock/WrongLock.java:21]
+	ReadWriteNode[335,wrongLock.Data@15f,value,READ,Thread-1,wrongLock/WrongLock.java:20]
+	ReadWriteNode[344,wrongLock.Data@15f,value,WRITE,Thread-2,wrongLock/WrongLock.java:30]
+	ReadWriteNode[348,wrongLock.Data@15f,value,READ,Thread-1,wrongLock/WrongLock.java:21]
 }
 success count: 0
-fail count: 23
+fail count: 12

@@ -7,13 +7,13 @@ public class CheckField {
 		ex = new InstanceExample();
 		Thread t1 = new Thread() {
 			public void run() {
-synchronized (ex){ 				System.out.println("new thread." + ex.number);
+				System.out.println("new thread." + ex.number);
 synchronized (ex){ 				ex.number = 12;
 				ex.num2 = 12;
 //				assert ex.number == 12;
 				if (ex.number != 12)
 					throw new RuntimeException("not equal");
- }}				int c = ex.num2;
+}				int c = ex.num2;
 				//c -= ex.number;
 			}
 		};

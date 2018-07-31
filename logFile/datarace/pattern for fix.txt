@@ -2,7 +2,7 @@ Pattern {
 	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
 	matched: true
 	ReadWriteNode[246,datarace.CustomerInfo@16f,accounts,WRITE,main,datarace/CustomerInfo.java:15]
-	ReadWriteNode[400,datarace.CustomerInfo@16f,accounts,READ,Thread-2,datarace/CustomerInfo.java:26]
+	ReadWriteNode[479,datarace.CustomerInfo@16f,accounts,READ,Thread-4,datarace/CustomerInfo.java:26]
 }
 success count: 0
 fail count: 600

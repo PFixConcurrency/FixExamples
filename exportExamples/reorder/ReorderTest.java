@@ -1,37 +1,31 @@
 package reorder;
 
 public class ReorderTest {
-    static int iSet=2;
-    static int iCheck=2;
+    static int iSet=4;
 
     public void run() {
-	SetThread[] sts = new SetThread[iSet];
-	CheckThread[] cts = new CheckThread[iCheck];
-	SetCheck sc=new SetCheck();
+	SetThread2[] sts = new SetThread2[iSet];
+	CheckThread2 ct;
+	SetCheck2 sc=new SetCheck2();
 	for (int i=0;i<iSet;i++) {
-	    (sts[i] = new SetThread(sc)).start();
-	}
-	for (int i=0;i<iCheck;i++) {
-	    (cts[i] = new CheckThread(sc)).start();
+	    (sts[i] = new SetThread2(sc, i)).start();
 	}
 	try {
    	    for (int i=0;i<iSet;i++) {
 	        sts[i].join();
 	    }
-	    for (int i=0;i<iCheck;i++) {
-	        cts[i].join();
-	    }
 	}catch(InterruptedException ie) {
-        }
-        
+    }
+    
+	ct = new CheckThread2(sc);
+	ct.start();
     }
 
     public static void main(String[] args) {
-	if (args != null && args.length == 2) {
+	if (args != null && args.length == 1) {
 		iSet = Integer.parseInt(args[0]);
-		iCheck = Integer.parseInt(args[1]);
 	}
-	ReorderTest t = new ReorderTest();
+	ReorderTest2 t = new ReorderTest2();
 	t.run();
     }
 }

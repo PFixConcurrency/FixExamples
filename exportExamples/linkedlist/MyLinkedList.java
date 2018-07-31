@@ -35,16 +35,16 @@ class MyLinkedList {
 
     //Inserts element anywhere in list just after current
     public void insert(Object x, MyLinkedListItr p) {
-        if (p != null && p._current != null) {
+synchronized (this){         if (p != null && p._current != null) {
             MyListNode tmp;
             // Delete the synch block for the unsynch case
             synchronized (this) {
-synchronized (p._current){                 tmp = new MyListNode(x, p._current._next);
+                tmp = new MyListNode(x, p._current._next);
             } // Extend the synch block one stmt to eliminate the bug
             p._current._next = tmp;
-}        }
+        }
     }
-
+}
     //Inserts element to the end of list .
     //If this func is synchronized the bug will not apear
     public void addLast(Object x) {
