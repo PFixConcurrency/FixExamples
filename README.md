@@ -4,7 +4,7 @@
 
 *account*:
 
-Deadlocks are introduced in it and JPF determines the fix failed.
+There is a deadlock in the original program and JPF determines the fix failed.But this is the most reasonable fix we can generate.
 
 use pattern 
 
