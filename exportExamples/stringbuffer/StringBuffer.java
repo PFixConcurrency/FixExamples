@@ -72,7 +72,7 @@ package stringbuffer;
 
 public final class StringBuffer
         implements java.io.Serializable, CharSequence {
-static Object objectFix = new Object();    /**
+    /**
      * The value is used for character storage.
      *
      * @serial

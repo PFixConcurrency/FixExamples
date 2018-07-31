@@ -1,0 +1,2 @@
+[]
+time for getting pattern list : 22798

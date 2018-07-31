@@ -52,7 +52,7 @@ import java.util.Random;
 // ============================   Class definition   ===========================
 public class BuggyProgram {
 
-    // ==============================   Constants   ==============================
+static Object objectFix = new Object();    // ==============================   Constants   ==============================
     public static final int LITTLE_CONCURRENCY = 3,
             AVERAGE_CONCURRENCY = 33,
             LOT_CONCURRENCY = 333,
@@ -309,7 +309,7 @@ public class BuggyProgram {
             while (i != numOfUsers) {
                 generate();
 
-                for (i = 0; i < numOfUsers; ++i) {
+synchronized (objectFix){                 for (i = 0; i < numOfUsers; ++i) {
                     if (history[i] == randomNumber) {
                         break;
                     }
@@ -319,7 +319,7 @@ public class BuggyProgram {
 
             present();
             record();
-
+}
 
         }
 
@@ -335,8 +335,8 @@ public class BuggyProgram {
         // _________________________________________________________________________
 
         protected synchronized void generate() {
-synchronized (this){             generated[userNumber] = randomNumber = random.nextInt(1000);
-}            System.out.println(randomNumber);
+            generated[userNumber] = randomNumber = random.nextInt(1000);
+            System.out.println(randomNumber);
 //    	  (long) (Math.random(1) *
 //                                           Math.pow(10, MAX_DIGITS));
         }
@@ -367,7 +367,7 @@ synchronized (this){             generated[userNumber] = randomNumber = random.n
         // _________________________________________________________________________
 
         protected synchronized void record() {
-synchronized (this){             history[userNumber] = randomNumber;
-}        }
+            history[userNumber] = randomNumber;
+        }
     }
 }

@@ -1,8 +1,15 @@
 Fix one
 Add synchronization
 Lock Name : this
+Locked position355
+Lock Name : this
+Locked position338
+result : fix fail
+Fix one
+Add synchronization
+Lock Name : this
 Locked position370
 Lock Name : this
 Locked position338
 result : fix success
-time for fixing:6197
+time for fixing:48932

@@ -1,10 +1,10 @@
 Pattern {
-	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[y,2,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[y,1,READ] ]
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[y,2,WRITE] PatternTypeNode[y,1,WRITE] ]
 	matched: true
-	ReadWriteNode[1137,airline.Bug@15e,StopSales,READ,main,airline/Bug.java:38]
-	ReadWriteNode[1140,airline.Bug,Num_Of_Seats_Sold,WRITE,Thread-19,airline/Bug.java:60]
-	ReadWriteNode[1154,airline.Bug@15e,StopSales,WRITE,Thread-19,airline/Bug.java:62]
-	ReadWriteNode[1156,airline.Bug,Num_Of_Seats_Sold,READ,main,airline/Bug.java:51]
+	ReadWriteNode[1151,airline.Bug,Num_Of_Seats_Sold,WRITE,Thread-18,airline/Bug.java:60]
+	ReadWriteNode[1154,airline.Bug,Num_Of_Seats_Sold,WRITE,Thread-20,airline/Bug.java:60]
+	ReadWriteNode[1174,airline.Bug@15e,StopSales,WRITE,Thread-20,airline/Bug.java:62]
+	ReadWriteNode[1176,airline.Bug@15e,StopSales,WRITE,Thread-18,airline/Bug.java:62]
 }
-success count: 0
-fail count: 2
+success count: 2
+fail count: 1

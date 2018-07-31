@@ -42,22 +42,22 @@ class Section implements Runnable {
 
    public void run() {
      
-synchronized (t){        if(threadNumber == 0)
+      if(threadNumber == 0)
       {
        
-         t.turn = 0;
+synchronized (t){          t.turn = 0;
          System.out.println("In critical section, thread number = " + threadNumber);
          if(t.turn != 0)
         	 throw new RuntimeException();
-         System.out.println("Out critical section, thread number = " + threadNumber);
+}         System.out.println("Out critical section, thread number = " + threadNumber);
          t.turn = 1;
        }
       else
       {
          if(threadNumber == 1)
          {
-            t.turn = 1;
-            System.out.println("In critical section, thread number = " + threadNumber);
+synchronized (t){             t.turn = 1;
+}            System.out.println("In critical section, thread number = " + threadNumber);
             while(t.turn != 1);
             System.out.println("Out critical section, thread number = " + threadNumber);
             t.turn = 0;          }
@@ -66,7 +66,7 @@ synchronized (t){        if(threadNumber == 0)
             System.err.println("This algorithm only supports two threads");
          }
       }
-}   }
+   }
 }
 
 

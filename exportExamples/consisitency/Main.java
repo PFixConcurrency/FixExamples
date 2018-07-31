@@ -1,8 +1,8 @@
 package consisitency;
 
 public class Main implements Runnable{
-static Object objectFix = new Object();	public static int THREAD_NUMBER = 3;
-	
+	public static int THREAD_NUMBER = 3;
+static Object objectFix = new Object();	
 	public static int a = 0;
 	public static int b = 0;
 	private int num;

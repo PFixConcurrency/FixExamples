@@ -2,7 +2,7 @@ package datarace;
 
 public class Account {
 
-	private int balance;
+	private int balance;//”‡∂Ó
 
 	public int getBalance() {
 		return balance;

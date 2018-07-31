@@ -1,6 +1,7 @@
-Fix one
-Add synchronization
+Fix two
 Lock Name : this
-Locked position : 7->8
+aim at : ReadWriteNode[478,atmoerror.BankAccount@15e,total,READ,Thread-1,atmoerror/BankAccount.java:7]Lock start and stop position : 7->7
+Lock Name : this
+aim at : ReadWriteNode[484,atmoerror.BankAccount@15e,total,WRITE,Thread-2,atmoerror/BankAccount.java:7]Lock start and stop position : 7->7
 result : fix success
-time for fixing:24852
+time for fixing:25475

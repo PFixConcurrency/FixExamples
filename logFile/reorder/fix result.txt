@@ -1,5 +1,4 @@
 Fix three
-aim at : ReadWriteNode[369,reorder.SetCheck2@163,a,WRITE,Thread-1,reorder/SetCheck2.java:15]Lock start and stop position : 14->21
-aim at : ReadWriteNode[406,reorder.SetCheck2@163,a,WRITE,Thread-3,reorder/SetCheck2.java:15]Lock start and stop position : 14->21
+Locked position : 15->23
 result : fix success
-time for fixing:5572
+time for fixing:68383

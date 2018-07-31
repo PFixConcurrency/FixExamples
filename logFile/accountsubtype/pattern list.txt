@@ -1,525 +1,556 @@
 [Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] PatternTypeNode[x,1,WRITE] ]
+	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] ]
 	matched: true
-	ReadWriteNode[2331,accountsubtype.BusinessAccount@169,amount,WRITE,Thread-1,accountsubtype/BusinessAccount.java:9]
-	ReadWriteNode[3194,accountsubtype.BusinessAccount@169,amount,READ,Thread-21,accountsubtype/PersonalAccount.java:11]
-	ReadWriteNode[3197,accountsubtype.BusinessAccount@169,amount,WRITE,Thread-1,accountsubtype/Account.java:27]
+	ReadWriteNode[3668,accountsubtype.BusinessAccount@169,amount,READ,Thread-1,accountsubtype/Account.java:27]
+	ReadWriteNode[3671,accountsubtype.BusinessAccount@169,amount,WRITE,Thread-21,accountsubtype/PersonalAccount.java:11]
 }
 success count: 0
 fail count: 1, Pattern {
 	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,WRITE] ]
 	matched: true
-	ReadWriteNode[3194,accountsubtype.BusinessAccount@169,amount,READ,Thread-21,accountsubtype/PersonalAccount.java:11]
-	ReadWriteNode[3197,accountsubtype.BusinessAccount@169,amount,WRITE,Thread-1,accountsubtype/Account.java:27]
-	ReadWriteNode[3223,accountsubtype.BusinessAccount@169,amount,WRITE,Thread-21,accountsubtype/PersonalAccount.java:11]
+	ReadWriteNode[3668,accountsubtype.BusinessAccount@169,amount,READ,Thread-1,accountsubtype/Account.java:27]
+	ReadWriteNode[3671,accountsubtype.BusinessAccount@169,amount,WRITE,Thread-21,accountsubtype/PersonalAccount.java:11]
+	ReadWriteNode[3765,accountsubtype.BusinessAccount@169,amount,WRITE,Thread-1,accountsubtype/Account.java:27]
+}
+success count: 0
+fail count: 1, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,WRITE] ]
+	matched: true
+	ReadWriteNode[3398,accountsubtype.BusinessAccount@169,amount,READ,Thread-21,accountsubtype/PersonalAccount.java:11]
+	ReadWriteNode[3415,accountsubtype.BusinessAccount@169,amount,WRITE,Thread-1,accountsubtype/Account.java:27]
+	ReadWriteNode[3452,accountsubtype.BusinessAccount@169,amount,WRITE,Thread-21,accountsubtype/PersonalAccount.java:11]
+}
+success count: 0
+fail count: 1, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] PatternTypeNode[x,1,WRITE] ]
+	matched: true
+	ReadWriteNode[3148,accountsubtype.BusinessAccount@169,amount,WRITE,Thread-1,accountsubtype/BusinessAccount.java:9]
+	ReadWriteNode[3398,accountsubtype.BusinessAccount@169,amount,READ,Thread-21,accountsubtype/PersonalAccount.java:11]
+	ReadWriteNode[3415,accountsubtype.BusinessAccount@169,amount,WRITE,Thread-1,accountsubtype/Account.java:27]
 }
 success count: 0
 fail count: 1, Pattern {
 	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] ]
 	matched: true
-	ReadWriteNode[3194,accountsubtype.BusinessAccount@169,amount,READ,Thread-21,accountsubtype/PersonalAccount.java:11]
-	ReadWriteNode[3197,accountsubtype.BusinessAccount@169,amount,WRITE,Thread-1,accountsubtype/Account.java:27]
+	ReadWriteNode[3398,accountsubtype.BusinessAccount@169,amount,READ,Thread-21,accountsubtype/PersonalAccount.java:11]
+	ReadWriteNode[3415,accountsubtype.BusinessAccount@169,amount,WRITE,Thread-1,accountsubtype/Account.java:27]
 }
 success count: 0
 fail count: 1, Pattern {
 	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
 	matched: true
-	ReadWriteNode[2331,accountsubtype.BusinessAccount@169,amount,WRITE,Thread-1,accountsubtype/BusinessAccount.java:9]
-	ReadWriteNode[3194,accountsubtype.BusinessAccount@169,amount,READ,Thread-21,accountsubtype/PersonalAccount.java:11]
+	ReadWriteNode[3442,accountsubtype.BusinessAccount@169,amount,WRITE,Thread-1,accountsubtype/BusinessAccount.java:9]
+	ReadWriteNode[3637,accountsubtype.BusinessAccount@169,amount,READ,Thread-21,accountsubtype/PersonalAccount.java:11]
+}
+success count: 1
+fail count: 3, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] ]
+	matched: true
+	ReadWriteNode[3442,accountsubtype.BusinessAccount@169,amount,WRITE,Thread-1,accountsubtype/BusinessAccount.java:9]
+	ReadWriteNode[3671,accountsubtype.BusinessAccount@169,amount,WRITE,Thread-21,accountsubtype/PersonalAccount.java:11]
+}
+success count: 1
+fail count: 2, Pattern {
+	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,WRITE] ]
+	matched: true
+	ReadWriteNode[3442,accountsubtype.BusinessAccount@169,amount,WRITE,Thread-1,accountsubtype/BusinessAccount.java:9]
+	ReadWriteNode[3671,accountsubtype.BusinessAccount@169,amount,WRITE,Thread-21,accountsubtype/PersonalAccount.java:11]
+	ReadWriteNode[3765,accountsubtype.BusinessAccount@169,amount,WRITE,Thread-1,accountsubtype/Account.java:27]
+}
+success count: 1
+fail count: 2, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] ]
+	matched: true
+	ReadWriteNode[3671,accountsubtype.BusinessAccount@169,amount,WRITE,Thread-21,accountsubtype/PersonalAccount.java:11]
+	ReadWriteNode[3765,accountsubtype.BusinessAccount@169,amount,WRITE,Thread-1,accountsubtype/Account.java:27]
+}
+success count: 1
+fail count: 2, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,READ] ]
+	matched: true
+	ReadWriteNode[3603,accountsubtype.BusinessAccount@169,amount,WRITE,Thread-1,accountsubtype/BusinessAccount.java:9]
+	ReadWriteNode[3743,accountsubtype.BusinessAccount@169,amount,WRITE,Thread-21,accountsubtype/PersonalAccount.java:11]
+	ReadWriteNode[3814,accountsubtype.BusinessAccount@169,amount,READ,Thread-1,accountsubtype/Account.java:27]
 }
 success count: 1
 fail count: 1, Pattern {
-	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,WRITE] ]
-	matched: true
-	ReadWriteNode[3095,accountsubtype.BusinessAccount@1c6,amount,WRITE,Thread-18,accountsubtype/BusinessAccount.java:9]
-	ReadWriteNode[3371,accountsubtype.BusinessAccount@1c6,amount,WRITE,Thread-17,accountsubtype/BusinessAccount.java:10]
-	ReadWriteNode[3469,accountsubtype.BusinessAccount@1c6,amount,WRITE,Thread-18,accountsubtype/Account.java:27]
-}
-success count: 613
-fail count: 30, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] ]
-	matched: true
-	ReadWriteNode[3215,accountsubtype.BusinessAccount@1c1,amount,WRITE,Thread-17,accountsubtype/BusinessAccount.java:9]
-	ReadWriteNode[3409,accountsubtype.BusinessAccount@1c1,amount,WRITE,Thread-16,accountsubtype/BusinessAccount.java:10]
-}
-success count: 613
-fail count: 30, Pattern {
 	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
 	matched: true
-	ReadWriteNode[3371,accountsubtype.BusinessAccount@1c6,amount,WRITE,Thread-17,accountsubtype/BusinessAccount.java:10]
-	ReadWriteNode[3426,accountsubtype.BusinessAccount@1c6,amount,READ,Thread-18,accountsubtype/Account.java:27]
+	ReadWriteNode[3743,accountsubtype.BusinessAccount@169,amount,WRITE,Thread-21,accountsubtype/PersonalAccount.java:11]
+	ReadWriteNode[3814,accountsubtype.BusinessAccount@169,amount,READ,Thread-1,accountsubtype/Account.java:27]
 }
-success count: 613
-fail count: 30, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
-	matched: true
-	ReadWriteNode[2530,accountsubtype.BusinessAccount@1a3,amount,WRITE,Thread-11,accountsubtype/BusinessAccount.java:9]
-	ReadWriteNode[2788,accountsubtype.BusinessAccount@1a3,amount,READ,Thread-10,accountsubtype/BusinessAccount.java:10]
-}
-success count: 613
-fail count: 30, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] ]
-	matched: true
-	ReadWriteNode[3371,accountsubtype.BusinessAccount@1c6,amount,WRITE,Thread-17,accountsubtype/BusinessAccount.java:10]
-	ReadWriteNode[3469,accountsubtype.BusinessAccount@1c6,amount,WRITE,Thread-18,accountsubtype/Account.java:27]
-}
-success count: 613
-fail count: 30, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,READ] ]
-	matched: true
-	ReadWriteNode[2370,accountsubtype.BusinessAccount@185,amount,WRITE,Thread-5,accountsubtype/BusinessAccount.java:9]
-	ReadWriteNode[2824,accountsubtype.BusinessAccount@185,amount,WRITE,Thread-4,accountsubtype/BusinessAccount.java:10]
-	ReadWriteNode[2868,accountsubtype.BusinessAccount@185,amount,READ,Thread-5,accountsubtype/Account.java:27]
-}
-success count: 613
-fail count: 30, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
-	matched: true
-	ReadWriteNode[3359,accountsubtype.PersonalAccount@1d8,amount,WRITE,Thread-20,accountsubtype/BusinessAccount.java:10]
-	ReadWriteNode[3439,accountsubtype.PersonalAccount@1d8,amount,READ,Thread-21,accountsubtype/PersonalAccount.java:9]
-}
-success count: 21
-fail count: 1, Pattern {
-	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,WRITE] ]
-	matched: true
-	ReadWriteNode[3309,accountsubtype.PersonalAccount@1d8,amount,WRITE,Thread-21,accountsubtype/Account.java:23]
-	ReadWriteNode[3359,accountsubtype.PersonalAccount@1d8,amount,WRITE,Thread-20,accountsubtype/BusinessAccount.java:10]
-	ReadWriteNode[3453,accountsubtype.PersonalAccount@1d8,amount,WRITE,Thread-21,accountsubtype/PersonalAccount.java:9]
-}
-success count: 21
-fail count: 1, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] ]
-	matched: true
-	ReadWriteNode[3359,accountsubtype.PersonalAccount@1d8,amount,WRITE,Thread-20,accountsubtype/BusinessAccount.java:10]
-	ReadWriteNode[3453,accountsubtype.PersonalAccount@1d8,amount,WRITE,Thread-21,accountsubtype/PersonalAccount.java:9]
-}
-success count: 21
-fail count: 1, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,READ] ]
-	matched: true
-	ReadWriteNode[3309,accountsubtype.PersonalAccount@1d8,amount,WRITE,Thread-21,accountsubtype/Account.java:23]
-	ReadWriteNode[3359,accountsubtype.PersonalAccount@1d8,amount,WRITE,Thread-20,accountsubtype/BusinessAccount.java:10]
-	ReadWriteNode[3439,accountsubtype.PersonalAccount@1d8,amount,READ,Thread-21,accountsubtype/PersonalAccount.java:9]
-}
-success count: 21
+success count: 1
 fail count: 1, Pattern {
 	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
 	matched: true
-	ReadWriteNode[3309,accountsubtype.PersonalAccount@1d8,amount,WRITE,Thread-21,accountsubtype/Account.java:23]
-	ReadWriteNode[3350,accountsubtype.PersonalAccount@1d8,amount,READ,Thread-20,accountsubtype/BusinessAccount.java:10]
+	ReadWriteNode[3894,accountsubtype.PersonalAccount@1d8,amount,WRITE,Thread-20,accountsubtype/BusinessAccount.java:10]
+	ReadWriteNode[3917,accountsubtype.PersonalAccount@1d8,amount,READ,Thread-21,accountsubtype/Account.java:23]
 }
-success count: 21
+success count: 7
 fail count: 1, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] ]
-	matched: true
-	ReadWriteNode[3309,accountsubtype.PersonalAccount@1d8,amount,WRITE,Thread-21,accountsubtype/Account.java:23]
-	ReadWriteNode[3359,accountsubtype.PersonalAccount@1d8,amount,WRITE,Thread-20,accountsubtype/BusinessAccount.java:10]
-}
-success count: 21
-fail count: 1, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] ]
-	matched: true
-	ReadWriteNode[3453,accountsubtype.PersonalAccount@1d8,amount,WRITE,Thread-21,accountsubtype/Account.java:27]
-	ReadWriteNode[3515,accountsubtype.PersonalAccount@1d8,amount,WRITE,Thread-20,accountsubtype/BusinessAccount.java:10]
-}
-success count: 42
-fail count: 2, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
-	matched: true
-	ReadWriteNode[3453,accountsubtype.PersonalAccount@1d8,amount,WRITE,Thread-21,accountsubtype/Account.java:27]
-	ReadWriteNode[3512,accountsubtype.PersonalAccount@1d8,amount,READ,Thread-20,accountsubtype/BusinessAccount.java:10]
-}
-success count: 42
-fail count: 2, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] ]
-	matched: true
-	ReadWriteNode[328,accountsubtype.PersonalAccount@1d8,amount,WRITE,main,accountsubtype/Account.java:11]
-	ReadWriteNode[3277,accountsubtype.PersonalAccount@1d8,amount,WRITE,Thread-21,accountsubtype/Account.java:23]
-}
-success count: 87
-fail count: 4, Pattern {
 	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
 	matched: true
 	ReadWriteNode[328,accountsubtype.PersonalAccount@1d8,amount,WRITE,main,accountsubtype/Account.java:11]
-	ReadWriteNode[3274,accountsubtype.PersonalAccount@1d8,amount,READ,Thread-21,accountsubtype/Account.java:23]
+	ReadWriteNode[3891,accountsubtype.PersonalAccount@1d8,amount,READ,Thread-20,accountsubtype/BusinessAccount.java:10]
 }
-success count: 87
+success count: 7
+fail count: 1, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] ]
+	matched: true
+	ReadWriteNode[3894,accountsubtype.PersonalAccount@1d8,amount,WRITE,Thread-20,accountsubtype/BusinessAccount.java:10]
+	ReadWriteNode[3923,accountsubtype.PersonalAccount@1d8,amount,WRITE,Thread-21,accountsubtype/Account.java:23]
+}
+success count: 7
+fail count: 1, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] ]
+	matched: true
+	ReadWriteNode[328,accountsubtype.PersonalAccount@1d8,amount,WRITE,main,accountsubtype/Account.java:11]
+	ReadWriteNode[3894,accountsubtype.PersonalAccount@1d8,amount,WRITE,Thread-20,accountsubtype/BusinessAccount.java:10]
+}
+success count: 7
+fail count: 1, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] ]
+	matched: true
+	ReadWriteNode[3850,accountsubtype.PersonalAccount@1d8,amount,WRITE,Thread-21,accountsubtype/Account.java:27]
+	ReadWriteNode[3899,accountsubtype.PersonalAccount@1d8,amount,WRITE,Thread-20,accountsubtype/BusinessAccount.java:10]
+}
+success count: 38
 fail count: 4, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,READ] ]
-	matched: true
-	ReadWriteNode[2623,accountsubtype.BusinessAccount@1a8,amount,WRITE,Thread-12,accountsubtype/Account.java:23]
-	ReadWriteNode[2727,accountsubtype.BusinessAccount@1a8,amount,WRITE,Thread-11,accountsubtype/BusinessAccount.java:10]
-	ReadWriteNode[2815,accountsubtype.BusinessAccount@1a8,amount,READ,Thread-12,accountsubtype/BusinessAccount.java:9]
-}
-success count: 361
-fail count: 16, Pattern {
 	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
 	matched: true
-	ReadWriteNode[2234,accountsubtype.BusinessAccount@194,amount,WRITE,Thread-8,accountsubtype/Account.java:23]
-	ReadWriteNode[2319,accountsubtype.BusinessAccount@194,amount,READ,Thread-7,accountsubtype/BusinessAccount.java:10]
+	ReadWriteNode[3850,accountsubtype.PersonalAccount@1d8,amount,WRITE,Thread-21,accountsubtype/Account.java:27]
+	ReadWriteNode[3878,accountsubtype.PersonalAccount@1d8,amount,READ,Thread-20,accountsubtype/BusinessAccount.java:10]
 }
-success count: 361
-fail count: 16, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] ]
-	matched: true
-	ReadWriteNode[2623,accountsubtype.BusinessAccount@1a8,amount,WRITE,Thread-12,accountsubtype/Account.java:23]
-	ReadWriteNode[2727,accountsubtype.BusinessAccount@1a8,amount,WRITE,Thread-11,accountsubtype/BusinessAccount.java:10]
-}
-success count: 361
-fail count: 16, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
-	matched: true
-	ReadWriteNode[1872,accountsubtype.BusinessAccount@176,amount,WRITE,Thread-1,accountsubtype/BusinessAccount.java:10]
-	ReadWriteNode[1996,accountsubtype.BusinessAccount@176,amount,READ,Thread-2,accountsubtype/BusinessAccount.java:9]
-}
-success count: 361
-fail count: 16, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] ]
-	matched: true
-	ReadWriteNode[2727,accountsubtype.BusinessAccount@1a8,amount,WRITE,Thread-11,accountsubtype/BusinessAccount.java:10]
-	ReadWriteNode[2905,accountsubtype.BusinessAccount@1a8,amount,WRITE,Thread-12,accountsubtype/BusinessAccount.java:9]
-}
-success count: 361
-fail count: 16, Pattern {
-	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,WRITE] ]
-	matched: true
-	ReadWriteNode[1647,accountsubtype.BusinessAccount@176,amount,WRITE,Thread-2,accountsubtype/Account.java:23]
-	ReadWriteNode[1872,accountsubtype.BusinessAccount@176,amount,WRITE,Thread-1,accountsubtype/BusinessAccount.java:10]
-	ReadWriteNode[2033,accountsubtype.BusinessAccount@176,amount,WRITE,Thread-2,accountsubtype/BusinessAccount.java:9]
-}
-success count: 361
-fail count: 16, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] ]
-	matched: true
-	ReadWriteNode[248,accountsubtype.BusinessAccount@169,amount,WRITE,main,accountsubtype/Account.java:11]
-	ReadWriteNode[1622,accountsubtype.BusinessAccount@169,amount,WRITE,Thread-1,accountsubtype/Account.java:23]
-}
-success count: 1528
-fail count: 66, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
-	matched: true
-	ReadWriteNode[312,accountsubtype.BusinessAccount@1c1,amount,WRITE,main,accountsubtype/Account.java:11]
-	ReadWriteNode[3046,accountsubtype.BusinessAccount@1c1,amount,READ,Thread-17,accountsubtype/Account.java:23]
-}
-success count: 1528
-fail count: 66, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
-	matched: true
-	ReadWriteNode[3419,accountsubtype.BusinessAccount@169,amount,WRITE,Thread-21,accountsubtype/PersonalAccount.java:11]
-	ReadWriteNode[3650,accountsubtype.BusinessAccount@169,amount,READ,main,accountsubtype/Account.java:19]
-}
-success count: 94
+success count: 38
 fail count: 4, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] ]
-	matched: true
-	ReadWriteNode[1963,accountsubtype.BusinessAccount@169,amount,WRITE,Thread-1,accountsubtype/Account.java:27]
-	ReadWriteNode[3419,accountsubtype.BusinessAccount@169,amount,WRITE,Thread-21,accountsubtype/PersonalAccount.java:11]
-}
-success count: 94
-fail count: 4, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] ]
-	matched: true
-	ReadWriteNode[3318,accountsubtype.PersonalAccount@1d8,amount,WRITE,Thread-21,accountsubtype/PersonalAccount.java:9]
-	ReadWriteNode[3450,accountsubtype.PersonalAccount@1d8,amount,WRITE,Thread-20,accountsubtype/BusinessAccount.java:10]
-}
-success count: 24
-fail count: 1, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] ]
-	matched: true
-	ReadWriteNode[3450,accountsubtype.PersonalAccount@1d8,amount,WRITE,Thread-20,accountsubtype/BusinessAccount.java:10]
-	ReadWriteNode[3460,accountsubtype.PersonalAccount@1d8,amount,WRITE,Thread-21,accountsubtype/Account.java:27]
-}
-success count: 24
-fail count: 1, Pattern {
-	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,WRITE] ]
-	matched: true
-	ReadWriteNode[3318,accountsubtype.PersonalAccount@1d8,amount,WRITE,Thread-21,accountsubtype/PersonalAccount.java:9]
-	ReadWriteNode[3450,accountsubtype.PersonalAccount@1d8,amount,WRITE,Thread-20,accountsubtype/BusinessAccount.java:10]
-	ReadWriteNode[3460,accountsubtype.PersonalAccount@1d8,amount,WRITE,Thread-21,accountsubtype/Account.java:27]
-}
-success count: 24
-fail count: 1, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,READ] ]
-	matched: true
-	ReadWriteNode[3318,accountsubtype.PersonalAccount@1d8,amount,WRITE,Thread-21,accountsubtype/PersonalAccount.java:9]
-	ReadWriteNode[3450,accountsubtype.PersonalAccount@1d8,amount,WRITE,Thread-20,accountsubtype/BusinessAccount.java:10]
-	ReadWriteNode[3457,accountsubtype.PersonalAccount@1d8,amount,READ,Thread-21,accountsubtype/Account.java:27]
-}
-success count: 24
-fail count: 1, Pattern {
 	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
 	matched: true
-	ReadWriteNode[3450,accountsubtype.PersonalAccount@1d8,amount,WRITE,Thread-20,accountsubtype/BusinessAccount.java:10]
-	ReadWriteNode[3457,accountsubtype.PersonalAccount@1d8,amount,READ,Thread-21,accountsubtype/Account.java:27]
+	ReadWriteNode[3708,accountsubtype.BusinessAccount@1b7,amount,WRITE,Thread-15,accountsubtype/Account.java:27]
+	ReadWriteNode[3720,accountsubtype.BusinessAccount@1b7,amount,READ,Thread-14,accountsubtype/BusinessAccount.java:10]
 }
-success count: 24
-fail count: 1, Pattern {
+success count: 492
+fail count: 41, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] ]
+	matched: true
+	ReadWriteNode[3735,accountsubtype.BusinessAccount@18a,amount,WRITE,Thread-6,accountsubtype/Account.java:27]
+	ReadWriteNode[3783,accountsubtype.BusinessAccount@18a,amount,WRITE,Thread-5,accountsubtype/BusinessAccount.java:10]
+}
+success count: 492
+fail count: 41, Pattern {
 	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
 	matched: true
-	ReadWriteNode[3318,accountsubtype.PersonalAccount@1d8,amount,WRITE,Thread-21,accountsubtype/PersonalAccount.java:9]
-	ReadWriteNode[3428,accountsubtype.PersonalAccount@1d8,amount,READ,Thread-20,accountsubtype/BusinessAccount.java:10]
+	ReadWriteNode[316,accountsubtype.BusinessAccount@1c6,amount,WRITE,main,accountsubtype/Account.java:11]
+	ReadWriteNode[3235,accountsubtype.BusinessAccount@1c6,amount,READ,Thread-18,accountsubtype/Account.java:23]
 }
-success count: 24
-fail count: 1, Pattern {
+success count: 1482
+fail count: 114, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] ]
+	matched: true
+	ReadWriteNode[304,accountsubtype.BusinessAccount@1b7,amount,WRITE,main,accountsubtype/Account.java:11]
+	ReadWriteNode[3017,accountsubtype.BusinessAccount@1b7,amount,WRITE,Thread-15,accountsubtype/Account.java:23]
+}
+success count: 1482
+fail count: 114, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[361,accountsubtype.Manager@1e4,account,WRITE,main,accountsubtype/Manager.java:10]
+	ReadWriteNode[2003,accountsubtype.Manager@1e4,account,READ,Thread-1,accountsubtype/Manager.java:26]
+}
+success count: 1953
+fail count: 147, Pattern {
 	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
 	matched: true
 	ReadWriteNode[394,accountsubtype.Manager@1ed,account,WRITE,main,accountsubtype/Manager.java:10]
-	ReadWriteNode[1713,accountsubtype.Manager@1ed,account,READ,Thread-2,accountsubtype/Manager.java:30]
+	ReadWriteNode[2914,accountsubtype.Manager@1ed,account,READ,Thread-2,accountsubtype/Manager.java:32]
 }
-success count: 2016
-fail count: 84, Pattern {
+success count: 1953
+fail count: 147, Pattern {
 	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
 	matched: true
-	ReadWriteNode[459,accountsubtype.Manager@1fb,bank,WRITE,main,accountsubtype/Manager.java:9]
-	ReadWriteNode[1176,accountsubtype.Manager@1fb,bank,READ,Thread-4,accountsubtype/Manager.java:21]
+	ReadWriteNode[823,accountsubtype.Manager@248,account,WRITE,main,accountsubtype/Manager.java:10]
+	ReadWriteNode[2884,accountsubtype.Manager@248,account,READ,Thread-15,accountsubtype/Manager.java:28]
 }
-success count: 2016
-fail count: 84, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
-	matched: true
-	ReadWriteNode[856,accountsubtype.Manager@24f,account,WRITE,main,accountsubtype/Manager.java:10]
-	ReadWriteNode[3437,accountsubtype.Manager@24f,account,READ,Thread-16,accountsubtype/Manager.java:32]
-}
-success count: 2016
-fail count: 84, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
-	matched: true
-	ReadWriteNode[922,accountsubtype.Manager@25d,account,WRITE,main,accountsubtype/Manager.java:10]
-	ReadWriteNode[2720,accountsubtype.Manager@25d,account,READ,Thread-18,accountsubtype/Manager.java:24]
-}
-success count: 2016
-fail count: 84, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
-	matched: true
-	ReadWriteNode[244,accountsubtype.Bank@15e,accounts,WRITE,main,accountsubtype/Bank.java:8]
-	ReadWriteNode[1877,accountsubtype.Bank@15e,accounts,READ,Thread-14,accountsubtype/Bank.java:43]
-}
-success count: 2016
-fail count: 84, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
-	matched: true
-	ReadWriteNode[757,accountsubtype.Manager@23a,account,WRITE,main,accountsubtype/Manager.java:10]
-	ReadWriteNode[2193,accountsubtype.Manager@23a,account,READ,Thread-13,accountsubtype/Manager.java:26]
-}
-success count: 2016
-fail count: 84, Pattern {
+success count: 1953
+fail count: 147, Pattern {
 	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
 	matched: true
 	ReadWriteNode[889,accountsubtype.Manager@256,account,WRITE,main,accountsubtype/Manager.java:10]
-	ReadWriteNode[3026,accountsubtype.Manager@256,account,READ,Thread-17,accountsubtype/Manager.java:28]
+	ReadWriteNode[1798,accountsubtype.Manager@256,account,READ,Thread-17,accountsubtype/Manager.java:19]
 }
-success count: 2016
-fail count: 84, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
-	matched: true
-	ReadWriteNode[459,accountsubtype.Manager@1fb,bank,WRITE,main,accountsubtype/Manager.java:9]
-	ReadWriteNode[2422,accountsubtype.Manager@1fb,bank,READ,Thread-4,accountsubtype/Manager.java:30]
-}
-success count: 2016
-fail count: 84, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
-	matched: true
-	ReadWriteNode[790,accountsubtype.Manager@241,account,WRITE,main,accountsubtype/Manager.java:10]
-	ReadWriteNode[1914,accountsubtype.Manager@241,account,READ,Thread-14,accountsubtype/Manager.java:22]
-}
-success count: 2016
-fail count: 84, Pattern {
+success count: 1953
+fail count: 147, Pattern {
 	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
 	matched: true
 	ReadWriteNode[244,accountsubtype.Bank@15e,accounts,WRITE,main,accountsubtype/Bank.java:8]
-	ReadWriteNode[3332,accountsubtype.Bank@15e,accounts,READ,Thread-15,accountsubtype/Bank.java:39]
+	ReadWriteNode[1211,accountsubtype.Bank@15e,accounts,READ,Thread-3,accountsubtype/Bank.java:43]
 }
-success count: 2016
-fail count: 84, Pattern {
+success count: 1953
+fail count: 147, Pattern {
 	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
 	matched: true
-	ReadWriteNode[459,accountsubtype.Manager@1fb,bank,WRITE,main,accountsubtype/Manager.java:9]
-	ReadWriteNode[1320,accountsubtype.Manager@1fb,bank,READ,Thread-4,accountsubtype/Manager.java:22]
+	ReadWriteNode[724,accountsubtype.Manager@233,account,WRITE,main,accountsubtype/Manager.java:10]
+	ReadWriteNode[1513,accountsubtype.Manager@233,account,READ,Thread-12,accountsubtype/Manager.java:22]
 }
-success count: 2016
-fail count: 84, Pattern {
+success count: 1953
+fail count: 147, Pattern {
 	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
 	matched: true
-	ReadWriteNode[460,accountsubtype.Manager@1fb,account,WRITE,main,accountsubtype/Manager.java:10]
-	ReadWriteNode[1086,accountsubtype.Manager@1fb,account,READ,Thread-4,accountsubtype/Manager.java:19]
+	ReadWriteNode[856,accountsubtype.Manager@24f,account,WRITE,main,accountsubtype/Manager.java:10]
+	ReadWriteNode[2464,accountsubtype.Manager@24f,account,READ,Thread-16,accountsubtype/Manager.java:24]
 }
-success count: 2016
-fail count: 84, Pattern {
+success count: 1953
+fail count: 147, Pattern {
 	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
 	matched: true
-	ReadWriteNode[890,accountsubtype.Manager@256,accountNumber,WRITE,main,accountsubtype/Manager.java:11]
-	ReadWriteNode[2173,accountsubtype.Manager@256,accountNumber,READ,Thread-17,accountsubtype/Manager.java:21]
+	ReadWriteNode[426,accountsubtype.Manager@1f4,bank,WRITE,main,accountsubtype/Manager.java:9]
+	ReadWriteNode[1160,accountsubtype.Manager@1f4,bank,READ,Thread-3,accountsubtype/Manager.java:21]
 }
-success count: 2016
-fail count: 84, Pattern {
+success count: 1953
+fail count: 147, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[756,accountsubtype.Manager@23a,bank,WRITE,main,accountsubtype/Manager.java:9]
+	ReadWriteNode[2620,accountsubtype.Manager@23a,bank,READ,Thread-13,accountsubtype/Manager.java:30]
+}
+success count: 1953
+fail count: 147, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[244,accountsubtype.Bank@15e,accounts,WRITE,main,accountsubtype/Bank.java:8]
+	ReadWriteNode[2687,accountsubtype.Bank@15e,accounts,READ,Thread-2,accountsubtype/Bank.java:39]
+}
+success count: 1953
+fail count: 147, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[395,accountsubtype.Manager@1ed,accountNumber,WRITE,main,accountsubtype/Manager.java:11]
+	ReadWriteNode[1208,accountsubtype.Manager@1ed,accountNumber,READ,Thread-2,accountsubtype/Manager.java:21]
+}
+success count: 1953
+fail count: 147, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[426,accountsubtype.Manager@1f4,bank,WRITE,main,accountsubtype/Manager.java:9]
+	ReadWriteNode[1235,accountsubtype.Manager@1f4,bank,READ,Thread-3,accountsubtype/Manager.java:22]
+}
+success count: 1953
+fail count: 147, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[856,accountsubtype.Manager@24f,account,WRITE,main,accountsubtype/Manager.java:10]
+	ReadWriteNode[3103,accountsubtype.Manager@24f,account,READ,Thread-16,accountsubtype/Manager.java:30]
+}
+success count: 1953
+fail count: 147, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[3389,accountsubtype.BusinessAccount@1c1,amount,WRITE,Thread-17,accountsubtype/BusinessAccount.java:9]
+	ReadWriteNode[3487,accountsubtype.BusinessAccount@1c1,amount,READ,Thread-16,accountsubtype/BusinessAccount.java:10]
+}
+success count: 551
+fail count: 41, Pattern {
 	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] ]
 	matched: true
-	ReadWriteNode[256,accountsubtype.BusinessAccount@17b,amount,WRITE,main,accountsubtype/Account.java:11]
-	ReadWriteNode[2086,accountsubtype.BusinessAccount@17b,amount,WRITE,Thread-2,accountsubtype/BusinessAccount.java:10]
+	ReadWriteNode[3590,accountsubtype.BusinessAccount@1bc,amount,WRITE,Thread-15,accountsubtype/BusinessAccount.java:10]
+	ReadWriteNode[3685,accountsubtype.BusinessAccount@1bc,amount,WRITE,Thread-16,accountsubtype/Account.java:27]
 }
-success count: 391
-fail count: 14, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+success count: 551
+fail count: 41, Pattern {
+	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,WRITE] ]
 	matched: true
-	ReadWriteNode[280,accountsubtype.BusinessAccount@199,amount,WRITE,main,accountsubtype/Account.java:11]
-	ReadWriteNode[2724,accountsubtype.BusinessAccount@199,amount,READ,Thread-8,accountsubtype/BusinessAccount.java:10]
+	ReadWriteNode[3349,accountsubtype.BusinessAccount@1bc,amount,WRITE,Thread-16,accountsubtype/BusinessAccount.java:9]
+	ReadWriteNode[3590,accountsubtype.BusinessAccount@1bc,amount,WRITE,Thread-15,accountsubtype/BusinessAccount.java:10]
+	ReadWriteNode[3685,accountsubtype.BusinessAccount@1bc,amount,WRITE,Thread-16,accountsubtype/Account.java:27]
 }
-success count: 391
-fail count: 14, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
-	matched: true
-	ReadWriteNode[2758,accountsubtype.BusinessAccount@199,amount,WRITE,Thread-8,accountsubtype/BusinessAccount.java:10]
-	ReadWriteNode[2766,accountsubtype.BusinessAccount@199,amount,READ,Thread-9,accountsubtype/Account.java:23]
-}
-success count: 391
-fail count: 14, Pattern {
+success count: 551
+fail count: 41, Pattern {
 	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] ]
 	matched: true
-	ReadWriteNode[2758,accountsubtype.BusinessAccount@199,amount,WRITE,Thread-8,accountsubtype/BusinessAccount.java:10]
-	ReadWriteNode[2882,accountsubtype.BusinessAccount@199,amount,WRITE,Thread-9,accountsubtype/Account.java:23]
+	ReadWriteNode[3335,accountsubtype.BusinessAccount@185,amount,WRITE,Thread-5,accountsubtype/BusinessAccount.java:9]
+	ReadWriteNode[3857,accountsubtype.BusinessAccount@185,amount,WRITE,Thread-4,accountsubtype/BusinessAccount.java:10]
 }
-success count: 391
-fail count: 14, Pattern {
+success count: 551
+fail count: 41, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,READ] ]
+	matched: true
+	ReadWriteNode[2667,accountsubtype.BusinessAccount@194,amount,WRITE,Thread-8,accountsubtype/BusinessAccount.java:9]
+	ReadWriteNode[3361,accountsubtype.BusinessAccount@194,amount,WRITE,Thread-7,accountsubtype/BusinessAccount.java:10]
+	ReadWriteNode[3397,accountsubtype.BusinessAccount@194,amount,READ,Thread-8,accountsubtype/Account.java:27]
+}
+success count: 551
+fail count: 41, Pattern {
 	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
 	matched: true
-	ReadWriteNode[3547,accountsubtype.BusinessAccount@1d0,amount,WRITE,Thread-20,accountsubtype/Account.java:27]
-	ReadWriteNode[3551,accountsubtype.BusinessAccount@1d0,amount,READ,Thread-19,accountsubtype/BusinessAccount.java:10]
+	ReadWriteNode[3857,accountsubtype.BusinessAccount@185,amount,WRITE,Thread-4,accountsubtype/BusinessAccount.java:10]
+	ReadWriteNode[3877,accountsubtype.BusinessAccount@185,amount,READ,Thread-5,accountsubtype/Account.java:27]
 }
-success count: 459
-fail count: 16, Pattern {
+success count: 551
+fail count: 41, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[2936,accountsubtype.BusinessAccount@1a3,amount,WRITE,Thread-11,accountsubtype/Account.java:23]
+	ReadWriteNode[3120,accountsubtype.BusinessAccount@1a3,amount,READ,Thread-10,accountsubtype/BusinessAccount.java:10]
+}
+success count: 346
+fail count: 25, Pattern {
+	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,WRITE] ]
+	matched: true
+	ReadWriteNode[2662,accountsubtype.BusinessAccount@19e,amount,WRITE,Thread-10,accountsubtype/Account.java:23]
+	ReadWriteNode[2959,accountsubtype.BusinessAccount@19e,amount,WRITE,Thread-9,accountsubtype/BusinessAccount.java:10]
+	ReadWriteNode[3082,accountsubtype.BusinessAccount@19e,amount,WRITE,Thread-10,accountsubtype/BusinessAccount.java:9]
+}
+success count: 346
+fail count: 25, Pattern {
 	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] ]
 	matched: true
-	ReadWriteNode[3547,accountsubtype.BusinessAccount@1d0,amount,WRITE,Thread-20,accountsubtype/Account.java:27]
-	ReadWriteNode[3557,accountsubtype.BusinessAccount@1d0,amount,WRITE,Thread-19,accountsubtype/BusinessAccount.java:10]
+	ReadWriteNode[2993,accountsubtype.BusinessAccount@1a8,amount,WRITE,Thread-12,accountsubtype/Account.java:23]
+	ReadWriteNode[3369,accountsubtype.BusinessAccount@1a8,amount,WRITE,Thread-11,accountsubtype/BusinessAccount.java:10]
 }
-success count: 459
-fail count: 16, Pattern {
+success count: 346
+fail count: 25, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] ]
+	matched: true
+	ReadWriteNode[3369,accountsubtype.BusinessAccount@1a8,amount,WRITE,Thread-11,accountsubtype/BusinessAccount.java:10]
+	ReadWriteNode[3537,accountsubtype.BusinessAccount@1a8,amount,WRITE,Thread-12,accountsubtype/BusinessAccount.java:9]
+}
+success count: 346
+fail count: 25, Pattern {
 	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
 	matched: true
-	ReadWriteNode[1963,accountsubtype.BusinessAccount@169,amount,WRITE,Thread-1,accountsubtype/Account.java:27]
-	ReadWriteNode[3406,accountsubtype.BusinessAccount@169,amount,READ,Thread-21,accountsubtype/PersonalAccount.java:11]
+	ReadWriteNode[3142,accountsubtype.BusinessAccount@1a3,amount,WRITE,Thread-10,accountsubtype/BusinessAccount.java:10]
+	ReadWriteNode[3250,accountsubtype.BusinessAccount@1a3,amount,READ,Thread-11,accountsubtype/BusinessAccount.java:9]
 }
-success count: 94
-fail count: 3, Pattern {
+success count: 346
+fail count: 25, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,READ] ]
+	matched: true
+	ReadWriteNode[2993,accountsubtype.BusinessAccount@1a8,amount,WRITE,Thread-12,accountsubtype/Account.java:23]
+	ReadWriteNode[3369,accountsubtype.BusinessAccount@1a8,amount,WRITE,Thread-11,accountsubtype/BusinessAccount.java:10]
+	ReadWriteNode[3532,accountsubtype.BusinessAccount@1a8,amount,READ,Thread-12,accountsubtype/BusinessAccount.java:9]
+}
+success count: 346
+fail count: 25, Pattern {
 	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
 	matched: true
-	ReadWriteNode[3021,accountsubtype.BusinessAccount@1a3,amount,WRITE,Thread-11,accountsubtype/Account.java:27]
-	ReadWriteNode[3670,accountsubtype.BusinessAccount@1a3,amount,READ,main,accountsubtype/Account.java:19]
+	ReadWriteNode[328,accountsubtype.PersonalAccount@1d8,amount,WRITE,main,accountsubtype/Account.java:11]
+	ReadWriteNode[3553,accountsubtype.PersonalAccount@1d8,amount,READ,Thread-21,accountsubtype/Account.java:23]
 }
-success count: 1367
-fail count: 0, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
-	matched: true
-	ReadWriteNode[2557,accountsubtype.BusinessAccount@18f,amount,WRITE,Thread-6,accountsubtype/BusinessAccount.java:10]
-	ReadWriteNode[3662,accountsubtype.BusinessAccount@18f,amount,READ,main,accountsubtype/Account.java:19]
-}
-success count: 459
-fail count: 0, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
-	matched: true
-	ReadWriteNode[3515,accountsubtype.PersonalAccount@1d8,amount,WRITE,Thread-20,accountsubtype/BusinessAccount.java:10]
-	ReadWriteNode[3690,accountsubtype.PersonalAccount@1d8,amount,READ,main,accountsubtype/Account.java:19]
-}
-success count: 42
-fail count: 0, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
-	matched: true
-	ReadWriteNode[3500,accountsubtype.PersonalAccount@1d8,amount,WRITE,Thread-21,accountsubtype/Account.java:27]
-	ReadWriteNode[3668,accountsubtype.PersonalAccount@1d8,amount,READ,main,accountsubtype/Account.java:19]
-}
-success count: 54
-fail count: 0, Pattern {
+success count: 86
+fail count: 6, Pattern {
 	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] ]
 	matched: true
 	ReadWriteNode[328,accountsubtype.PersonalAccount@1d8,amount,WRITE,main,accountsubtype/Account.java:11]
-	ReadWriteNode[3420,accountsubtype.PersonalAccount@1d8,amount,WRITE,Thread-20,accountsubtype/BusinessAccount.java:10]
+	ReadWriteNode[3572,accountsubtype.PersonalAccount@1d8,amount,WRITE,Thread-21,accountsubtype/Account.java:23]
 }
-success count: 9
-fail count: 0, Pattern {
+success count: 86
+fail count: 6, Pattern {
 	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
 	matched: true
-	ReadWriteNode[3420,accountsubtype.PersonalAccount@1d8,amount,WRITE,Thread-20,accountsubtype/BusinessAccount.java:10]
-	ReadWriteNode[3477,accountsubtype.PersonalAccount@1d8,amount,READ,Thread-21,accountsubtype/Account.java:23]
+	ReadWriteNode[2922,accountsubtype.BusinessAccount@1b2,amount,WRITE,Thread-13,accountsubtype/BusinessAccount.java:10]
+	ReadWriteNode[3280,accountsubtype.BusinessAccount@1b2,amount,READ,Thread-14,accountsubtype/Account.java:23]
 }
-success count: 9
-fail count: 0, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
-	matched: true
-	ReadWriteNode[328,accountsubtype.PersonalAccount@1d8,amount,WRITE,main,accountsubtype/Account.java:11]
-	ReadWriteNode[3398,accountsubtype.PersonalAccount@1d8,amount,READ,Thread-20,accountsubtype/BusinessAccount.java:10]
-}
-success count: 9
-fail count: 0, Pattern {
+success count: 378
+fail count: 26, Pattern {
 	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] ]
 	matched: true
-	ReadWriteNode[3420,accountsubtype.PersonalAccount@1d8,amount,WRITE,Thread-20,accountsubtype/BusinessAccount.java:10]
-	ReadWriteNode[3496,accountsubtype.PersonalAccount@1d8,amount,WRITE,Thread-21,accountsubtype/Account.java:23]
+	ReadWriteNode[320,accountsubtype.BusinessAccount@1cb,amount,WRITE,main,accountsubtype/Account.java:11]
+	ReadWriteNode[3433,accountsubtype.BusinessAccount@1cb,amount,WRITE,Thread-18,accountsubtype/BusinessAccount.java:10]
 }
-success count: 9
-fail count: 0, Pattern {
+success count: 378
+fail count: 26, Pattern {
 	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] ]
 	matched: true
-	ReadWriteNode[248,accountsubtype.BusinessAccount@169,amount,WRITE,main,accountsubtype/Account.java:11]
-	ReadWriteNode[3089,accountsubtype.BusinessAccount@169,amount,WRITE,Thread-21,accountsubtype/PersonalAccount.java:11]
+	ReadWriteNode[3433,accountsubtype.BusinessAccount@1cb,amount,WRITE,Thread-18,accountsubtype/BusinessAccount.java:10]
+	ReadWriteNode[3744,accountsubtype.BusinessAccount@1cb,amount,WRITE,Thread-19,accountsubtype/Account.java:23]
 }
-success count: 1
-fail count: 0, Pattern {
+success count: 378
+fail count: 26, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[320,accountsubtype.BusinessAccount@1cb,amount,WRITE,main,accountsubtype/Account.java:11]
+	ReadWriteNode[3425,accountsubtype.BusinessAccount@1cb,amount,READ,Thread-18,accountsubtype/BusinessAccount.java:10]
+}
+success count: 378
+fail count: 26, Pattern {
 	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] ]
 	matched: true
-	ReadWriteNode[3089,accountsubtype.BusinessAccount@169,amount,WRITE,Thread-21,accountsubtype/PersonalAccount.java:11]
-	ReadWriteNode[3363,accountsubtype.BusinessAccount@169,amount,WRITE,Thread-1,accountsubtype/Account.java:23]
+	ReadWriteNode[3723,accountsubtype.PersonalAccount@1d8,amount,WRITE,Thread-21,accountsubtype/PersonalAccount.java:9]
+	ReadWriteNode[3787,accountsubtype.PersonalAccount@1d8,amount,WRITE,Thread-20,accountsubtype/BusinessAccount.java:10]
 }
-success count: 1
-fail count: 0, Pattern {
+success count: 31
+fail count: 2, Pattern {
+	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,WRITE] ]
+	matched: true
+	ReadWriteNode[3723,accountsubtype.PersonalAccount@1d8,amount,WRITE,Thread-21,accountsubtype/PersonalAccount.java:9]
+	ReadWriteNode[3787,accountsubtype.PersonalAccount@1d8,amount,WRITE,Thread-20,accountsubtype/BusinessAccount.java:10]
+	ReadWriteNode[3804,accountsubtype.PersonalAccount@1d8,amount,WRITE,Thread-21,accountsubtype/Account.java:27]
+}
+success count: 31
+fail count: 2, Pattern {
 	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
 	matched: true
-	ReadWriteNode[3089,accountsubtype.BusinessAccount@169,amount,WRITE,Thread-21,accountsubtype/PersonalAccount.java:11]
-	ReadWriteNode[3353,accountsubtype.BusinessAccount@169,amount,READ,Thread-1,accountsubtype/Account.java:23]
+	ReadWriteNode[3787,accountsubtype.PersonalAccount@1d8,amount,WRITE,Thread-20,accountsubtype/BusinessAccount.java:10]
+	ReadWriteNode[3796,accountsubtype.PersonalAccount@1d8,amount,READ,Thread-21,accountsubtype/Account.java:27]
 }
-success count: 1
-fail count: 0, Pattern {
+success count: 31
+fail count: 2, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] ]
+	matched: true
+	ReadWriteNode[3787,accountsubtype.PersonalAccount@1d8,amount,WRITE,Thread-20,accountsubtype/BusinessAccount.java:10]
+	ReadWriteNode[3804,accountsubtype.PersonalAccount@1d8,amount,WRITE,Thread-21,accountsubtype/Account.java:27]
+}
+success count: 31
+fail count: 2, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,READ] ]
+	matched: true
+	ReadWriteNode[3723,accountsubtype.PersonalAccount@1d8,amount,WRITE,Thread-21,accountsubtype/PersonalAccount.java:9]
+	ReadWriteNode[3787,accountsubtype.PersonalAccount@1d8,amount,WRITE,Thread-20,accountsubtype/BusinessAccount.java:10]
+	ReadWriteNode[3796,accountsubtype.PersonalAccount@1d8,amount,READ,Thread-21,accountsubtype/Account.java:27]
+}
+success count: 31
+fail count: 2, Pattern {
 	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
 	matched: true
-	ReadWriteNode[248,accountsubtype.BusinessAccount@169,amount,WRITE,main,accountsubtype/Account.java:11]
-	ReadWriteNode[3086,accountsubtype.BusinessAccount@169,amount,READ,Thread-21,accountsubtype/PersonalAccount.java:11]
+	ReadWriteNode[3723,accountsubtype.PersonalAccount@1d8,amount,WRITE,Thread-21,accountsubtype/PersonalAccount.java:9]
+	ReadWriteNode[3777,accountsubtype.PersonalAccount@1d8,amount,READ,Thread-20,accountsubtype/BusinessAccount.java:10]
 }
-success count: 1
+success count: 31
+fail count: 2, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[3732,accountsubtype.BusinessAccount@169,amount,WRITE,Thread-21,accountsubtype/PersonalAccount.java:11]
+	ReadWriteNode[4044,accountsubtype.BusinessAccount@169,amount,READ,main,accountsubtype/Account.java:19]
+}
+success count: 91
+fail count: 5, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] ]
+	matched: true
+	ReadWriteNode[3474,accountsubtype.BusinessAccount@169,amount,WRITE,Thread-1,accountsubtype/Account.java:27]
+	ReadWriteNode[3732,accountsubtype.BusinessAccount@169,amount,WRITE,Thread-21,accountsubtype/PersonalAccount.java:11]
+}
+success count: 91
+fail count: 5, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[3474,accountsubtype.BusinessAccount@169,amount,WRITE,Thread-1,accountsubtype/Account.java:27]
+	ReadWriteNode[3729,accountsubtype.BusinessAccount@169,amount,READ,Thread-21,accountsubtype/PersonalAccount.java:11]
+}
+success count: 91
+fail count: 4, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[3519,accountsubtype.BusinessAccount@199,amount,WRITE,Thread-9,accountsubtype/Account.java:27]
+	ReadWriteNode[4112,accountsubtype.BusinessAccount@199,amount,READ,main,accountsubtype/Account.java:19]
+}
+success count: 1277
+fail count: 2, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[3223,accountsubtype.BusinessAccount@1a3,amount,WRITE,Thread-10,accountsubtype/BusinessAccount.java:10]
+	ReadWriteNode[4120,accountsubtype.BusinessAccount@1a3,amount,READ,main,accountsubtype/Account.java:19]
+}
+success count: 492
 fail count: 0, Pattern {
 	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,READ] ]
 	matched: true
-	ReadWriteNode[2381,accountsubtype.BusinessAccount@169,amount,WRITE,Thread-1,accountsubtype/BusinessAccount.java:9]
-	ReadWriteNode[3326,accountsubtype.BusinessAccount@169,amount,WRITE,Thread-21,accountsubtype/PersonalAccount.java:11]
-	ReadWriteNode[3362,accountsubtype.BusinessAccount@169,amount,READ,Thread-1,accountsubtype/Account.java:27]
+	ReadWriteNode[3752,accountsubtype.PersonalAccount@1d8,amount,WRITE,Thread-21,accountsubtype/Account.java:23]
+	ReadWriteNode[3811,accountsubtype.PersonalAccount@1d8,amount,WRITE,Thread-20,accountsubtype/BusinessAccount.java:10]
+	ReadWriteNode[3831,accountsubtype.PersonalAccount@1d8,amount,READ,Thread-21,accountsubtype/PersonalAccount.java:9]
 }
-success count: 1
-fail count: 0, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] ]
-	matched: true
-	ReadWriteNode[3326,accountsubtype.BusinessAccount@169,amount,WRITE,Thread-21,accountsubtype/PersonalAccount.java:11]
-	ReadWriteNode[3384,accountsubtype.BusinessAccount@169,amount,WRITE,Thread-1,accountsubtype/Account.java:27]
-}
-success count: 1
+success count: 17
 fail count: 0, Pattern {
 	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
 	matched: true
-	ReadWriteNode[3326,accountsubtype.BusinessAccount@169,amount,WRITE,Thread-21,accountsubtype/PersonalAccount.java:11]
-	ReadWriteNode[3362,accountsubtype.BusinessAccount@169,amount,READ,Thread-1,accountsubtype/Account.java:27]
+	ReadWriteNode[3859,accountsubtype.PersonalAccount@1d8,amount,WRITE,Thread-21,accountsubtype/Account.java:27]
+	ReadWriteNode[4160,accountsubtype.PersonalAccount@1d8,amount,READ,main,accountsubtype/Account.java:19]
+}
+success count: 55
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] ]
+	matched: true
+	ReadWriteNode[3752,accountsubtype.PersonalAccount@1d8,amount,WRITE,Thread-21,accountsubtype/Account.java:23]
+	ReadWriteNode[3811,accountsubtype.PersonalAccount@1d8,amount,WRITE,Thread-20,accountsubtype/BusinessAccount.java:10]
+}
+success count: 17
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[3811,accountsubtype.PersonalAccount@1d8,amount,WRITE,Thread-20,accountsubtype/BusinessAccount.java:10]
+	ReadWriteNode[3831,accountsubtype.PersonalAccount@1d8,amount,READ,Thread-21,accountsubtype/PersonalAccount.java:9]
+}
+success count: 17
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] ]
+	matched: true
+	ReadWriteNode[3811,accountsubtype.PersonalAccount@1d8,amount,WRITE,Thread-20,accountsubtype/BusinessAccount.java:10]
+	ReadWriteNode[3841,accountsubtype.PersonalAccount@1d8,amount,WRITE,Thread-21,accountsubtype/PersonalAccount.java:9]
+}
+success count: 17
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,WRITE] ]
+	matched: true
+	ReadWriteNode[3752,accountsubtype.PersonalAccount@1d8,amount,WRITE,Thread-21,accountsubtype/Account.java:23]
+	ReadWriteNode[3811,accountsubtype.PersonalAccount@1d8,amount,WRITE,Thread-20,accountsubtype/BusinessAccount.java:10]
+	ReadWriteNode[3841,accountsubtype.PersonalAccount@1d8,amount,WRITE,Thread-21,accountsubtype/PersonalAccount.java:9]
+}
+success count: 17
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[3752,accountsubtype.PersonalAccount@1d8,amount,WRITE,Thread-21,accountsubtype/Account.java:23]
+	ReadWriteNode[3808,accountsubtype.PersonalAccount@1d8,amount,READ,Thread-20,accountsubtype/BusinessAccount.java:10]
+}
+success count: 17
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[3899,accountsubtype.PersonalAccount@1d8,amount,WRITE,Thread-20,accountsubtype/BusinessAccount.java:10]
+	ReadWriteNode[4177,accountsubtype.PersonalAccount@1d8,amount,READ,main,accountsubtype/Account.java:19]
+}
+success count: 38
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] ]
+	matched: true
+	ReadWriteNode[3668,accountsubtype.BusinessAccount@169,amount,WRITE,Thread-21,accountsubtype/PersonalAccount.java:11]
+	ReadWriteNode[3781,accountsubtype.BusinessAccount@169,amount,WRITE,Thread-1,accountsubtype/BusinessAccount.java:9]
 }
 success count: 1
 fail count: 0, Pattern {
 	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,WRITE] ]
 	matched: true
-	ReadWriteNode[2381,accountsubtype.BusinessAccount@169,amount,WRITE,Thread-1,accountsubtype/BusinessAccount.java:9]
-	ReadWriteNode[3326,accountsubtype.BusinessAccount@169,amount,WRITE,Thread-21,accountsubtype/PersonalAccount.java:11]
-	ReadWriteNode[3384,accountsubtype.BusinessAccount@169,amount,WRITE,Thread-1,accountsubtype/Account.java:27]
+	ReadWriteNode[3646,accountsubtype.BusinessAccount@169,amount,WRITE,Thread-1,accountsubtype/Account.java:23]
+	ReadWriteNode[3668,accountsubtype.BusinessAccount@169,amount,WRITE,Thread-21,accountsubtype/PersonalAccount.java:11]
+	ReadWriteNode[3781,accountsubtype.BusinessAccount@169,amount,WRITE,Thread-1,accountsubtype/BusinessAccount.java:9]
+}
+success count: 1
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[3646,accountsubtype.BusinessAccount@169,amount,WRITE,Thread-1,accountsubtype/Account.java:23]
+	ReadWriteNode[3665,accountsubtype.BusinessAccount@169,amount,READ,Thread-21,accountsubtype/PersonalAccount.java:11]
+}
+success count: 1
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[3668,accountsubtype.BusinessAccount@169,amount,WRITE,Thread-21,accountsubtype/PersonalAccount.java:11]
+	ReadWriteNode[3760,accountsubtype.BusinessAccount@169,amount,READ,Thread-1,accountsubtype/BusinessAccount.java:9]
 }
 success count: 1
 fail count: 0, Pattern {
 	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] ]
 	matched: true
-	ReadWriteNode[2381,accountsubtype.BusinessAccount@169,amount,WRITE,Thread-1,accountsubtype/BusinessAccount.java:9]
-	ReadWriteNode[3326,accountsubtype.BusinessAccount@169,amount,WRITE,Thread-21,accountsubtype/PersonalAccount.java:11]
+	ReadWriteNode[3646,accountsubtype.BusinessAccount@169,amount,WRITE,Thread-1,accountsubtype/Account.java:23]
+	ReadWriteNode[3668,accountsubtype.BusinessAccount@169,amount,WRITE,Thread-21,accountsubtype/PersonalAccount.java:11]
+}
+success count: 1
+fail count: 0, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,READ] ]
+	matched: true
+	ReadWriteNode[3646,accountsubtype.BusinessAccount@169,amount,WRITE,Thread-1,accountsubtype/Account.java:23]
+	ReadWriteNode[3668,accountsubtype.BusinessAccount@169,amount,WRITE,Thread-21,accountsubtype/PersonalAccount.java:11]
+	ReadWriteNode[3760,accountsubtype.BusinessAccount@169,amount,READ,Thread-1,accountsubtype/BusinessAccount.java:9]
 }
 success count: 1
 fail count: 0]
-time for getting pattern list : 26660
+time for getting pattern list : 87850

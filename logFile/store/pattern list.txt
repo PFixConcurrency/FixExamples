@@ -1,59 +1,59 @@
 [Pattern {
-	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] ]
-	matched: true
-	ReadWriteNode[365,store.Store@15e,customerCost,READ,Thread-2,store/Store.java:12]
-	ReadWriteNode[368,store.Store@15e,customerCost,WRITE,Thread-1,store/Store.java:12]
-}
-success count: 0
-fail count: 11, Pattern {
 	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,WRITE] ]
 	matched: true
-	ReadWriteNode[365,store.Store@15e,customerCost,READ,Thread-2,store/Store.java:12]
+	ReadWriteNode[362,store.Store@15e,customerCost,READ,Thread-2,store/Store.java:12]
 	ReadWriteNode[368,store.Store@15e,customerCost,WRITE,Thread-1,store/Store.java:12]
-	ReadWriteNode[373,store.Store@15e,customerCost,WRITE,Thread-2,store/Store.java:12]
+	ReadWriteNode[370,store.Store@15e,customerCost,WRITE,Thread-2,store/Store.java:12]
 }
 success count: 0
-fail count: 11, Pattern {
+fail count: 15, Pattern {
+	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] ]
+	matched: true
+	ReadWriteNode[362,store.Store@15e,customerCost,READ,Thread-2,store/Store.java:12]
+	ReadWriteNode[368,store.Store@15e,customerCost,WRITE,Thread-1,store/Store.java:12]
+}
+success count: 0
+fail count: 15, Pattern {
 	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
 	matched: true
 	ReadWriteNode[245,store.Store@15e,customerCost,WRITE,main,store/Store.java:7]
-	ReadWriteNode[335,store.Store@15e,customerCost,READ,Thread-1,store/Store.java:12]
+	ReadWriteNode[348,store.Store@15e,customerCost,READ,Thread-1,store/Store.java:12]
 }
-success count: 28
-fail count: 83, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+success count: 31
+fail count: 84, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] ]
 	matched: true
-	ReadWriteNode[366,store.Store@15e,customerCost,WRITE,Thread-2,store/Store.java:12]
-	ReadWriteNode[369,store.Store@15e,customerCost,READ,main,store/Store.java:16]
+	ReadWriteNode[354,store.Store@15e,customerCost,WRITE,Thread-1,store/Store.java:12]
+	ReadWriteNode[371,store.Store@15e,customerCost,WRITE,Thread-2,store/Store.java:12]
 }
-success count: 28
-fail count: 72, Pattern {
+success count: 31
+fail count: 69, Pattern {
 	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] ]
 	matched: true
 	ReadWriteNode[245,store.Store@15e,customerCost,WRITE,main,store/Store.java:7]
-	ReadWriteNode[346,store.Store@15e,customerCost,WRITE,Thread-1,store/Store.java:12]
+	ReadWriteNode[354,store.Store@15e,customerCost,WRITE,Thread-1,store/Store.java:12]
 }
-success count: 28
-fail count: 72, Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] ]
+success count: 31
+fail count: 69, Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
 	matched: true
-	ReadWriteNode[346,store.Store@15e,customerCost,WRITE,Thread-1,store/Store.java:12]
-	ReadWriteNode[366,store.Store@15e,customerCost,WRITE,Thread-2,store/Store.java:12]
+	ReadWriteNode[371,store.Store@15e,customerCost,WRITE,Thread-2,store/Store.java:12]
+	ReadWriteNode[374,store.Store@15e,customerCost,READ,main,store/Store.java:16]
 }
-success count: 28
-fail count: 72, Pattern {
+success count: 31
+fail count: 69, Pattern {
 	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
 	matched: true
 	ReadWriteNode[246,store.StoreTest,store,WRITE,main,store/StoreTest.java:7]
-	ReadWriteNode[364,store.StoreTest,store,READ,Thread-2,store/StoreTest.java:35]
+	ReadWriteNode[362,store.StoreTest,store,READ,Thread-2,store/StoreTest.java:35]
 }
-success count: 56
-fail count: 144, Pattern {
+success count: 62
+fail count: 138, Pattern {
 	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
 	matched: true
-	ReadWriteNode[346,store.Store@15e,customerCost,WRITE,Thread-1,store/Store.java:12]
-	ReadWriteNode[365,store.Store@15e,customerCost,READ,Thread-2,store/Store.java:12]
+	ReadWriteNode[354,store.Store@15e,customerCost,WRITE,Thread-1,store/Store.java:12]
+	ReadWriteNode[367,store.Store@15e,customerCost,READ,Thread-2,store/Store.java:12]
 }
-success count: 28
-fail count: 61]
-time for getting pattern list : 6847
+success count: 31
+fail count: 54]
+time for getting pattern list : 23386

@@ -1,10 +1,6 @@
 Fix two
-aim at : ReadWriteNode[2331,accountsubtype.BusinessAccount@169,amount,WRITE,Thread-1,accountsubtype/BusinessAccount.java:9]Lock start and stop position : 9->27
 Lock Name : ac
-aim at : ReadWriteNode[3194,accountsubtype.BusinessAccount@169,amount,READ,Thread-21,accountsubtype/PersonalAccount.java:11]Lock start and stop position : 11->11
-result : fix fail
-Fix two
 Lock Name : ac
-aim at : ReadWriteNode[3194,accountsubtype.BusinessAccount@169,amount,READ,Thread-21,accountsubtype/PersonalAccount.java:11]Lock start and stop position : 11->11
+aim at : ReadWriteNode[3398,accountsubtype.BusinessAccount@169,amount,READ,Thread-21,accountsubtype/PersonalAccount.java:11]Lock start and stop position : 11->11
 result : fix success
-time for fixing:36790
+time for fixing:80921
