@@ -1,0 +1,15 @@
+pattern for fix : 
+Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] ]
+	matched: true
+	ReadWriteNode[313,test2.D@15c,x,WRITE,Thread-2,test2/D.java:12]
+	ReadWriteNode[318,test2.D@15c,x,WRITE,Thread-1,test2/D.java:8]
+}
+success count: 0
+fail count: 31
+Added signal
+The location of semaphore defines : 8
+The location of semaphore use : 12
+result : fix success
+time for getting pattern list : 6379
+time for fixing:11781
