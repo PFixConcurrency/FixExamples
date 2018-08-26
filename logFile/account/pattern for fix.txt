@@ -1,8 +1,0 @@
-Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
-	matched: true
-	ReadWriteNode[2139,account.Account@1b7,amount,WRITE,Thread-4,account/Account.java:28]
-	ReadWriteNode[2512,account.Account@1b7,amount,READ,main,account/Main.java:50]
-}
-success count: 3
-fail count: 0
