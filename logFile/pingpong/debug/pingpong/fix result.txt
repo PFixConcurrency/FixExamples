@@ -1,0 +1,14 @@
+pattern for fix : 
+Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[878,pingpong.BuggedProgram@192,pingPongPlayer,WRITE,Thread-1,pingpong/BuggedProgram.java:89]
+	ReadWriteNode[931,pingpong.BuggedProgram@192,pingPongPlayer,READ,Thread-4,pingpong/BuggedProgram.java:83]
+}
+success count: 0
+fail count: 3
+Add synchronization
+Locked position : 83->90
+result : fix success
+time for getting pattern list : 34559
+time for fixing:31790
