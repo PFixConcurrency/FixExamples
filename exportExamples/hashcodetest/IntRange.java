@@ -352,13 +352,13 @@ public final class IntRange extends Range implements Serializable {
      * @return a hash code value for this object
      */
     public int hashCode() {
-synchronized (this){          if (hashCode == 0) {
+synchronized (this){        if (hashCode == 0) {
              hashCode = 17;
             hashCode = 37 * hashCode + getClass().hashCode();
             //hashCode = 37 * hashCode + min;
             //hashCode = 37 * hashCode + max;
         }
-        return hashCode;
+         return hashCode;
 }    }
 
     /**

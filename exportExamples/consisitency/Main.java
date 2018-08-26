@@ -14,9 +14,9 @@ static Object objectFix = new Object();
 	public void run() {
 synchronized (objectFix){ 		a = num;
 		b = num;
-	}
+}	}
 	
-}	public static void main(String[] args) throws Exception {
+	public static void main(String[] args) throws Exception {
 		Thread[] t = new Thread[THREAD_NUMBER];
 		for (int i = 0; i < THREAD_NUMBER; i++) {
 			t[i] = new Thread(new Main(i));
@@ -27,9 +27,9 @@ synchronized (objectFix){ 		a = num;
 			t[i].join();
 		}
 		
-		System.out.println("a = " + a + ", b = " + b);
+synchronized (objectFix){ 		System.out.println("a = " + a + ", b = " + b);
 		if (a != b) {
 			throw new Exception("bug found.");
 		}
-	}
+}	}
 }

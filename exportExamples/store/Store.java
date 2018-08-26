@@ -9,10 +9,10 @@ public class Store {
 	
 	//forgot to add 'synchronized' to this function;
 	public void consume(int cost) {
-synchronized (this){  		customerCost += cost;
+synchronized (this){ 		customerCost += cost;
 }	}
 	
 	public int getCost() {
-		return customerCost;
-	}
+synchronized (this){ 		return customerCost;
+}	}
 }

@@ -1,6 +1,15 @@
-Fix two
-Lock Name : this
-Lock Name : this
-aim at : ReadWriteNode[385,stringbuffer.StringBuffer@166,count,READ,Thread-1,stringbuffer/StringBuffer.java:145]Lock start and stop position : 444->449
+pattern for fix : 
+Pattern {
+	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,READ] ]
+	matched: true
+	ReadWriteNode[379,stringbuffer.StringBuffer@166,count,READ,Thread-1,stringbuffer/StringBuffer.java:145]
+	ReadWriteNode[397,stringbuffer.StringBuffer@166,count,WRITE,Thread-2,stringbuffer/StringBuffer.java:668]
+	ReadWriteNode[403,stringbuffer.StringBuffer@166,count,READ,Thread-1,stringbuffer/StringBuffer.java:328]
+}
+success count: 0
+fail count: 31
+Locked position : 444->449
+Locked position : 668->668
 result : fix success
-time for fixing:22841
+time for getting pattern list : 6449
+time for fixing:20600

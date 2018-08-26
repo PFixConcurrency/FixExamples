@@ -1,0 +1,16 @@
+pattern for fix : 
+Pattern {
+	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] PatternTypeNode[y,2,WRITE] PatternTypeNode[y,1,READ] ]
+	matched: true
+	ReadWriteNode[399,reorder1.SetCheck@167,a,READ,Thread-3,reorder1/SetCheck.java:19]
+	ReadWriteNode[407,reorder1.SetCheck@167,a,WRITE,Thread-2,reorder1/SetCheck.java:14]
+	ReadWriteNode[410,reorder1.SetCheck@167,b,WRITE,Thread-2,reorder1/SetCheck.java:15]
+	ReadWriteNode[429,reorder1.SetCheck@167,b,READ,Thread-3,reorder1/SetCheck.java:19]
+}
+success count: 2
+fail count: 1
+Locked position : 19->19
+Locked position : 14->15
+result : fix success
+time for getting pattern list : 6409
+time for fixing:5041

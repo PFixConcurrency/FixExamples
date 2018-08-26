@@ -1,6 +1,15 @@
-Fix one
-Add synchronization
-Lock Name : this
-Locked position : 85->90
+pattern for fix : 
+Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[806,pingpong.BuggedProgram@192,pingPongPlayer,WRITE,Thread-1,pingpong/BuggedProgram.java:89]
+	ReadWriteNode[808,pingpong.BuggedProgram@192,pingPongPlayer,READ,Thread-2,pingpong/BuggedProgram.java:83]
+}
+success count: 0
+fail count: 1
+Added signal
+The location of semaphore defines : 83
+The location of semaphore use : 89
 result : fix success
-time for fixing:25922
+time for getting pattern list : 8198
+time for fixing:6415

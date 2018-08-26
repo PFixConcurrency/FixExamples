@@ -1,63 +1,13 @@
-Fix one
-Added Semaphore
-The location of semaphore defines : 5
-The location of semaphore use : 14
-result : fix fail
-Fix one
-Added Semaphore
-The location of semaphore defines : 9
-The location of semaphore use : 14
-result : fix fail
-Fix one
-Added Semaphore
-The location of semaphore defines : 15
-The location of semaphore use : 28
-result : fix fail
-Fix two
-aim at : ReadWriteNode[612,datarace.Checker@1ce,buggy,WRITE,main,datarace/Checker.java:10]Lock start and stop position : 10->28
-Lock Name : this
-aim at : ReadWriteNode[651,datarace.Checker@1ce,buggy,WRITE,Thread-7,datarace/Checker.java:15]Lock start and stop position : 15->15
-result : fix fail
-Fix one
-Added Semaphore
-The location of semaphore defines : 10
-The location of semaphore use : 15
-result : fix fail
-Fix one
-Added Semaphore
-The location of semaphore defines : 15
-The location of semaphore use : 33
-result : fix fail
-Fix two
-aim at : ReadWriteNode[571,datarace.Account@163,balance,WRITE,Thread-4,datarace/Account.java:12]Lock start and stop position : 10->745
-Lock Name : this
-aim at : ReadWriteNode[591,datarace.Account@163,balance,WRITE,Thread-6,datarace/Account.java:12]Lock start and stop position : 12->12
-result : fix fail
-Fix one
+pattern for fix : 
+Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[246,datarace.CustomerInfo@16f,accounts,WRITE,main,datarace/CustomerInfo.java:15]
+	ReadWriteNode[326,datarace.CustomerInfo@16f,accounts,READ,Thread-1,datarace/CustomerInfo.java:26]
+}
+success count: 0
+fail count: 600
 Add synchronization
-Fix one
-Add synchronization
-Fix one
-Add synchronization
-Lock Name : this
-Locked position : 12->13
-result : fix fail
-Fix one
-Add synchronization
-Lock Name : this
-Lock Name : this
-Locked position29
-result : fix fail
-Fix one
-Add synchronization
-Lock Name : this
-Lock Name : this
-Locked position28
-result : fix fail
-Fix one
-Add synchronization
-Lock Name : this
-Lock Name : this
-Locked position26
 result : fix success
-time for fixing:54662
+time for getting pattern list : 7649
+time for fixing:6134

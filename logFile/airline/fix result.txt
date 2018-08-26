@@ -1,12 +1,13 @@
-Fix three
-Locked position : 32->66
-result : fix fail
-Fix one
+pattern for fix : 
+Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[1090,airline.Bug,Num_Of_Seats_Sold,WRITE,Thread-17,airline/Bug.java:60]
+	ReadWriteNode[1138,airline.Bug,Num_Of_Seats_Sold,READ,main,airline/Bug.java:51]
+}
+success count: 93
+fail count: 6
 Add synchronization
-Lock Name : this
-Locked position : 61->63
-result : fix fail
-Fix three
-Locked position : 60->66
 result : fix success
-time for fixing:30283
+time for getting pattern list : 7615
+time for fixing:7136

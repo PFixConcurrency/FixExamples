@@ -1,4 +1,15 @@
-Fix three
-Locked position : 15->20
+pattern for fix : 
+Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[y,2,WRITE] PatternTypeNode[y,1,WRITE] ]
+	matched: true
+	ReadWriteNode[329,consisitency.Main,a,WRITE,Thread-2,consisitency/Main.java:15]
+	ReadWriteNode[368,consisitency.Main,a,WRITE,Thread-3,consisitency/Main.java:15]
+	ReadWriteNode[382,consisitency.Main,b,WRITE,Thread-3,consisitency/Main.java:16]
+	ReadWriteNode[388,consisitency.Main,b,WRITE,Thread-2,consisitency/Main.java:16]
+}
+success count: 15
+fail count: 13
+Locked position : 15->18
 result : fix success
-time for fixing:14210
+time for getting pattern list : 6166
+time for fixing:4941

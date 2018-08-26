@@ -1,7 +1,14 @@
-Fix two
-Lock Name : this
-aim at : ReadWriteNode[365,store.Store@15e,customerCost,READ,Thread-2,store/Store.java:12]Lock start and stop position : 12->12
-Lock Name : this
-aim at : ReadWriteNode[368,store.Store@15e,customerCost,WRITE,Thread-1,store/Store.java:12]Lock start and stop position : 12->12
+pattern for fix : 
+Pattern {
+	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] ]
+	matched: true
+	ReadWriteNode[354,store.Store@15e,customerCost,READ,Thread-1,store/Store.java:12]
+	ReadWriteNode[366,store.Store@15e,customerCost,WRITE,Thread-2,store/Store.java:12]
+}
+success count: 0
+fail count: 18
+Add synchronization
+Locked position : 12->13
 result : fix success
-time for fixing:5842
+time for getting pattern list : 6375
+time for fixing:5043

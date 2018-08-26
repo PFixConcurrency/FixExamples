@@ -1,8 +1,15 @@
-Fix two
-Lock Name : this
-Lock Name : this
-aim at : ReadWriteNode[746,hashcodetest.IntRange@166,hashCode,WRITE,Thread-6,hashcodetest/IntRange.java:357]Lock start and stop position : 355->361
-Lock Name : this
-aim at : ReadWriteNode[763,hashcodetest.IntRange@166,hashCode,WRITE,Thread-5,hashcodetest/IntRange.java:356]Lock start and stop position : 356->356
+pattern for fix : 
+Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] PatternTypeNode[x,1,WRITE] ]
+	matched: true
+	ReadWriteNode[645,hashcodetest.IntRange@166,hashCode,WRITE,Thread-6,hashcodetest/IntRange.java:356]
+	ReadWriteNode[723,hashcodetest.IntRange@166,hashCode,READ,Thread-4,hashcodetest/IntRange.java:361]
+	ReadWriteNode[755,hashcodetest.IntRange@166,hashCode,WRITE,Thread-6,hashcodetest/IntRange.java:357]
+}
+success count: 0
+fail count: 65
+Locked position : 356->357
+Locked position : 361->361
 result : fix success
-time for fixing:7442
+time for getting pattern list : 7653
+time for fixing:6845

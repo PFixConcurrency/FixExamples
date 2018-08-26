@@ -1,43 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9f4e1b6d-5c87-4e1a-a05a-150c9330506c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/entries.txt" beforeDir="false" afterPath="$PROJECT_DIR$/examples/entries.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exportExamples/airlinetickets/Airlinetickets.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exportExamples/bubblesort/BubbleSort.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exportExamples/bubblesort/BubbleSortImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exportExamples/bubblesort/OneBubble.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exportExamples/bubblesort/Reporter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exportExamples/bufwriter/BufWriter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exportExamples/bufwriter/Buffer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exportExamples/bufwriter/Checker.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exportExamples/bufwriter/SyncWriter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exportExamples/bufwriter/Writer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exportExamples/twoStage/Data.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exportExamples/twoStage/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exportExamples/twoStage/ReadThread.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exportExamples/twoStage/TwoStage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exportExamples/twoStage/TwoStageThread.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logFile/airlinetickets/verify pattern.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logFile/airlinetickets/修复得到的pattern.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logFile/bubblesort/verify pattern.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logFile/bubblesort/修复得到的pattern.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logFile/bubblesort/修复得到的sequence.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logFile/bubblesort/修复方法及结果.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logFile/bufwriter/修复得到的pattern.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logFile/pack_test/verify pattern.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logFile/pack_test/修复得到的pattern.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logFile/pack_test/修复得到的sequence.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logFile/pack_test/修复方法及结果.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logFile/修复所使用的pattern.md" beforeDir="false" afterPath="$PROJECT_DIR$/PFix other files/修复所使用的pattern.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logFile/验证修复的结果.md" beforeDir="false" afterPath="$PROJECT_DIR$/PFix other files/验证修复的结果.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manualAnalysis/account2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/manualAnalysis/examples2(未完成).txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/manualAnalysis/manager(未完成).txt" beforeDir="false" />
-    </list>
+    <list default="true" id="9f4e1b6d-5c87-4e1a-a05a-150c9330506c" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -61,29 +25,7 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="entries.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/examples/entries.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
-              <caret line="22" column="10" selection-start-line="22" selection-end-line="22" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fix result.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/logFile/pingpong/fix result.txt">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="pattern list.txt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/logFile/pingpong/pattern list.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2005" />
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -213,7 +155,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
@@ -236,24 +177,24 @@
             <path>
               <item name="FixExamples" type="b2602c69:ProjectViewProjectNode" />
               <item name="FixExamples" type="462c0819:PsiDirectoryNode" />
-              <item name="logFile" type="462c0819:PsiDirectoryNode" />
+              <item name="generateClass" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="FixExamples" type="b2602c69:ProjectViewProjectNode" />
               <item name="FixExamples" type="462c0819:PsiDirectoryNode" />
               <item name="logFile" type="462c0819:PsiDirectoryNode" />
-              <item name="pingpong" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../新建文件夹 (2)/pfix/FixExamples" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../FixExamples" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -261,8 +202,12 @@
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\lhr\Desktop\pfix\FixExamples\PFix other files" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\lhr\Desktop\pfix\FixExamples\exportExamples" />
+      <recent name="C:\Users\lhr\Desktop\pfix\FixExamples\logFile\wrongLock" />
+      <recent name="C:\Users\lhr\Desktop\pfix\FixExamples\logFile\store" />
+      <recent name="C:\Users\lhr\Desktop\pfix\FixExamples\logFile\reorder" />
+      <recent name="C:\Users\lhr\Desktop\pfix\FixExamples\logFile\mergesort" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="random" />
@@ -270,12 +215,8 @@
       <recent name="consisitency" />
       <recent name="airlinetickets" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\lhr\Desktop\pfix\FixExamples\exportExamples" />
-      <recent name="C:\Users\lhr\Desktop\pfix\FixExamples\logFile\wrongLock" />
-      <recent name="C:\Users\lhr\Desktop\pfix\FixExamples\logFile\store" />
-      <recent name="C:\Users\lhr\Desktop\pfix\FixExamples\logFile\reorder" />
-      <recent name="C:\Users\lhr\Desktop\pfix\FixExamples\logFile\mergesort" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\lhr\Desktop\pfix\FixExamples\PFix other files" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -516,7 +457,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="381825000" />
+    <option name="totallyTimeSpent" value="381838000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -528,56 +469,77 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="11" y="0" width="1534" height="830" extended-state="0" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32956153" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32531825" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info id="Image Layers" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50268096" side_tool="true" weight="0.8387553" />
       <window_info anchor="right" id="Maven Projects" order="4" weight="0.3297587" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.59688824" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32956153" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.59971714" />
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49731904" weight="0.8361582" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19342105" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22050938" />
       <window_info anchor="right" id="Database" order="5" weight="0.3297587" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="7" />
-      <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39886847" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info id="Designer" order="3" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32673267" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19342105" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32956153" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32956153" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.59971714" />
+      <window_info id="Image Layers" order="6" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="UI Designer" order="4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39886847" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info anchor="right" id="Database" order="5" weight="0.3297587" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50268096" side_tool="true" weight="0.8387553" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49798927" weight="0.33380482" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32673267" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49731904" weight="0.8361582" />
+      <window_info anchor="right" id="Maven Projects" order="4" weight="0.3297587" />
+      <window_info id="Favorites" order="5" side_tool="true" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32956153" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.59971714" />
+      <window_info anchor="right" id="Database" order="5" weight="0.3297587" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32956153" />
       <window_info anchor="right" id="Theme Preview" order="7" />
-      <window_info active="true" anchor="bottom" id="Messages" order="10" visible="true" weight="0.32673267" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19504021" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32956153" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.59971714" />
       <window_info id="Image Layers" order="6" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49798927" weight="0.33380482" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39886847" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49731904" weight="0.8361582" />
@@ -585,8 +547,8 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="right" id="Database" order="5" weight="0.3297587" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49798927" weight="0.33380482" />
+      <window_info active="true" anchor="bottom" id="Messages" order="10" visible="true" weight="0.32673267" />
       <window_info anchor="right" id="Maven Projects" order="4" weight="0.3297587" />
       <window_info id="Favorites" order="5" side_tool="true" />
     </layout-to-restore>
@@ -607,8 +569,93 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/exportExamples/linkedlist/BugTester.java">
+    <entry file="file://$PROJECT_DIR$/logFile/consisitency/pattern for fix.txt">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logFile/airline/pattern for fix.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exportExamples/airline/Bug.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="61" column="21" selection-start-line="61" selection-start-column="12" selection-end-line="61" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exportExamples/consisitency/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exportExamples/pingpong/PingPong.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="21" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logFile/pingpong/fix result.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exportExamples/pingpong/BuggedProgram.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="84" column="22" selection-start-line="84" selection-start-column="22" selection-end-line="84" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/reorder/SetCheck2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/reorder/ReorderTest2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="25" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exportExamples/reorder/CheckThread.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exportExamples/org/apache/log4j/spi/ThrowableInformation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="92" column="1" selection-start-line="92" selection-start-column="1" selection-end-line="92" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logFile/org.apache.log4j/pattern for fix.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logFile/reorder/pattern for fix.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exportExamples/reorder/SetCheck2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logFile/pingpong/pattern for fix.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logFile/pingpong/pattern list.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/exportExamples/linkedlist/MyLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -616,15 +663,6 @@
           <caret line="41" column="28" selection-start-line="41" selection-start-column="28" selection-end-line="41" selection-end-column="28" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logFile/org.apache.log4j/pattern list.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logFile/org.apache.log4j/fix result.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logFile/mergesort/fix result.txt">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/exportExamples/mergesort/MergeSort.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -648,12 +686,6 @@
         <state relative-caret-position="-3263" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/logFile/reorder/fix result.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exportExamples/reorder/SetCheck.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/examples/reorder/SetCheck2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -668,31 +700,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/logFile/store/fix result.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exportExamples/store/StoreTest.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exportExamples/store/Store.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logFile/stringbuffer/fix result.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logFile/wrongLock/fix result.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logFile/wrongLock/pattern for fix.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/logFile/wrongLock/pattern list.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3505" />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exportExamples/wrongLock/Data.java">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/exportExamples/wrongLock/WrongLock.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -713,13 +724,7 @@
         <state relative-caret-position="-660" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/examples/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="36" lean-forward="true" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/Test.java" />
     <entry file="file://$PROJECT_DIR$/examples/alarmclock/AlarmClock.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -855,12 +860,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PFix other files/account2.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/output.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -884,9 +883,6 @@
           <caret line="22" column="10" selection-start-line="22" selection-end-line="22" selection-end-column="10" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logFile/pingpong/fix result.txt">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/logFile/pingpong/pattern list.txt">
       <provider selected="true" editor-type-id="text-editor">

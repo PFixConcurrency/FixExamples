@@ -16,7 +16,7 @@ import java.util.Iterator;
 
 public class BuggedProgram {
 
-
+volatile boolean flagFix = false;
     private DataOutputStream output;
 
 
@@ -81,13 +81,13 @@ public class BuggedProgram {
      */
     public void pingPong() {
     	this.pingPongPlayer.getI();
-        PP newPlayer;
-synchronized (this){         newPlayer = this.pingPongPlayer;
+flagFix = true;        PP newPlayer;
+        newPlayer = this.pingPongPlayer;
         this.pingPongPlayer = null;
         long time = System.currentTimeMillis();
         while ((System.currentTimeMillis() - time) < 50) ;
-        this.pingPongPlayer = newPlayer;
-}    }
+while(!flagFix);        this.pingPongPlayer = newPlayer;
+    }
 
 
 }

@@ -7,8 +7,8 @@ public class CheckField {
 		ex = new InstanceExample();
 		Thread t1 = new Thread() {
 			public void run() {
-				System.out.println("new thread." + ex.number);
-synchronized (ex){ 				ex.number = 12;
+synchronized (ex){				System.out.println("new thread." + ex.number);
+ 				ex.number = 12;
 				ex.num2 = 12;
 //				assert ex.number == 12;
 				if (ex.number != 12)

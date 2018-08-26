@@ -1,14 +1,15 @@
-Fix three
-Fix one
-Added Semaphore
-The location of semaphore defines : 14
-The location of semaphore use : 24
-result : fix fail
-Fix two
-Lock Name : ex
-Lock Name : ex
-aim at : ReadWriteNode[323,checkfield.InstanceExample@15f,number,WRITE,123,checkfield/CheckField.java:11]Lock start and stop position : 11->15
-Lock Name : ex
-aim at : ReadWriteNode[326,checkfield.InstanceExample@15f,number,WRITE,Thread-2,checkfield/CheckField.java:24]Lock start and stop position : 24->24
+pattern for fix : 
+Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,READ] ]
+	matched: true
+	ReadWriteNode[317,checkfield.InstanceExample@15f,number,WRITE,123,checkfield/CheckField.java:11]
+	ReadWriteNode[332,checkfield.InstanceExample@15f,number,WRITE,Thread-2,checkfield/CheckField.java:24]
+	ReadWriteNode[341,checkfield.InstanceExample@15f,number,READ,123,checkfield/CheckField.java:14]
+}
+success count: 0
+fail count: 31
+Locked position : 11->15
+Locked position : 24->24
 result : fix success
-time for fixing:8511
+time for getting pattern list : 6167
+time for fixing:5029

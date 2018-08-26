@@ -1,8 +1,15 @@
-Fix two
-Lock Name : t
-Lock Name : t
-aim at : ReadWriteNode[316,critical.Critical@15b,turn,WRITE,Thread-1,critical/Critical.java:48]Lock start and stop position : 48->51
-Lock Name : t
-aim at : ReadWriteNode[332,critical.Critical@15b,turn,WRITE,Thread-2,critical/Critical.java:59]Lock start and stop position : 59->59
+pattern for fix : 
+Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,READ] ]
+	matched: true
+	ReadWriteNode[316,critical.Critical@15b,turn,WRITE,Thread-1,critical/Section.java:19]
+	ReadWriteNode[335,critical.Critical@15b,turn,WRITE,Thread-2,critical/Section.java:30]
+	ReadWriteNode[342,critical.Critical@15b,turn,READ,Thread-1,critical/Section.java:21]
+}
+success count: 0
+fail count: 20
+Locked position : 19->22
+Locked position : 30->30
 result : fix success
-time for fixing:5672
+time for getting pattern list : 6280
+time for fixing:5108

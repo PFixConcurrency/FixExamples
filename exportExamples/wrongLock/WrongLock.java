@@ -26,8 +26,8 @@ public class WrongLock {
     }
 
     public void B() {
-synchronized (data){         synchronized (this) {
-            data.value++;
-        }
-}    }
+        synchronized (this) {
+synchronized (data){             data.value++;
+}        }
+    }
 }

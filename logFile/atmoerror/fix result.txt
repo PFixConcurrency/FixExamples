@@ -1,7 +1,15 @@
-Fix two
-Lock Name : this
-aim at : ReadWriteNode[472,atmoerror.BankAccount@15e,total,READ,Thread-1,atmoerror/BankAccount.java:7]Lock start and stop position : 7->7
-Lock Name : this
-aim at : ReadWriteNode[484,atmoerror.BankAccount@15e,total,WRITE,Thread-2,atmoerror/BankAccount.java:7]Lock start and stop position : 7->7
+pattern for fix : 
+Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,WRITE] ]
+	matched: true
+	ReadWriteNode[478,atmoerror.BankAccount@15e,total,READ,Thread-2,atmoerror/BankAccount.java:7]
+	ReadWriteNode[484,atmoerror.BankAccount@15e,total,WRITE,Thread-1,atmoerror/BankAccount.java:7]
+	ReadWriteNode[487,atmoerror.BankAccount@15e,total,WRITE,Thread-2,atmoerror/BankAccount.java:7]
+}
+success count: 0
+fail count: 10
+Locked position : 7->7
+Locked position : 7->7
 result : fix success
-time for fixing:6133
+time for getting pattern list : 6739
+time for fixing:5193

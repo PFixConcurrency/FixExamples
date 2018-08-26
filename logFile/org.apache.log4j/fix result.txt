@@ -1,16 +1,15 @@
-Fix three
-aim at : ReadWriteNode[1000,org.apache.log4j.spi.LoggingEvent@1de,renderedMessage,READ,Thread-1,org/apache/log4j/spi/LoggingEvent.java:354]Lock start and stop position : 36->53
-Fix three
-Fix three
-Fix three
-Fix three
-Fix three
-Fix three
-Fix three
-Fix three
-Fix one
-Add synchronization
-Lock Name : this
-Locked position : 71->93
+pattern for fix : 
+Pattern {
+	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,READ] ]
+	matched: true
+	ReadWriteNode[2595,org.apache.log4j.spi.ThrowableInformation@375,rep,READ,Thread-4,org/apache/log4j/spi/ThrowableInformation.java:71]
+	ReadWriteNode[2602,org.apache.log4j.spi.ThrowableInformation@375,rep,WRITE,Thread-2,org/apache/log4j/spi/ThrowableInformation.java:90]
+	ReadWriteNode[2605,org.apache.log4j.spi.ThrowableInformation@375,rep,READ,Thread-4,org/apache/log4j/spi/ThrowableInformation.java:72]
+}
+success count: 0
+fail count: 1
+Locked position : 71->92
+Locked position : 90->90
 result : fix success
-time for fixing:120880
+time for getting pattern list : 20872
+time for fixing:18744

@@ -1,15 +1,14 @@
-Fix two
-Lock Name : this
-Lock Name : this
-aim at : ReadWriteNode[408,even.EvenGenerator@15e,currentValue,WRITE,Thread-2,even/EvenGenerator.java:10]Lock start and stop position : 9->10
-Lock Name : this
-aim at : ReadWriteNode[414,even.EvenGenerator@15e,currentValue,READ,Thread-4,even/EvenGenerator.java:10]Lock start and stop position : 10->10
-result : fix fail
-Fix two
-Lock Name : this
-Lock Name : this
-aim at : ReadWriteNode[408,even.EvenGenerator@15e,currentValue,WRITE,Thread-2,even/EvenGenerator.java:10]Lock start and stop position : 9->10
-Lock Name : this
-aim at : ReadWriteNode[411,even.EvenGenerator@15e,currentValue,READ,Thread-3,even/EvenGenerator.java:11]Lock start and stop position : 11->11
+pattern for fix : 
+Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,WRITE] ]
+	matched: true
+	ReadWriteNode[412,even.EvenGenerator@15e,currentValue,WRITE,Thread-4,even/EvenGenerator.java:9]
+	ReadWriteNode[415,even.EvenGenerator@15e,currentValue,WRITE,Thread-3,even/EvenGenerator.java:9]
+}
+success count: 0
+fail count: 157
+Add synchronization
+Locked position : 9->10
 result : fix success
-time for fixing:89310
+time for getting pattern list : 6811
+time for fixing:78879

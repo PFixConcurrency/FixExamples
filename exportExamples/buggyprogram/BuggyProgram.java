@@ -52,7 +52,7 @@ import java.util.Random;
 // ============================   Class definition   ===========================
 public class BuggyProgram {
 
-    // ==============================   Constants   ==============================
+static Object objectFix = new Object();    // ==============================   Constants   ==============================
     public static final int LITTLE_CONCURRENCY = 3,
             AVERAGE_CONCURRENCY = 33,
             LOT_CONCURRENCY = 333,
@@ -306,10 +306,10 @@ public class BuggyProgram {
 
             int i = 0;
 
-            while (i != numOfUsers) {
+synchronized (objectFix){             while (i != numOfUsers) {
                 generate();
 
-synchronized (this){                 for (i = 0; i < numOfUsers; ++i) {
+                for (i = 0; i < numOfUsers; ++i) {
                     if (history[i] == randomNumber) {
                         break;
                     }
@@ -335,9 +335,9 @@ synchronized (this){                 for (i = 0; i < numOfUsers; ++i) {
         // _________________________________________________________________________
 
         protected synchronized void generate() {
-synchronized (this){             generated[userNumber] = randomNumber = random.nextInt(1000);
-}            System.out.println(randomNumber);
-//    	  (long) (Math.random(1) *
+synchronized (objectFix){              generated[userNumber] = randomNumber = random.nextInt(1000);
+            System.out.println(randomNumber);
+}//    	  (long) (Math.random(1) *
 //                                           Math.pow(10, MAX_DIGITS));
         }
 
@@ -352,9 +352,9 @@ synchronized (this){             generated[userNumber] = randomNumber = random.n
         // _________________________________________________________________________
 
         protected synchronized void present() {
-            System.out.println("user " + userNumber + " assigned "
+synchronized (objectFix){             System.out.println("user " + userNumber + " assigned "
                     + (presented[userNumber] = randomNumber) + ".");
-        }
+}        }
 
 
         // _________________________________________________________________________

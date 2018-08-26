@@ -2,7 +2,7 @@ package datarace;
 
 public class CustomerInfo {
 
-	private int nAccount;
+static Object objectFix = new Object();	private int nAccount;
 	private Account[] accounts;
 	
 	public CustomerInfo() {
@@ -23,13 +23,13 @@ public class CustomerInfo {
 	}
 	
 	public void deposit(int accountNumber, int amount){
-synchronized (this){ 		int temp = accounts[accountNumber].getBalance();
+synchronized (objectFix){ 		int temp = accounts[accountNumber].getBalance();
 		temp = temp + amount;
 		accounts[accountNumber].setBalance(temp);
-}		System.out.println("deposit " + amount + "now " + accounts[accountNumber].getBalance());
-	}
+		System.out.println("deposit " + amount + "now " + accounts[accountNumber].getBalance());
+}	}
 	
 	public boolean check(int accountNumber, int amount) {
-		return accounts[accountNumber].getBalance() == amount;
-	}
+synchronized (objectFix){ 		return accounts[accountNumber].getBalance() == amount;
+}	}
 }

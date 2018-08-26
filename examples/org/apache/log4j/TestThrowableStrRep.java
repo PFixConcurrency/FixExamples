@@ -1,7 +1,6 @@
 package org.apache.log4j;
 
 import java.io.FileWriter;
-import java.io.IOException;
 
 import org.apache.log4j.spi.LoggingEvent;
 
@@ -19,21 +18,21 @@ public class TestThrowableStrRep {
     WriterAppender w3 = new WriterAppender();
     WriterAppender w4 = new WriterAppender();
     try {
-      w.setWriter(new FileWriter("test"));
+      w.setWriter(new FileWriter("test1"));
       w.setLayout(new SimpleLayout());
-      w2.setWriter(new FileWriter("test"));
+      w2.setWriter(new FileWriter("test1"));
       w2.setLayout(new SimpleLayout());
       
-      w3.setWriter(new FileWriter("test"));
+      w3.setWriter(new FileWriter("test1"));
       w3.setLayout(new SimpleLayout());
-      w4.setWriter(new FileWriter("test"));
+      w4.setWriter(new FileWriter("test1"));
       w4.setLayout(new SimpleLayout());
 
     } catch (Exception e1) {
       e1.printStackTrace();
     }
     
-    LoggingEvent event = new LoggingEvent("log1", Logger.getRootLogger(), Level.DEBUG, new String("message"), new Exception("test"));
+    LoggingEvent event = new LoggingEvent("log1", Logger.getRootLogger(), Level.DEBUG, new String("message"), new Exception("test1"));
     AppendThread at = new AppendThread(w, event);
     AppendThread at2 = new AppendThread(w2, event);
     

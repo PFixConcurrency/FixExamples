@@ -18,10 +18,10 @@ static Object objectFix = new Object();    public static Struct s = new Struct(1
         }
 
 
-        if (s.getCount() != THREADS) {
+synchronized (objectFix){         if (s.getCount() != THREADS) {
             throw new Exception("bug found.");
         }
-    }
+}    }
 
     @Override
     public void run() {

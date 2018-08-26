@@ -1,6 +1,14 @@
-Fix one
+pattern for fix : 
+Pattern {
+	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] ]
+	matched: true
+	ReadWriteNode[468,wronglock2.Main,s,READ,Thread-4,wronglock2/Main.java:29]
+	ReadWriteNode[474,wronglock2.Main,s,WRITE,Thread-2,wronglock2/Main.java:29]
+}
+success count: 22
+fail count: 147
 Add synchronization
-Lock Name : this
 Locked position : 29->30
 result : fix success
-time for fixing:5822
+time for getting pattern list : 6640
+time for fixing:5169

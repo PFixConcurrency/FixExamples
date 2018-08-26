@@ -1,14 +1,15 @@
-Fix two
-Lock Name : this
-Lock Name : this
-Lock Name : this
-Lock Name : this
-Lock Name : this
-Lock Name : this
-Lock Name : this
-Lock Name : this
-Lock Name : this
-aim at : ReadWriteNode[488,buggyprogram.BuggyProgram@16e,randomNumber,READ,Thread-2,buggyprogram/BuggyProgram.java:313]Lock start and stop position : 312->321
-aim at : ReadWriteNode[514,buggyprogram.BuggyProgram@16e,randomNumber,WRITE,Thread-3,buggyprogram/BuggyProgram.java:338]Lock start and stop position : 338->338
+pattern for fix : 
+Pattern {
+	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,READ] ]
+	matched: true
+	ReadWriteNode[453,buggyprogram.BuggyProgram@16e,randomNumber,READ,Thread-2,buggyprogram/BuggyProgram.java:339]
+	ReadWriteNode[457,buggyprogram.BuggyProgram@16e,randomNumber,WRITE,Thread-3,buggyprogram/BuggyProgram.java:338]
+	ReadWriteNode[670,buggyprogram.BuggyProgram@16e,randomNumber,READ,Thread-2,buggyprogram/BuggyProgram.java:370]
+}
+success count: 85
+fail count: 1
+Locked position : 309->321
+Locked position : 338->338
 result : fix success
-time for fixing:19298
+time for getting pattern list : 7524
+time for fixing:22341
