@@ -1,0 +1,13 @@
+pattern for fix : 
+Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] PatternTypeNode[y,2,READ] PatternTypeNode[y,1,WRITE] ]
+	matched: true
+	ReadWriteNode[386,org.apache.commons.pool.impl.TestGenericObjectPool$1@1c4,val$pool,WRITE,main,org/apache/commons/pool/impl/TestGenericObjectPool.java:59]
+	ReadWriteNode[416,org.apache.commons.pool.impl.TestGenericObjectPool$1@1c4,val$pool,READ,Thread-2,org/apache/commons/pool/impl/TestGenericObjectPool.java:62]
+	ReadWriteNode[552,org.apache.commons.pool.impl.TestGenericObjectPool$SimpleFactory@162,activeCount,READ,Thread-2,org/apache/commons/pool/impl/TestGenericObjectPool.java:205]
+	ReadWriteNode[692,org.apache.commons.pool.impl.TestGenericObjectPool$SimpleFactory@162,activeCount,WRITE,main,org/apache/commons/pool/impl/TestGenericObjectPool.java:221]
+}
+success count: 1
+fail count: 0
+time for getting pattern list : 8937
+time for fixing:231830

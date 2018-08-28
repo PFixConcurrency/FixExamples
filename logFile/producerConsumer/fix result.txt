@@ -1,0 +1,13 @@
+pattern for fix : 
+Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[y,2,READ] PatternTypeNode[x,2,READ] PatternTypeNode[y,1,WRITE] ]
+	matched: true
+	ReadWriteNode[2417,producerConsumer.Buffer@165,usedSlots,WRITE,Thread-2,producerConsumer/ProducerConsumer.java:81]
+	ReadWriteNode[2431,producerConsumer.Buffer@165,halted,READ,Thread-7,producerConsumer/ProducerConsumer.java:85]
+	ReadWriteNode[2448,producerConsumer.Buffer@165,usedSlots,READ,Thread-7,producerConsumer/ProducerConsumer.java:106]
+	ReadWriteNode[2459,producerConsumer.Buffer@165,halted,WRITE,Thread-2,producerConsumer/ProducerConsumer.java:117]
+}
+success count: 2
+fail count: 0
+time for getting pattern list : 15172
+time for fixing:15928

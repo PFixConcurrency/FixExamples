@@ -1,0 +1,12 @@
+pattern for fix : 
+Pattern {
+	PatternType[PatternTypeNode[x,1,READ] PatternTypeNode[x,2,WRITE] PatternTypeNode[x,1,READ] ]
+	matched: true
+	ReadWriteNode[789,alarmclock.MyLinkedList@162,size,READ,Thread-9,alarmclock/AlarmClock.java:308]
+	ReadWriteNode[987,alarmclock.MyLinkedList@162,size,WRITE,Thread-8,alarmclock/AlarmClock.java:274]
+	ReadWriteNode[995,alarmclock.MyLinkedList@162,size,READ,Thread-9,alarmclock/AlarmClock.java:339]
+}
+success count: 2
+fail count: 0
+time for getting pattern list : 9762
+time for fixing:53528

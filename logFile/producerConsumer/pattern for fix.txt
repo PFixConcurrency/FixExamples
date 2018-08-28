@@ -1,8 +1,0 @@
-Pattern {
-	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[x,2,READ] ]
-	matched: true
-	ReadWriteNode[252,producerConsumer.Buffer@165,halted,WRITE,main,producerConsumer/ProducerConsumer.java:57]
-	ReadWriteNode[1988,producerConsumer.Buffer@165,halted,READ,Thread-6,producerConsumer/ProducerConsumer.java:85]
-}
-success count: 4
-fail count: 0

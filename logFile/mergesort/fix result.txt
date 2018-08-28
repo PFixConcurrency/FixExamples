@@ -1,0 +1,13 @@
+pattern for fix : 
+Pattern {
+	PatternType[PatternTypeNode[x,1,WRITE] PatternTypeNode[y,2,READ] PatternTypeNode[y,1,WRITE] PatternTypeNode[x,2,READ] ]
+	matched: true
+	ReadWriteNode[3967,mergesort.MSort@494,m_iArray,WRITE,Thread-3,mergesort/MSort.java:102]
+	ReadWriteNode[4302,mergesort.MSort,m_iCurrentThreadsAlive,READ,Thread-88,mergesort/MSort.java:54]
+	ReadWriteNode[4401,mergesort.MSort,m_iCurrentThreadsAlive,WRITE,Thread-3,mergesort/MSort.java:47]
+	ReadWriteNode[4484,mergesort.MSort@494,m_iArray,READ,Thread-88,mergesort/MSort.java:229]
+}
+success count: 1
+fail count: 0
+time for getting pattern list : 17213
+time for fixing:292028
